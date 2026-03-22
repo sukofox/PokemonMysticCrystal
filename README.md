@@ -16,7 +16,7 @@ Features:
 8. There is a tradeback NPC in one of the new areas. HINT: This person says he can make your pokemon travel through time. 
 9. Raikou is no longer a roamer. Raikou is found somewhere else. I am confident you will figure it out. (Entei remains a roamer for now).
 10. In vanilla games, many Johto pokemon were only available post-game in Kanto, which was absurd. Now you can get them relatively earlier in Johto.
-    a. The same is true of some Kanto pokemon. For example, Diglett, which you can find early in Johto now.
+    a) The same is true of some Kanto pokemon. For example, Diglett, which you can find early in Johto now.
 
 CREDITS: 
 1. To the pret team who made this and many more projects possible by creating the disassembles. Thank you all. 
