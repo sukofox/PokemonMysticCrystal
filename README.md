@@ -1,31 +1,33 @@
-# Pokémon Crystal [![Build Status][ci-badge]][ci]
+# Pokémon Mystic Crystal [![Build Status][ci-badge]][ci]
 
-This is a disassembly of Pokémon Crystal.
+This is a hack of Pokémon Crystal based on the pokecrystal disassembly from pret.
 
-It builds the following ROMs:
+In this hack, you will see an expanded/modified Johto, with a focus on the more traditionala aspects of the region.
+So if you are a sucker for traditional buildings, pagodas, shrines, and forests, this is your hack.
 
-- Pokemon - Crystal Version (UE) (V1.0) [C][!].gbc `sha1: f4cd194bdee0d04ca4eac29e09b8e4e9d818c133`
-- Pokemon - Crystal Version (UE) (V1.1) [C][!].gbc `sha1: f2f52230b536214ef7c9924f483392993e226cfb`
-- Pokemon - Crystal Version (A) [C][!].gbc `sha1: a0fc810f1d4e124434f7be2c989ab5b5892ddf36`
-- CRYSTAL_ps3_010328d.bin `sha1: c60d57a24bbe8ecf7cba54ab3f90669f97bd330d`
-- CRYSTAL_ps3_us_revise_010710d.bin `sha1: 391ae86b1d5a26db712ffe6c28bbf2a1f804c3c4`
-- CGBBYTE1.784.patch `sha1: a25517f60ca0e887d39ec698aa56a0040532a4b3`
+Features: 
+1. There are new areas/cities (more are currently being added).
+2. You can rematch gym leaders as many times as you want. Just speak to them right after winning (currently you can re-battle up to Pryce).
+3. Pokemon trainers, leaders, Elite Four, and wild pokemon have higher levels. This is to offer a little more challenge.
+4. You can catch all starters (as of now, only the Johto starters are available). 
+5. The Celebi event was restored.
+6. Each pokemon has a unique icon associated with it instead of the generic ones from vanilla games.
+7. You don't get the Silver Wing the same way as in Vanilla. HINT: You get it in one of the new areas.
+8. There is a tradeback NPC in one of the new areas. HINT: This person says he can make your pokemon travel through time. 
+9. Raikou is no longer a roamer. Raikou is found somewhere else. I am confident you will figure it out. (Entei remains a roamer for now).
+10. In vanilla games, many Johto pokemon were only available post-game in Kanto, which was absurd. Now you can get them relatively earlier in Johto.
+    a. The same is true of some Kanto pokemon. For example, Diglett, which you can find early in Johto now.
 
-To set up the repository, see [INSTALL.md](INSTALL.md).
+CREDITS: 
+1. To the pret team who made this and many more projects possible by creating the disassembles. Thank you all. 
+2. Meta, the ROMhack youtuber, for giving me the idea of putting Totodile as a wild pokemon in a certain location (check out his wonderful chanel: https://www.youtube.com/@metaphysical8698
+3. Thanks for "Mmmmmm" who demixed the Pokemon XY Frost Cavern song, and to Vulcandth from the Polished Crystal team who also made contributions to this soundtrack.
+4. If I missed someone else, please let me know.
 
 
-## See also
-
-- [**FAQ**](FAQ.md)
-- [**Documentation**][docs]
-- [**Wiki**][wiki] (includes [tutorials][tutorials])
-- [**Symbols**][symbols]
-- [**Tools**][tools]
-
-You can find us on [Discord (pret, #pokecrystal)](https://discord.gg/d5dubZ3).
-
+The following links are associated with pret only, not my hack per se:
+You can pret on [Discord (pret, #pokecrystal)](https://discord.gg/d5dubZ3).
 For other pret projects, see [pret.github.io](https://pret.github.io/).
-
 [docs]: https://pret.github.io/pokecrystal/
 [wiki]: https://github.com/pret/pokecrystal/wiki
 [tutorials]: https://github.com/pret/pokecrystal/wiki/Tutorials
