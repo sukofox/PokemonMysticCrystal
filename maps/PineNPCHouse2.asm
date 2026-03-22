@@ -1,10 +1,25 @@
 object_const_def
-; no constant now
+const PINE_HOUSE_FISHER
 
 PineNPCHouse2_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
+
+PineHouseFisherScript:
+	jumptextfaceplayer PineHouseFisherText
+
+PineHouseFisherText:
+	text "I refuse to"
+	line "make my"
+	cont "#MON fight"
+
+	para "at that"
+	line "PINE DOJO."
+	cont "The trainers"
+
+	para "are tough..."
+	done
 
 PineNPCHouse2_MapEvents:
 	db 0, 0 ; filler
@@ -18,4 +33,4 @@ PineNPCHouse2_MapEvents:
 	def_bg_events
 
 	def_object_events
-	; no object events yet
+	object_event 4,  4, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PineHouseFisherScript, -1
