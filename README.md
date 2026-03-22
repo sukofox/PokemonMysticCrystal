@@ -2,7 +2,7 @@
 
 This is a hack of Pokémon Crystal based on the pokecrystal disassembly from pret.
 
-In this hack, you will see an expanded/modified Johto, with a focus on the more traditionala aspects of the region.
+In this hack, you will see an expanded/modified Johto, with a focus on the more traditional aspects of the region.
 So if you are a sucker for traditional buildings, pagodas, shrines, and forests, this is your hack.
 
 Features: 
@@ -27,7 +27,8 @@ CREDITS:
 
 
 The following links are associated with pret only, not my hack per se:
-You can pret on [Discord (pret, #pokecrystal)](https://discord.gg/d5dubZ3).
+You can find pret on [Discord (pret, #pokecrystal)](https://discord.gg/d5dubZ3).
+
 For other pret projects, see [pret.github.io](https://pret.github.io/).
 [docs]: https://pret.github.io/pokecrystal/
 [wiki]: https://github.com/pret/pokecrystal/wiki
