@@ -1,4 +1,4 @@
-# Pokémon Mystic Crystal [![Build Status][ci-badge]][ci]
+# Pokémon Mystic Crystal
 
 This is a hack of Pokémon Crystal based on the pokecrystal disassembly from pret.
 
