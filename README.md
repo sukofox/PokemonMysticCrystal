@@ -8,7 +8,7 @@ So if you are a sucker for traditional buildings, pagodas, shrines, and forests,
 Features: 
 1. There are new areas/cities (more are currently being added).
 2. You can rematch gym leaders as many times as you want. Just speak to them right after winning (currently you can re-battle up to Pryce).
-3. Pokemon trainers, leaders, Elite Four, and wild pokemon have higher levels. This is to offer a little more challenge.
+3. Pokemon trainers, leaders, Elite Four, and wild pokemon have higher levels. This is to offer a more challenging experience, without entering Kaizo or "difficulty hack" territory.
 4. You can catch all starters (as of now, only the Johto starters are available). 
 5. The Celebi event was restored.
 6. Each pokemon has a unique icon associated with it instead of the generic ones from vanilla games.
