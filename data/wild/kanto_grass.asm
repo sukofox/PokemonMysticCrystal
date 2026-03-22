@@ -316,17 +316,17 @@ KantoGrassWildMons:
 	db 13, RATTATA
 	db 13, SNUBBULL
 	db 14, MAGNEMITE
-	db 15, RATICATE
+	db 15, SQUIRTLE
 	db 12, JIGGLYPUFF
-	db 15, GRANBULL
+	db 15, SQUIRTLE
 	db 15, GRANBULL
 	; day
 	db 13, RATTATA
 	db 13, SNUBBULL
 	db 14, MAGNEMITE
-	db 15, RATICATE
+	db 15, SQUIRTLE
 	db 12, JIGGLYPUFF
-	db 15, GRANBULL
+	db 15, SQUIRTLE
 	db 15, GRANBULL
 	; nite
 	db 13, MEOWTH
@@ -334,7 +334,7 @@ KantoGrassWildMons:
 	db 14, MAGNEMITE
 	db 15, PSYDUCK
 	db 12, JIGGLYPUFF
-	db 15, RATICATE
+	db 15, SQUIRTLE
 	db 15, RATICATE
 	end_grass_wildmons
 
@@ -457,16 +457,16 @@ KantoGrassWildMons:
 	db 13, RATICATE
 	db 15, MAGNEMITE
 	db 16, PIDGEOTTO
-	db 16, RATTATA
-	db 16, HOPPIP
+	db 16, BULBASAUR
+	db 16, BULBASAUR
 	db 16, HOPPIP
 	; day
 	db 14, HOPPIP
 	db 13, RATICATE
 	db 15, MAGNEMITE
 	db 16, PIDGEOTTO
-	db 16, RATTATA
-	db 16, HOPPIP
+	db 16, BULBASAUR
+	db 16, BULBASAUR
 	db 16, HOPPIP
 	; nite
 	db 14, DROWZEE
@@ -707,7 +707,7 @@ KantoGrassWildMons:
 	; morn
 	db 8, CATERPIE
 	db 10, CATERPIE
-	db 12, METAPOD
+	db 12, CHARMANDER
 	db 12, ABRA
 	db 10, BELLSPROUT
 	db 14, BUTTERFREE
@@ -717,7 +717,7 @@ KantoGrassWildMons:
 	db 12, SUNKERN
 	db 10, CATERPIE
 	db 12, ABRA
-	db 10, BELLSPROUT
+	db 10, CHARMANDER
 	db 14, BUTTERFREE
 	db 14, BUTTERFREE
 	; nite
@@ -735,7 +735,7 @@ KantoGrassWildMons:
 	; morn
 	db 10, CATERPIE
 	db 10, PIDGEY
-	db 12, PIDGEOTTO
+	db 12, CHARMANDER
 	db 12, METAPOD
 	db 10, BELLSPROUT
 	db 14, BUTTERFREE
@@ -743,7 +743,7 @@ KantoGrassWildMons:
 	; day
 	db 10, CATERPIE
 	db 10, PIDGEY
-	db 12, PIDGEOTTO
+	db 12, CHARMANDER
 	db 12, METAPOD
 	db 10, BELLSPROUT
 	db 14, BUTTERFREE
