@@ -1,5 +1,7 @@
 # Pokémon Mystic Crystal
 
+![Boxart](boxart.png)
+
 This is a hack of Pokémon Crystal based on the pokecrystal disassembly from pret.
 
 In this hack, you will see an expanded/modified Johto, with a focus on the more traditional aspects of the region.
