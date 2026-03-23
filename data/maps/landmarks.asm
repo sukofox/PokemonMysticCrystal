@@ -10,7 +10,7 @@ Landmarks:
 	landmark  -8, -16, SpecialMapName
 	landmark 140, 100, NewBarkTownName
 	landmark 128, 100, Route29Name
-	landmark 128, 100, NewBarkMeadowName
+	landmark 128, 105, NewBarkMeadowName
 	landmark 100, 100, CherrygroveCityName
 	landmark 100,  80, Route30Name
 	landmark  96,  60, Route31Name
@@ -22,8 +22,8 @@ Landmarks:
 	landmark  82, 124, Route33Name
 	landmark  68, 124, AzaleaTownName
 	landmark  70, 122, SlowpokeWellName
-	landmark  70, 121, DeepWoodsName
-	landmark  70, 120, PagodaOfTimeName
+	landmark  70, 110, DeepWoodsName
+	landmark  70, 105, PagodaOfTimeName
 	landmark  52, 120, IlexForestName
 	landmark  52, 112, Route34Name
 	landmark  52,  92, GoldenrodCityName
@@ -36,10 +36,10 @@ Landmarks:
 	landmark  68,  44, EcruteakCityName
 	landmark  70,  42, TinTowerName
 	landmark  66,  42, BurnedTowerName
-	landmark  66,  43, EcruteakForestName
-	landmark  66,  44, MysteriousRuinsName
-	landmark  66,  45, PalaceOutsideName
-	landmark  66,  45, PalaceRuinsName
+	landmark  66,  30, EcruteakForestName
+	landmark  66,  25, MysteriousRuinsName
+	landmark  66,  27, PalaceOutsideName
+	landmark  66,  28, PalaceRuinsName
 	landmark  68,  42, EcruteakLibraryName
 	landmark  52,  44, Route38Name
 	landmark  36,  48, Route39Name
@@ -49,10 +49,10 @@ Landmarks:
 	landmark  28,  64, Route40Name
 	landmark  28,  92, WhirlIslandsName
 	landmark  28, 100, Route41Name
-	landmark  28, 102, FirIslandName
-	landmark  28, 103, FirCaveName
-	landmark  28, 103, FirCityName
-	landmark  28, 101, ReforgedTowerName
+	landmark  28, 119, FirIslandName
+	landmark  28, 120, FirCaveName
+	landmark  28, 124, FirCityName
+	landmark  28, 122, ReforgedTowerName
 	landmark  20, 100, CianwoodCityName
 	landmark  92,  44, Route42Name
 	landmark  84,  44, MtMortarName
@@ -64,7 +64,7 @@ Landmarks:
 	landmark 132,  44, BlackthornCityName
 	landmark 132,  36, DragonsDenName
 	landmark 132,  64, Route45Name
-	landmark 112,  64, PineTownName
+	landmark 112,  60, PineTownName
 	landmark 112,  72, DarkCaveName
 	landmark 124,  88, Route46Name
 	landmark 148,  68, SilverCaveName
