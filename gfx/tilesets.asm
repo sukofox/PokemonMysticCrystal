@@ -335,3 +335,13 @@ INCBIN "data/tilesets/omanyte_word_room_metatiles.bin"
 
 TilesetAerodactylWordRoomMeta::
 INCBIN "data/tilesets/aerodactyl_word_room_metatiles.bin"
+
+TilesetForestCustomMeta::
+INCBIN "data/tilesets/forestcustom_metatiles.bin"
+
+TilesetForestCustomColl::
+INCLUDE "data/tilesets/forestcustom_collision.asm"
+
+TilesetForestCustomGFX::
+INCBIN "gfx/tilesets/forestcustom.2bpp.lz"
+
