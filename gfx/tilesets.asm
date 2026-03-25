@@ -336,12 +336,21 @@ INCBIN "data/tilesets/omanyte_word_room_metatiles.bin"
 TilesetAerodactylWordRoomMeta::
 INCBIN "data/tilesets/aerodactyl_word_room_metatiles.bin"
 
-TilesetForestCustomMeta::
+TilesetForestcustomMeta::
 INCBIN "data/tilesets/forestcustom_metatiles.bin"
 
-TilesetForestCustomColl::
+TilesetForestcustomColl::
 INCLUDE "data/tilesets/forestcustom_collision.asm"
 
-TilesetForestCustomGFX::
+TilesetForestcustomGFX::
 INCBIN "gfx/tilesets/forestcustom.2bpp.lz"
+
+TilesetJohtoAltMeta::
+INCBIN "data/tilesets/johto_alt_metatiles.bin"
+
+TilesetJohtoAltColl::
+INCLUDE "data/tilesets/johto_alt_collision.asm"
+
+TilesetJohtoAltGFX::
+INCBIN "gfx/tilesets/johto_alt.2bpp.lz"
 
