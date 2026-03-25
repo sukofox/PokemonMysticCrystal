@@ -141,3 +141,7 @@
 ; group 35 (Pine Town)
 	RGB 12,19,00, 06,10,00 ; morn/day
 	RGB 06,09,07, 04,05,06 ; nite
+
+; group 36 (Golden Pavilion)
+	RGB 31,19,00, 27,10,05 ; morn/day
+	RGB 15,07,02, 11,04,02 ; nite

@@ -9,6 +9,7 @@ Landmarks:
 	table_width 4
 	landmark  -8, -16, SpecialMapName
 	landmark 140, 100, NewBarkTownName
+	landmark 140, 100, GoldenPavilionName
 	landmark 128, 100, Route29Name
 	landmark 128, 105, NewBarkMeadowName
 	landmark 100, 100, CherrygroveCityName
@@ -236,3 +237,4 @@ ReforgedTowerName:   db "REFORGED<BSP>TOWER@"
 DeepWoodsName:		 db "DEEP WOODS@"
 PagodaOfTimeName:	 db "PAGODA OF<BSP>TIME@"
 PineTownName:        db "PINE TOWN@"
+GoldenPavilionName:  db "GOLDEN<BSP>PAVILION@"

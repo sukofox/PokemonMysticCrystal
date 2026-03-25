@@ -739,4 +739,5 @@ ENDM
 	map_attributes PineLab, PINE_LAB, $00, 0
 	map_attributes PineDojo, PINE_DOJO, $00, 0
 	map_attributes PinePokeCenter, PINE_POKECENTER, $00, 0
+	map_attributes GoldenPavilion, GOLDEN_PAVILION, $00, 0
 	
