@@ -1165,7 +1165,7 @@ PineDojo_Blocks:
 PinePokeCenter_Blocks:
 	INCBIN "maps/PinePokeCenter.blk"
 
-GoldenPavilion_Blocks:
-	INCBIN "maps/GoldenPavilion.blk"
+;GoldenPavilion_Blocks:
+	;INCBIN "maps/GoldenPavilion.blk"
 
 ENDSECTION

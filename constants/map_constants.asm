@@ -565,9 +565,9 @@ ENDM
 	map_const PINE_TOWN,									15, 10;  8
 	endgroup
 
-	newgroup GOLDEN_PAVILION                                        ;36
-	map_const GOLDEN_PAVILION,								21, 15;   1
-	endgroup
+	;newgroup GOLDEN_PAVILION                                        ;36
+	;map_const GOLDEN_PAVILION,								21, 15;   1
+	;endgroup
 
 
-DEF NUM_MAP_GROUPS EQU const_value ; 35
+DEF NUM_MAP_GROUPS EQU const_value ; 36

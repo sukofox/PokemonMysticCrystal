@@ -521,6 +521,6 @@ INCLUDE "maps/PineNPCHouse2.asm"
 INCLUDE "maps/PineLab.asm"
 INCLUDE "maps/PineDojo.asm"
 INCLUDE "maps/PinePokeCenter.asm"
-INCLUDE "maps/GoldenPavilion.asm"
+;INCLUDE "maps/GoldenPavilion.asm"
 
 ENDSECTION
