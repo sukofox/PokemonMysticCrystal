@@ -566,7 +566,7 @@ ENDM
 	endgroup
 
 	newgroup GOLDEN_PAVILION                                        ;36
-	map_const GOLDEN_PAVILION,								19, 13;   1
+	map_const GOLDEN_PAVILION,								21, 15;   1
 	endgroup
 
 

@@ -251,7 +251,7 @@ UnusedTilesetAnim5: ; unreferenced
 	dw NULL,  DoneTileAnimation
 
 TilesetForestcustomAnim:
-	dw NULL,  ForestTreeLeftAnimation
+	dw NULL,  ForestreeLeftAnimation
 	dw NULL,  ForestTreeRightAnimation
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation
