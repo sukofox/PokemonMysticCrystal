@@ -52,7 +52,7 @@ MapGroupPointers::
 	dw MapGroup_FirCity ; 33
 	dw MapGroup_DeepWoods ; 34
 	dw MapGroup_PineTown ; 35
-	dw MapGroup_GoldenPavilion ; 36
+	;dw MapGroup_GoldenPavilion ; 36
 	assert_table_length NUM_MAP_GROUPS
 
 MapGroup_Olivine:

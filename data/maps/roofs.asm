@@ -47,7 +47,7 @@ MapGroupRoofs:
 	db -1			  ; 33 (Fir City)
 	db -1		      ; 34 (Deep Woods)
 	db -1		      ; 35 (Pine Town)
-	db -1			  ; 36 (Golden Pavilion)
+	;db -1			  ; 36 (Golden Pavilion)
 	assert_table_length NUM_MAP_GROUPS + 1
 
 Roofs:

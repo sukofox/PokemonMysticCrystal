@@ -354,3 +354,12 @@ INCLUDE "data/tilesets/johto_alt_collision.asm"
 TilesetJohtoAltGFX::
 INCBIN "gfx/tilesets/johto_alt.2bpp.lz"
 
+TilesetTowerCustomMeta::
+INCBIN "data/tilesets/tower_custom_metatiles.bin"
+
+TilesetTowerCustomColl::
+INCBIN "data/tilesets/tower_custom_collision.asm"
+
+TilesetTowerCustomGFX::
+INCBIN "gfx/tilesets/tower_custom.2bpp.lz"
+

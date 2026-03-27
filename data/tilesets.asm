@@ -52,4 +52,5 @@ Tilesets::
 	tileset TilesetAerodactylWordRoom
 	tileset TilesetForestcustom
 	tileset TilesetJohtoAlt
+	tileset TilesetTowerCustom
 	assert_table_length NUM_TILESETS + 1

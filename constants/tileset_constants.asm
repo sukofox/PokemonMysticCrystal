@@ -38,6 +38,7 @@
 	const TILESET_AERODACTYL_WORD_ROOM ; 24
 	const TILESET_FORESTCUSTOM		   ; 25
 	const TILESET_JOHTO_ALT
+	const TILESET_TOWER_CUSTOM
 DEF NUM_TILESETS EQU const_value - 1
 
 ; wTileset struct size
