@@ -1168,4 +1168,28 @@ PinePokeCenter_Blocks:
 OldEcruteak_Blocks:
 	INCBIN "maps/OldEcruteak.blk"
 
+AbandonedHouseA_Blocks:
+	INCBIN "maps/AbandonedHouseA.blk"
+
+AbandonedHouse1F_Blocks:
+	INCBIN "maps/AbandonedHouse1F.blk"
+
+AbandonedHouseB1F_Blocks:
+	INCBIN "maps/AbandonedHouseB1F.blk"
+
+OldEcruteakGate_Blocks:
+	INCBIN "maps/OldEcruteakGate.blk"
+
+GoldenWoods_Blocks:
+	INCBIN "maps/GoldenWoods.blk"
+
+GoldenWoodsGate_Blocks:
+	INCBIN "maps/GoldenWoodsGate.blk"
+
+GoldenPavilion_Blocks:
+	INCBIN "maps/GoldenPavilion.blk"
+
+ForbiddenPalace_Blocks:
+	INCBIN "maps/ForbiddenPalace.blk"
+
 ENDSECTION

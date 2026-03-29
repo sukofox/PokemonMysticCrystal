@@ -740,4 +740,12 @@ ENDM
 	map_attributes PineDojo, PINE_DOJO, $00, 0
 	map_attributes PinePokeCenter, PINE_POKECENTER, $00, 0
 	map_attributes OldEcruteak, OLD_ECRUTEAK, $05, 0
+	map_attributes AbandonedHouseA, ABANDONED_HOUSE_A, $00, 0
+	map_attributes AbandonedHouse1F, ABANDONED_HOUSE_1F, $00, 0
+	map_attributes AbandonedHouseB1F, ABANDONED_HOUSE_B1F, $00, 0
+	map_attributes OldEcruteakGate, OLD_ECRUTEAK_GATE, $00, 0
+	map_attributes GoldenWoods, GOLDEN_WOODS, $05, 0
+	map_attributes GoldenWoodsGate, GOLDEN_WOODS_GATE, $00, 0
+	map_attributes GoldenPavilion, GOLDEN_PAVILION, $07, 0
+	map_attributes ForbiddenPalace, FORBIDDEN_PALACE, $00, 0
 	

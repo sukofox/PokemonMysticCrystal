@@ -10,8 +10,9 @@ GoldenPavilion_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	;warp_event 16, 23, NEW_BARK_TOWN, 5
-	;warp_event 17, 23, NEW_BARK_TOWN, 6
+	warp_event  0,  6, GOLDEN_WOODS_GATE, 3
+	warp_event  0,  7, GOLDEN_WOODS_GATE, 4
+    warp_event 25, 27, FORBIDDEN_PALACE, 1
 
 	def_coord_events
 

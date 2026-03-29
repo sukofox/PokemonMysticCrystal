@@ -522,5 +522,13 @@ INCLUDE "maps/PineLab.asm"
 INCLUDE "maps/PineDojo.asm"
 INCLUDE "maps/PinePokeCenter.asm"
 INCLUDE "maps/OldEcruteak.asm"
+INCLUDE "maps/AbandonedHouseA.asm"
+INCLUDE "maps/AbandonedHouse1F.asm"
+INCLUDE "maps/AbandonedHouseB1F.asm"
+INCLUDE "maps/OldEcruteakGate.asm"
+INCLUDE "maps/GoldenWoods.asm"
+INCLUDE "maps/GoldenWoodsGate.asm"
+INCLUDE "maps/GoldenPavilion.asm"
+INCLUDE "maps/ForbiddenPalace.asm"
 
 ENDSECTION

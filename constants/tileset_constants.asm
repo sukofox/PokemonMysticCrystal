@@ -37,8 +37,8 @@
 	const TILESET_OMANYTE_WORD_ROOM    ; 23
 	const TILESET_AERODACTYL_WORD_ROOM ; 24
 	const TILESET_FORESTCUSTOM		   ; 25
-	const TILESET_JOHTO_ALT
-	const TILESET_TOWER_CUSTOM
+	const TILESET_JOHTO_ALT			   ; 26
+	const TILESET_TOWER_CUSTOM         ; 27
 DEF NUM_TILESETS EQU const_value - 1
 
 ; wTileset struct size

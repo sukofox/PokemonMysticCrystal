@@ -567,6 +567,14 @@ ENDM
 
 	newgroup GOLDEN_PAVILION                                        ;36
 	map_const OLD_ECRUTEAK,								    16, 12;   1
+	map_const ABANDONED_HOUSE_A,							 8,  8;   2
+	map_const ABANDONED_HOUSE_1F,						     8,  8;   3
+	map_const ABANDONED_HOUSE_B1F,							 8,  8;   4
+	map_const OLD_ECRUTEAK_GATE,							16,  7;   5
+	map_const GOLDEN_WOODS,									32, 24;   6
+	map_const GOLDEN_WOODS_GATE,						     6,  6;   7
+	map_const GOLDEN_PAVILION,								24, 32;   8
+	map_const FORBIDDEN_PALACE, 							25, 14;   9
 	endgroup
 
 

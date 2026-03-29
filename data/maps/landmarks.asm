@@ -40,8 +40,10 @@ Landmarks:
 	landmark  66,  25, MysteriousRuinsName
 	landmark  66,  27, PalaceOutsideName
 	landmark  66,  28, PalaceRuinsName
-	landmark  66,  30, OldEcruteakName
-	landmark  68,  42, EcruteakLibraryName
+	landmark  75,  30, OldEcruteakName
+	landmark  77,  30, GoldenWoodsName
+	landmark  78,  30, GoldenPavilionName
+	landmark  71,  42, EcruteakLibraryName
 	landmark  52,  44, Route38Name
 	landmark  36,  48, Route39Name
 	landmark  36,  60, OlivineCityName
@@ -238,3 +240,5 @@ DeepWoodsName:		 db "DEEP WOODS@"
 PagodaOfTimeName:	 db "PAGODA OF<BSP>TIME@"
 PineTownName:        db "PINE TOWN@"
 OldEcruteakName:     db "OLD<BSP>ECRUTEAK@"
+GoldenWoodsName:	 db "GOLDEN<BSP>WOODS@"
+GoldenPavilionName:  db "GOLDEN<BSP>PAVILION@"

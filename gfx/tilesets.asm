@@ -358,7 +358,7 @@ TilesetTowerCustomMeta::
 INCBIN "data/tilesets/tower_custom_metatiles.bin"
 
 TilesetTowerCustomColl::
-INCBIN "data/tilesets/tower_custom_collision.asm"
+INCLUDE "data/tilesets/tower_custom_collision.asm"
 
 TilesetTowerCustomGFX::
 INCBIN "gfx/tilesets/tower_custom.2bpp.lz"
