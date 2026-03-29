@@ -52,7 +52,7 @@ MapGroupPointers::
 	dw MapGroup_FirCity ; 33
 	dw MapGroup_DeepWoods ; 34
 	dw MapGroup_PineTown ; 35
-	;dw MapGroup_GoldenPavilion ; 36
+	dw MapGroup_GoldenPavilion ; 36
 	assert_table_length NUM_MAP_GROUPS
 
 MapGroup_Olivine:
@@ -619,9 +619,9 @@ MapGroup_PineTown:
 	map PineTown, TILESET_JOHTO, TOWN, LANDMARK_PINE_TOWN, MUSIC_ECRUTEAK_CITY, FALSE, PALETTE_AUTO, FISHGROUP_NONE
 	assert_table_length NUM_PINE_TOWN_MAPS
 
-;MapGroup_GoldenPavilion:
-;	table_width MAP_LENGTH, MapGroup_GoldenPavilion
-;	map GoldenPavilion, TILESET_JOHTO_ALT, ROUTE, LANDMARK_GOLDEN_PAVILION, MUSIC_RUINS_OF_ALPH_INTERIOR, FALSE, PALETTE_AUTO, FISHGROUP_NONE
-;	assert_table_length NUM_GOLDEN_PAVILION_MAPS
+MapGroup_GoldenPavilion:
+	table_width MAP_LENGTH, MapGroup_GoldenPavilion
+	map OldEcruteak, TILESET_JOHTO, ROUTE, LANDMARK_OLD_ECRUTEAK, MUSIC_NONE, FALSE, PALETTE_AUTO, FISHGROUP_NONE
+	assert_table_length NUM_GOLDEN_PAVILION_MAPS
 
 

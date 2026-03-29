@@ -14,6 +14,8 @@ PalaceOutside_MapEvents:
     warp_event 10, 39, MYSTERIOUS_RUINS, 3
     warp_event  7, 21, OLD_SANCTUARY, 2
     warp_event 10,  5, PALACE_RUINS, 1
+	warp_event 19,  7, OLD_ECRUTEAK, 1
+	warp_event 19,  6, OLD_ECRUTEAK, 2
 
 	def_coord_events
 

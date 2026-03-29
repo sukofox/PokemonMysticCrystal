@@ -9,7 +9,6 @@ Landmarks:
 	table_width 4
 	landmark  -8, -16, SpecialMapName
 	landmark 140, 100, NewBarkTownName
-	;landmark 140, 100, GoldenPavilionName
 	landmark 128, 100, Route29Name
 	landmark 128, 105, NewBarkMeadowName
 	landmark 100, 100, CherrygroveCityName
@@ -41,6 +40,7 @@ Landmarks:
 	landmark  66,  25, MysteriousRuinsName
 	landmark  66,  27, PalaceOutsideName
 	landmark  66,  28, PalaceRuinsName
+	landmark  66,  30, OldEcruteakName
 	landmark  68,  42, EcruteakLibraryName
 	landmark  52,  44, Route38Name
 	landmark  36,  48, Route39Name
@@ -237,4 +237,4 @@ ReforgedTowerName:   db "REFORGED<BSP>TOWER@"
 DeepWoodsName:		 db "DEEP WOODS@"
 PagodaOfTimeName:	 db "PAGODA OF<BSP>TIME@"
 PineTownName:        db "PINE TOWN@"
-;GoldenPavilionName:  db "GOLDEN<BSP>PAVILION@"
+OldEcruteakName:     db "OLD<BSP>ECRUTEAK@"

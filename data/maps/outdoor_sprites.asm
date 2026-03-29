@@ -39,7 +39,7 @@ OutdoorSprites:
 	dw FirCitySprites
 	dw DeepWoodsSprites
 	dw PineTownSprites
-	;dw GoldenPavilionSprites
+	dw GoldenPavilionSprites
 	assert_table_length NUM_MAP_GROUPS
 
 ; Route1 and ViridianCity are connected
@@ -445,20 +445,20 @@ PineTownSprites:
 	db SPRITE_DUNSPARCE
 	db 0 ; end
 
-;GoldenPavilionSprites:
-	;db SPRITE_FISHER
-	;db SPRITE_LEDYBA
-	;db SPRITE_SAGE
-	;db SPRITE_GRAMPS
-	;db SPRITE_YOUNGSTER
-	;db SPRITE_PINECO
-	;db SPRITE_GRANNY
-	;db SPRITE_KIMONO_GIRL
+GoldenPavilionSprites:
+	db SPRITE_FISHER
+	db SPRITE_LEDYBA
+	db SPRITE_SAGE
+	db SPRITE_GRAMPS
+	db SPRITE_YOUNGSTER
+	db SPRITE_PINECO
+	db SPRITE_GRANNY
+	db SPRITE_KIMONO_GIRL
 	; 8 of max 9 walking sprites
-	;db SPRITE_WEIRD_TREE ; variable sprite: becomes SPRITE_SUDOWOODO and SPRITE_TWIN
-	;db SPRITE_POKE_BALL
-	;db SPRITE_FRUIT_TREE
-	;db SPRITE_CHIKORITA
-	;db 0 ; end
+	db SPRITE_WEIRD_TREE ; variable sprite: becomes SPRITE_SUDOWOODO and SPRITE_TWIN
+	db SPRITE_POKE_BALL
+	db SPRITE_FRUIT_TREE
+	db SPRITE_ENTEI
+	db 0 ; end
 
 	
