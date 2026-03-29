@@ -12,6 +12,7 @@ ForbiddenPalace_MapEvents:
 	def_warp_events
 	warp_event 23, 27, GOLDEN_PAVILION, 3
 	warp_event 24, 27, GOLDEN_PAVILION, 3
+    warp_event 21, 13, FORBIDDEN_PALACE_2F, 1
 
 	def_coord_events
 

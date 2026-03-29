@@ -575,6 +575,15 @@ ENDM
 	map_const GOLDEN_WOODS_GATE,						     6,  6;   7
 	map_const GOLDEN_PAVILION,								24, 32;   8
 	map_const FORBIDDEN_PALACE, 							25, 14;   9
+	map_const FORBIDDEN_PALACE_2F,			                12, 12;  10
+	map_const FORBIDDEN_PALACE_ROOM_1,						 6,  6;  11
+	map_const FORBIDDEN_PALACE_ROOM_2,						 6,  6;  12
+	map_const FORBIDDEN_PALACE_ROOM_3,						 8,  7;  13
+	map_const FORBIDDEN_PALACE_ROOM_4, 						 6,  6;  14
+	map_const FORBIDDEN_PALACE_ROOM_5,						 6,  6;  15
+	map_const FORBIDDEN_PALACE_ROOM_6,						 8,  8;  16
+	map_const FORBIDDEN_PALACE_3F,							18, 12;  17
+	map_const FORBIDDEN_PALACE_ROOF,						 9, 13;  18
 	endgroup
 
 

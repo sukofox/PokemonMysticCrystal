@@ -1192,4 +1192,31 @@ GoldenPavilion_Blocks:
 ForbiddenPalace_Blocks:
 	INCBIN "maps/ForbiddenPalace.blk"
 
+ForbiddenPalace2F_Blocks:
+	INCBIN "maps/ForbiddenPalace2F.blk"
+
+ForbiddenPalaceRoom1_Blocks:
+	INCBIN "maps/ForbiddenPalaceRoom1.blk"
+
+ForbiddenPalaceRoom2_Blocks:
+	INCBIN "maps/ForbiddenPalaceRoom2.blk"
+
+ForbiddenPalaceRoom3_Blocks:
+	INCBIN "maps/ForbiddenPalaceRoom3.blk"
+
+ForbiddenPalaceRoom4_Blocks:
+	INCBIN "maps/ForbiddenPalaceRoom4.blk"
+
+ForbiddenPalaceRoom5_Blocks:
+	INCBIN "maps/ForbiddenPalaceRoom5.blk"
+
+ForbiddenPalaceRoom6_Blocks:
+	INCBIN "maps/ForbiddenPalaceRoom6.blk"
+
+ForbiddenPalace3F_Blocks:
+	INCBIN "maps/ForbiddenPalace3F.blk"
+
+ForbiddenPalaceRoof_Blocks:
+	INCBIN "maps/ForbiddenPalaceRoof.blk"
+
 ENDSECTION

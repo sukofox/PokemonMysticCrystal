@@ -748,4 +748,13 @@ ENDM
 	map_attributes GoldenWoodsGate, GOLDEN_WOODS_GATE, $00, 0
 	map_attributes GoldenPavilion, GOLDEN_PAVILION, $07, 0
 	map_attributes ForbiddenPalace, FORBIDDEN_PALACE, $00, 0
+	map_attributes ForbiddenPalace2F, FORBIDDEN_PALACE_2F, $00, 0
+	map_attributes ForbiddenPalaceRoom1, FORBIDDEN_PALACE_ROOM_1, $00, 0
+	map_attributes ForbiddenPalaceRoom2, FORBIDDEN_PALACE_ROOM_2, $00, 0
+	map_attributes ForbiddenPalaceRoom3, FORBIDDEN_PALACE_ROOM_3, $00, 0
+	map_attributes ForbiddenPalaceRoom4, FORBIDDEN_PALACE_ROOM_4, $00, 0
+	map_attributes ForbiddenPalaceRoom5, FORBIDDEN_PALACE_ROOM_5, $00, 0
+	map_attributes ForbiddenPalaceRoom6, FORBIDDEN_PALACE_ROOM_6, $00, 0
+	map_attributes ForbiddenPalace3F, FORBIDDEN_PALACE_3F, $00, 0
+	map_attributes ForbiddenPalaceRoof, FORBIDDEN_PALACE_ROOF, $00, 0
 	
