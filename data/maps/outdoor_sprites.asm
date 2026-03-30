@@ -447,11 +447,11 @@ PineTownSprites:
 
 GoldenPavilionSprites:
 	db SPRITE_FISHER
-	db SPRITE_LEDYBA
+	db SPRITE_STANTLER
 	db SPRITE_SAGE
 	db SPRITE_GRAMPS
 	db SPRITE_YOUNGSTER
-	db SPRITE_PINECO
+	db SPRITE_BELLOSSOM
 	db SPRITE_GRANNY
 	db SPRITE_KIMONO_GIRL
 	; 8 of max 9 walking sprites

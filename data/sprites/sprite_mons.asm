@@ -61,4 +61,6 @@ SpriteMons:
 	db PINECO
 	db DUNSPARCE
 	db TEDDIURSA
+	db BELLOSSOM
+	db STANTLER
 	assert_table_length NUM_POKEMON_SPRITES

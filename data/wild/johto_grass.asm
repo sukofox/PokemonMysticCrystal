@@ -2261,5 +2261,501 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 25, TEDDIURSA
 	end_grass_wildmons
 
+	def_grass_wildmons OLD_ECRUTEAK
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 45, HAUNTER
+	db 44, GASTLY
+	db 45, ARIADOS
+	db 46, GLOOM
+	db 44, GLOOM
+	db 45, LEDIAN
+	db 46, HAUNTER
+
+    ; day
+    db 45, HAUNTER
+	db 44, GASTLY
+	db 45, ARIADOS
+	db 46, GLOOM
+	db 44, GLOOM
+	db 45, LEDIAN
+	db 46, HAUNTER
+
+    ; night
+    db 45, HAUNTER
+	db 44, GASTLY
+	db 45, ARIADOS
+	db 46, GLOOM
+	db 47, VILEPLUME
+	db 45, MISDREAVUS
+	db 46, GENGAR
+	end_grass_wildmons
+
+	def_grass_wildmons ABANDONED_HOUSE_A
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 45, HAUNTER
+	db 44, GASTLY
+	db 45, ARIADOS
+	db 46, RATTATA
+	db 44, RATICATE
+	db 45, GASTLY
+	db 46, HAUNTER
+
+    ; day
+    db 45, HAUNTER
+	db 44, GASTLY
+	db 45, ARIADOS
+	db 46, RATTATA
+	db 44, RATICATE
+	db 45, GASTLY
+	db 46, HAUNTER
+
+    ; night
+    db 45, HAUNTER
+	db 44, GASTLY
+	db 45, ARIADOS
+	db 46, HAUNTER
+	db 44, VILEPLUME
+	db 45, MISDREAVUS
+	db 46, GENGAR
+	end_grass_wildmons
+
+	def_grass_wildmons ABANDONED_HOUSE_1F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 45, HAUNTER
+	db 44, GASTLY
+	db 45, ARIADOS
+	db 46, RATTATA
+	db 44, RATICATE
+	db 45, GASTLY
+	db 46, HAUNTER
+
+    ; day
+    db 45, HAUNTER
+	db 44, GASTLY
+	db 45, ARIADOS
+	db 46, RATTATA
+	db 44, RATICATE
+	db 45, GASTLY
+	db 46, HAUNTER
+
+    ; night
+    db 45, HAUNTER
+	db 44, MAGMAR
+	db 45, ARIADOS
+	db 46, HAUNTER
+	db 44, VILEPLUME
+	db 45, MISDREAVUS
+	db 46, GENGAR
+	end_grass_wildmons
+
+	def_grass_wildmons ABANDONED_HOUSE_B1F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 45, HAUNTER
+	db 44, GASTLY
+	db 45, CUBONE
+	db 46, RATTATA
+	db 44, RATICATE
+	db 45, GASTLY
+	db 46, HAUNTER
+
+    ; day
+    db 45, HAUNTER
+	db 44, GASTLY
+	db 45, CUBONE
+	db 46, RATTATA
+	db 44, RATICATE
+	db 45, GASTLY
+	db 46, HAUNTER
+
+    ; night
+    db 45, HAUNTER
+	db 44, GASTLY
+	db 45, ARIADOS
+	db 46, HAUNTER
+	db 44, VILEPLUME
+	db 45, MISDREAVUS
+	db 46, MAGMAR
+	end_grass_wildmons
+
+	def_grass_wildmons OLD_ECRUTEAK_GATE
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 45, HAUNTER
+	db 44, GASTLY
+	db 45, ARIADOS
+	db 46, RATTATA
+	db 44, RATICATE
+	db 45, GASTLY
+	db 46, HAUNTER
+
+    ; day
+    db 45, HAUNTER
+	db 44, GASTLY
+	db 45, ARIADOS
+	db 46, RATTATA
+	db 44, RATICATE
+	db 45, GASTLY
+	db 46, HAUNTER
+
+    ; night
+    db 45, HAUNTER
+	db 44, GASTLY
+	db 45, ARIADOS
+	db 46, HAUNTER
+	db 44, GLOOM
+	db 45, GLOOM
+	db 46, VILEPLUME
+	end_grass_wildmons
+
+	def_grass_wildmons GOLDEN_WOODS
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 47, GIRAFARIG
+	db 46, GLOOM
+	db 45, STANTLER
+	db 46, PIDGEOTTO
+	db 47, PIDGEOTTO
+	db 45, STANTLER
+	db 48, BELLOSSOM
+
+    ; day
+    db 47, GIRAFARIG
+	db 46, GLOOM
+	db 45, STANTLER
+	db 46, PIDGEOTTO
+	db 47, PIDGEOTTO
+	db 45, STANTLER
+	db 48, BELLOSSOM
+
+    ; night
+    db 45, HAUNTER
+	db 44, GASTLY
+	db 45, ARIADOS
+	db 46, HAUNTER
+	db 44, VILEPLUME
+	db 45, MURKROW
+	db 46, EEVEE
+	end_grass_wildmons
+
+	def_grass_wildmons GOLDEN_PAVILION
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 47, GIRAFARIG
+	db 46, GIRAFARIG
+	db 45, STANTLER
+	db 46, GLOOM
+	db 47, PIDGEOTTO
+	db 45, STANTLER
+	db 48, BELLOSSOM
+
+    ; day
+    db 47, GIRAFARIG
+	db 46, GIRAFARIG
+	db 45, STANTLER
+	db 46, GLOOM
+	db 47, PIDGEOTTO
+	db 45, STANTLER
+	db 48, BELLOSSOM
+
+    ; night
+    db 45, HAUNTER
+	db 44, GASTLY
+	db 45, ARIADOS
+	db 46, HAUNTER
+	db 44, VILEPLUME
+	db 45, MURKROW
+	db 46, NINETALES
+	end_grass_wildmons
+
+	def_grass_wildmons FORBIDDEN_PALACE
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 48, RATICATE
+	db 49, RATICATE
+	db 49, BELLOSSOM
+	db 49, LEDYBA
+	db 50, RATICATE
+	db 50, GASTLY
+	db 52, LEDIAN
+
+    ; day
+    db 48, RATICATE
+	db 49, RATICATE
+	db 49, BELLOSSOM
+	db 49, LEDYBA
+	db 50, RATICATE
+	db 50, GASTLY
+	db 52, LEDIAN
+
+    ; night
+    db 48, RATICATE
+	db 49, RATICATE
+	db 49, MISDREAVUS
+	db 49, ARIADOS
+	db 50, RATICATE
+	db 50, ARIADOS
+	db 52, MURKROW
+	end_grass_wildmons
+
+	def_grass_wildmons FORBIDDEN_PALACE_2F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, BELLOSSOM
+	db 51, LEDYBA
+	db 52, RATICATE
+	db 51, GASTLY
+	db 53, LEDIAN
+
+    ; day
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, BELLOSSOM
+	db 51, LEDYBA
+	db 52, RATICATE
+	db 51, GASTLY
+	db 53, LEDIAN
+
+    ; night
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, MISDREAVUS
+	db 51, ARIADOS
+	db 52, RATICATE
+	db 50, ARIADOS
+	db 53, MURKROW
+	end_grass_wildmons
+
+	def_grass_wildmons FORBIDDEN_PALACE_ROOM_1
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, BELLOSSOM
+	db 51, LEDYBA
+	db 52, RATICATE
+	db 51, GASTLY
+	db 53, LEDIAN
+
+    ; day
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, BELLOSSOM
+	db 51, LEDYBA
+	db 52, RATICATE
+	db 51, GASTLY
+	db 53, LEDIAN
+
+    ; night
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, MISDREAVUS
+	db 51, ARIADOS
+	db 52, RATICATE
+	db 50, ARIADOS
+	db 53, MURKROW
+	end_grass_wildmons
+
+def_grass_wildmons FORBIDDEN_PALACE_ROOM_2
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, BELLOSSOM
+	db 51, LEDYBA
+	db 52, RATICATE
+	db 51, GASTLY
+	db 53, LEDIAN
+
+    ; day
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, BELLOSSOM
+	db 51, LEDYBA
+	db 52, RATICATE
+	db 51, GASTLY
+	db 53, LEDIAN
+
+    ; night
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, MISDREAVUS
+	db 51, ARIADOS
+	db 52, RATICATE
+	db 50, ARIADOS
+	db 53, MURKROW
+	end_grass_wildmons
+
+	def_grass_wildmons FORBIDDEN_PALACE_ROOM_3
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, BELLOSSOM
+	db 51, LEDYBA
+	db 52, RATICATE
+	db 51, GASTLY
+	db 53, LEDIAN
+
+    ; day
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, BELLOSSOM
+	db 51, LEDYBA
+	db 52, RATICATE
+	db 51, GASTLY
+	db 53, LEDIAN
+
+    ; night
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, MISDREAVUS
+	db 51, ARIADOS
+	db 52, RATICATE
+	db 50, ARIADOS
+	db 53, MURKROW
+	end_grass_wildmons
+
+	def_grass_wildmons FORBIDDEN_PALACE_ROOM_4
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, BELLOSSOM
+	db 51, LEDYBA
+	db 52, RATICATE
+	db 51, GASTLY
+	db 53, LEDIAN
+
+    ; day
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, BELLOSSOM
+	db 51, LEDYBA
+	db 52, RATICATE
+	db 51, GASTLY
+	db 53, LEDIAN
+
+    ; night
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, MISDREAVUS
+	db 51, ARIADOS
+	db 52, RATICATE
+	db 50, ARIADOS
+	db 53, MURKROW
+	end_grass_wildmons
+
+	def_grass_wildmons FORBIDDEN_PALACE_ROOM_5
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, BELLOSSOM
+	db 51, LEDYBA
+	db 52, RATICATE
+	db 51, GASTLY
+	db 53, LEDIAN
+
+    ; day
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, BELLOSSOM
+	db 51, LEDYBA
+	db 52, RATICATE
+	db 51, GASTLY
+	db 53, LEDIAN
+
+    ; night
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, MISDREAVUS
+	db 51, ARIADOS
+	db 52, RATICATE
+	db 50, ARIADOS
+	db 53, MURKROW
+	end_grass_wildmons
+
+	def_grass_wildmons FORBIDDEN_PALACE_ROOM_6
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, BELLOSSOM
+	db 51, LEDYBA
+	db 52, RATICATE
+	db 51, GASTLY
+	db 53, LEDIAN
+
+    ; day
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, BELLOSSOM
+	db 51, LEDYBA
+	db 52, RATICATE
+	db 51, GASTLY
+	db 53, LEDIAN
+
+    ; night
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, MISDREAVUS
+	db 51, ARIADOS
+	db 52, RATICATE
+	db 50, ARIADOS
+	db 53, MURKROW
+	end_grass_wildmons
+
+	def_grass_wildmons FORBIDDEN_PALACE_3F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, BELLOSSOM
+	db 51, LEDYBA
+	db 52, RATICATE
+	db 51, GASTLY
+	db 53, LEDIAN
+
+    ; day
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, BELLOSSOM
+	db 51, LEDYBA
+	db 52, RATICATE
+	db 51, GASTLY
+	db 53, LEDIAN
+
+    ; night
+    db 50, RATICATE
+	db 51, RATICATE
+	db 52, MISDREAVUS
+	db 51, ARIADOS
+	db 52, RATICATE
+	db 50, ARIADOS
+	db 53, MURKROW
+	end_grass_wildmons
+
 	db -1 ; end
 

@@ -251,13 +251,9 @@ UnusedTilesetAnim5: ; unreferenced
 	dw NULL,  DoneTileAnimation
 
 TilesetForestcustomAnim:
-	dw NULL,  ForestTreeLeftAnimation
-	dw NULL,  ForestTreeRightAnimation
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation
-	dw NULL,  ForestTreeLeftAnimation2
-	dw NULL,  ForestTreeRightAnimation2
 	dw NULL,  AnimateFlowerTile
 	dw vTiles2 tile $14, AnimateWaterTile
 	dw NULL,  AnimateWaterPalette
