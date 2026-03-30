@@ -363,3 +363,12 @@ INCLUDE "data/tilesets/tower_custom_collision.asm"
 TilesetTowerCustomGFX::
 INCBIN "gfx/tilesets/tower_custom.2bpp.lz"
 
+TilesetJohtoSnowMeta::
+INCBIN "data/tilesets/johto_snow_metatiles.bin"
+
+TilesetJohtoSnowColl::
+INCLUDE "data/tilesets/johto_snow_collision.asm"
+
+TilesetJohtoSnowGFX::
+INCBIN "gfx/tilesets/johto_snow.2bpp.lz"
+
