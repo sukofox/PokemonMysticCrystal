@@ -40,3 +40,12 @@
 	tilecoll WALL, WALL, WALL, WALL ; 27
 	tilecoll TALL_GRASS, TALL_GRASS, TALL_GRASS, TALL_GRASS ; 28
 	tilecoll WARP_CARPET_LEFT, FLOOR, WARP_CARPET_LEFT, FLOOR ; 29
+	tilecoll WALL, WALL, WALL, WALL ; 2a
+	tilecoll WALL, WALL, WALL, WALL ; 2b
+	tilecoll WALL, WALL, WALL, WALL ; 2c
+	tilecoll WALL, FLOOR, WALL, FLOOR ; 2d
+	tilecoll WALL, WALL, WALL, WALL ; 2e
+	tilecoll FLOOR, WALL, FLOOR, WALL ; 2f
+	tilecoll WALL, WALL, WALL, WALL ; 30
+	tilecoll FLOOR, WALL, FLOOR, WALL ; 31
+	tilecoll , , ,  ; 32

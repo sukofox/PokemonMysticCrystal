@@ -25,13 +25,10 @@ CREDITS:
 2. Meta, the ROMhack youtuber, for giving me the idea of putting Totodile as a wild pokemon in a certain location (check out his wonderful chanel: https://www.youtube.com/@metaphysical8698
 3. To Discord user Censoredharp, who gave me the idea of putting Diglett somewhere early in johto. This was a good idea.
 4. Thanks for "Mmmmmm" who demixed the Pokemon XY Frost Cavern song, and to Vulcandth from the Polished Crystal team who also made contributions to this soundtrack.
-5. If I missed someone else, please let me know.
+5. Thanks to French Orange for providing tilesets of all kinds. Here is the DA page: https://www.deviantart.com/frenchorange/art/Pokemon-Gold-and-Silver-SW97-Tileset-948665568
+6. If I missed someone else, please let me know.
 
-To the pret team who made this and many more projects possible by creating the disassemblies. Thank you all.
-Meta, the ROMhack youtuber, for giving me the idea of putting Totodile as a wild pokemon in a certain location (check out his wonderful chanel: https://www.youtube.com/@metaphysical8698
-To Discord user Censoredharp, who gave me the idea of putting Diglett somewhere early in johto. This was a good idea.
-Thanks for "Mmmmmm" who demixed the Pokemon XY Frost Cavern song, and to Vulcandth from the Polished Crystal team who also made contributions to this soundtrack.
-If I missed someone else, please let me know.
+
 The following links are associated with pret only, not my hack per se: You can find pret on Discord (pret, #pokecrystal).
 
 The following links are associated with pret only, not my hack per se:
