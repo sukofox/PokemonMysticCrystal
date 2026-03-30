@@ -10,10 +10,10 @@ GoldenWoodsGate_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  5, 11, GOLDEN_WOODS, 2
-    warp_event  6, 11, GOLDEN_WOODS, 2
-    warp_event 11,  4, GOLDEN_PAVILION, 1
-    warp_event 11,  5, GOLDEN_PAVILION, 2
+	warp_event 11, 21, GOLDEN_WOODS, 2
+    warp_event 12, 21, GOLDEN_WOODS, 2
+    warp_event 21, 14, GOLDEN_PAVILION, 1
+    warp_event 21, 15, GOLDEN_PAVILION, 2
     
 	def_coord_events
 

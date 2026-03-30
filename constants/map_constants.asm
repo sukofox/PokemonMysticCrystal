@@ -572,7 +572,7 @@ ENDM
 	map_const ABANDONED_HOUSE_B1F,							 8,  8;   4
 	map_const OLD_ECRUTEAK_GATE,							16,  7;   5
 	map_const GOLDEN_WOODS,									32, 24;   6
-	map_const GOLDEN_WOODS_GATE,						     6,  6;   7
+	map_const GOLDEN_WOODS_GATE,						    11, 11;   7
 	map_const GOLDEN_PAVILION,								24, 32;   8
 	map_const FORBIDDEN_PALACE, 							25, 14;   9
 	map_const FORBIDDEN_PALACE_2F,			                12, 12;  10
