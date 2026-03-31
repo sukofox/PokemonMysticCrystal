@@ -649,6 +649,9 @@ DEF KRIS EQU __trainer_class__
 	const ETHEL ; unused
 	const REBECCA
 	const DORIS
+	const RIKA
+	const AKANE
+	const KAGOME
 
 	trainerclass BOARDER ; 3a
 	const RONALD

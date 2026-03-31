@@ -3352,6 +3352,29 @@ MediumGroup:
 	db 46, SLOWBRO
 	db -1 ; end
 
+	; MEDIUM (8)
+	db "RIKA@", TRAINERTYPE_NORMAL
+	db 45, XATU
+	db 44, MISDREAVUS
+	db 46, UMBREON
+	db -1 ; end
+
+	; MEDIUM (9)
+	db "AKANE@", TRAINERTYPE_NORMAL
+	db 45, HAUNTER
+	db 46, JYNX
+	db 46, HAUNTER
+	db 47, MURKROW
+	db -1 ; end
+
+	; MEDIUM (10)
+	db "KAGOME@", TRAINERTYPE_NORMAL
+	db 46, ALAKAZAM
+	db 47, MAGMAR
+	db 46, HAUNTER
+	db 48, GENGAR
+	db -1 ; end
+	
 BoarderGroup:
 	; BOARDER (1)
 	db "RONALD@", TRAINERTYPE_NORMAL
