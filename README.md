@@ -16,7 +16,7 @@ Features:
 6. Each pokemon has a unique icon associated with it instead of the generic ones from vanilla games.
 7. You don't get the Silver Wing the same way as in Vanilla. HINT: You get it in one of the new areas.
 8. There is a tradeback NPC in one of the new areas. HINT: This person says he can make your pokemon travel through time. 
-9. Raikou is no longer a roamer. Raikou is found somewhere else. I am confident you will figure it out. (Entei remains a roamer for now).
+9. Raikou is no longer a roamer. Raikou is found somewhere else. I am confident you will figure it out. Entei is also a static encounter somewhere. Good luck!
 10. In vanilla games, many Johto pokemon were only available post-game in Kanto, which was absurd. Now you can get them relatively earlier in Johto.
     a) The same is true of some Kanto pokemon. For example, Diglett, which you can find early in Johto now.
 
