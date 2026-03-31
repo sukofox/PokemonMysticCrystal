@@ -3310,6 +3310,21 @@ SageGroup:
 	db 40, GENGAR
 	db 40, NOCTOWL
 	db -1 ; end
+
+	;SAGE (22)
+	db "ITACHI@", TRAINERTYPE_NORMAL
+	db 51, STANTLER
+	db 51, NINETALES
+	db 50, VICTREEBEL
+	db 52, MEGANIUM
+	db -1 ; end
+
+	;SAGE (23)
+	db "LEORIO@", TRAINERTYPE_NORMAL
+	db 51, PERSIAN
+	db 51, PERSIAN
+	db 50, ESPEON
+	db -1 ; end
 	
 MediumGroup:
 	; MEDIUM (1)
@@ -3374,7 +3389,22 @@ MediumGroup:
 	db 46, HAUNTER
 	db 48, GENGAR
 	db -1 ; end
-	
+
+	; MEDIUM (11)
+	db "YURIKO@", TRAINERTYPE_NORMAL
+	db 50, MISDREAVUS
+	db 50, MISDREAVUS
+	db 50, SLOWKING
+	db -1 ; end
+
+	; MEDIUM (12)
+	db "RIN@", TRAINERTYPE_NORMAL
+	db 51, XATU
+	db 51, UMBREON
+	db 52, SLOWBRO
+	db 51, HAUNTER
+	db -1; end
+
 BoarderGroup:
 	; BOARDER (1)
 	db "RONALD@", TRAINERTYPE_NORMAL

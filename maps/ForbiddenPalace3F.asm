@@ -1,10 +1,22 @@
 object_const_def
-	; none now
+	const FORBIDDEN_PALACE_3F_SAGENPC
 
 ForbiddenPalace3F_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
+
+ForbiddenPalace3FSage:
+	;clearevent EVENT_FOUGHT_ENTEI
+	jumptextfaceplayer ForbiddenPalace3FSageText
+
+ForbiddenPalace3FSageText:
+	text "The roof is"
+	line "a very special"
+	cont "place in this"
+
+	para "palace."
+	done
 
 ForbiddenPalace3F_MapEvents:
 	db 0, 0 ; filler
@@ -19,4 +31,4 @@ ForbiddenPalace3F_MapEvents:
 	def_bg_events
 
 	def_object_events
-	; Nothing yet
+	object_event  7, 20, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ForbiddenPalace3FSage, -1

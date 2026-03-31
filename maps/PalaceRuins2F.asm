@@ -16,7 +16,6 @@ RuinsRoofRaikouCallback:
 	iffalse .NoAppear
     sjump .Appear
 
-
 .Appear:
     appear RUINSROOF_RAIKOU
     endcallback

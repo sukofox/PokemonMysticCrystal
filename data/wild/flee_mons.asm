@@ -29,5 +29,5 @@ OftenFleeMons:
 	db -1
 
 AlwaysFleeMons:
-	db ENTEI
+	db LARVITAR
 	db -1

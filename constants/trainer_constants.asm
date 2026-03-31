@@ -640,6 +640,8 @@ DEF KRIS EQU __trainer_class__
 	const TAKERU
 	const HIROSHI
 	const ZEN
+	const ITACHI
+	const LEORIO
 
 	trainerclass MEDIUM ; 39
 	const MARTHA
@@ -652,6 +654,8 @@ DEF KRIS EQU __trainer_class__
 	const RIKA
 	const AKANE
 	const KAGOME
+	const YURIKO
+	const RIN
 
 	trainerclass BOARDER ; 3a
 	const RONALD
