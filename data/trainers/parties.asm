@@ -3335,6 +3335,21 @@ SageGroup:
 	db 57, XATU
 	db 58, GIRAFARIG
 	db -1 ; end
+
+	;SAGE (25)
+	db "BERN@", TRAINERTYPE_NORMAL
+	db 56, LEDIAN
+	db 56, ARIADOS
+	db 57, ARCANINE
+	db -1 ; end
+
+	; SAGE (26)
+	db "ODA@", TRAINERTYPE_NORMAL
+	db 55, NOCTOWL
+	db 56, XATU
+	db 55, GENGAR
+	db 56, XATU
+	db -1 ; end
 	
 MediumGroup:
 	; MEDIUM (1)
@@ -3623,6 +3638,20 @@ KimonoGirlGroup:
 	db 37, LEDIAN
 	db 38, ARIADOS
 	db 36, BUTTERFREE
+	db -1 ; end
+
+	; KIMONO_GIRL (14)
+	db "MAMI@", TRAINERTYPE_NORMAL
+	db 55, AMPHAROS
+	db 56, SUDOWOODO
+	db 57, BELLOSSOM
+	db -1 ; end
+
+	; KIMONO_GIRL (15)
+	db "HOMURA@", TRAINERTYPE_NORMAL
+	db 56, UMBREON
+	db 56, SNEASEL
+	db 57, HOUNDOOM
 	db -1 ; end
 
 TwinsGroup:

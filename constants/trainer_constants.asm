@@ -643,6 +643,8 @@ DEF KRIS EQU __trainer_class__
 	const ITACHI
 	const LEORIO
 	const ZUMI
+	const BERN
+	const ODA
 
 	trainerclass MEDIUM ; 39
 	const MARTHA
@@ -693,6 +695,8 @@ DEF KRIS EQU __trainer_class__
 	const CHIKO
 	const AOI
 	const AYA
+	const MAMI
+	const HOMURA
 
 	trainerclass TWINS ; 3d
 	const AMYANDMAY1

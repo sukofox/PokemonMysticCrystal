@@ -1,7 +1,5 @@
 	object_const_def
 	const ECRUTEAK_FOREST_SPRITES
-	const ECRUTEAK_FOREST_ULTRA_BALL
-	const ECRUTEAK_FOREST_FULL_HEAL
 	const ECRUTEAK_FOREST_GRANNY
 
 
@@ -73,12 +71,6 @@ EcruteakForestGrannyAllowText:
     line "proceed."
     done
 
-EcruteakForestUltraBall:
-	itemball ULTRA_BALL
-
-EcruteakForestFullHeal:
-	itemball FULL_HEAL
-
 EcruteakForest_MapEvents:
 	db 0, 0 ; filler
 
@@ -94,6 +86,4 @@ EcruteakForest_MapEvents:
 	def_bg_events
 
 	def_object_events
-	object_event  3, 36, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, EcruteakForestUltraBall, EVENT_ECRUTEAK_FOREST_ULTRA_BALL
-	object_event  2, 22, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, EcruteakForestFullHeal, EVENT_ECRUTEAK_FOREST_FULL_HEAL
 	object_event  9, 44, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EcruteakForestGrannyScript, -1

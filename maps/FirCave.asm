@@ -1,13 +1,10 @@
 object_const_def
-	const FIR_CAVE_FULL_RESTORE
+; none now
 
 FirCave_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
-
-FirCaveFullRestore:
-	itemball FULL_RESTORE
 
 FirCave_MapEvents:
 	db 0, 0 ; filler
@@ -21,4 +18,4 @@ FirCave_MapEvents:
 	def_bg_events
 
 	def_object_events
-	object_event  3, 14, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, FirCaveFullRestore, EVENT_FIR_CAVE_FULL_RESTORE
+	; none

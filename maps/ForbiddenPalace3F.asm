@@ -25,14 +25,15 @@ SageZumiScript:
 	loadtrainer SAGE, ZUMI
 	startbattle
 	reloadmapafterbattle
+	setevent EVENT_FORBIDDEN_PALACE_SAGE_BLOCK
+    clearevent EVENT_FORBIDDEN_PALACE_SAGE_MOVE 
+    disappear FORBIDDEN_PALACE_3F_SAGENPC      ; Manually hides the blocker
+    appear FORBIDDEN_PALACE_3F_SAGENPC2
 	opentext
 	writetext SageZumiAfterBattleText
-	promptbutton
-	setevent EVENT_BEAT_SAGE_ZUMI
 	waitbutton
 	closetext
-	setevent EVENT_FORBIDDEN_PALACE_SAGE_BLOCK
-	clearevent EVENT_FORBIDDEN_PALACE_SAGE_MOVE
+	setevent EVENT_BEAT_SAGE_ZUMI
 	end
 
 .BeatZumi:
