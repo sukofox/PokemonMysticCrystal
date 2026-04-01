@@ -3325,6 +3325,16 @@ SageGroup:
 	db 51, PERSIAN
 	db 50, ESPEON
 	db -1 ; end
+
+	;SAGE (24)
+	db "ZUMI@", TRAINERTYPE_NORMAL
+	db 55, ESPEON
+	db 54, UMBREON
+	db 55, BLISSEY
+	db 56, TOGETIC
+	db 57, XATU
+	db 58, GIRAFARIG
+	db -1 ; end
 	
 MediumGroup:
 	; MEDIUM (1)

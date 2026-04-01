@@ -642,6 +642,7 @@ DEF KRIS EQU __trainer_class__
 	const ZEN
 	const ITACHI
 	const LEORIO
+	const ZUMI
 
 	trainerclass MEDIUM ; 39
 	const MARTHA
