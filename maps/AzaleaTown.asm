@@ -464,8 +464,8 @@ AzaleaTown_MapEvents:
 	warp_event 31,  7, SLOWPOKE_WELL_B1F, 1
 	warp_event  2, 10, ILEX_FOREST_AZALEA_GATE, 3
 	warp_event  2, 11, ILEX_FOREST_AZALEA_GATE, 4
-	warp_event  4,  0, DEEP_WOODS, 1
-	warp_event  4,  1, DEEP_WOODS, 2
+	warp_event  6,  0, DEEP_WOODS, 1
+	warp_event  6,  1, DEEP_WOODS, 2
 
 	def_coord_events
 	coord_event  5, 10, SCENE_AZALEATOWN_RIVAL_BATTLE, AzaleaTownRivalBattleScene1

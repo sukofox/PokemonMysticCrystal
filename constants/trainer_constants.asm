@@ -350,6 +350,10 @@ DEF KRIS EQU __trainer_class__
 	const ARNIE4
 	const ARNIE5
 	const WAYNE
+	const LUIGI
+	const MARIO
+	const AMRIK
+	const ANTUAN
 
 	trainerclass FISHER ; 25
 	const JUSTIN

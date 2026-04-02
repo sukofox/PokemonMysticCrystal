@@ -1219,4 +1219,13 @@ ForbiddenPalace3F_Blocks:
 ForbiddenPalaceRoof_Blocks:
 	INCBIN "maps/ForbiddenPalaceRoof.blk"
 
+BugCatcherClub_Blocks:
+	INCBIN "maps/BugCatcherClub.blk"
+
+CactusDesertGate_Blocks:
+	INCBIN "maps/CactusDesertGate.blk"
+
+CactusDesert_Blocks:
+	INCBIN "maps/CactusDesert.blk"
+
 ENDSECTION

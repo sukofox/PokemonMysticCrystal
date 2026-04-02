@@ -372,3 +372,12 @@ INCLUDE "data/tilesets/johto_snow_collision.asm"
 TilesetJohtoSnowGFX::
 INCBIN "gfx/tilesets/johto_snow.2bpp.lz"
 
+TilesetJohtoDesertMeta::
+INCBIN "data/tilesets/johto_desert_metatiles.bin"
+
+TilesetJohtoDesertColl::
+INCLUDE "data/tilesets/johto_desert_collision.asm"
+
+TilesetJohtoDesertGFX::
+INCBIN "gfx/tilesets/johto_desert.2bpp.lz"
+

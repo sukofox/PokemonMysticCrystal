@@ -120,6 +120,9 @@ INCLUDE "gfx/tilesets/tower_custom_palette_map.asm"
 TilesetJohtoSnowPalMap:
 INCLUDE "gfx/tilesets/johto_snow_palette_map.asm"
 
+TilesetJohtoDesertPalMap:
+INCLUDE "gfx/tilesets/johto_desert_palette_map.asm"
+
 MapGroupPalettes: ; unreferenced
 ; entries correspond to MAPGROUP_* constants
 rept NUM_MAP_GROUPS

@@ -757,4 +757,7 @@ ENDM
 	map_attributes ForbiddenPalaceRoom6, FORBIDDEN_PALACE_ROOM_6, $00, 0
 	map_attributes ForbiddenPalace3F, FORBIDDEN_PALACE_3F, $00, 0
 	map_attributes ForbiddenPalaceRoof, FORBIDDEN_PALACE_ROOF, $00, 0
+	map_attributes BugCatcherClub, BUG_CATCHER_CLUB, $00, 0
+	map_attributes CactusDesertGate, CACTUS_DESERT_GATE, $00, 0
+	map_attributes CactusDesert, CACTUS_DESERT, $14, 0
 	

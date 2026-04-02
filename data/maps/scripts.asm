@@ -539,5 +539,8 @@ INCLUDE "maps/ForbiddenPalaceRoom5.asm"
 INCLUDE "maps/ForbiddenPalaceRoom6.asm"
 INCLUDE "maps/ForbiddenPalace3F.asm"
 INCLUDE "maps/ForbiddenPalaceRoof.asm"
+INCLUDE "maps/BugCatcherClub.asm"
+INCLUDE "maps/CactusDesertGate.asm"
+INCLUDE "maps/CactusDesert.asm"
 
 ENDSECTION

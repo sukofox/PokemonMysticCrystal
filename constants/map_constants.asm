@@ -586,5 +586,13 @@ ENDM
 	map_const FORBIDDEN_PALACE_ROOF,						 9, 13;  18
 	endgroup
 
+	newgroup BUG_CATCHER_CLUB										;37
+	map_const BUG_CATCHER_CLUB, 							12,  8;   1
+	endgroup
 
-DEF NUM_MAP_GROUPS EQU const_value ; 36
+	newgroup CACTUS_DESERT											;38
+	map_const CACTUS_DESERT_GATE,							 3,  4;   1
+	map_const CACTUS_DESERT,								12, 30;   2
+	endgroup
+
+DEF NUM_MAP_GROUPS EQU const_value ; 38

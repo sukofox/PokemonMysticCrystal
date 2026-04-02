@@ -1644,6 +1644,35 @@ BugCatcherGroup:
 	db 16, PARAS
 	db -1 ; end
 
+	; BUG_CATCHER (20)
+	db "LUIGI@", TRAINERTYPE_NORMAL
+	db 16, LEDYBA
+	db 17, SPINARAK
+	db 16, PINECO
+	db -1 ; end
+
+	; BUG_CATCHER (21)
+	db "MARIO@", TRAINERTYPE_NORMAL
+	db 16, BUTTERFREE
+	db 17, PARAS
+	db 17, BEEDRILL
+	db 17, VENONAT
+	db -1 ; end
+
+	; BUG_CATCHER (21)
+	db "AMRIK@", TRAINERTYPE_NORMAL
+	db 16, KAKUNA
+	db 16, METAPOD
+	db 17, PINECO
+	db -1 ; end
+
+	; BUG_CATCHER (22)
+	db "ANTUAN@", TRAINERTYPE_NORMAL
+	db 17, KAKUNA
+	db 17, BEEDRILL
+	db 18, PARAS
+	db -1 ; end
+
 FisherGroup:
 	; FISHER (1)
 	db "JUSTIN@", TRAINERTYPE_NORMAL

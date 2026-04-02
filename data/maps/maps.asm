@@ -53,6 +53,8 @@ MapGroupPointers::
 	dw MapGroup_DeepWoods ; 34
 	dw MapGroup_PineTown ; 35
 	dw MapGroup_GoldenPavilion ; 36
+	dw MapGroup_BugCatcherClub ; 37
+	dw MapGroup_CactusDesert ; 38
 	assert_table_length NUM_MAP_GROUPS
 
 MapGroup_Olivine:
@@ -641,4 +643,14 @@ MapGroup_GoldenPavilion:
 	map ForbiddenPalaceRoof, TILESET_TOWER_CUSTOM, DUNGEON, LANDMARK_GOLDEN_PAVILION, MUSIC_NONE, FALSE, PALETTE_AUTO, FISHGROUP_NONE
 	assert_table_length NUM_GOLDEN_PAVILION_MAPS
 
+MapGroup_BugCatcherClub:
+	table_width MAP_LENGTH, MapGroup_BugCatcherClub
+	map BugCatcherClub, TILESET_TOWER, INDOOR, LANDMARK_ILEX_FOREST, MUSIC_AZALEA_TOWN, FALSE, PALETTE_DAY, FISHGROUP_NONE
+	assert_table_length NUM_BUG_CATCHER_CLUB_MAPS
+
+MapGroup_CactusDesert:
+	table_width MAP_LENGTH, MapGroup_CactusDesert
+	map CactusDesertGate, TILESET_GATE, INDOOR, LANDMARK_ROUTE_39, MUSIC_ROUTE_37, FALSE, PALETTE_DAY, FISHGROUP_NONE
+	map CactusDesert, TILESET_JOHTO_DESERT, ROUTE, LANDMARK_CACTUS_DESERT, MUSIC_UNION_CAVE, FALSE, PALETTE_AUTO, FISHGROUP_NONE
+	assert_table_length NUM_CACTUS_DESERT_MAPS
 

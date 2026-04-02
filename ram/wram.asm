@@ -3148,7 +3148,7 @@ wKenjiFightCount::   db ; unreferenced
 wParryFightCount::   db
 wErinFightCount::    db
 
-	ds 100
+	ds 32 ; was previously 100. Reduced to 32 as of April 1 2026 to add more events.
 
 wEventFlags:: flag_array NUM_EVENTS
 

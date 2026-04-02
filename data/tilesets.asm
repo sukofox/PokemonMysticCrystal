@@ -54,4 +54,5 @@ Tilesets::
 	tileset TilesetJohtoAlt
 	tileset TilesetTowerCustom
 	tileset TilesetJohtoSnow
+	tileset TilesetJohtoDesert
 	assert_table_length NUM_TILESETS + 1

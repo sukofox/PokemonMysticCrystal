@@ -145,3 +145,11 @@
 ; group 36 (Golden Pavilion)
 	RGB 20,31,14, 11,23,05 ; morn/day
 	RGB 09,13,08, 06,09,04 ; nite
+
+; group 37 (Bug Catcher Club)
+	RGB 12,19,00, 06,10,00 ; morn/day
+	RGB 06,09,07, 04,05,06 ; nite
+
+; group 35 (Cactus Desert)
+	RGB 12,19,00, 06,10,00 ; morn/day
+	RGB 06,09,07, 04,05,06 ; nite
