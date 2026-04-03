@@ -311,6 +311,7 @@ ROMX $79
 	"Trainer Backpics"
 ROMX $7b
 	"Battle Tower Text"
+	"Tileset Data 9"
 ROMX $7c
 	"Battle Tower Trainer Data"
 ROMX $7d

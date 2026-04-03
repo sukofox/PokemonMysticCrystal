@@ -363,6 +363,8 @@ INCLUDE "data/tilesets/tower_custom_collision.asm"
 TilesetTowerCustomGFX::
 INCBIN "gfx/tilesets/tower_custom.2bpp.lz"
 
+SECTION "Tileset Data 9", ROMX
+
 TilesetJohtoSnowMeta::
 INCBIN "data/tilesets/johto_snow_metatiles.bin"
 

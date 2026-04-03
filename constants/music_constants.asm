@@ -106,6 +106,7 @@
 	const MUSIC_BATTLE_TOWER_LOBBY           ; 65
 	const MUSIC_MOBILE_CENTER                ; 66
 	const MUSIC_FROST_CAVERN_XY	             ; 67
+	const MUSIC_POKEDEX						 ; 68
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for this value (see home/map.asm)

@@ -593,6 +593,8 @@ ENDM
 	newgroup CACTUS_DESERT											;38
 	map_const CACTUS_DESERT_GATE,							 3,  4;   1
 	map_const CACTUS_DESERT,								12, 30;   2
+	map_const DESERT_SAGUARO_TOWN_GATE,					     5,  5;   3
+	map_const SAGUARO_CITY,									17, 12;   4
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 38

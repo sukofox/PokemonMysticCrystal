@@ -1,5 +1,5 @@
 object_const_def
-	const CACTUSGATEGATE_OFFICER
+	const CACTUSGATE_OFFICER
 
 CactusDesertGate_MapScripts:
 	def_scene_scripts

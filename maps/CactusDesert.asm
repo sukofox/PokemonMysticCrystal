@@ -13,6 +13,8 @@ CactusDesert_MapEvents:
 	def_warp_events
 	warp_event  8, 55, CACTUS_DESERT_GATE, 3
 	warp_event  9, 55, CACTUS_DESERT_GATE, 4
+    warp_event 18,  3, DESERT_SAGUARO_TOWN_GATE, 1
+    warp_event 19,  3, DESERT_SAGUARO_TOWN_GATE, 2
 
 	def_coord_events
 

@@ -760,4 +760,6 @@ ENDM
 	map_attributes BugCatcherClub, BUG_CATCHER_CLUB, $00, 0
 	map_attributes CactusDesertGate, CACTUS_DESERT_GATE, $00, 0
 	map_attributes CactusDesert, CACTUS_DESERT, $14, 0
+	map_attributes DesertSaguaroTownGate, DESERT_SAGUARO_TOWN_GATE, $00, 0
+	map_attributes SaguaroCity, SAGUARO_CITY, $14, 0
 	

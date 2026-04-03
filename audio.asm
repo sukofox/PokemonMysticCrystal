@@ -137,6 +137,7 @@ INCLUDE "audio/music/battletowertheme.asm"
 INCLUDE "audio/music/suicunebattle.asm"
 INCLUDE "audio/music/battletowerlobby.asm"
 INCLUDE "audio/music/mobilecenter.asm"
+INCLUDE "audio/music/pokedexmusic.asm"
 
 
 SECTION "Extra Songs 1", ROMX

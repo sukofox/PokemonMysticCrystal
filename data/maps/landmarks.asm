@@ -47,6 +47,7 @@ Landmarks:
 	landmark  52,  44, Route38Name
 	landmark  36,  48, Route39Name
 	landmark  36,  42, CactusDesertName
+	landmark  36,  28, SaguaroCityName
 	landmark  36,  60, OlivineCityName
 	landmark  38,  62, LighthouseName
 	landmark  28,  56, BattleTowerName
@@ -244,3 +245,4 @@ OldEcruteakName:     db "OLD<BSP>ECRUTEAK@"
 GoldenWoodsName:	 db "GOLDEN<BSP>WOODS@"
 GoldenPavilionName:  db "GOLDEN<BSP>PAVILION@"
 CactusDesertName:    db "CACTUS<BSP>DESERT@"
+SaguaroCityName:     db "SAGUARO<BSP>CITY@"

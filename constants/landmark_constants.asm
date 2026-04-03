@@ -42,6 +42,7 @@ DEF JOHTO_LANDMARK EQU const_value
 	const LANDMARK_ROUTE_38          ; 19
 	const LANDMARK_ROUTE_39          ; 1a
 	const LANDMARK_CACTUS_DESERT
+	const LANDMARK_SAGUARO_CITY
 	const LANDMARK_OLIVINE_CITY      ; 1b
 	const LANDMARK_LIGHTHOUSE        ; 1c
 	const LANDMARK_BATTLE_TOWER      ; 1d

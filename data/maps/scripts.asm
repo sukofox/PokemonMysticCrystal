@@ -542,5 +542,7 @@ INCLUDE "maps/ForbiddenPalaceRoof.asm"
 INCLUDE "maps/BugCatcherClub.asm"
 INCLUDE "maps/CactusDesertGate.asm"
 INCLUDE "maps/CactusDesert.asm"
+INCLUDE "maps/DesertSaguaroTownGate.asm"
+INCLUDE "maps/SaguaroCity.asm"
 
 ENDSECTION

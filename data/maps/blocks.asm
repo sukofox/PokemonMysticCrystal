@@ -1228,4 +1228,10 @@ CactusDesertGate_Blocks:
 CactusDesert_Blocks:
 	INCBIN "maps/CactusDesert.blk"
 
+DesertSaguaroTownGate_Blocks:
+	INCBIN "maps/DesertSaguaroTownGate.blk"
+
+SaguaroCity_Blocks:
+	INCBIN "maps/SaguaroCity.blk"
+
 ENDSECTION

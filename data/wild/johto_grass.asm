@@ -2757,5 +2757,36 @@ def_grass_wildmons FORBIDDEN_PALACE_ROOM_2
 	db 53, MURKROW
 	end_grass_wildmons
 
+	def_grass_wildmons CACTUS_DESERT
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 29, SANDSHREW
+	db 30, SANDSHREW
+	db 31, SANDSLASH
+	db 30, DIGLETT
+	db 29, DIGLETT
+	db 29, PIDGEOTTO
+	db 28, LARVITAR
+
+    ; day
+    db 29, SANDSHREW
+	db 30, SANDSHREW
+	db 31, SANDSLASH
+	db 30, DIGLETT
+	db 29, DIGLETT
+	db 29, PIDGEOTTO
+	db 28, LARVITAR
+
+    ; night
+   	db 29, SANDSHREW
+	db 30, SANDSHREW
+	db 31, NOCTOWL
+	db 30, DIGLETT
+	db 29, HOOTHOOT
+	db 29, MURKROW
+	db 28, LARVITAR
+	end_grass_wildmons
+
 	db -1 ; end
 
