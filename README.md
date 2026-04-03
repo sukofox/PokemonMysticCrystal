@@ -7,6 +7,8 @@ This is a hack of Pokémon Crystal based on the pokecrystal disassembly from pre
 In this hack, you will see an expanded/modified Johto, with a focus on the more traditional aspects of the region.
 So if you are a sucker for traditional buildings, pagodas, shrines, and forests, this is your hack.
 
+Join the Discord for updates and more information: https://discord.gg/mr7XmBzE
+
 Features: 
 1. There are new areas/cities (more are currently being added).
 2. You can rematch gym leaders as many times as you want. Just speak to them right after winning (currently you can re-battle up to Pryce).
@@ -28,8 +30,6 @@ CREDITS:
 5. Thanks to French Orange for providing tilesets of all kinds. Here is the DA page: https://www.deviantart.com/frenchorange/art/Pokemon-Gold-and-Silver-SW97-Tileset-948665568
 6. If I missed someone else, please let me know.
 
-
-The following links are associated with pret only, not my hack per se: You can find pret on Discord (pret, #pokecrystal).
 
 The following links are associated with pret only, not my hack per se:
 You can find pret on [Discord (pret, #pokecrystal)](https://discord.gg/d5dubZ3).
