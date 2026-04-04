@@ -1234,4 +1234,32 @@ DesertSaguaroTownGate_Blocks:
 SaguaroCity_Blocks:
 	INCBIN "maps/SaguaroCity.blk"
 
+SaguaroShrine_Blocks:
+	INCBIN "maps/SaguaroShrine.blk"
+
+SaguaroNPCHouse_Blocks:
+	INCBIN "maps/SaguaroNPCHouse.blk"
+
+SaguaroCityDorms_Blocks:
+	INCBIN "maps/SaguaroCityDorms.blk"
+
+SaguaroPokeCenter_Blocks:
+	INCBIN "maps/SaguaroPokeCenter.blk"
+
+ArcheologyCenter1F_Blocks:
+	INCBIN "maps/ArcheologyCenter1F.blk"
+
+ArcheologyCenter2F_Blocks:
+	INCBIN "maps/ArcheologyCenter2F.blk"
+
+ArcheologyCenter3F_Blocks:
+	INCBIN "maps/ArcheologyCenter3F.blk"
+
+SaguaroNijohRuinsGate_Blocks:
+	INCBIN "maps/SaguaroNijohRuinsGate.blk"
+
+NijohRuins_Blocks:
+	INCBIN "maps/NijohRuins.blk"
+
+
 ENDSECTION

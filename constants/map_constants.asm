@@ -594,7 +594,16 @@ ENDM
 	map_const CACTUS_DESERT_GATE,							 3,  4;   1
 	map_const CACTUS_DESERT,								12, 30;   2
 	map_const DESERT_SAGUARO_TOWN_GATE,					     5,  5;   3
-	map_const SAGUARO_CITY,									17, 12;   4
+	map_const SAGUARO_SHRINE,								10,  7;   4
+	map_const SAGUARO_NPC_HOUSE,							 5,  4;   5
+	map_const SAGUARO_CITY_DORMS,						    14,  4;   6
+	map_const SAGUARO_POKE_CENTER, 							 5,  4;   7
+	map_const ARCHEOLOGY_CENTER_1F,							10, 10;   8
+	map_const ARCHEOLOGY_CENTER_2F,						    10,  9;   9
+	map_const ARCHEOLOGY_CENTER_3F,							10,  9;  10
+	map_const SAGUARO_NIJOH_RUINS_GATE,                      6,  4;  11
+	map_const NIJOH_RUINS,								    14, 16;  12         
+	map_const SAGUARO_CITY,									17, 12;   
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 38

@@ -762,4 +762,13 @@ ENDM
 	map_attributes CactusDesert, CACTUS_DESERT, $14, 0
 	map_attributes DesertSaguaroTownGate, DESERT_SAGUARO_TOWN_GATE, $00, 0
 	map_attributes SaguaroCity, SAGUARO_CITY, $14, 0
+	map_attributes SaguaroShrine, SAGUARO_SHRINE, $00, 0
+	map_attributes SaguaroNPCHouse, SAGUARO_NPC_HOUSE, $00, 0
+	map_attributes SaguaroCityDorms, SAGUARO_CITY_DORMS, $00, 0
+	map_attributes SaguaroPokeCenter, SAGUARO_POKE_CENTER, $00, 0
+	map_attributes ArcheologyCenter1F, ARCHEOLOGY_CENTER_1F, $00, 0
+	map_attributes ArcheologyCenter2F, ARCHEOLOGY_CENTER_2F, $00, 0
+	map_attributes ArcheologyCenter3F, ARCHEOLOGY_CENTER_3F, $00, 0
+	map_attributes SaguaroNijohRuinsGate, SAGUARO_NIJOH_RUINS_GATE, $00, 0
+	map_attributes NijohRuins, NIJOH_RUINS, $14, 0
 	
