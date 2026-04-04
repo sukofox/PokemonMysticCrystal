@@ -1261,5 +1261,20 @@ SaguaroNijohRuinsGate_Blocks:
 NijohRuins_Blocks:
 	INCBIN "maps/NijohRuins.blk"
 
+NijohRuinsInterior1F_Blocks:
+	INCBIN "maps/NijohRuinsInterior1F.blk"
+
+NijohRuinsInterior2BF_Blocks:
+	INCBIN "maps/NijohRuinsInterior2BF.blk"
+
+NijohRuinsInnerRoom_Blocks:
+	INCBIN "maps/NijohRuinsInnerRoom.blk"
+
+NijohSeasideTrailGate_Blocks:
+	INCBIN "maps/NijohSeasideTrailGate.blk"
+
+SeasideTrail_Blocks:
+	INCBIN "maps/SeasideTrail.blk"
+
 
 ENDSECTION

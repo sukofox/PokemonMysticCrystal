@@ -602,7 +602,12 @@ ENDM
 	map_const ARCHEOLOGY_CENTER_2F,						    10,  9;   9
 	map_const ARCHEOLOGY_CENTER_3F,							10,  9;  10
 	map_const SAGUARO_NIJOH_RUINS_GATE,                      6,  4;  11
-	map_const NIJOH_RUINS,								    14, 16;  12         
+	map_const NIJOH_RUINS,								    14, 16;  12
+	map_const NIJOH_RUINS_INTERIOR_1F,						 8,  8;  13
+	map_const NIJOH_RUINS_INTERIOR_2BF,						16, 16;  14
+	map_const NIJOH_RUINS_INNER_ROOM,						 4, 10;  15
+	map_const NIJOH_SEASIDE_TRAIL_GATE,						 5,  6;  16
+	map_const SEASIDE_TRAIL,							    14, 40;  17         
 	map_const SAGUARO_CITY,									17, 12;   
 	endgroup
 

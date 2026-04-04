@@ -553,5 +553,10 @@ INCLUDE "maps/ArcheologyCenter2F.asm"
 INCLUDE "maps/ArcheologyCenter3F.asm"
 INCLUDE "maps/SaguaroNijohRuinsGate.asm"
 INCLUDE "maps/NijohRuins.asm"
+INCLUDE "maps/NijohRuinsInterior1F.asm"
+INCLUDE "maps/NijohRuinsInterior2BF.asm"
+INCLUDE "maps/NijohRuinsInnerRoom.asm"
+INCLUDE "maps/NijohSeasideTrailGate.asm"
+INCLUDE "maps/SeasideTrail.asm"
 
 ENDSECTION

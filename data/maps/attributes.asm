@@ -771,4 +771,9 @@ ENDM
 	map_attributes ArcheologyCenter3F, ARCHEOLOGY_CENTER_3F, $00, 0
 	map_attributes SaguaroNijohRuinsGate, SAGUARO_NIJOH_RUINS_GATE, $00, 0
 	map_attributes NijohRuins, NIJOH_RUINS, $14, 0
+	map_attributes NijohRuinsInterior1F, NIJOH_RUINS_INTERIOR_1F, $09, 0
+	map_attributes NijohRuinsInterior2BF, NIJOH_RUINS_INTERIOR_2BF, $00, 0
+	map_attributes NijohRuinsInnerRoom, NIJOH_RUINS_INNER_ROOM, $00, 0
+	map_attributes NijohSeasideTrailGate, NIJOH_SEASIDE_TRAIL_GATE, $00, 0
+	map_attributes SeasideTrail, SEASIDE_TRAIL, $05, 0
 	
