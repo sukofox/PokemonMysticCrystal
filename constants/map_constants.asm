@@ -607,7 +607,9 @@ ENDM
 	map_const NIJOH_RUINS_INTERIOR_2BF,						16, 16;  14
 	map_const NIJOH_RUINS_INNER_ROOM,						 4, 10;  15
 	map_const NIJOH_SEASIDE_TRAIL_GATE,						 5,  6;  16
-	map_const SEASIDE_TRAIL,							    14, 40;  17         
+	map_const SEASIDE_TRAIL,							    14, 40;  17  
+	map_const NIJOH_WOODS_GATE,								 5,  6;  18
+	map_const NIJOH_WOODS,									15, 40;  19       
 	map_const SAGUARO_CITY,									17, 12;   
 	endgroup
 

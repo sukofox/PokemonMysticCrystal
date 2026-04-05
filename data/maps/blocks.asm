@@ -1276,5 +1276,10 @@ NijohSeasideTrailGate_Blocks:
 SeasideTrail_Blocks:
 	INCBIN "maps/SeasideTrail.blk"
 
+NijohWoodsGate_Blocks:
+	INCBIN "maps/NijohWoodsGate.blk"
+
+NijohWoods_Blocks:
+	INCBIN "maps/NijohWoods.blk"
 
 ENDSECTION

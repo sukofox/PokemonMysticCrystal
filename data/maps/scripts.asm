@@ -558,5 +558,7 @@ INCLUDE "maps/NijohRuinsInterior2BF.asm"
 INCLUDE "maps/NijohRuinsInnerRoom.asm"
 INCLUDE "maps/NijohSeasideTrailGate.asm"
 INCLUDE "maps/SeasideTrail.asm"
+INCLUDE "maps/NijohWoodsGate.asm"
+INCLUDE "maps/NijohWoods.asm"
 
 ENDSECTION

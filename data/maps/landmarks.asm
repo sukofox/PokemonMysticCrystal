@@ -50,6 +50,7 @@ Landmarks:
 	landmark  36,  28, SaguaroCityName
 	landmark  28,  28, NijohRuinsName
 	landmark  16,  42, SeasideTrailName
+	landmark  16,  76, NijohWoodsName
 	landmark  36,  60, OlivineCityName
 	landmark  38,  62, LighthouseName
 	landmark  28,  56, BattleTowerName
@@ -250,3 +251,4 @@ CactusDesertName:    db "CACTUS<BSP>DESERT@"
 SaguaroCityName:     db "SAGUARO<BSP>CITY@"
 NijohRuinsName:      db "NIJOH<BSP>RUINS@"
 SeasideTrailName:    db "SEASIDE<BSP>TRAIL@"
+NijohWoodsName:	     db "NIJOH<BSP>WOODS@"

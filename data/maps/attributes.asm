@@ -776,4 +776,6 @@ ENDM
 	map_attributes NijohRuinsInnerRoom, NIJOH_RUINS_INNER_ROOM, $00, 0
 	map_attributes NijohSeasideTrailGate, NIJOH_SEASIDE_TRAIL_GATE, $00, 0
 	map_attributes SeasideTrail, SEASIDE_TRAIL, $05, 0
+	map_attributes NijohWoodsGate, NIJOH_WOODS_GATE, $00, 0
+	map_attributes NijohWoods, NIJOH_WOODS, $05, 0
 	
