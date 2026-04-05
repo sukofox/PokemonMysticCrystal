@@ -778,4 +778,7 @@ ENDM
 	map_attributes SeasideTrail, SEASIDE_TRAIL, $05, 0
 	map_attributes NijohWoodsGate, NIJOH_WOODS_GATE, $00, 0
 	map_attributes NijohWoods, NIJOH_WOODS, $05, 0
+	map_attributes FisherClub1F, FISHER_CLUB_1F, $00, 0
+	map_attributes FisherClub2F, FISHER_CLUB_2F, $00, 0
+	map_attributes CianwoodGate, CIANWOOD_GATE, $00, 0
 	

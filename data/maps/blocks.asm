@@ -1282,4 +1282,13 @@ NijohWoodsGate_Blocks:
 NijohWoods_Blocks:
 	INCBIN "maps/NijohWoods.blk"
 
+FisherClub1F_Blocks:
+	INCBIN "maps/FisherClub1F.blk"
+
+FisherClub2F_Blocks:
+	INCBIN "maps/FisherClub2F.blk"
+
+CianwoodGate_Blocks:
+	INCBIN "maps/CianwoodGate.blk"
+
 ENDSECTION

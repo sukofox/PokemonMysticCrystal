@@ -307,6 +307,7 @@ TilesetJohtoDesertAnim:
 	dw NULL,  DoneTileAnimation
 
 
+TilesetFisherHouseAnim:
 TilesetJohtoAltAnim:
 TilesetBattleTowerOutsideAnim:
 TilesetHouseAnim:

@@ -383,3 +383,12 @@ INCLUDE "data/tilesets/johto_desert_collision.asm"
 TilesetJohtoDesertGFX::
 INCBIN "gfx/tilesets/johto_desert.2bpp.lz"
 
+TilesetFisherHouseMeta::
+INCBIN "data/tilesets/fisher_house_metatiles.bin"
+
+TilesetFisherHouseColl::
+INCLUDE "data/tilesets/fisher_house_collision.asm"
+
+TilesetFisherHouseGFX::
+INCBIN "gfx/tilesets/fisher_house.2bpp.lz"
+

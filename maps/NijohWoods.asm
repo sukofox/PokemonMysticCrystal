@@ -12,9 +12,9 @@ NijohWoods_MapEvents:
 
 	def_warp_events
 	warp_event 23,  3, NIJOH_WOODS_GATE, 3
-	;warp_event  5,  0, FISHER_CLUB, 1
-	;warp_event  4, 11, CIANWOOD_GATE, 1
-	;warp_event  5, 11, CIANWOOD_GATE, 2
+	warp_event 13, 73, FISHER_CLUB_1F, 1
+	warp_event 23, 76, CIANWOOD_GATE, 1
+	warp_event 23, 77, CIANWOOD_GATE, 2
 
 	def_coord_events
 

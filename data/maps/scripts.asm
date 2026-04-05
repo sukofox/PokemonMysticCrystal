@@ -560,5 +560,8 @@ INCLUDE "maps/NijohSeasideTrailGate.asm"
 INCLUDE "maps/SeasideTrail.asm"
 INCLUDE "maps/NijohWoodsGate.asm"
 INCLUDE "maps/NijohWoods.asm"
+INCLUDE "maps/FisherClub1F.asm"
+INCLUDE "maps/FisherClub2F.asm"
+INCLUDE "maps/CianwoodGate.asm"
 
 ENDSECTION

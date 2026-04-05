@@ -41,6 +41,7 @@
 	const TILESET_TOWER_CUSTOM         ; 27
 	const TILESET_JOHTO_SNOW		   ; 28
 	const TILESET_JOHTO_DESERT		   ; 30
+	const TILESET_FISHER_HOUSE		   ; 31
 DEF NUM_TILESETS EQU const_value - 1
 
 ; wTileset struct size

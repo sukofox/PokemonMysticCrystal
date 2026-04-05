@@ -609,8 +609,11 @@ ENDM
 	map_const NIJOH_SEASIDE_TRAIL_GATE,						 5,  6;  16
 	map_const SEASIDE_TRAIL,							    14, 40;  17  
 	map_const NIJOH_WOODS_GATE,								 5,  6;  18
-	map_const NIJOH_WOODS,									15, 40;  19       
-	map_const SAGUARO_CITY,									17, 12;   
+	map_const NIJOH_WOODS,									15, 40;  19
+	map_const FISHER_CLUB_1F,								10,  8;  20
+	map_const FISHER_CLUB_2F,								10,  8;  21
+	map_const CIANWOOD_GATE,								 6,  5;  22
+	map_const SAGUARO_CITY,									17, 12;  23 
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 38
