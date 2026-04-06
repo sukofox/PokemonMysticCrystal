@@ -425,6 +425,13 @@ YoungsterGroup:
 	db 47, RATICATE,   HYPER_BEAM, QUICK_ATTACK, HYPER_FANG, PURSUIT
 	db -1 ; end
 
+	; YOUNGSTER (15)
+	db "SIGMUND@", TRAINERTYPE_NORMAL
+	db 26, QUAGSIRE
+	db 27, HOOTHOOT
+	db 26, WEEPINBELL
+	db -1 ; end
+
 SchoolboyGroup:
 	; SCHOOLBOY (1)
 	db "JACK@", TRAINERTYPE_NORMAL
@@ -960,6 +967,13 @@ CooltrainerMGroup:
 	db 50, PUPITAR
 	db -1 ; end
 
+	;COOLTRAINERM (22)
+	db "ARLO@", TRAINERTYPE_NORMAL
+	db 27, CHARMELEON
+	db 26, WARTORTLE
+	db 27, IVYSAUR
+	db -1 ; end
+
 CooltrainerFGroup:
 	; COOLTRAINERF (1)
 	db "GWEN@", TRAINERTYPE_NORMAL
@@ -1089,6 +1103,13 @@ CooltrainerFGroup:
 	db 43, HORSEA,     SMOKESCREEN, LEER, WHIRLPOOL, TWISTER
 	db 43, SEADRA,     SMOKESCREEN, LEER, WHIRLPOOL, TWISTER
 	db 45, KINGDRA,    SWIFT, LEER, WATERFALL, TWISTER
+	db -1 ; end
+
+	; COOLTRAINERF (22)
+	db "KARIN@", TRAINERTYPE_NORMAL
+	db 26, BAYLEEF
+	db 28, QUILAVA
+	db 27, CROCONAW
 	db -1 ; end
 
 BeautyGroup:
@@ -2472,6 +2493,28 @@ HikerGroup:
 	db 34, MACHOKE,    KARATE_CHOP, VITAL_THROW, HEADBUTT, DIG
 	db -1 ; end
 
+	; HIKER (23)
+	db "GAGAN@", TRAINERTYPE_NORMAL
+	db 30, SANDSLASH
+	db 28, GRAVELER
+	db 28, GOLBAT
+	db -1 ; end
+
+	; HIKER (24)
+	db "MILAN@", TRAINERTYPE_NORMAL
+	db 28, MACHOKE
+	db 29, GRAVELER
+	db 28, ONIX
+	db -1 ; end
+
+	; HIKER (25)
+	db "JARVIS@", TRAINERTYPE_NORMAL
+	db 28, GRAVELER
+	db 25, DUGTRIO
+	db 30, SANDSLASH
+	db 30, ONIX
+	db -1 ; end
+	
 BikerGroup:
 	; BIKER (1)
 	db "BENNY@", TRAINERTYPE_NORMAL

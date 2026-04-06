@@ -125,6 +125,7 @@ DEF KRIS EQU __trainer_class__
 	const JASON
 	const JOEY4
 	const JOEY5
+	const SIGMUND
 
 	trainerclass SCHOOLBOY ; 17
 	const JACK1
@@ -218,6 +219,7 @@ DEF KRIS EQU __trainer_class__
 	const ALLEN
 	const DARIN
 	const GERMAN
+	const ARLO
 
 	trainerclass COOLTRAINERF ; 1c
 	const GWEN
@@ -241,6 +243,7 @@ DEF KRIS EQU __trainer_class__
 	const REENA2
 	const REENA3
 	const CARA
+	const KARIN
 
 	trainerclass BEAUTY ; 1d
 	const VICTORIA
@@ -492,6 +495,9 @@ DEF KRIS EQU __trainer_class__
 	const PARRY3
 	const ANTHONY4
 	const ANTHONY5
+	const GAGAN
+	const MILAN
+	const JARVIS
 
 	trainerclass BIKER ; 2d
 	const BIKER_BENNY ; unused

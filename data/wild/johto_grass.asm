@@ -1908,12 +1908,12 @@ JohtoGrassWildMons:
 	db 50, GENGAR
 	end_grass_wildmons
 
-; Fir Island Wild Pokemon
+	; Fir Island Wild Pokemon
 
-def_grass_wildmons FIR_ISLAND
-db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	def_grass_wildmons FIR_ISLAND
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 
-; morning
+	; morning
     db 40, KRABBY
 	db 40, KRABBY
 	db 40, KINGLER
@@ -1941,12 +1941,12 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 42, HAUNTER
 	end_grass_wildmons
 
-; Fir Cave Wild Pokemon
+	; Fir Cave Wild Pokemon
 
-def_grass_wildmons FIR_CAVE
-db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	def_grass_wildmons FIR_CAVE
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 
-; morning
+	; morning
     db 40, ZUBAT
 	db 41, ZUBAT
 	db 40, GOLBAT
@@ -1974,12 +1974,12 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 40, TEDDIURSA
 	end_grass_wildmons
 
-; Reforged Tower 2F Wild Pokemon
+	; Reforged Tower 2F Wild Pokemon
 
-def_grass_wildmons REFORGED_TOWER_2F
-db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	def_grass_wildmons REFORGED_TOWER_2F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 
-; morning
+	; morning
     db 40, RATTATA
 	db 41, RATTATA
 	db 40, RATICATE
@@ -2007,12 +2007,12 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 40, HAUNTER
 	end_grass_wildmons
 
-; Reforged Tower 3F Wild Pokemon
+	; Reforged Tower 3F Wild Pokemon
 
-def_grass_wildmons REFORGED_TOWER_3F
-db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	def_grass_wildmons REFORGED_TOWER_3F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 
-; morning
+	; morning
     db 40, RATTATA
 	db 41, RATTATA
 	db 40, RATICATE
@@ -2040,12 +2040,12 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 40, HAUNTER
 	end_grass_wildmons
 
-; Reforged Tower 4F Wild Pokemon
+	; Reforged Tower 4F Wild Pokemon
 
-def_grass_wildmons REFORGED_TOWER_4F
-db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	def_grass_wildmons REFORGED_TOWER_4F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 
-; morning
+	; morning
     db 40, RATTATA
 	db 41, RATTATA
 	db 40, RATICATE
@@ -2073,12 +2073,12 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 40, HAUNTER
 	end_grass_wildmons
 
-; Reforged Tower 5F Wild Pokemon
+	; Reforged Tower 5F Wild Pokemon
 
-def_grass_wildmons REFORGED_TOWER_5F
-db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	def_grass_wildmons REFORGED_TOWER_5F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 
-; morning
+	; morning
     db 40, RATTATA
 	db 41, RATTATA
 	db 40, RATICATE
@@ -2105,6 +2105,8 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 41, RATICATE
 	db 40, HAUNTER
 	end_grass_wildmons
+
+	; Deep Woods Wild Pokemon
 
 	def_grass_wildmons DEEP_WOODS
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -2137,6 +2139,8 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 15, ARIADOS
 	end_grass_wildmons
 
+	; Pagoda of time wild pokemon
+
 	def_grass_wildmons PAGODA_OF_TIME
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 
@@ -2167,6 +2171,8 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 13, ODDISH
 	db 15, ARIADOS
 	end_grass_wildmons
+
+	; Ancient tunnel wild pokemon
 
 	def_grass_wildmons ANCIENT_TUNNEL_2F
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -2199,6 +2205,8 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 15, GASTLY
 	end_grass_wildmons
 
+	; dark cave pine entrance wild pokemon
+
 	def_grass_wildmons DARK_CAVE_PINE_ENTRANCE1
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 
@@ -2229,6 +2237,8 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 23, WOBBUFFET
 	db 25, TEDDIURSA
 	end_grass_wildmons
+
+	; dark cave pine exit wild pokemon
 
 	def_grass_wildmons DARK_CAVE_PINE_EXIT
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -2261,6 +2271,8 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 25, TEDDIURSA
 	end_grass_wildmons
 
+	; old ecruteak wild pokemon
+
 	def_grass_wildmons OLD_ECRUTEAK
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 
@@ -2291,6 +2303,8 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 45, MISDREAVUS
 	db 46, GENGAR
 	end_grass_wildmons
+
+	; Old Ecruteak abandoned house A wild pokemon
 
 	def_grass_wildmons ABANDONED_HOUSE_A
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -2323,6 +2337,8 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 46, GENGAR
 	end_grass_wildmons
 
+	; Old Ecruteak abandoned house 1F wild pokemon
+
 	def_grass_wildmons ABANDONED_HOUSE_1F
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 
@@ -2353,6 +2369,8 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 45, MISDREAVUS
 	db 46, GENGAR
 	end_grass_wildmons
+
+	; Old Ecruteak abandoned house B1F wild pokemon
 
 	def_grass_wildmons ABANDONED_HOUSE_B1F
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -2385,6 +2403,8 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 46, MAGMAR
 	end_grass_wildmons
 
+	; Old Ecruteak gate wild pokemon
+
 	def_grass_wildmons OLD_ECRUTEAK_GATE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 
@@ -2415,6 +2435,8 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 45, GLOOM
 	db 46, VILEPLUME
 	end_grass_wildmons
+
+	; Golden woods wild pokemon
 
 	def_grass_wildmons GOLDEN_WOODS
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -2447,6 +2469,8 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 46, EEVEE
 	end_grass_wildmons
 
+	; Golden pavilion wild pokemon
+
 	def_grass_wildmons GOLDEN_PAVILION
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 
@@ -2477,6 +2501,8 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 45, MURKROW
 	db 46, NINETALES
 	end_grass_wildmons
+
+	; Forbidden palace wild pokemon
 
 	def_grass_wildmons FORBIDDEN_PALACE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -2509,6 +2535,8 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 52, MURKROW
 	end_grass_wildmons
 
+	; Forbidden palace 2F wild pokemon
+
 	def_grass_wildmons FORBIDDEN_PALACE_2F
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 
@@ -2539,6 +2567,8 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 50, ARIADOS
 	db 53, MURKROW
 	end_grass_wildmons
+
+	; Forbidden Palace room 1 wild pokemon
 
 	def_grass_wildmons FORBIDDEN_PALACE_ROOM_1
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -2571,7 +2601,9 @@ db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	db 53, MURKROW
 	end_grass_wildmons
 
-def_grass_wildmons FORBIDDEN_PALACE_ROOM_2
+	; Forbidden palace room 2 wild pokemon
+
+	def_grass_wildmons FORBIDDEN_PALACE_ROOM_2
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 
 	; morning
@@ -2601,6 +2633,8 @@ def_grass_wildmons FORBIDDEN_PALACE_ROOM_2
 	db 50, ARIADOS
 	db 53, MURKROW
 	end_grass_wildmons
+
+	; Forbidden palace room 3 wild pokemon
 
 	def_grass_wildmons FORBIDDEN_PALACE_ROOM_3
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -2633,6 +2667,8 @@ def_grass_wildmons FORBIDDEN_PALACE_ROOM_2
 	db 53, MURKROW
 	end_grass_wildmons
 
+	; Forbidden palace room 4 wild pokemon
+
 	def_grass_wildmons FORBIDDEN_PALACE_ROOM_4
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 
@@ -2663,6 +2699,8 @@ def_grass_wildmons FORBIDDEN_PALACE_ROOM_2
 	db 50, ARIADOS
 	db 53, MURKROW
 	end_grass_wildmons
+
+	; Forbidden palace room 5 wild pokemon
 
 	def_grass_wildmons FORBIDDEN_PALACE_ROOM_5
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -2695,6 +2733,8 @@ def_grass_wildmons FORBIDDEN_PALACE_ROOM_2
 	db 53, MURKROW
 	end_grass_wildmons
 
+	; Forbidden palace room 6 wild pokemon
+
 	def_grass_wildmons FORBIDDEN_PALACE_ROOM_6
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 
@@ -2725,6 +2765,8 @@ def_grass_wildmons FORBIDDEN_PALACE_ROOM_2
 	db 50, ARIADOS
 	db 53, MURKROW
 	end_grass_wildmons
+
+	; Forbidden palace 3F wild pokemon
 
 	def_grass_wildmons FORBIDDEN_PALACE_3F
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -2757,6 +2799,8 @@ def_grass_wildmons FORBIDDEN_PALACE_ROOM_2
 	db 53, MURKROW
 	end_grass_wildmons
 
+	; Cactus desert wild pokemon
+
 	def_grass_wildmons CACTUS_DESERT
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 
@@ -2786,6 +2830,171 @@ def_grass_wildmons FORBIDDEN_PALACE_ROOM_2
 	db 29, HOOTHOOT
 	db 29, MURKROW
 	db 28, LARVITAR
+	end_grass_wildmons
+
+	; Nijoh ruins interior 1F wild pokemon
+
+	def_grass_wildmons NIJOH_RUINS_INTERIOR_1F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 29, SANDSHREW
+	db 30, SANDSHREW
+	db 31, SANDSLASH
+	db 30, ZUBAT
+	db 31, GOLBAT
+	db 29, GRAVELER
+	db 28, CROBAT
+
+    ; day
+    db 29, SANDSHREW
+	db 30, SANDSHREW
+	db 31, SANDSLASH
+	db 30, ZUBAT
+	db 31, GOLBAT
+	db 29, GRAVELER
+	db 28, CROBAT
+
+    ; night
+   	db 29, SANDSHREW
+	db 30, SANDSHREW
+	db 31, GOLBAT
+	db 30, GOLBAT
+	db 29, NOCTOWL
+	db 28, HOOTHOOT
+	db 28, LARVITAR
+	end_grass_wildmons
+
+	; Nijoh ruins interior 2BF wild pokemon
+
+	def_grass_wildmons NIJOH_RUINS_INTERIOR_2BF
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 29, SANDSHREW
+	db 30, SANDSHREW
+	db 31, SANDSLASH
+	db 30, ZUBAT
+	db 31, GOLBAT
+	db 29, GRAVELER
+	db 28, CROBAT
+
+    ; day
+    db 29, SANDSHREW
+	db 30, SANDSHREW
+	db 31, SANDSLASH
+	db 30, ZUBAT
+	db 31, GOLBAT
+	db 29, GRAVELER
+	db 28, CROBAT
+
+    ; night
+   	db 29, SANDSHREW
+	db 30, SANDSHREW
+	db 31, GOLBAT
+	db 30, GOLBAT
+	db 29, NOCTOWL
+	db 28, HOOTHOOT
+	db 28, LARVITAR
+	end_grass_wildmons
+
+	; Nijoh ruins inner room wild pokemon
+
+	def_grass_wildmons NIJOH_RUINS_INNER_ROOM
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 29, SANDSHREW
+	db 30, SANDSHREW
+	db 31, SANDSLASH
+	db 30, ZUBAT
+	db 31, GOLBAT
+	db 29, GRAVELER
+	db 28, CROBAT
+
+    ; day
+    db 29, SANDSHREW
+	db 30, SANDSHREW
+	db 31, SANDSLASH
+	db 30, ZUBAT
+	db 31, GOLBAT
+	db 29, GRAVELER
+	db 28, CROBAT
+
+    ; night
+   	db 29, HAUNTER
+	db 30, HAUNTER
+	db 31, GOLBAT
+	db 30, GOLBAT
+	db 29, NOCTOWL
+	db 28, HOOTHOOT
+	db 28, LARVITAR
+	end_grass_wildmons
+
+	; Seaside Trail wild pokemon
+
+	def_grass_wildmons SEASIDE_TRAIL
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 29, PIDGEY
+	db 30, PIDGEOTTO
+	db 30, POLIWAG
+	db 30, POLIWAG
+	db 31, POLIWHIRL
+	db 29, WOOPER
+	db 30, QUAGSIRE
+
+    ; day
+   	db 29, PIDGEY
+	db 30, PIDGEOTTO
+	db 30, POLIWAG
+	db 30, POLIWAG
+	db 31, POLIWHIRL
+	db 29, WOOPER
+	db 30, QUAGSIRE
+
+    ; night
+   	db 29, HOOTHOOT
+	db 30, NOCTOWL
+	db 30, POLIWAG
+	db 30, POLIWAG
+	db 31, POLIWHIRL
+	db 29, WOOPER
+	db 30, QUAGSIRE
+	end_grass_wildmons
+
+	; Nijoh Woods wild pokemon
+
+	def_grass_wildmons NIJOH_WOODS
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 29, PIDGEY
+	db 30, LEDYBA
+	db 30, POLIWAG
+	db 30, POLIWAG
+	db 31, POLIWHIRL
+	db 29, WOOPER
+	db 30, QUAGSIRE
+
+    ; day
+   	db 29, PIDGEY
+	db 30, LEDYBA
+	db 30, POLIWAG
+	db 30, POLIWAG
+	db 31, POLIWHIRL
+	db 29, WOOPER
+	db 30, QUAGSIRE
+
+    ; night
+   	db 29, HOOTHOOT
+	db 30, SPINARAK
+	db 30, POLIWAG
+	db 30, POLIWAG
+	db 31, POLIWHIRL
+	db 29, WOOPER
+	db 30, QUAGSIRE
 	end_grass_wildmons
 
 	db -1 ; end

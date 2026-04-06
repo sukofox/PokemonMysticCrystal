@@ -280,4 +280,28 @@ JohtoWaterWildMons:
 	db 40, POLIWHIRL
 	db 35, MAGIKARP
 
+	def_water_wildmons SAGUARO_CITY
+	db 3 percent ; encounter rate
+	db 30, QWILFISH
+	db 29, REMORAID
+	db 30, MAGIKARP
+
+	def_water_wildmons SEASIDE_TRAIL
+	db 3 percent ; encounter rate
+	db 30, QWILFISH
+	db 29, REMORAID
+	db 30, MAGIKARP
+
+	def_water_wildmons NIJOH_WOODS
+	db 3 percent ; encounter rate
+	db 20, QWILFISH
+	db 29, REMORAID
+	db 30, MAGIKARP
+
+	def_water_wildmons GOLDEN_WOODS 
+	db 3 percent ; encounter rate
+	db 35, POLIWAG
+	db 40, POLIWHIRL
+	db 35, MAGIKARP
+
 	db -1 ; end
