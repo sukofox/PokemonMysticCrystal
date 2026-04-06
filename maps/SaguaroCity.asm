@@ -1,10 +1,50 @@
 object_const_def
-	; none for now
+	const SAGUARO_CITY_POKEFANM
+	const SAGUARO_CITY_GRAMPS
+	const SAGUARO_CITY_COOLTRAINERF
 
 SaguaroCity_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
+
+SaguaroCityPokefanMScript:
+    jumptextfaceplayer SaguaroCityPokefanMText
+
+SaguaroCityGrampsScript:
+    jumptextfaceplayer SaguaroCityGrampsText
+
+SaguaroCityCooltrainerFScript:
+    jumptextfaceplayer SaguaroCityCooltrainerFText
+
+SaguaroCityPokefanMText:
+    text "The researchers"
+    line "at the CENTER"
+	cont "have found some"
+
+	para "weird writing"
+	line "on the walls and"
+	cont "floors of the"
+
+	para "NIJOH RUINS."
+    done
+
+SaguaroCityGrampsText:
+	text "The desert is"
+	line "like the depths"
+	cont "of the mind."
+
+	para "Ever-shifting."
+	line "never fixed."
+	done
+
+SaguaroCityCooltrainerFText:
+	text "I am just here"
+	line "to visit some"
+	cont "friends at the"
+
+	para "dorms."
+	done
 
 SaguaroCity_MapEvents:
 	db 0, 0 ; filler
@@ -25,4 +65,6 @@ SaguaroCity_MapEvents:
 	def_bg_events
 
 	def_object_events
-    ; none for now
+    object_event 25,  7, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SaguaroCityPokefanMScript, -1
+    object_event 24, 15, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SaguaroCityGrampsScript, -1
+	object_event 11, 10, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SaguaroCityCooltrainerFScript, -1

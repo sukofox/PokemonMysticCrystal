@@ -486,7 +486,7 @@ CactusDesertSprites:
 	db SPRITE_GRAMPS
 	db SPRITE_YOUNGSTER
 	db SPRITE_COOLTRAINER_M
-	db SPRITE_GRANNY
+	db SPRITE_SCIENTIST
 	db SPRITE_POKEFAN_M
 	; 8 of max 9 walking sprites
 	db SPRITE_WEIRD_TREE ; variable sprite: becomes SPRITE_SUDOWOODO and SPRITE_TWIN
