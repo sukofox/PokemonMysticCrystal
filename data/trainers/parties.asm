@@ -1920,6 +1920,52 @@ FisherGroup:
 	db 31, SEAKING
 	db -1 ; end
 
+	; FISHER (33)
+	db "JUAN@", TRAINERTYPE_NORMAL
+	db 33, POLIWHIRL
+	db 34, POLIWHIRL
+	db 35, QWILFISH
+	db -1 ; end
+
+	; FISHER (34)
+	db "GABO@", TRAINERTYPE_NORMAL
+	db 34, SEAKING
+	db 34, SEAKING
+	db 35, POLIWRATH
+	db 34, QUAGSIRE
+	db -1 ; end
+
+	; FISHER (35)
+	db "PEPE@", TRAINERTYPE_NORMAL
+	db 34, POLITOED
+	db 34, POLIWRATH
+	db -1 ; end
+
+	; FISHER (36)
+	db "LUIS@", TRAINERTYPE_NORMAL
+	db 35, QUAGSIRE
+	db 35, STARMIE
+	db 36, SEADRA
+	db 36, GYARADOS
+	db 36, GYARADOS
+	db -1 ; end
+
+	; FISHER (37)
+	db "PEDRO@", TRAINERTYPE_NORMAL
+	db 34, OCTILLERY
+	db 37, VAPOREON
+	db -1 ; end
+
+	; FISHER (38)
+	db "HULON@", TRAINERTYPE_NORMAL
+	db 35, VAPOREON
+	db 36, SEAKING
+	db 37, POLITOED
+	db 37, GYARADOS
+	db 36, SEADRA
+	db 36, MANTINE
+	db -1 ; end
+
 SwimmerMGroup:
 	; SWIMMERM (1)
 	db "HAROLD@", TRAINERTYPE_NORMAL

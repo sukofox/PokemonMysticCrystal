@@ -540,6 +540,10 @@ INCLUDE "maps/ForbiddenPalaceRoom6.asm"
 INCLUDE "maps/ForbiddenPalace3F.asm"
 INCLUDE "maps/ForbiddenPalaceRoof.asm"
 INCLUDE "maps/BugCatcherClub.asm"
+
+
+SECTION "Map Scripts 26", ROMX
+
 INCLUDE "maps/CactusDesertGate.asm"
 INCLUDE "maps/CactusDesert.asm"
 INCLUDE "maps/DesertSaguaroTownGate.asm"

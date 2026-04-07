@@ -309,6 +309,7 @@ ROMX $78
 	"Tileset Data 8"
 ROMX $79
 	"Trainer Backpics"
+	"Map Scripts 26"
 ROMX $7b
 	"Battle Tower Text"
 	"Tileset Data 9"

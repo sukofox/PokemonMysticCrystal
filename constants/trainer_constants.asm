@@ -393,6 +393,12 @@ DEF KRIS EQU __trainer_class__
 	const HARI
 	const DATU
 	const TOMAS
+	const JUAN
+	const GABO
+	const PEPE
+	const LUIS
+	const PEDRO
+	const HULON
 
 	trainerclass SWIMMERM ; 26
 	const HAROLD
