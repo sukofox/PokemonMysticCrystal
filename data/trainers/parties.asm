@@ -974,6 +974,13 @@ CooltrainerMGroup:
 	db 27, IVYSAUR
 	db -1 ; end
 
+	;COOLTRAINERM (23)
+	db "JORGE@", TRAINERTYPE_NORMAL
+	db 30, QUAGSIRE
+	db 30, LICKITUNG
+	db 31, BELLOSSOM
+	db -1 ; end
+
 CooltrainerFGroup:
 	; COOLTRAINERF (1)
 	db "GWEN@", TRAINERTYPE_NORMAL
@@ -1110,6 +1117,13 @@ CooltrainerFGroup:
 	db 26, BAYLEEF
 	db 28, QUILAVA
 	db 27, CROCONAW
+	db -1 ; end
+
+	; COOLTRAINERF (23)
+	db "FRANKY@", TRAINERTYPE_NORMAL
+	db 30, POLIWHIRL
+	db 30, GOLDUCK
+	db 30, TOTODILE
 	db -1 ; end
 
 BeautyGroup:
@@ -1857,6 +1871,55 @@ FisherGroup:
 	db 47, QWILFISH,   ROLLOUT, SURF, PIN_MISSILE, TAKE_DOWN
 	db -1 ; end
 
+	; FISHER (26)
+	db "DANTE@", TRAINERTYPE_NORMAL
+	db 31, QWILFISH
+	db 32, REMORAID
+	db 31, POLIWHIRL
+	db 31, POLITOED
+	db -1 ; end
+
+	; FISHER (27)
+	db "ARTHUR@", TRAINERTYPE_NORMAL
+	db 31, GYARADOS
+	db 31, GYARADOS
+	db 31, SEAKING
+	db -1 ; end
+
+	; FISHER (28)
+	db "ROLF@", TRAINERTYPE_NORMAL
+	db 31, FERALIGATR
+	db -1 ; end
+
+	; FISHER (29)
+	db "ALON@", TRAINERTYPE_NORMAL
+	db 31, QUAGSIRE
+	db 30, POLIWHIRL
+	db 30, SEAKING
+	db -1 ; end
+
+	; FISHER (30)
+	db "HARI@", TRAINERTYPE_NORMAL
+	db 31, SEAKING
+	db 32, STARMIE
+	db 31, REMORAID
+	db -1 ; end
+
+	; FISHER (31)
+	db "DATU@", TRAINERTYPE_NORMAL
+	db 31, OCTILLERY
+	db 31, MANTINE
+	db 30, GYARADOS
+	db -1 ; end
+
+	; FISHER (32)
+	db "TOMAS@", TRAINERTYPE_NORMAL
+	db 31, GYARADOS
+	db 31, GYARADOS
+	db 31, SEAKING
+	db 31, SEAKING
+	db -1 ; end
+
 SwimmerMGroup:
 	; SWIMMERM (1)
 	db "HAROLD@", TRAINERTYPE_NORMAL
@@ -2514,7 +2577,14 @@ HikerGroup:
 	db 30, SANDSLASH
 	db 30, ONIX
 	db -1 ; end
-	
+
+	; HIKER (26)
+	db "HERVE@", TRAINERTYPE_NORMAL
+	db 30, GRAVELER
+	db 30, MACHOKE
+	db 31, ONIX
+	db -1 ; end
+
 BikerGroup:
 	; BIKER (1)
 	db "BENNY@", TRAINERTYPE_NORMAL
