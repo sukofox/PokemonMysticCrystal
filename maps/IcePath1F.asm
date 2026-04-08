@@ -25,6 +25,7 @@ IcePath1F_MapEvents:
 	warp_event 36, 27, BLACKTHORN_CITY, 7
 	warp_event 37,  5, ICE_PATH_B1F, 1
 	warp_event 37, 13, ICE_PATH_B1F, 7
+	warp_event 37,  3, ICE_PATH_TUNNEL, 1
 
 	def_coord_events
 

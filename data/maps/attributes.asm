@@ -781,4 +781,7 @@ ENDM
 	map_attributes FisherClub1F, FISHER_CLUB_1F, $00, 0
 	map_attributes FisherClub2F, FISHER_CLUB_2F, $00, 0
 	map_attributes CianwoodGate, CIANWOOD_GATE, $00, 0
+	map_attributes IcePathTunnel, ICE_PATH_TUNNEL, $19, 0
+	map_attributes IcePathExit, ICE_PATH_EXIT, $19, 0
+	map_attributes SnowPath, SNOW_PATH, $03, 0
 	

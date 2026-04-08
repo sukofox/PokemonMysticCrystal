@@ -150,6 +150,10 @@
 	RGB 12,19,00, 06,10,00 ; morn/day
 	RGB 06,09,07, 04,05,06 ; nite
 
-; group 35 (Cactus Desert)
+; group 38 (Cactus Desert)
 	RGB 12,19,00, 06,10,00 ; morn/day
 	RGB 06,09,07, 04,05,06 ; nite
+
+; group 39 (Snow Path)
+	RGB 22,20,10, 17,14,03 ; morn/day
+	RGB 11,11,05, 10,09,07 ; nite

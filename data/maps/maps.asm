@@ -55,6 +55,7 @@ MapGroupPointers::
 	dw MapGroup_GoldenPavilion ; 36
 	dw MapGroup_BugCatcherClub ; 37
 	dw MapGroup_CactusDesert ; 38
+	dw MapGroup_SnowPath ; 39
 	assert_table_length NUM_MAP_GROUPS
 
 MapGroup_Olivine:
@@ -675,3 +676,9 @@ MapGroup_CactusDesert:
 	map SaguaroCity, TILESET_JOHTO_DESERT, TOWN, LANDMARK_SAGUARO_CITY, MUSIC_POKEDEX, FALSE, PALETTE_AUTO, FISHGROUP_POND
 	assert_table_length NUM_CACTUS_DESERT_MAPS
 
+MapGroup_SnowPath:
+	table_width MAP_LENGTH, MapGroup_SnowPath
+	map IcePathTunnel, TILESET_ICE_PATH, CAVE, LANDMARK_ICE_PATH, MUSIC_DARK_CAVE, FALSE, PALETTE_NITE, FISHGROUP_NONE
+	map IcePathExit, TILESET_ICE_PATH, CAVE, LANDMARK_ICE_PATH, MUSIC_DARK_CAVE, FALSE, PALETTE_NITE, FISHGROUP_NONE
+	map SnowPath, TILESET_JOHTO_SNOW, ROUTE, LANDMARK_SNOW_PATH, MUSIC_LAKE_OF_RAGE, FALSE, PALETTE_AUTO, FISHGROUP_NONE
+	assert_table_length NUM_SNOW_PATH_MAPS

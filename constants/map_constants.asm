@@ -616,4 +616,10 @@ ENDM
 	map_const SAGUARO_CITY,									17, 12;  23 
 	endgroup
 
-DEF NUM_MAP_GROUPS EQU const_value ; 38
+	newgroup SNOW_PATH										        ;39
+	map_const ICE_PATH_TUNNEL,								 6,  6;   1
+	map_const ICE_PATH_EXIT,								 6,  6;   2
+	map_const SNOW_PATH,									14, 42;   3
+	endgroup
+
+DEF NUM_MAP_GROUPS EQU const_value ; 39

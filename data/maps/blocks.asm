@@ -1291,4 +1291,13 @@ FisherClub2F_Blocks:
 CianwoodGate_Blocks:
 	INCBIN "maps/CianwoodGate.blk"
 
+IcePathTunnel_Blocks:
+	INCBIN "maps/IcePathTunnel.blk"
+
+IcePathExit_Blocks:
+	INCBIN "maps/IcePathExit.blk"
+
+SnowPath_Blocks:
+	INCBIN "maps/SnowPath.blk"
+
 ENDSECTION

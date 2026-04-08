@@ -567,5 +567,8 @@ INCLUDE "maps/NijohWoods.asm"
 INCLUDE "maps/FisherClub1F.asm"
 INCLUDE "maps/FisherClub2F.asm"
 INCLUDE "maps/CianwoodGate.asm"
+INCLUDE "maps/IcePathTunnel.asm"
+INCLUDE "maps/IcePathExit.asm"
+INCLUDE "maps/SnowPath.asm"
 
 ENDSECTION

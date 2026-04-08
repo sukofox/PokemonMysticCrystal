@@ -50,6 +50,7 @@ MapGroupRoofs:
 	db -1			  ; 36 (Golden Pavilion)
 	db -1			  ; 37 (Bug Catcher Club)
 	db -1			  ; 38 (Cactus Desert)
+	db -1			  ; 39 (Snow Path)
 	assert_table_length NUM_MAP_GROUPS + 1
 
 Roofs:

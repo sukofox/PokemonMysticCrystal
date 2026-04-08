@@ -69,6 +69,7 @@ Landmarks:
 	landmark 108,  28, LakeOfRageName
 	landmark 120,  44, Route44Name
 	landmark 130,  38, IcePathName
+	landmark 130,  35, SnowPathName
 	landmark 132,  44, BlackthornCityName
 	landmark 132,  36, DragonsDenName
 	landmark 132,  64, Route45Name
@@ -252,3 +253,4 @@ SaguaroCityName:     db "SAGUARO<BSP>CITY@"
 NijohRuinsName:      db "NIJOH<BSP>RUINS@"
 SeasideTrailName:    db "SEASIDE<BSP>TRAIL@"
 NijohWoodsName:	     db "NIJOH<BSP>WOODS@"
+SnowPathName:		 db "SNOW<BSP>PATH@"

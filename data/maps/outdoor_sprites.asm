@@ -42,6 +42,7 @@ OutdoorSprites:
 	dw GoldenPavilionSprites
 	dw BugCatcherClubSprites
 	dw CactusDesertSprites
+	dw SnowPathSprites
 	assert_table_length NUM_MAP_GROUPS
 
 ; Route1 and ViridianCity are connected
@@ -493,5 +494,20 @@ CactusDesertSprites:
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db SPRITE_CHIKORITA
+	db 0 ; end
+
+SnowPathSprites:
+	db SPRITE_GRAMPS
+	db SPRITE_YOUNGSTER
+	db SPRITE_LASS
+	db SPRITE_SUPER_NERD
+	db SPRITE_COOLTRAINER_M
+	db SPRITE_POKEFAN_M
+	db SPRITE_COOLTRAINER_F
+	db SPRITE_FISHER
+	; 8 of max 9 walking sprites
+	db SPRITE_FRUIT_TREE
+	db SPRITE_POKE_BALL
+	db SPRITE_SUICUNE
 	db 0 ; end
 	
