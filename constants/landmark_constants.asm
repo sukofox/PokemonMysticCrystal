@@ -65,6 +65,7 @@ DEF JOHTO_LANDMARK EQU const_value
 	const LANDMARK_ROUTE_44          ; 27
 	const LANDMARK_ICE_PATH          ; 28
 	const LANDMARK_SNOW_PATH
+	const LANDMARK_SPRUCE_CITY
 	const LANDMARK_BLACKTHORN_CITY   ; 29
 	const LANDMARK_DRAGONS_DEN       ; 2a
 	const LANDMARK_ROUTE_45          ; 2b

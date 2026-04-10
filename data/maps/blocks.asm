@@ -1300,4 +1300,37 @@ IcePathExit_Blocks:
 SnowPath_Blocks:
 	INCBIN "maps/SnowPath.blk"
 
+SnowPathGate_Blocks:
+	INCBIN "maps/SnowPathGate.blk"
+
+SpruceCity_Blocks:
+	INCBIN "maps/SpruceCity.blk"
+
+SnowPathShrine_Blocks:
+	INCBIN "maps/SnowPathShrine.blk"
+
+SprucePokecenter_Blocks:
+	INCBIN "maps/SprucePokecenter.blk"
+
+SpruceNPCHouse1_Blocks:
+	INCBIN "maps/SpruceNPCHouse1.blk"
+
+SpruceNPCHouse2_Blocks:
+	INCBIN "maps/SpruceNPCHouse2.blk"
+
+SpruceNPCHouse3_Blocks:
+	INCBIN "maps/SpruceNPCHouse3.blk"
+
+SpruceMansion1F_Blocks:
+	INCBIN "maps/SpruceMansion1F.blk"
+
+SpruceMansion2F_Blocks:
+	INCBIN "maps/SpruceMansion2F.blk"
+
+SpruceMansion3F_Blocks:
+	INCBIN "maps/SpruceMansion3F.blk"
+
+IceSkatingArena_Blocks:
+	INCBIN "maps/IceSkatingArena.blk"
+
 ENDSECTION

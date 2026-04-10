@@ -784,4 +784,15 @@ ENDM
 	map_attributes IcePathTunnel, ICE_PATH_TUNNEL, $19, 0
 	map_attributes IcePathExit, ICE_PATH_EXIT, $19, 0
 	map_attributes SnowPath, SNOW_PATH, $03, 0
+	map_attributes SnowPathGate, SNOW_PATH_GATE, $00, 0
+	map_attributes SpruceCity, SPRUCE_CITY, $03, 0
+	map_attributes SnowPathShrine, SNOW_PATH_SHRINE, $00, 0
+	map_attributes SprucePokecenter, SPRUCE_POKECENTER, $00, 0
+	map_attributes SpruceNPCHouse1, SPRUCE_NPC_HOUSE_1, $00, 0
+	map_attributes SpruceNPCHouse2, SPRUCE_NPC_HOUSE_2, $00, 0
+	map_attributes SpruceNPCHouse3, SPRUCE_NPC_HOUSE_3, $00, 0
+	map_attributes SpruceMansion1F, SPRUCE_MANSION_1F, $00, 0
+	map_attributes SpruceMansion2F, SPRUCE_MANSION_2F, $00, 0
+	map_attributes SpruceMansion3F, SPRUCE_MANSION_3F, $00, 0
+	map_attributes IceSkatingArena, ICE_SKATING_ARENA, $00, 0
 	

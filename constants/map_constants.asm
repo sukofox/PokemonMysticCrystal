@@ -620,6 +620,17 @@ ENDM
 	map_const ICE_PATH_TUNNEL,								 6,  6;   1
 	map_const ICE_PATH_EXIT,								 6,  6;   2
 	map_const SNOW_PATH,									14, 42;   3
+	map_const SNOW_PATH_GATE,								10,  4;   4
+	map_const SNOW_PATH_SHRINE,								 6,  4;   5
+	map_const SPRUCE_POKECENTER,							 6,  4;   6
+	map_const SPRUCE_NPC_HOUSE_1,							 5,  4;   7
+	map_const SPRUCE_NPC_HOUSE_2,							 6,  4;   8
+	map_const SPRUCE_NPC_HOUSE_3, 						     5,  4;   9
+	map_const SPRUCE_MANSION_1F,							10,  6;  10
+	map_const SPRUCE_MANSION_2F,							10,  6;  11
+	map_const SPRUCE_MANSION_3F,                            10,  6;  12
+	map_const ICE_SKATING_ARENA, 							18, 12;  13
+	map_const SPRUCE_CITY,									40, 12;  14
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 39
