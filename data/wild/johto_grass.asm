@@ -2997,5 +2997,38 @@ JohtoGrassWildMons:
 	db 30, QUAGSIRE
 	end_grass_wildmons
 
+	; Snow Path Wild Pokemon
+
+	def_grass_wildmons SNOW_PATH
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 38, SWINUB
+	db 40, SWINUB
+	db 38, SKARMORY
+	db 39, SKARMORY
+	db 40, RHYDON
+	db 15, SMOOCHUM
+	db 20, SMOOCHUM
+
+    ; day
+   	db 38, SWINUB
+	db 40, SWINUB
+	db 38, SKARMORY
+	db 39, SKARMORY
+	db 40, RHYDON
+	db 15, SMOOCHUM
+	db 20, SMOOCHUM
+
+    ; night
+   	db 38, SWINUB
+	db 40, SWINUB
+	db 38, DELIBIRD
+	db 39, DELIBIRD
+	db 40, RHYDON
+	db 38, SNEASEL
+	db 40, SNEASEL
+	end_grass_wildmons
+
 	db -1 ; end
 
