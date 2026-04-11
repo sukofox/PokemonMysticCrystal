@@ -727,7 +727,7 @@ DEF KRIS EQU __trainer_class__
 	const MIKI
 	const HINAMI
 	const SORA
-	const UMIHANA
+	const UMIHA
 	const RYOKO
 	const CHIKO
 	const AOI

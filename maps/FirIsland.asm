@@ -12,7 +12,7 @@ FirIsland_MapScripts:
 	def_callbacks
 
 FirIslandSage:
-	;clearevent EVENT_BEAT_KIMONO_GIRL_HINAMI
+	;clearevent EVENT_BEAT_KIMONO_GIRL_UMIHA
 	jumptextfaceplayer FirIslandSageText
 
 FirIslandLassMicaela:
@@ -48,13 +48,13 @@ FirIslandKimonoGirlSora:
 	closetext
 	end
 
-FirIslandKimonoGirlUmihana:
-	trainer KIMONO_GIRL, UMIHANA, EVENT_BEAT_KIMONO_GIRL_UMIHANA, KimonoGirlUmihanaSeenText, KimonoGirlUmihanaBeatenText, 0, .Script
+FirIslandKimonoGirlUmiha:
+	trainer KIMONO_GIRL, UMIHA, EVENT_BEAT_KIMONO_GIRL_UMIHA, KimonoGirlUmihaSeenText, KimonoGirlUmihaBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext KimonoGirlUmihanaAfterText
+	writetext KimonoGirlUmihaAfterText
 	waitbutton
 	closetext
 	end
@@ -132,7 +132,7 @@ KimonoGirlSoraAfterText:
 	para "day."
 	done
 
-KimonoGirlUmihanaSeenText:
+KimonoGirlUmihaSeenText:
 	text "I am the younger"
 	line "of three sisters."
 	cont "They may be"
@@ -142,18 +142,14 @@ KimonoGirlUmihanaSeenText:
 	cont "tough."
 	done
 
-KimonoGirlUmihanaBeatenText:
+KimonoGirlUmihaBeatenText:
 	text "Impressive!"
 	done
 
-KimonoGirlUmihanaAfterText:
-	text "My other two sisters"
-	line "are twins. You"
-	cont "can battle them."
-
-	para "But I must warn you,"
-	line "they are stronger"
-	cont "than me."
+KimonoGirlUmihaAfterText:
+	text "My other two"
+	line "sisters are"
+	cont "stronger."
 	done
 
 CooltrainerGermanSeenText:
@@ -195,5 +191,5 @@ FirIsland_MapEvents:
 	object_event  9, 24, SPRITE_LASS, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, FirIslandLassMicaela, -1
 	object_event 25, 46, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 0, FirIslandKimonoGirlHinami, -1
 	object_event 28, 46, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINCOUNTERCLOCKWISE, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 0, FirIslandKimonoGirlSora, -1
-	object_event 10, 41, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 0, FirIslandKimonoGirlUmihana, -1
+	object_event 10, 41, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 0, FirIslandKimonoGirlUmiha, -1
 	object_event 37, 44, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, FirIslandCooltrainerGerman, -1
