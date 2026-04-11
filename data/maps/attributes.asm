@@ -384,7 +384,7 @@ ENDM
 	connection north, Route29, ROUTE_29, 9 ; adjust offset so the entrance lines up
 
 
-	map_attributes Route23, ROUTE_23, $0f, 0
+	map_attributes Route23, ROUTE_23, $03, 0
 	map_attributes SproutTower1F, SPROUT_TOWER_1F, $00, 0
 	map_attributes SproutTower2F, SPROUT_TOWER_2F, $00, 0
 	map_attributes SproutTower3F, SPROUT_TOWER_3F, $00, 0
