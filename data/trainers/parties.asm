@@ -1552,6 +1552,23 @@ SkierGroup:
 	db 41, SNEASEL
 	db -1 ; end
 
+	; SKIER (6)
+	db "MARTA@", TRAINERTYPE_NORMAL
+	db 45, TOGETIC
+	db 44, SNEASEL
+	db 46, JYNX
+	db 44, TOGETIC
+	db -1 ; end
+
+	; SKIER (7)
+	db "PEGGY@", TRAINERTYPE_NORMAL
+	db 45, NOCTOWL
+	db 45, SNEASEL
+	db 44, DEWGONG
+	db 45, LAPRAS
+	db 46, CLOYSTER
+	db -1 ; end
+
 TeacherGroup:
 	; TEACHER (1)
 	db "COLETTE@", TRAINERTYPE_NORMAL
@@ -3672,6 +3689,39 @@ BoarderGroup:
 	db 40, PILOSWINE
 	db 40, DELIBIRD
 	db 40, DEWGONG
+	db -1 ; end
+
+	; BOARDER (6)
+	db "RAFA@", TRAINERTYPE_NORMAL
+	db 45, SNEASEL
+	db 45, SNEASEL
+	db 47, PILOSWINE
+	db -1 ; end
+
+	; BOARDER (7)
+	db "LALO@", TRAINERTYPE_NORMAL
+	db 46, CLOYSTER
+	db 46, SMOOCHUM
+	db 47, JYNX
+	db 48, STANTLER
+	db -1 ; end
+
+	; BOARDER (8)
+	db "MICK@", TRAINERTYPE_NORMAL
+	db 46, SNEASEL
+	db 46, GIRAFARIG
+	db 47, HOUNDOOM
+	db 46, DELIBIRD
+	db -1 ; end
+
+	; BOARDER (9)
+	db "OTTO@", TRAINERTYPE_NORMAL
+	db 48, DELIBIRD
+	db 48, BLASTOISE
+	db 50, LAPRAS
+	db 49, PILOSWINE
+	db 48, FERALIGATR
+	db 50, PILOSWINE
 	db -1 ; end
 
 PokefanMGroup:

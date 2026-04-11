@@ -329,6 +329,8 @@ DEF KRIS EQU __trainer_class__
 	const STACY
 	const KATY
 	const REGGIE
+	const MARTA
+	const PEGGY
 
 	trainerclass TEACHER ; 22
 	const COLETTE
@@ -695,6 +697,10 @@ DEF KRIS EQU __trainer_class__
 	const DOUGLAS
 	const ROCKO
 	const ISRAEL
+	const RAFA
+	const LALO
+	const MICK
+	const OTTO
 
 	trainerclass POKEFANM ; 3b
 	const WILLIAM
