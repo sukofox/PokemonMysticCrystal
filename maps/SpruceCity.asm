@@ -1,10 +1,39 @@
 object_const_def
-	; none
+	const SPRUCE_CITY_COOLTRAINERM
+    const SPRUCE_CITY_COOLTRAINERF
+    const SPRUCE_CITY_FISHER
 
 SpruceCity_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
+
+SpruceCityCooltrainerMScript:
+    jumptextfaceplayer SpruceCityCooltrainerMText
+
+SpruceCityCooltrainerFScript:
+    jumptextfaceplayer SpruceCityCooltrainerFText
+
+SpruceCityFisherScript:
+    jumptextfaceplayer SpruceCityFisherText
+
+SpruceCityCooltrainerMText:
+    text "I want to go"
+    line "to the league."
+    cont "But it's rough."
+    done
+
+SpruceCityCooltrainerFText:
+    text "The good thing"
+    line "about gyms is"
+    cont "that you can do"
+
+    para "re-matches."
+    done
+
+SpruceCityFisherText:
+    text "I want some cake."
+    done
 
 SpruceCity_MapEvents:
 	db 0, 0 ; filler
@@ -25,4 +54,6 @@ SpruceCity_MapEvents:
 	def_bg_events
 
 	def_object_events
-	; none
+	object_event 11, 10, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SpruceCityCooltrainerMScript, -1
+    object_event 29, 16, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SpruceCityCooltrainerFScript, -1
+    object_event 69, 15, SPRITE_FISHER, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SpruceCityFisherScript, -1
