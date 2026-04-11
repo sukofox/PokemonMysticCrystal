@@ -707,7 +707,7 @@ BirdKeeperGroup:
 LassGroup:
 	; LASS (1)
 	db "CARRIE@", TRAINERTYPE_MOVES
-	db 28, SNUBBULL,   SCARY_FACE, CHARM, BITE, LICK
+	db 22, SNUBBULL,   SCARY_FACE, CHARM, BITE, LICK
 	db -1 ; end
 
 	; LASS (2)
@@ -1750,8 +1750,8 @@ FisherGroup:
 	db "JUSTIN@", TRAINERTYPE_NORMAL
 	db 10, MAGIKARP
 	db 10, MAGIKARP
-	db 20, MAGIKARP
-	db 25, MAGIKARP
+	db 15, MAGIKARP
+	db 15, MAGIKARP
 	db -1 ; end
 
 	; FISHER (2)
