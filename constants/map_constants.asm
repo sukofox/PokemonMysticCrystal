@@ -638,4 +638,10 @@ ENDM
 	map_const POWER_PLANT_RUINS_2F,							20, 10;   2
 	endgroup
 
-DEF NUM_MAP_GROUPS EQU const_value ; 39
+	newgroup CINNABAR_VOLCANO										;41
+	map_const CINNABAR_VOLCANO,								 8,  8;   1
+	map_const CINNABAR_VOLCANO_2F,							10,  9;   2
+	map_const CINNABAR_VOLCANO_CRATER,						21, 26;   3
+	endgroup
+
+DEF NUM_MAP_GROUPS EQU const_value ; 41

@@ -797,4 +797,7 @@ ENDM
 	map_attributes IceSkatingArena, ICE_SKATING_ARENA, $00, 0
 	map_attributes PowerPlantRuins1F, POWER_PLANT_RUINS_1F, $00, 0
 	map_attributes PowerPlantRuins2F, POWER_PLANT_RUINS_2F, $00, 0
+	map_attributes CinnabarVolcano, CINNABAR_VOLCANO, $09, 0
+	map_attributes CinnabarVolcano2F, CINNABAR_VOLCANO_2F, $09, 0
+	map_attributes CinnabarVolcanoCrater, CINNABAR_VOLCANO_CRATER, $09, 0
 	

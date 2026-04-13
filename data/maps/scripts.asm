@@ -583,5 +583,8 @@ INCLUDE "maps/SpruceMansion3F.asm"
 INCLUDE "maps/IceSkatingArena.asm"
 INCLUDE "maps/PowerPlantRuins1F.asm"
 INCLUDE "maps/PowerPlantRuins2F.asm"
+INCLUDE "maps/CinnabarVolcano.asm"
+INCLUDE "maps/CinnabarVolcano2F.asm"
+INCLUDE "maps/CinnabarVolcanoCrater.asm"
 
 ENDSECTION

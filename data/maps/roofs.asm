@@ -52,6 +52,7 @@ MapGroupRoofs:
 	db -1			  ; 38 (Cactus Desert)
 	db -1			  ; 39 (Snow Path)
 	db -1			  ; 40 (Power Plant)
+	db -1			  ; 41 (Cinnabar Volcano)
 	assert_table_length NUM_MAP_GROUPS + 1
 
 Roofs:

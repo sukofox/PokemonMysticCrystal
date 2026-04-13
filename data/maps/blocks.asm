@@ -1339,4 +1339,13 @@ PowerPlantRuins1F_Blocks:
 PowerPlantRuins2F_Blocks:
 	INCBIN "maps/PowerPlantRuins2F.blk"
 
+CinnabarVolcano_Blocks:
+	INCBIN "maps/CinnabarVolcano.blk"
+
+CinnabarVolcano2F_Blocks:
+	INCBIN "maps/CinnabarVolcano2F.blk"
+
+CinnabarVolcanoCrater_Blocks:
+	INCBIN "maps/CinnabarVolcanoCrater.blk"
+
 ENDSECTION

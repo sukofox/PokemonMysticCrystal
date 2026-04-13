@@ -91,6 +91,7 @@ Route21_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
+	warp_event  8, 29, CINNABAR_VOLCANO, 1
 
 	def_coord_events
 

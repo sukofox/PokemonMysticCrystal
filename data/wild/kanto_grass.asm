@@ -898,4 +898,88 @@ KantoGrassWildMons:
 	db 44, ELECTABUZZ
 	end_grass_wildmons
 
+	def_grass_wildmons CINNABAR_VOLCANO
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 28, MAGBY
+	db 30, MAGBY
+	db 41, MAGMAR
+	db 42, MAGMAR
+	db 42, SLUGMA
+	db 43, SLUGMA
+	db 44, MAGCARGO
+	; day
+	db 28, MAGBY
+	db 30, MAGBY
+	db 41, MAGMAR
+	db 42, MAGMAR
+	db 42, SLUGMA
+	db 43, SLUGMA
+	db 44, MAGCARGO
+	; nite
+	db 28, MAGBY
+	db 30, MAGBY
+	db 41, MAGMAR
+	db 42, MAGMAR
+	db 42, SLUGMA
+	db 43, SLUGMA
+	db 44, MAGCARGO
+	end_grass_wildmons
+
+	def_grass_wildmons CINNABAR_VOLCANO_2F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 28, MAGBY
+	db 30, MAGBY
+	db 41, MAGMAR
+	db 42, MAGMAR
+	db 42, SLUGMA
+	db 43, SLUGMA
+	db 44, MAGCARGO
+	; day
+	db 28, MAGBY
+	db 30, MAGBY
+	db 41, MAGMAR
+	db 42, MAGMAR
+	db 42, SLUGMA
+	db 43, SLUGMA
+	db 44, MAGCARGO
+	; nite
+	db 28, MAGBY
+	db 30, MAGBY
+	db 41, MAGMAR
+	db 42, MAGMAR
+	db 42, SLUGMA
+	db 43, SLUGMA
+	db 44, MAGCARGO
+	end_grass_wildmons
+
+	def_grass_wildmons CINNABAR_VOLCANO_CRATER
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 28, MAGBY
+	db 30, MAGBY
+	db 41, MAGMAR
+	db 42, MAGMAR
+	db 42, SLUGMA
+	db 43, SLUGMA
+	db 44, MAGCARGO
+	; day
+	db 28, MAGBY
+	db 30, MAGBY
+	db 41, MAGMAR
+	db 42, MAGMAR
+	db 42, SLUGMA
+	db 43, SLUGMA
+	db 44, MAGCARGO
+	; nite
+	db 28, MAGBY
+	db 30, MAGBY
+	db 41, MAGMAR
+	db 42, MAGMAR
+	db 42, SLUGMA
+	db 43, SLUGMA
+	db 44, MAGCARGO
+	end_grass_wildmons
+
 	db -1 ; end
