@@ -56,6 +56,7 @@ MapGroupPointers::
 	dw MapGroup_BugCatcherClub ; 37
 	dw MapGroup_CactusDesert ; 38
 	dw MapGroup_SnowPath ; 39
+	dw MapGroup_PowerPlantRuins ; 40
 	assert_table_length NUM_MAP_GROUPS
 
 MapGroup_Olivine:
@@ -693,3 +694,9 @@ MapGroup_SnowPath:
 	map IceSkatingArena, TILESET_ICE_PATH, CAVE, LANDMARK_SPRUCE_CITY, MUSIC_GAME_CORNER, FALSE, PALETTE_NITE, FISHGROUP_NONE
 	map SpruceCity, TILESET_JOHTO_SNOW, TOWN, LANDMARK_SPRUCE_CITY, MUSIC_VIOLET_CITY, FALSE, PALETTE_AUTO, FISHGROUP_POND
 	assert_table_length NUM_SNOW_PATH_MAPS
+
+MapGroup_PowerPlantRuins:
+	table_width MAP_LENGTH, MapGroup_PowerPlantRuins
+	map PowerPlantRuins1F, TILESET_UNDERGROUND, DUNGEON, LANDMARK_ROUTE_10, MUSIC_ROCKET_HIDEOUT, FALSE, PALETTE_NITE, FISHGROUP_NONE
+	map PowerPlantRuins2F, TILESET_FACILITY, DUNGEON, LANDMARK_ROUTE_10, MUSIC_ROCKET_HIDEOUT, FALSE, PALETTE_NITE, FISHGROUP_NONE
+	assert_table_length NUM_POWER_PLANT_RUINS_MAPS

@@ -842,4 +842,60 @@ KantoGrassWildMons:
 	db 42, GOLBAT
 	end_grass_wildmons
 
+	def_grass_wildmons POWER_PLANT_RUINS_1F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 40, MAGNEMITE
+	db 40, VOLTORB
+	db 41, MAGNETON
+	db 42, PIKACHU
+	db 43, ELECTRODE
+	db 43, ELECTABUZZ
+	db 44, ELECTABUZZ
+	; day
+	db 40, MAGNEMITE
+	db 40, VOLTORB
+	db 41, MAGNETON
+	db 42, PIKACHU
+	db 43, ELECTRODE
+	db 43, ELECTABUZZ
+	db 44, ELECTABUZZ
+	; nite
+	db 40, MAGNEMITE
+	db 40, VOLTORB
+	db 41, MAGNETON
+	db 42, PIKACHU
+	db 43, ELECTRODE
+	db 43, ELECTABUZZ
+	db 44, ELECTABUZZ
+	end_grass_wildmons
+
+	def_grass_wildmons POWER_PLANT_RUINS_2F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 40, MAGNEMITE
+	db 40, VOLTORB
+	db 41, MAGNETON
+	db 42, PIKACHU
+	db 43, ELECTRODE
+	db 43, ELECTABUZZ
+	db 44, ELECTABUZZ
+	; day
+	db 40, MAGNEMITE
+	db 40, VOLTORB
+	db 41, MAGNETON
+	db 42, PIKACHU
+	db 43, ELECTRODE
+	db 43, ELECTABUZZ
+	db 44, ELECTABUZZ
+	; nite
+	db 40, MAGNEMITE
+	db 40, VOLTORB
+	db 41, MAGNETON
+	db 42, PIKACHU
+	db 43, ELECTRODE
+	db 43, ELECTABUZZ
+	db 44, ELECTABUZZ
+	end_grass_wildmons
+
 	db -1 ; end

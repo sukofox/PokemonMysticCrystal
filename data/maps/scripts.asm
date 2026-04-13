@@ -581,5 +581,7 @@ INCLUDE "maps/SpruceMansion1F.asm"
 INCLUDE "maps/SpruceMansion2F.asm"
 INCLUDE "maps/SpruceMansion3F.asm"
 INCLUDE "maps/IceSkatingArena.asm"
+INCLUDE "maps/PowerPlantRuins1F.asm"
+INCLUDE "maps/PowerPlantRuins2F.asm"
 
 ENDSECTION

@@ -1333,4 +1333,10 @@ SpruceMansion3F_Blocks:
 IceSkatingArena_Blocks:
 	INCBIN "maps/IceSkatingArena.blk"
 
+PowerPlantRuins1F_Blocks:
+	INCBIN "maps/PowerPlantRuins1F.blk"
+
+PowerPlantRuins2F_Blocks:
+	INCBIN "maps/PowerPlantRuins2F.blk"
+
 ENDSECTION

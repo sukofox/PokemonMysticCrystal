@@ -14,8 +14,8 @@ IceSkatingArena_MapScripts:
 BoarderOttoScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_METAL_COAT_SKATE
-	iftrue .GotMetalCoatSkate
+	checkevent EVENT_BEAT_BOARDER_OTTO
+	iftrue .AfterBattle
 	writetext BoarderOttoSeenText
 	waitbutton
 	closetext
@@ -23,12 +23,17 @@ BoarderOttoScript:
 	loadtrainer BOARDER, OTTO
 	startbattle
 	reloadmapafterbattle
+	setevent EVENT_BEAT_BOARDER_OTTO
+.AfterBattle:	
 	opentext
+	checkevent EVENT_GOT_METAL_COAT_SKATE
+    iftrue .GotMetalCoatSkate
+	
 	writetext BoarderOttoTakeMetalCoatText
 	promptbutton
 	verbosegiveitem METAL_COAT
+	iffalse .NoRoom
 	setevent EVENT_GOT_METAL_COAT_SKATE
-	setevent EVENT_BEAT_BOARDER_OTTO
 	writetext BoarderOttoMetalCoatExplanationText
 	waitbutton
 	closetext
@@ -37,6 +42,9 @@ BoarderOttoScript:
 .GotMetalCoatSkate:
 	writetext BoarderOttoAfterBattleText
 	waitbutton
+	closetext
+	end
+.NoRoom:
 	closetext
 	end
 

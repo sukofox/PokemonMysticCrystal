@@ -633,4 +633,9 @@ ENDM
 	map_const SPRUCE_CITY,									40, 12;  14
 	endgroup
 
+	newgroup POWER_PLANT_RUINS									    ;40
+	map_const POWER_PLANT_RUINS_1F,							20, 10;   1
+	map_const POWER_PLANT_RUINS_2F,							20, 10;   2
+	endgroup
+
 DEF NUM_MAP_GROUPS EQU const_value ; 39

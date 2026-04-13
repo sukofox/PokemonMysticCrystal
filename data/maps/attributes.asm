@@ -795,4 +795,6 @@ ENDM
 	map_attributes SpruceMansion2F, SPRUCE_MANSION_2F, $00, 0
 	map_attributes SpruceMansion3F, SPRUCE_MANSION_3F, $00, 0
 	map_attributes IceSkatingArena, ICE_SKATING_ARENA, $00, 0
+	map_attributes PowerPlantRuins1F, POWER_PLANT_RUINS_1F, $00, 0
+	map_attributes PowerPlantRuins2F, POWER_PLANT_RUINS_2F, $00, 0
 	
