@@ -165,3 +165,7 @@
 ; group 41 (Cinnabar Volcano)
 	RGB 31,10,00, 18,06,00 ; morn/day
 	RGB 18,05,09, 17,08,07 ; nite
+
+; group 42 (Seafoam Cave)
+	RGB 22,20,10, 17,14,03 ; morn/day
+	RGB 11,11,05, 10,09,07 ; nite

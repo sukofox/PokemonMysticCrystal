@@ -58,6 +58,7 @@ MapGroupPointers::
 	dw MapGroup_SnowPath ; 39
 	dw MapGroup_PowerPlantRuins ; 40
 	dw MapGroup_CinnabarVolcano ; 41
+	dw MapGroup_SeafoamCave	; 42
 	assert_table_length NUM_MAP_GROUPS
 
 MapGroup_Olivine:
@@ -708,3 +709,9 @@ MapGroup_CinnabarVolcano:
 	map CinnabarVolcano2F, TILESET_CAVE, DUNGEON, LANDMARK_ROUTE_21, MUSIC_LIGHTHOUSE, FALSE, PALETTE_DAY, FISHGROUP_NONE
 	map CinnabarVolcanoCrater, TILESET_CAVE, DUNGEON, LANDMARK_ROUTE_21, MUSIC_LIGHTHOUSE, FALSE, PALETTE_DAY, FISHGROUP_NONE
 	assert_table_length NUM_CINNABAR_VOLCANO_MAPS
+
+MapGroup_SeafoamCave:
+	table_width MAP_LENGTH, MapGroup_SeafoamCave
+	map SeafoamCave1F, TILESET_ICE_PATH, CAVE, LANDMARK_ROUTE_20, MUSIC_FROST_CAVERN_XY, FALSE, PALETTE_NITE, FISHGROUP_NONE
+	map SeafoamCave2BF, TILESET_ICE_PATH, CAVE, LANDMARK_ROUTE_20, MUSIC_FROST_CAVERN_XY, FALSE, PALETTE_NITE, FISHGROUP_NONE
+	assert_table_length NUM_SEAFOAM_CAVE_MAPS

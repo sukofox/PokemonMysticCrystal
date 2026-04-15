@@ -586,5 +586,7 @@ INCLUDE "maps/PowerPlantRuins2F.asm"
 INCLUDE "maps/CinnabarVolcano.asm"
 INCLUDE "maps/CinnabarVolcano2F.asm"
 INCLUDE "maps/CinnabarVolcanoCrater.asm"
+INCLUDE "maps/SeafoamCave1F.asm"
+INCLUDE "maps/SeafoamCave2BF.asm"
 
 ENDSECTION

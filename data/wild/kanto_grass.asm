@@ -982,4 +982,60 @@ KantoGrassWildMons:
 	db 44, MAGCARGO
 	end_grass_wildmons
 
+	def_grass_wildmons SEAFOAM_CAVE_1F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 28, SMOOCHUM
+	db 30, SMOOCHUM
+	db 41, JYNX
+	db 42, JYNX
+	db 42, CLOYSTER
+	db 43, CLOYSTER
+	db 44, DEWGONG
+	; day
+	db 28, SMOOCHUM
+	db 30, SMOOCHUM
+	db 41, JYNX
+	db 42, JYNX
+	db 42, CLOYSTER
+	db 43, CLOYSTER
+	db 44, DEWGONG
+	; nite
+	db 28, SMOOCHUM
+	db 30, SMOOCHUM
+	db 41, JYNX
+	db 42, JYNX
+	db 42, CLOYSTER
+	db 43, CLOYSTER
+	db 44, DEWGONG
+	end_grass_wildmons
+
+def_grass_wildmons SEAFOAM_CAVE_2BF
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 28, SMOOCHUM
+	db 30, SMOOCHUM
+	db 41, JYNX
+	db 42, JYNX
+	db 42, CLOYSTER
+	db 43, CLOYSTER
+	db 44, DEWGONG
+	; day
+	db 28, SMOOCHUM
+	db 30, SMOOCHUM
+	db 41, JYNX
+	db 42, JYNX
+	db 42, CLOYSTER
+	db 43, CLOYSTER
+	db 44, DEWGONG
+	; nite
+	db 28, SMOOCHUM
+	db 30, SMOOCHUM
+	db 41, JYNX
+	db 42, JYNX
+	db 42, CLOYSTER
+	db 43, CLOYSTER
+	db 44, DEWGONG
+	end_grass_wildmons
+
 	db -1 ; end

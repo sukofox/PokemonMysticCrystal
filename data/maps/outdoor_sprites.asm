@@ -45,6 +45,7 @@ OutdoorSprites:
 	dw SnowPathSprites
 	dw PowerPlantSprites
 	dw CinnabarVolcanoSprites
+	dw SeafoamCaveSprites
 	assert_table_length NUM_MAP_GROUPS
 
 ; Route1 and ViridianCity are connected
@@ -534,5 +535,17 @@ CinnabarVolcanoSprites:
 	db SPRITE_FRUIT_TREE
 	db SPRITE_POKE_BALL
 	db SPRITE_BIRD
+
+SeafoamCaveSprites:
+	db SPRITE_ROCKER
+	db SPRITE_COOLTRAINER_M
+	db SPRITE_POKEFAN_M
+	db SPRITE_COOLTRAINER_F
+	db SPRITE_FISHER
+	; 5 of max 9 walking sprites
+	db SPRITE_FRUIT_TREE
+	db SPRITE_POKE_BALL
+	db SPRITE_BIRD
+
 
 	

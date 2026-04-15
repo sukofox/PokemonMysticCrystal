@@ -644,4 +644,9 @@ ENDM
 	map_const CINNABAR_VOLCANO_CRATER,						21, 26;   3
 	endgroup
 
-DEF NUM_MAP_GROUPS EQU const_value ; 41
+	newgroup SEAFOAM_CAVE  											 ;42
+	map_const SEAFOAM_CAVE_1F,     							10, 10;    1
+	map_const SEAFOAM_CAVE_2BF,								16, 12;    2
+	endgroup
+
+DEF NUM_MAP_GROUPS EQU const_value ; 42

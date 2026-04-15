@@ -800,4 +800,6 @@ ENDM
 	map_attributes CinnabarVolcano, CINNABAR_VOLCANO, $09, 0
 	map_attributes CinnabarVolcano2F, CINNABAR_VOLCANO_2F, $09, 0
 	map_attributes CinnabarVolcanoCrater, CINNABAR_VOLCANO_CRATER, $09, 0
+	map_attributes SeafoamCave1F, SEAFOAM_CAVE_1F, $19, 0
+	map_attributes SeafoamCave2BF, SEAFOAM_CAVE_2BF, $19, 0
 	

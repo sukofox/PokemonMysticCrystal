@@ -1348,4 +1348,10 @@ CinnabarVolcano2F_Blocks:
 CinnabarVolcanoCrater_Blocks:
 	INCBIN "maps/CinnabarVolcanoCrater.blk"
 
+SeafoamCave1F_Blocks:
+	INCBIN "maps/SeafoamCave1F.blk"
+
+SeafoamCave2BF_Blocks:
+	INCBIN "maps/SeafoamCave2BF.blk"
+
 ENDSECTION
