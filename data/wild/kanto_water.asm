@@ -170,4 +170,18 @@ KantoWaterWildMons:
 	db 35, TENTACRUEL
 	end_water_wildmons
 
+	def_water_wildmons SAFARI_ZONE_1
+	db 6 percent ; encounter rate
+	db 40, QUAGSIRE
+	db 41, QWILFISH
+	db 28, DRATINI
+	end_water_wildmons
+
+	def_water_wildmons SAFARI_ZONE_3
+	db 6 percent ; encounter rate
+	db 40, QUAGSIRE
+	db 41, QWILFISH
+	db 28, DRATINI
+	end_water_wildmons
+
 	db -1 ; end

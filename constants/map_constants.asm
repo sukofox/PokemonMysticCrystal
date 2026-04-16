@@ -151,8 +151,8 @@ ENDM
 	map_const UNDERGROUND_PATH,                             3, 14 ; 86
 	map_const ROCK_TUNNEL_1F,                              15, 18 ; 87
 	map_const ROCK_TUNNEL_B1F,                             15, 18 ; 88
-	map_const SAFARI_ZONE_FUCHSIA_GATE_BETA,                5,  4 ; 89
-	map_const SAFARI_ZONE_BETA,                            10, 18 ; 90
+	;map_const SAFARI_ZONE_FUCHSIA_GATE_BETA,                5,  4 ; 89
+	;map_const SAFARI_ZONE_BETA,                            10, 18 ; 90
 	map_const VICTORY_ROAD,                                10, 36 ; 91
 	endgroup
 
@@ -644,9 +644,21 @@ ENDM
 	map_const CINNABAR_VOLCANO_CRATER,						21, 26;   3
 	endgroup
 
-	newgroup SEAFOAM_CAVE  											 ;42
-	map_const SEAFOAM_CAVE_1F,     							10, 10;    1
-	map_const SEAFOAM_CAVE_2BF,								16, 12;    2
+	newgroup SEAFOAM_CAVE  											;42
+	map_const SEAFOAM_CAVE_1F,     							10, 10;   1
+	map_const SEAFOAM_CAVE_2BF,								16, 12;   2
 	endgroup
 
-DEF NUM_MAP_GROUPS EQU const_value ; 42
+	newgroup SAFARI_ZONE											;43
+	map_const SAFARI_ZONE_GATE,								 4,  6;   1
+	map_const SAFARI_ZONE_1,								18, 12;   2
+	map_const SAFARI_ZONE_2,								18, 12;   3
+	map_const SAFARI_ZONE_3,								18, 12;   4
+	map_const SAFARI_ZONE_4,								18, 12;   5
+	map_const SAFARI_ZONE_5,								12, 18;   6
+	map_const RESTING_HOUSE_1,								 5,  4;   7
+	map_const RESTING_HOUSE_2,								 5,  4;   8
+	map_const RESTING_HOUSE_3,								 5,  4;   9
+	endgroup
+
+DEF NUM_MAP_GROUPS EQU const_value ; 43

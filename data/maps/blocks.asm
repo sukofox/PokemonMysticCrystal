@@ -200,7 +200,6 @@ CherrygroveEvolutionSpeechHouse_Blocks:
 Route30BerryHouse_Blocks:
 	INCBIN "maps/House1.blk"
 
-SafariZoneFuchsiaGateBeta_Blocks:
 Route19FuchsiaGate_Blocks:
 Route43MahoganyGate_Blocks:
 Route43Gate_Blocks:
@@ -950,9 +949,6 @@ VermilionPortPassage_Blocks:
 FuchsiaGym_Blocks:
 	INCBIN "maps/FuchsiaGym.blk"
 
-SafariZoneBeta_Blocks:
-	INCBIN "maps/SafariZoneBeta.blk"
-
 UndergroundPath_Blocks:
 	INCBIN "maps/UndergroundPath.blk"
 
@@ -1353,5 +1349,34 @@ SeafoamCave1F_Blocks:
 
 SeafoamCave2BF_Blocks:
 	INCBIN "maps/SeafoamCave2BF.blk"
+
+SafariZoneGate_Blocks:
+	INCBIN "maps/SafariZoneGate.blk"
+
+SafariZone1_Blocks:
+	INCBIN "maps/SafariZone1.blk"
+
+SafariZone2_Blocks:
+	INCBIN "maps/SafariZone2.blk"
+
+SafariZone3_Blocks:
+	INCBIN "maps/SafariZone3.blk"
+
+SafariZone4_Blocks:
+	INCBIN "maps/SafariZone4.blk"
+
+SafariZone5_Blocks:
+	INCBIN "maps/SafariZone5.blk"
+
+RestingHouse1_Blocks:
+	INCBIN "maps/RestingHouse1.blk"
+
+RestingHouse2_Blocks:
+	INCBIN "maps/RestingHouse2.blk"
+
+RestingHouse3_Blocks:
+	INCBIN "maps/RestingHouse3.blk"
+
+
 
 ENDSECTION

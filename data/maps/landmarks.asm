@@ -114,6 +114,7 @@ Landmarks:
 	landmark  68,  92, Route17Name
 	landmark  80, 116, Route18Name
 	landmark  92, 116, FuchsiaCityName
+	landmark  92, 113, SafariZoneName
 	landmark  92, 128, Route19Name
 	landmark  76, 132, Route20Name
 	landmark  68, 132, SeafoamIslandsName
@@ -172,7 +173,6 @@ MtMoonName:          db "MT.MOON@"
 RockTunnelName:      db "ROCK TUNNEL@"
 LavRadioTowerName:   db "LAV<BSP>RADIO TOWER@"
 SilphCoName:         db "SILPH CO.@" ; unreferenced
-SafariZoneName:      db "SAFARI ZONE@" ; unreferenced
 SeafoamIslandsName:  db "SEAFOAM<BSP>ISLANDS@"
 PokemonMansionName:  db "#MON<BSP>MANSION@" ; unreferenced
 CeruleanCaveName:    db "CERULEAN<BSP>CAVE@" ; unreferenced
@@ -256,3 +256,4 @@ SeasideTrailName:    db "SEASIDE<BSP>TRAIL@"
 NijohWoodsName:	     db "NIJOH<BSP>WOODS@"
 SnowPathName:		 db "SNOW<BSP>PATH@"
 SpruceCityName:		 db "SPRUCE<BSP>CITY@"
+SafariZoneName:		 db "SAFARI<BSP>ZONE@"

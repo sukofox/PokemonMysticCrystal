@@ -1038,4 +1038,228 @@ def_grass_wildmons SEAFOAM_CAVE_2BF
 	db 44, DEWGONG
 	end_grass_wildmons
 
+def_grass_wildmons SAFARI_ZONE_1
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 40, RHYHORN
+	db 41, RHYHORN
+	db 41, RHYDON
+	db 42, PARASECT
+	db 42, KANGASKHAN
+	db 43, DONPHAN
+	db 44, CHANSEY
+	; day
+	db 40, RHYHORN
+	db 41, RHYHORN
+	db 41, RHYDON
+	db 42, PARASECT
+	db 42, KANGASKHAN
+	db 43, DONPHAN
+	db 44, CHANSEY
+	; nite
+	db 40, RHYHORN
+	db 41, RHYHORN
+	db 41, RHYDON
+	db 42, PARASECT
+	db 42, KANGASKHAN
+	db 43, DONPHAN
+	db 44, MURKROW
+	end_grass_wildmons
+
+def_grass_wildmons SAFARI_ZONE_2
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 40, RHYHORN
+	db 41, RHYHORN
+	db 41, NIDORINO
+	db 42, NIDORINA
+	db 42, KANGASKHAN
+	db 43, SCYTHER
+	db 44, CHANSEY
+	; day
+	db 40, RHYHORN
+	db 41, RHYHORN
+	db 41, NIDORINO
+	db 42, NIDORINA
+	db 42, KANGASKHAN
+	db 43, SCYTHER
+	db 44, CHANSEY
+	; nite
+	db 40, RHYHORN
+	db 41, RHYHORN
+	db 41, NIDORINO
+	db 42, NIDORINA
+	db 42, KANGASKHAN
+	db 43, SCYTHER
+	db 44, MURKROW
+	end_grass_wildmons
+
+def_grass_wildmons SAFARI_ZONE_3
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 40, RHYHORN
+	db 41, RHYHORN
+	db 41, NIDORINO
+	db 42, NIDORINA
+	db 42, KANGASKHAN
+	db 43, SCYTHER
+	db 44, CHANSEY
+	; day
+	db 40, RHYHORN
+	db 41, RHYHORN
+	db 41, NIDORINO
+	db 42, NIDORINA
+	db 42, KANGASKHAN
+	db 43, SCYTHER
+	db 44, CHANSEY
+	; nite
+	db 40, RHYHORN
+	db 41, RHYHORN
+	db 41, NIDORINO
+	db 42, NIDORINA
+	db 42, KANGASKHAN
+	db 43, SCYTHER
+	db 44, MURKROW
+	end_grass_wildmons
+
+def_grass_wildmons SAFARI_ZONE_4
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 40, RHYHORN
+	db 41, RHYHORN
+	db 41, NIDORINO
+	db 42, VENOMOTH
+	db 42, KANGASKHAN
+	db 43, YANMA
+	db 44, CHANSEY
+	; day
+	db 40, RHYHORN
+	db 41, RHYHORN
+	db 41, NIDORINO
+	db 42, VENOMOTH
+	db 42, KANGASKHAN
+	db 43, YANMA
+	db 44, CHANSEY
+	; nite
+	db 40, RHYHORN
+	db 41, RHYHORN
+	db 41, NIDORINO
+	db 42, VENOMOTH
+	db 42, KANGASKHAN
+	db 43, HERACROSS
+	db 44, MURKROW
+	end_grass_wildmons
+
+def_grass_wildmons SAFARI_ZONE_5
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 40, RHYHORN
+	db 41, RHYHORN
+	db 41, NIDORINO
+	db 42, NIDORINA
+	db 42, KANGASKHAN
+	db 43, YANMA
+	db 44, CHANSEY
+	; day
+	db 40, RHYHORN
+	db 41, RHYHORN
+	db 41, NIDORINO
+	db 42, NIDORINA
+	db 42, KANGASKHAN
+	db 43, YANMA
+	db 44, CHANSEY
+	; nite
+	db 40, RHYHORN
+	db 41, RHYHORN
+	db 41, NIDORINO
+	db 42, NIDORINA
+	db 42, KANGASKHAN
+	db 43, HERACROSS
+	db 44, MURKROW
+	end_grass_wildmons
+
+def_grass_wildmons RESTING_HOUSE_1
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 40, ARIADOS
+	db 41, ARIADOS
+	db 41, VENONAT
+	db 42, VENOMOTH
+	db 42, WEEDLE
+	db 43, WEEDLE
+	db 44, ARIADOS
+	; day
+	db 40, ARIADOS
+	db 41, ARIADOS
+	db 41, VENONAT
+	db 42, VENOMOTH
+	db 42, WEEDLE
+	db 43, WEEDLE
+	db 44, ARIADOS
+	; nite
+	db 40, ARIADOS
+	db 41, ARIADOS
+	db 41, VENONAT
+	db 42, VENOMOTH
+	db 42, WEEDLE
+	db 43, WEEDLE
+	db 44, ARIADOS
+	end_grass_wildmons
+
+def_grass_wildmons RESTING_HOUSE_2
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 40, ARIADOS
+	db 41, ARIADOS
+	db 41, VENONAT
+	db 42, VENOMOTH
+	db 42, WEEDLE
+	db 43, WEEDLE
+	db 44, ARIADOS
+	; day
+	db 40, ARIADOS
+	db 41, ARIADOS
+	db 41, VENONAT
+	db 42, VENOMOTH
+	db 42, WEEDLE
+	db 43, WEEDLE
+	db 44, ARIADOS
+	; nite
+	db 40, ARIADOS
+	db 41, ARIADOS
+	db 41, VENONAT
+	db 42, VENOMOTH
+	db 42, WEEDLE
+	db 43, WEEDLE
+	db 44, ARIADOS
+	end_grass_wildmons
+
+def_grass_wildmons RESTING_HOUSE_3
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 40, ARIADOS
+	db 41, ARIADOS
+	db 41, VENONAT
+	db 42, VENOMOTH
+	db 42, WEEDLE
+	db 43, WEEDLE
+	db 44, ARIADOS
+	; day
+	db 40, ARIADOS
+	db 41, ARIADOS
+	db 41, VENONAT
+	db 42, VENOMOTH
+	db 42, WEEDLE
+	db 43, WEEDLE
+	db 44, ARIADOS
+	; nite
+	db 40, ARIADOS
+	db 41, ARIADOS
+	db 41, VENONAT
+	db 42, VENOMOTH
+	db 42, WEEDLE
+	db 43, WEEDLE
+	db 44, ARIADOS
+	end_grass_wildmons
+
 	db -1 ; end

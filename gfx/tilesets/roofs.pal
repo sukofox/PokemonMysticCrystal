@@ -169,3 +169,7 @@
 ; group 42 (Seafoam Cave)
 	RGB 22,20,10, 17,14,03 ; morn/day
 	RGB 11,11,05, 10,09,07 ; nite
+
+; group 43 (Safari Zone)
+	RGB 31,18,29, 17,13,20 ; morn/day
+	RGB 14,06,12, 11,03,10 ; nite
