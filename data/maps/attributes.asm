@@ -802,10 +802,10 @@ ENDM
 	map_attributes SeafoamCave2BF, SEAFOAM_CAVE_2BF, $19, 0
 	map_attributes SafariZoneGate, SAFARI_ZONE_GATE, $00, 0
 	map_attributes SafariZone1, SAFARI_ZONE_1, $05, 0
-	map_attributes SafariZone2, SAFARI_ZONE_2, $05, 0
+	map_attributes SafariZone2, SAFARI_ZONE_2, $1C, 0
 	map_attributes SafariZone3, SAFARI_ZONE_3, $05, 0
-	map_attributes SafariZone4, SAFARI_ZONE_4, $05, 0
-	map_attributes SafariZone5, SAFARI_ZONE_5, $05, 0
+	map_attributes SafariZone4, SAFARI_ZONE_4, $1C, 0
+	map_attributes SafariZone5, SAFARI_ZONE_5, $1C, 0
 	map_attributes RestingHouse1, RESTING_HOUSE_1, $00, 0
 	map_attributes RestingHouse2, RESTING_HOUSE_2, $00, 0
 	map_attributes RestingHouse3, RESTING_HOUSE_3, $00, 0
