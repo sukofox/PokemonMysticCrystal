@@ -1262,4 +1262,116 @@ def_grass_wildmons RESTING_HOUSE_3
 	db 44, ARIADOS
 	end_grass_wildmons
 
+def_grass_wildmons CERULEAN_CAVE
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 70, CHANSEY
+	db 71, DITTO
+	db 71, PARASECT
+	db 72, MAROWAK
+	db 70, SANDSLASH
+	db 72, GOLEM
+	db 70, TYRANITAR
+	; day
+	db 70, CHANSEY
+	db 71, DITTO
+	db 71, PARASECT
+	db 72, MAROWAK
+	db 70, SANDSLASH
+	db 72, GOLEM
+	db 70, TYRANITAR
+	; nite
+	db 70, CHANSEY
+	db 71, DITTO
+	db 71, PARASECT
+	db 72, MAROWAK
+	db 70, SANDSLASH
+	db 72, GOLEM
+	db 70, TYRANITAR
+	end_grass_wildmons
+
+def_grass_wildmons CERULEAN_CAVE_2
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 70, CHANSEY
+	db 71, DITTO
+	db 71, PARASECT
+	db 72, MAROWAK
+	db 70, SANDSLASH
+	db 72, GOLEM
+	db 70, TYRANITAR
+	; day
+	db 70, CHANSEY
+	db 71, DITTO
+	db 71, PARASECT
+	db 72, MAROWAK
+	db 70, SANDSLASH
+	db 72, GOLEM
+	db 70, TYRANITAR
+	; nite
+	db 70, CHANSEY
+	db 71, DITTO
+	db 71, PARASECT
+	db 72, MAROWAK
+	db 70, SANDSLASH
+	db 72, GOLEM
+	db 70, TYRANITAR
+	end_grass_wildmons
+
+def_grass_wildmons CERULEAN_CAVE_3
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 70, CHANSEY
+	db 71, DITTO
+	db 71, PARASECT
+	db 72, MAROWAK
+	db 70, SANDSLASH
+	db 72, GOLEM
+	db 70, SLOWKING
+	; day
+	db 70, CHANSEY
+	db 71, DITTO
+	db 71, PARASECT
+	db 72, MAROWAK
+	db 70, SANDSLASH
+	db 72, GOLEM
+	db 70, SLOWKING
+	; nite
+	db 70, CHANSEY
+	db 71, DITTO
+	db 71, PARASECT
+	db 72, MAROWAK
+	db 70, SANDSLASH
+	db 72, GOLEM
+	db 70, RHYDON
+	end_grass_wildmons
+
+def_grass_wildmons VIRIDIAN_FOREST
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 60, BUTTERFREE
+	db 61, BUTTERFREE
+	db 61, PARASECT
+	db 62, PINSIR
+	db 60, BEEDRILL
+	db 62, BEEDRILL
+	db 60, PIKACHU
+	; day
+	db 60, BUTTERFREE
+	db 61, BUTTERFREE
+	db 61, PARASECT
+	db 62, PINSIR
+	db 60, BEEDRILL
+	db 62, BEEDRILL
+	db 60, PIKACHU
+	; nite
+	db 60, BUTTERFREE
+	db 61, BUTTERFREE
+	db 61, PARASECT
+	db 62, PINSIR
+	db 60, BEEDRILL
+	db 62, BEEDRILL
+	db 60, MARILL
+	end_grass_wildmons
+
 	db -1 ; end

@@ -661,4 +661,16 @@ ENDM
 	map_const RESTING_HOUSE_3,								 5,  4;   9
 	endgroup
 
-DEF NUM_MAP_GROUPS EQU const_value ; 43
+	newgroup CERULEAN_CAVE											 ;44
+	map_const CERULEAN_CAVE,								14, 14;    1
+	map_const CERULEAN_CAVE_2,								14, 18;    2
+	map_const CERULEAN_CAVE_3,								20, 21;    3
+	endgroup
+
+	newgroup VIRIDIAN_FOREST										 ;45
+	map_const VIRIDIAN_FOREST_GATE1,						 5,  4;    1
+	map_const VIRIDIAN_FOREST, 								18, 27;    2
+	map_const VIRIDIAN_FOREST_GATE2,						 5,  4;    3
+	endgroup
+
+DEF NUM_MAP_GROUPS EQU const_value ; 45

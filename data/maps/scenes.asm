@@ -85,4 +85,5 @@ MapScenes::
 	scene_var MOBILE_TRADE_ROOM,                           wMobileTradeRoomSceneID
 	scene_var MOBILE_BATTLE_ROOM,                          wMobileBattleRoomSceneID
 	scene_var ECRUTEAK_FOREST,							   wEcruteakForestSceneID
+	scene_var CERULEAN_CITY,							   wCeruleanCitySceneID
 	db -1 ; end

@@ -3115,6 +3115,7 @@ wMountMoonSquareSceneID::                         db
 wMobileTradeRoomSceneID::                         db
 wMobileBattleRoomSceneID::                        db
 wEcruteakForestSceneID::						  db
+wCeruleanCitySceneID::							  db
 
 	ds 48
 

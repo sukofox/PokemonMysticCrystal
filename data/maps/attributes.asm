@@ -809,6 +809,12 @@ ENDM
 	map_attributes RestingHouse1, RESTING_HOUSE_1, $00, 0
 	map_attributes RestingHouse2, RESTING_HOUSE_2, $00, 0
 	map_attributes RestingHouse3, RESTING_HOUSE_3, $00, 0
+	map_attributes CeruleanCave, CERULEAN_CAVE, $09, 0
+	map_attributes CeruleanCave2, CERULEAN_CAVE_2, $09, 0
+	map_attributes CeruleanCave3, CERULEAN_CAVE_3, $09, 0
+	map_attributes ViridianForestGate1, VIRIDIAN_FOREST_GATE1, $00, 0
+	map_attributes ViridianForest, VIRIDIAN_FOREST, $1C, 0
+	map_attributes ViridianForestGate2, VIRIDIAN_FOREST_GATE2, $00, 0
 
 
 	

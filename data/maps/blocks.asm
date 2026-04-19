@@ -1377,6 +1377,22 @@ RestingHouse2_Blocks:
 RestingHouse3_Blocks:
 	INCBIN "maps/RestingHouse3.blk"
 
+CeruleanCave_Blocks:
+	INCBIN "maps/CeruleanCave.blk"
 
+CeruleanCave2_Blocks:
+	INCBIN "maps/CeruleanCave2.blk"
+
+CeruleanCave3_Blocks:
+	INCBIN "maps/CeruleanCave3.blk"
+
+ViridianForestGate1_Blocks:
+	INCBIN "maps/ViridianForestGate1.blk"
+
+ViridianForest_Blocks:
+	INCBIN "maps/ViridianForest.blk"
+
+ViridianForestGate2_Blocks:
+	INCBIN "maps/ViridianForestGate2.blk"
 
 ENDSECTION

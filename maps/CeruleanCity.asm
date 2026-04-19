@@ -5,9 +5,12 @@
 	const CERULEANCITY_COOLTRAINER_F
 	const CERULEANCITY_FISHER
 	const CERULEANCITY_YOUNGSTER
+	const CERULEANCITY_COOLTRAINER_M1
 
 CeruleanCity_MapScripts:
 	def_scene_scripts
+	scene_script CeruleanCityNoop1Scene,      SCENE_CERULEANCITY_BADGE_CHECK
+	scene_script CeruleanCityNoop2Scene,      SCENE_CERULEANCITY_NOOP
 
 	def_callbacks
 	callback MAPCALLBACK_NEWMAP, CeruleanCityFlypointCallback
@@ -15,6 +18,12 @@ CeruleanCity_MapScripts:
 CeruleanCityFlypointCallback:
 	setflag ENGINE_FLYPOINT_CERULEAN
 	endcallback
+
+CeruleanCityNoop1Scene:
+	end
+
+CeruleanCityNoop2Scene:
+	end
 
 CeruleanCityCooltrainerMScript:
 	faceplayer
@@ -120,6 +129,38 @@ CeruleanCityYoungsterScript:
 	closetext
 	end
 
+CeruleanCityBadgeCheckScript:
+	turnobject PLAYER, RIGHT
+	sjump _CeruleanCaveGuardBadgeCheckScript
+
+CeruleanCaveGuardScript:
+	faceplayer
+_CeruleanCaveGuardBadgeCheckScript:
+    opentext
+	writetext CeruleanCaveGuardText
+	promptbutton
+    readvar VAR_BADGES
+    ifequal 16, .AllowPass
+	sjump .BlockEntry
+
+.BlockEntry:
+    writetext CeruleanCaveGuardBlockText   ; <-- only write if not enough badges
+    waitbutton
+    closetext
+    applymovement PLAYER, CeruleanCaveGuardStepBackMovement
+    end
+
+.AllowPass:
+    writetext CeruleanCaveGuardAllowText
+    waitbutton
+    closetext
+	setscene SCENE_CERULEANCITY_NOOP
+    end
+
+CeruleanCaveGuardStepBackMovement:
+	step DOWN
+	step_end
+
 CeruleanCitySign:
 	jumptext CeruleanCitySignText
 
@@ -146,6 +187,9 @@ CeruleanCityMartSign:
 
 CeruleanCityHiddenBerserkGene:
 	hiddenitem BERSERK_GENE, EVENT_FOUND_BERSERK_GENE_IN_CERULEAN_CITY
+
+CeruleanCaveSign:
+	jumptext CeruleanCaveSignText
 
 CeruleanCityCooltrainerMText1:
 	text "KANTO's POWER"
@@ -212,8 +256,8 @@ CeruleanCityFisherRocketTipText:
 	done
 
 CeruleanCityYoungsterText1:
-	text "There used to be a"
-	line "cave here that had"
+	text "There is a"
+	line "cave here that has"
 
 	para "horribly powerful"
 	line "#MON in it."
@@ -224,6 +268,26 @@ CeruleanCityYoungsterText2:
 
 	para "My ITEMFINDER is"
 	line "responding…"
+	done
+
+CeruleanCaveGuardText:
+	text "CERULEAN"
+	line "CAVE contains"
+	cont "very strong"
+
+	para "#MON..."
+	done
+
+CeruleanCaveGuardBlockText:
+	text "You do not"
+	line "seem strong"
+	cont "enough."
+	done
+
+CeruleanCaveGuardAllowText:
+	text "You seem"
+	line "ready for"
+	cont "CERULEAN CAVE."
 	done
 
 CeruleanCitySignText:
@@ -273,6 +337,12 @@ CeruleanLockedDoorText:
 	text "It's locked…"
 	done
 
+CeruleanCaveSignText:
+	text "WARNING!"
+	line "Proceed with"
+	cont "caution."
+	done
+
 CeruleanCity_MapEvents:
 	db 0, 0 ; filler
 
@@ -283,8 +353,11 @@ CeruleanCity_MapEvents:
 	warp_event 19, 21, CERULEAN_POKECENTER_1F, 1
 	warp_event 30, 23, CERULEAN_GYM, 1
 	warp_event 25, 29, CERULEAN_MART, 2
+	warp_event 10,  3, CERULEAN_CAVE, 1
 
 	def_coord_events
+	coord_event 10,  8, SCENE_CERULEANCITY_BADGE_CHECK, CeruleanCityBadgeCheckScript
+
 
 	def_bg_events
 	bg_event 23, 23, BGEVENT_READ, CeruleanCitySign
@@ -296,6 +369,7 @@ CeruleanCity_MapEvents:
 	bg_event 20, 21, BGEVENT_READ, CeruleanCityPokecenterSign
 	bg_event 26, 29, BGEVENT_READ, CeruleanCityMartSign
 	bg_event  2, 12, BGEVENT_ITEM, CeruleanCityHiddenBerserkGene
+	bg_event  9,  7, BGEVENT_READ, CeruleanCaveSign
 
 	def_object_events
 	object_event 15, 23, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CeruleanCityCooltrainerMScript, -1
@@ -304,3 +378,4 @@ CeruleanCity_MapEvents:
 	object_event 21, 24, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CeruleanCityCooltrainerFScript, -1
 	object_event 30, 26, SPRITE_FISHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CeruleanCityFisherScript, -1
 	object_event  6, 12, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CeruleanCityYoungsterScript, -1
+	object_event 11,  8, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CeruleanCaveGuardScript, -1

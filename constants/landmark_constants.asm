@@ -80,11 +80,13 @@ DEF KANTO_LANDMARK EQU const_value
 	const LANDMARK_ROUTE_1           ; 30
 	const LANDMARK_VIRIDIAN_CITY     ; 31
 	const LANDMARK_ROUTE_2           ; 32
+	const LANDMARK_VIRIDIAN_FOREST
 	const LANDMARK_PEWTER_CITY       ; 33
 	const LANDMARK_ROUTE_3           ; 34
 	const LANDMARK_MT_MOON           ; 35
 	const LANDMARK_ROUTE_4           ; 36
 	const LANDMARK_CERULEAN_CITY     ; 37
+	const LANDMARK_CERULEAN_CAVE
 	const LANDMARK_ROUTE_24          ; 38
 	const LANDMARK_ROUTE_25          ; 39
 	const LANDMARK_ROUTE_5           ; 3a

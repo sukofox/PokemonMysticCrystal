@@ -173,3 +173,11 @@
 ; group 43 (Safari Zone)
 	RGB 31,18,29, 17,13,20 ; morn/day
 	RGB 14,06,12, 11,03,10 ; nite
+
+; group 44 (Cerulean Cave)
+	RGB 17,27,31, 05,15,31 ; morn/day
+	RGB 07,08,22, 07,07,16 ; nite
+
+; group 45 (Viridian Forest)
+	RGB 21,31,07, 13,25,04 ; morn/day
+	RGB 09,14,08, 06,10,04 ; nite

@@ -70,3 +70,6 @@
 	tilecoll WALL, WALL, WALL, WALL ; 45
 	tilecoll WALL, WALL, WALL, WALL ; 46
 	tilecoll WALL, FLOOR, WALL, WALL ; 47
+	tilecoll WALL, WALL, WATERFALL, WATERFALL ; 48
+	tilecoll WALL, WALL, WATER, WATER ; 49
+	tilecoll WALL, FLOOR, WALL, FLOOR ; 4a

@@ -184,4 +184,25 @@ KantoWaterWildMons:
 	db 28, DRATINI
 	end_water_wildmons
 
+	def_water_wildmons CERULEAN_CAVE
+	db 6 percent ; encounter rate
+	db 72, QUAGSIRE
+	db 71, GOLDUCK
+	db 70, DRAGONAIR
+	end_water_wildmons
+
+	def_water_wildmons CERULEAN_CAVE_2
+	db 6 percent ; encounter rate
+	db 72, QUAGSIRE
+	db 71, GOLDUCK
+	db 70, DRAGONAIR
+	end_water_wildmons
+
+	def_water_wildmons CERULEAN_CAVE_3
+	db 6 percent ; encounter rate
+	db 72, QUAGSIRE
+	db 71, GOLDUCK
+	db 70, DRAGONAIR
+	end_water_wildmons
+
 	db -1 ; end

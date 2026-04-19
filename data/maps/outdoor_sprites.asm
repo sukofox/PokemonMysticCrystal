@@ -47,6 +47,8 @@ OutdoorSprites:
 	dw CinnabarVolcanoSprites
 	dw SeafoamCaveSprites
 	dw SafariZoneSprites
+	dw CeruleanCaveSprites
+	dw ViridianForestSprites
 	assert_table_length NUM_MAP_GROUPS
 
 ; Route1 and ViridianCity are connected
@@ -559,7 +561,28 @@ SafariZoneSprites:
 	db SPRITE_POKE_BALL
 	db SPRITE_MONSTER
 
+CeruleanCaveSprites:
+	db SPRITE_ROCKER
+	db SPRITE_COOLTRAINER_M
+	db SPRITE_POKEFAN_M
+	db SPRITE_COOLTRAINER_F
+	db SPRITE_FISHER
+	; 5 of max 9 walking sprites
+	db SPRITE_FRUIT_TREE
+	db SPRITE_POKE_BALL
+	db SPRITE_MONSTER
 
+ViridianForestSprites:
+; ViridianForest
+	db SPRITE_TEACHER
+	db SPRITE_YOUNGSTER
+	db SPRITE_GRAMPS
+	db SPRITE_BUG_CATCHER
+	db SPRITE_COOLTRAINER_F
+	; max 5 of 9 walking sprites
+	db SPRITE_POKE_BALL
+	db SPRITE_FRUIT_TREE
+	db 0 ; end
 
 
 	

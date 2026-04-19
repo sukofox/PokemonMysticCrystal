@@ -595,5 +595,11 @@ INCLUDE "maps/SafariZone5.asm"
 INCLUDE "maps/RestingHouse1.asm"
 INCLUDE "maps/RestingHouse2.asm"
 INCLUDE "maps/RestingHouse3.asm"
+INCLUDE "maps/CeruleanCave.asm"
+INCLUDE "maps/CeruleanCave2.asm"
+INCLUDE "maps/CeruleanCave3.asm"
+INCLUDE "maps/ViridianForestGate1.asm"
+INCLUDE "maps/ViridianForest.asm"
+INCLUDE "maps/ViridianForestGate2.asm"
 
 ENDSECTION
