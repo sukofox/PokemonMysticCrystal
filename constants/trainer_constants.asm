@@ -193,6 +193,7 @@ DEF KRIS EQU __trainer_class__
 	const DANA4
 	const DANA5
 	const MICAELA
+	const KAZUMI
 
 	trainerclass JANINE ; 1a
 	const JANINE1
@@ -364,6 +365,10 @@ DEF KRIS EQU __trainer_class__
 	const MARIO
 	const AMRIK
 	const ANTUAN
+	const MARTY
+	const JET
+	const GALEN
+	const SOKKA
 
 	trainerclass FISHER ; 25
 	const JUSTIN
@@ -404,6 +409,7 @@ DEF KRIS EQU __trainer_class__
 	const LUIS
 	const PEDRO
 	const HULON
+	const LUCK
 
 	trainerclass SWIMMERM ; 26
 	const HAROLD

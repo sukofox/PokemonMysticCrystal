@@ -817,6 +817,14 @@ LassGroup:
 	db 42, OCTILLERY
 	db -1 ; end
 
+	; LASS (19)
+	db "KAZUMI@", TRAINERTYPE_NORMAL
+	db 51, PIKACHU
+	db 52, RAICHU
+	db 51, CLEFAIRY
+	db 52, CLEFABLE
+	db -1 ; end
+
 JanineGroup:
 	; JANINE (1)
 	db "JANINE@", TRAINERTYPE_MOVES
@@ -1745,6 +1753,38 @@ BugCatcherGroup:
 	db 18, PARAS
 	db -1 ; end
 
+	; BUG_CATCHER (23)
+	db "MARTY@", TRAINERTYPE_NORMAL
+	db 50, BUTTERFREE
+	db 50, BEEDRILL
+	db 52, BEEDRILL
+	db 51, FORRETRESS
+	db -1 ; end
+
+	; BUG_CATCHER (24)
+	db "JET@", TRAINERTYPE_NORMAL
+	db 51, YANMA
+	db 52, HERACROSS
+	db 50, LEDIAN
+	db 50, ARIADOS
+	db 52, SCIZOR
+	db -1 ; end
+
+	; BUG_CATCHER (25)
+	db "GALEN@", TRAINERTYPE_NORMAL
+	db 50, PINSIR
+	db 51, SCYTHER
+	db 51, HERACROSS
+	db -1 ; end
+
+	; BUG_CATCHER (26)
+	db "SOKKA@", TRAINERTYPE_NORMAL
+	db 51, PARASECT
+	db 51, PARASECT
+	db 52, VENOMOTH
+	db 51, BUTTERFREE
+	db -1 ; end
+
 FisherGroup:
 	; FISHER (1)
 	db "JUSTIN@", TRAINERTYPE_NORMAL
@@ -2001,6 +2041,16 @@ FisherGroup:
 	db 37, GYARADOS
 	db 36, SEADRA
 	db 36, MANTINE
+	db -1 ; end
+
+	; FISHER (39)
+	db "LUCK@", TRAINERTYPE_NORMAL
+	db 36, OCTILLERY
+	db 36, QWILFISH
+	db 37, GYARADOS
+	db 37, POLITOED
+	db 38, SLOWKING
+	db 37, LANTURN
 	db -1 ; end
 
 SwimmerMGroup:

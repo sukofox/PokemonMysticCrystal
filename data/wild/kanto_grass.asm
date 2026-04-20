@@ -1353,7 +1353,7 @@ def_grass_wildmons VIRIDIAN_FOREST
 	db 61, BUTTERFREE
 	db 61, PARASECT
 	db 62, PINSIR
-	db 60, BEEDRILL
+	db 60, LEDIAN
 	db 62, BEEDRILL
 	db 60, PIKACHU
 	; day
@@ -1361,7 +1361,7 @@ def_grass_wildmons VIRIDIAN_FOREST
 	db 61, BUTTERFREE
 	db 61, PARASECT
 	db 62, PINSIR
-	db 60, BEEDRILL
+	db 60, LEDIAN
 	db 62, BEEDRILL
 	db 60, PIKACHU
 	; nite
@@ -1369,7 +1369,7 @@ def_grass_wildmons VIRIDIAN_FOREST
 	db 61, BUTTERFREE
 	db 61, PARASECT
 	db 62, PINSIR
-	db 60, BEEDRILL
+	db 60, ARIADOS
 	db 62, BEEDRILL
 	db 60, MARILL
 	end_grass_wildmons

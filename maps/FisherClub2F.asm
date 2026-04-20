@@ -2,6 +2,7 @@ object_const_def
 	const FISHER_CLUB_2F_FISHER1
 	const FISHER_CLUB_2F_FISHER2
 	const FISHER_CLUB_2F_FISHER3
+	const FISHER_CLUB_2F_FISHERLEAD
 
 FisherClub2F_MapScripts:
 	def_scene_scripts
@@ -41,6 +42,43 @@ FisherHulon:
 	closetext
 	end
 
+FisherLuckScript:
+	faceplayer
+	checkevent EVENT_BEAT_FISHER_LUCK
+	iftrue .AfterBattle
+	opentext
+	writetext FisherLuckSeenText
+	waitbutton
+	closetext
+	winlosstext FisherLuckBeatenText, 0
+	loadtrainer FISHER, LUCK
+	startbattle
+	reloadmapafterbattle
+	setevent EVENT_BEAT_FISHER_LUCK
+
+.AfterBattle:
+	opentext
+	checkevent EVENT_GOT_KINGS_ROCK_LUCK
+    iftrue .GotKingsRockLuck
+	writetext FisherLuckKingsRockText
+	promptbutton
+	verbosegiveitem KINGS_ROCK
+	iffalse .NoRoom
+	setevent EVENT_GOT_KINGS_ROCK_LUCK
+	writetext FisherLuckKingsRockExplanationText
+	waitbutton
+	closetext
+	end
+
+.GotKingsRockLuck:
+	writetext FisherLuckAfterBattleText
+	waitbutton
+	closetext
+	end
+
+.NoRoom:
+	closetext
+	end
 
 FisherLuisSeenText:
 	text "Magikarp"
@@ -98,6 +136,40 @@ FisherHulonAfterBattleText:
 	para "It soothes me."
 	done
 
+FisherLuckSeenText:
+	text "You think you"
+	line "can beat me?"
+	cont "Good luck."
+
+	para "I am not like"
+	line "the others..."
+	cont "You shall see."
+	done
+
+FisherLuckBeatenText:
+	text "Splendid!"
+	done
+
+FisherLuckKingsRockText:
+	text "Because of"
+	line "your strength"
+	cont "you have gotten"
+
+	para "a prize."
+	done
+
+FisherLuckKingsRockExplanationText:
+	text "This item can"
+	line "help you with"
+	cont "evolving certain"
+
+	para "#MON."
+	done
+
+FisherLuckAfterBattleText:
+	text "Use it wisely."
+	done
+
 FisherClub2F_MapEvents:
 	db 0, 0 ; filler
 
@@ -112,3 +184,4 @@ FisherClub2F_MapEvents:
     object_event 16,  6, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, FisherLuis, -1
 	object_event 13,  1, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, FisherPedro, -1
 	object_event  2,  8, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, FisherHulon, -1
+	object_event  3, 12, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, FisherLuckScript, -1

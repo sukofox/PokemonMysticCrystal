@@ -327,7 +327,7 @@ WhitneyRematchAfter:
 	cont "But a hug"
 
 	para "would not"
-	cont "hurt me."
+	line "hurt me."
 	done
 
 LassCarrieSeenText:

@@ -169,10 +169,11 @@ EcruteakGroupSprites:
 	db SPRITE_BUG_CATCHER
 	db SPRITE_SUPER_NERD
 	; 8 of max 9 walking sprites
-	db SPRITE_WEIRD_TREE ; variable sprite: becomes SPRITE_SUDOWOODO and SPRITE_TWIN
+	db SPRITE_SUDOWOODO ; variable sprite: becomes SPRITE_SUDOWOODO and SPRITE_TWIN
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db SPRITE_SUICUNE
+	db SPRITE_TWIN
 	db 0 ; end
 
 AzaleaGroupSprites:
@@ -181,12 +182,13 @@ AzaleaGroupSprites:
 	db SPRITE_YOUNGSTER
 	db SPRITE_POKEFAN_M
 	db SPRITE_TEACHER
-	db SPRITE_AZALEA_ROCKET ; variable sprite: becomes SPRITE_ROCKET and SPRITE_RIVAL
+	db SPRITE_ROCKET ; variable sprite: becomes SPRITE_ROCKET and SPRITE_RIVAL
+	db SPRITE_RIVAL
 	db SPRITE_LASS
 	; 6 of max 9 walking sprites
 	db SPRITE_FRUIT_TREE
 	db SPRITE_SLOWPOKE
-	db SPRITE_KURT_OUTSIDE ; non-walking version of SPRITE_KURT
+	db SPRITE_KURT ; non-walking version of SPRITE_KURT
 	db 0 ; end
 
 GoldenrodGroupSprites:
@@ -209,7 +211,7 @@ OlivineGroupSprites:
 ; Route38, Route39, OlivineCity
 CianwoodGroupSprites:
 ; Route40, Route41, CianwoodCity, BattleTowerOutside
-	db SPRITE_OLIVINE_RIVAL ; variable sprite: becomes SPRITE_RIVAL and SPRITE_SWIMMER_GUY
+	db SPRITE_RIVAL ; variable sprite: becomes SPRITE_RIVAL and SPRITE_SWIMMER_GUY
 	db SPRITE_POKEFAN_M
 	db SPRITE_LASS
 	db SPRITE_BEAUTY
@@ -217,12 +219,12 @@ CianwoodGroupSprites:
 	db SPRITE_SAILOR
 	db SPRITE_POKEFAN_F
 	db SPRITE_SUPER_NERD
-	db SPRITE_SAGE
+	db SPRITE_SWIMMER_GUY
 	; 9 of max 9 walking sprites
 	db SPRITE_MILTANK
 	db SPRITE_FRUIT_TREE
 	db SPRITE_ROCK
-	db SPRITE_STANDING_YOUNGSTER ; non-walking version of SPRITE_YOUNGSTER
+	db SPRITE_YOUNGSTER ; non-walking version of SPRITE_YOUNGSTER
 	db SPRITE_SUICUNE
 	db 0 ; end
 
@@ -353,7 +355,6 @@ EcruteakForestSprites:
 	db SPRITE_BUG_CATCHER
 	db SPRITE_SUPER_NERD
 	; 8 of max 9 walking sprites
-	db SPRITE_WEIRD_TREE ; variable sprite: becomes SPRITE_SUDOWOODO and SPRITE_TWIN
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db SPRITE_SUICUNE
@@ -369,7 +370,6 @@ MysteriousRuinsSprites:
 	db SPRITE_BUG_CATCHER
 	db SPRITE_SUPER_NERD
 	; 8 of max 9 walking sprites
-	db SPRITE_WEIRD_TREE ; variable sprite: becomes SPRITE_SUDOWOODO and SPRITE_TWIN
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db SPRITE_RAIKOU
@@ -385,14 +385,13 @@ EcruteakLibrarySprites:
 	db SPRITE_BUG_CATCHER
 	db SPRITE_SUPER_NERD
 	; 8 of max 9 walking sprites
-	db SPRITE_WEIRD_TREE ; variable sprite: becomes SPRITE_SUDOWOODO and SPRITE_TWIN
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db SPRITE_RAIKOU
 	db 0 ; end
 
 FirIslandSprites:
-	db SPRITE_OLIVINE_RIVAL ; variable sprite: becomes SPRITE_RIVAL and SPRITE_SWIMMER_GUY
+	db SPRITE_RIVAL ; variable sprite: becomes SPRITE_RIVAL and SPRITE_SWIMMER_GUY
 	db SPRITE_LASS
 	;db SPRITE_SWIMMER_GIRL unnecessary
 	db SPRITE_COOLTRAINER_M
@@ -402,7 +401,7 @@ FirIslandSprites:
 	db SPRITE_TAUROS
 	db SPRITE_FRUIT_TREE
 	db SPRITE_ROCK
-	db SPRITE_STANDING_YOUNGSTER ; non-walking version of SPRITE_YOUNGSTER
+	db SPRITE_YOUNGSTER ; non-walking version of SPRITE_YOUNGSTER
 	db SPRITE_SUICUNE
 	db 0 ; end
 
@@ -416,7 +415,6 @@ FirCitySprites:
 	db SPRITE_GRANNY
 	db SPRITE_KIMONO_GIRL
 	; 8 of max 9 walking sprites
-	db SPRITE_WEIRD_TREE ; variable sprite: becomes SPRITE_SUDOWOODO and SPRITE_TWIN
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db SPRITE_CHIKORITA
@@ -432,7 +430,6 @@ DeepWoodsSprites:
 	db SPRITE_GRANNY
 	db SPRITE_KIMONO_GIRL
 	; 8 of max 9 walking sprites
-	db SPRITE_WEIRD_TREE ; variable sprite: becomes SPRITE_SUDOWOODO and SPRITE_TWIN
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db SPRITE_CHIKORITA
@@ -448,7 +445,6 @@ PineTownSprites:
 	db SPRITE_TEACHER
 	db SPRITE_BLACK_BELT
 	; 8 of max 9 walking sprites
-	db SPRITE_WEIRD_TREE ; variable sprite: becomes SPRITE_SUDOWOODO and SPRITE_TWIN
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db SPRITE_DUNSPARCE
@@ -464,7 +460,6 @@ GoldenPavilionSprites:
 	db SPRITE_GRANNY
 	db SPRITE_KIMONO_GIRL
 	; 8 of max 9 walking sprites
-	db SPRITE_WEIRD_TREE ; variable sprite: becomes SPRITE_SUDOWOODO and SPRITE_TWIN
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db SPRITE_ENTEI
@@ -480,7 +475,6 @@ BugCatcherClubSprites:
 	db SPRITE_GRANNY
 	db SPRITE_KIMONO_GIRL
 	; 8 of max 9 walking sprites
-	db SPRITE_WEIRD_TREE ; variable sprite: becomes SPRITE_SUDOWOODO and SPRITE_TWIN
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db SPRITE_CHIKORITA
@@ -496,7 +490,6 @@ CactusDesertSprites:
 	db SPRITE_SCIENTIST
 	db SPRITE_POKEFAN_M
 	; 8 of max 9 walking sprites
-	db SPRITE_WEIRD_TREE ; variable sprite: becomes SPRITE_SUDOWOODO and SPRITE_TWIN
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db SPRITE_CHIKORITA

@@ -71,5 +71,5 @@ SaguaroCity_MapEvents:
 
 	def_object_events
     object_event 25,  7, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SaguaroCityPokefanMScript, -1
-    object_event 24, 15, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SaguaroCityGrampsScript, -1
+    object_event 24, 15, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SaguaroCityGrampsScript, -1
 	object_event 11, 10, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SaguaroCityCooltrainerFScript, -1
