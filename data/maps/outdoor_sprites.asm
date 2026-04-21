@@ -569,7 +569,7 @@ ViridianForestSprites:
 ; ViridianForest
 	db SPRITE_TEACHER
 	db SPRITE_YOUNGSTER
-	db SPRITE_GRAMPS
+	db SPRITE_LASS
 	db SPRITE_BUG_CATCHER
 	db SPRITE_COOLTRAINER_F
 	; max 5 of 9 walking sprites

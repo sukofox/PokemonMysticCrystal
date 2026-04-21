@@ -21,6 +21,8 @@ Features:
 9. Raikou is no longer a roamer. Raikou is found somewhere else. I am confident you will figure it out. Entei is also a static encounter somewhere. Good luck!
 10. In vanilla games, many Johto pokemon were only available post-game in Kanto, which was absurd. Now you can get them relatively earlier in Johto.
     a) The same is true of some Kanto pokemon. For example, Diglett, which you can find early in Johto now.
+11. Viridian forest, Cinnabar volcano, Seafoam cave, Power plant ruins, and the safari zone in Fuchsia city were added to the game.
+12. There is a person in the Goldenrod Dept. Store who sells evolution stones.
 
 CREDITS: 
 1. To the pret team who made this and many more projects possible by creating the disassemblies. Thank you all. 
