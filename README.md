@@ -24,6 +24,11 @@ Features:
 11. Viridian forest, Cinnabar volcano, Seafoam cave, Power plant ruins, and the safari zone in Fuchsia city were added to the game.
 12. There is a person in the Goldenrod Dept. Store who sells evolution stones.
 
+![totodile](totodile.png)
+![ruins](ruins.png)
+![viridianforest](viridianforest.png)
+![chikorita](chikorita.png)
+
 CREDITS: 
 1. To the pret team who made this and many more projects possible by creating the disassemblies. Thank you all. 
 2. Meta, the ROMhack youtuber, for giving me the idea of putting Totodile as a wild pokemon in a certain location (check out his wonderful chanel: https://www.youtube.com/@metaphysical8698
