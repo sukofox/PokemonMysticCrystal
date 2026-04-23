@@ -28,6 +28,7 @@ Features:
 ![ruins](ruins.png)
 ![viridianforest](viridianforest.png)
 ![chikorita](chikorita.png)
+![townmap](townmap.png)
 
 CREDITS: 
 1. To the pret team who made this and many more projects possible by creating the disassemblies. Thank you all. 
