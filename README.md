@@ -29,6 +29,7 @@ Features:
 ![viridianforest](viridianforest.png)
 ![chikorita](chikorita.png)
 ![townmap](townmap.png)
+![newbark](newbark.png)
 
 CREDITS: 
 1. To the pret team who made this and many more projects possible by creating the disassemblies. Thank you all. 
