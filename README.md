@@ -7,7 +7,7 @@ This is a hack of Pokémon Crystal based on the pokecrystal disassembly from pre
 In this hack, you will see an expanded/modified Johto, with a focus on the more traditional aspects of the region.
 So if you are a sucker for traditional buildings, pagodas, shrines, and forests, this is your hack.
 
-Join the Discord for updates and more information: https://discord.gg/mr7XmBzE
+Join the Discord for updates and more information: https://discord.gg/RrN7BFXs7d
 
 Features: 
 1. There are new areas/cities (more are currently being added).
