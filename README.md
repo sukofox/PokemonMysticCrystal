@@ -14,7 +14,7 @@ To play, please use SameBoy or mGBA. Other emulators may not be compatible with 
 
 Join the Discord for updates and more information: https://discord.gg/RrN7BFXs7d
 
-Features: 
+# Features: 
 1. There are new areas/cities (more are currently being added).
 2. You can rematch gym leaders as many times as you want. Just speak to them right after winning (currently you can re-battle up to Pryce).
 3. Pokemon trainers, leaders, Elite Four, and wild pokemon have higher levels. This is to offer a more challenging experience, without entering Kaizo or "difficulty hack" territory.
