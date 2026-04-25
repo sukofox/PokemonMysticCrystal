@@ -40,7 +40,6 @@ INCLUDE "engine/events/bug_contest/caught_mon.asm"
 INCLUDE "engine/items/item_effects.asm"
 INCLUDE "engine/battle_anims/pokeball_wobble.asm"
 INCLUDE "engine/pokemon/knows_move.asm"
-INCLUDE "engine/events/tradeback_npc.asm"
 
 
 SECTION "bank4", ROMX
@@ -486,8 +485,9 @@ INCLUDE "engine/battle/misc.asm"
 SECTION "bank3F", ROMX
 
 INCLUDE "engine/tilesets/tileset_anims.asm"
-INCLUDE "engine/events/npc_trade.asm"
+INCLUDE "engine/events/tradeback_npc.asm"
 INCLUDE "engine/events/mom_phone.asm"
+INCLUDE "engine/events/npc_trade.asm"
 
 
 SECTION "mobile40", ROMX
