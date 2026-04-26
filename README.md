@@ -10,7 +10,7 @@ So if you are a sucker for traditional buildings, pagodas, shrines, and forests,
 # IMPORTANT!
 To patch, use the Pokemon Crystal 1.0 (aka "original crystal) ROM (not Rev 1 or 1.1). 
 
-To play, please use SameBoy or mGBA. Other emulators may not be compatible with the game and will probably cause issues.
+To play, please use SameBoy, BGB, or mGBA. Other emulators may not be compatible with the game and will probably cause issues.
 
 Join the Discord for updates and more information: https://discord.gg/RrN7BFXs7d
 
