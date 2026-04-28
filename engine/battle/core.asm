@@ -2165,6 +2165,7 @@ ApplyExperienceAfterEnemyCaught:
 	ret z
 	ld hl, wEnemyMonBaseExp
 	srl [hl]
+	srl [hl]
 	ld a, [wBattleParticipantsNotFainted]
 	push af
 	ld a, d

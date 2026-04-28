@@ -317,7 +317,7 @@ JohtoGrassWildMons:
 	db 16, KOFFING
 	db 18, KOFFING
 	db 17, ZUBAT
-	db 15, KOFFING
+	db 15, CYNDAQUIL
 	db 18, KOFFING
 	db 14, CYNDAQUIL
 	; day
@@ -325,7 +325,7 @@ JohtoGrassWildMons:
 	db 16, KOFFING
 	db 18, KOFFING
 	db 17, ZUBAT
-	db 14, KOFFING
+	db 14, CYNDAQUIL
 	db 18, KOFFING
 	db 14, CYNDAQUIL
 	; nite
@@ -1324,18 +1324,18 @@ JohtoGrassWildMons:
 	db 4, EKANS
 	db 5, RATTATA
 	db 7, BELLSPROUT
-	db 6, HOPPIP
-	db 7, PIDGEY
-	db 7, HOPPIP
 	db 7, MAREEP
+	db 7, PIDGEY
+	db 8, MAREEP
+	db 8, HOPPIP
 	; day
 	db 4, EKANS
 	db 5, RATTATA
 	db 7, BELLSPROUT
-	db 6, HOPPIP
-	db 7, PIDGEY
-	db 7, HOPPIP
 	db 7, MAREEP
+	db 7, PIDGEY
+	db 8, MAREEP
+	db 8, HOPPIP
 	; nite
 	db 4, WOOPER
 	db 5, RATTATA
@@ -1719,7 +1719,7 @@ JohtoGrassWildMons:
     db 3, CHIKORITA
     db 4, CHIKORITA
     db 2, HOPPIP
-    db 3, HOPPIP
+    db 3, PICHU
     db 4, CHIKORITA
     db 5, CHIKORITA
     db 4, PICHU
@@ -1728,7 +1728,7 @@ JohtoGrassWildMons:
     db 3, CHIKORITA
     db 4, CHIKORITA
     db 2, HOPPIP
-    db 3, HOPPIP
+    db 3, PICHU
     db 4, CHIKORITA
     db 5, CHIKORITA
     db 4, PICHU
@@ -1737,10 +1737,10 @@ JohtoGrassWildMons:
     db 3, CHIKORITA
     db 4, CHIKORITA
     db 2, HOPPIP
-    db 3, HOPPIP
+    db 3, CLEFFA
     db 4, CHIKORITA
     db 5, CHIKORITA
-    db 3, HOPPIP
+    db 5, CLEFFA
 	end_grass_wildmons
 
 	; Ecruteak Forest wild Pokémon
