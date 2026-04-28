@@ -28,6 +28,12 @@ Join the Discord for updates and more information: https://discord.gg/RrN7BFXs7d
     a) The same is true of some Kanto pokemon. For example, Diglett, which you can find early in Johto now.
 11. Viridian forest, Cinnabar volcano, Seafoam cave, Power plant ruins, and the safari zone in Fuchsia city were added to the game.
 12. There is a person in the Goldenrod Dept. Store who sells evolution stones.
+13. Physical/special split.
+14. Fairy type.
+15. TMs are infinitely reusable.
+16. Exp. points from catching pokemon.
+17. No gym badge boosts.
+18. Added a "toggleable" Exp. Share key item that gives exp. points to party.
 
 ![totodile](totodile.png)
 ![ruins](ruins.png)
