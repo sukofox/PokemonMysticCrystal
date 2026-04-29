@@ -596,17 +596,17 @@ JohtoGrassWildMons:
 	db 20, RATTATA
 	db 20, ZUBAT
 	db 21, MACHOP
-	db 23, GOLBAT
-	db 20, GEODUDE
 	db 16, TOTODILE
+	db 20, GEODUDE
+	db 23, GOLBAT
 	db 16, TOTODILE
 	; day
 	db 20, RATTATA
 	db 20, ZUBAT
 	db 21, MACHOP
-	db 21, GOLBAT
-	db 20, GEODUDE
 	db 16, TOTODILE
+	db 20, GEODUDE
+	db 23, GOLBAT
 	db 16, TOTODILE
 	; nite
 	db 20, RATTATA
