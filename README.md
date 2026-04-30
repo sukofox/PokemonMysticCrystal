@@ -42,6 +42,9 @@ Join the Discord for updates and more information: https://discord.gg/RrN7BFXs7d
 ![townmap](townmap.png)
 ![newbark](newbark.png)
 ![pagoda](pagoda.png)
+![cyndaquil](cyndaquil.png)
+![violet](violet.png)
+![cherrygrove](cherrygrove.png)
 
 CREDITS: 
 1. To the pret team who made this and many more projects possible by creating the disassemblies. Thank you all. 
