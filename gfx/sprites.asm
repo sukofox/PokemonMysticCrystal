@@ -107,3 +107,9 @@ EnteiSpriteGFX::               INCBIN "gfx/sprites/entei.2bpp"
 RaikouSpriteGFX::              INCBIN "gfx/sprites/raikou.2bpp"
 ;StandingYoungsterSpriteGFX::   INCBIN "gfx/sprites/standing_youngster.2bpp"
 
+
+SECTION "Sprites 3", ROMX
+
+ChrisRunSpriteGFX::            INCBIN "gfx/sprites/chris_run.2bpp"
+KrisRunSpriteGFX::             INCBIN "gfx/sprites/kris_run.2bpp"
+
