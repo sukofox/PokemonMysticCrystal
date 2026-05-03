@@ -34,6 +34,15 @@ Join the Discord for updates and more information: https://discord.gg/RrN7BFXs7d
 16. Exp. points from catching pokemon.
 17. No gym badge boosts.
 18. Added a "toggleable" Exp. Share key item that gives exp. points to party.
+19. Removed the 25% failure rate for enemy status moves.
+20. Exp share only gives 25% experience to inactive pokemon
+21. Pokemon pictures in the overworld now have color instead of being grayscale
+22. Created more blocks to edit the appearance of some of the vanilla maps
+23. Fixed AI battle bugs
+24. Fixed apricorn ball bugs
+25. Fixed rival "low DVs" bug
+26. Fixed bug preventing status from affecting catch rates 
+
 
 ![totodile](totodile.png)
 ![ruins](ruins.png)
