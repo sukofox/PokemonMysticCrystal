@@ -53,6 +53,7 @@ CREDITS:
 4. Thanks for "Mmmmmm" who demixed the Pokemon XY Frost Cavern song, and to Vulcandth from the Polished Crystal team who also made contributions to this soundtrack.
 5. Thanks to French Orange for providing tilesets of all kinds. Here is the DA page: https://www.deviantart.com/frenchorange/art/Pokemon-Gold-and-Silver-SW97-Tileset-948665568
 6. If I missed someone else, please let me know.
+7. Tom Wang for Chris' running sprite, and Seasick for Kris' running sprite.
 
 
 The following links are associated with pret only, not my hack per se:
