@@ -278,12 +278,6 @@ INCBIN "data/tilesets/facility_metatiles.bin"
 TilesetFacilityColl::
 INCLUDE "data/tilesets/facility_collision.asm"
 
-TilesetBattleTowerOutsideMeta::
-INCBIN "data/tilesets/battle_tower_outside_metatiles.bin"
-
-TilesetBattleTowerOutsideColl::
-INCLUDE "data/tilesets/battle_tower_outside_collision.asm"
-
 TilesetBetaWordRoomMeta::
 INCBIN "data/tilesets/beta_word_room_metatiles.bin"
 
@@ -385,7 +379,6 @@ TilesetFisherHouseGFX::
 INCBIN "gfx/tilesets/fisher_house.2bpp.lz"
 
 TilesetJohtoModernGFX::
-TilesetBattleTowerOutsideGFX::
 INCBIN "gfx/tilesets/johto_modern.2bpp.lz"
 
 TilesetJohtoModernMeta::
@@ -393,4 +386,13 @@ INCBIN "data/tilesets/johto_modern_metatiles.bin"
 
 TilesetJohtoModernColl::
 INCLUDE "data/tilesets/johto_modern_collision.asm"
+
+TilesetBattleTowerOutsideGFX::
+INCBIN "gfx/tilesets/battle_tower_outside.2bpp.lz"
+
+TilesetBattleTowerOutsideMeta::
+INCBIN "data/tilesets/battle_tower_outside_metatiles.bin"
+
+TilesetBattleTowerOutsideColl::
+INCLUDE "data/tilesets/battle_tower_outside_collision.asm"
 
