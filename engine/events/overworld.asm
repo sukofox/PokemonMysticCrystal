@@ -1617,6 +1617,49 @@ UnusedNothingHereText: ; unreferenced
 	text_far _UnusedNothingHereText
 	text_end
 
+LaptopFunction:
+	call CheckIfInPokemonLeague
+	jr nc, .NoSignal
+	call GetMapEnvironment
+	cp CAVE
+	jr z, .NoSignal
+	ld hl, Script_LoadLaptop
+	ld de, Script_LoadLaptop_Register
+	jr .finish
+
+.NoSignal:
+	ld hl, Script_FailLaptop
+	ld de, Script_FailLaptop_Register
+.finish:
+	ld a, [wPlayerState]
+	call CheckIfRegistered
+	call QueueScript
+	ld a, TRUE
+	ld [wFieldMoveSucceeded], a
+	ret
+
+CheckIfInPokemonLeague:
+	ld a, [wMapGroup]
+	cp GROUP_WILLS_ROOM
+	jr nz, .carry
+	ld a, [wMapNumber]
+	cp MAP_WILLS_ROOM
+	ret nc
+.carry
+	scf
+	ret
+.no_carry
+	xor a ; clear carry flag
+	ret
+	
+CheckIfRegistered:
+	ld a, [wUsingItemWithSelect]
+	and a
+	ret z
+	ld h, d
+	ld l, e
+	ret
+
 BikeFunction:
 	call .TryBike
 	and JUMPTABLE_INDEX_MASK
@@ -1636,7 +1679,7 @@ BikeFunction:
 .GetOnBike:
 	ld hl, Script_GetOnBike
 	ld de, Script_GetOnBike_Register
-	call .CheckIfRegistered
+	call CheckIfRegistered
 	call QueueScript
 	xor a
 	ld [wMusicFade], a
@@ -1657,7 +1700,7 @@ BikeFunction:
 	jr nz, .CantGetOffBike
 	ld hl, Script_GetOffBike
 	ld de, Script_GetOffBike_Register
-	call .CheckIfRegistered
+	call CheckIfRegistered
 	ld a, BANK(Script_GetOffBike)
 	jr .done
 
@@ -1672,14 +1715,6 @@ BikeFunction:
 .done
 	call QueueScript
 	ld a, $1
-	ret
-
-.CheckIfRegistered:
-	ld a, [wUsingItemWithSelect]
-	and a
-	ret z
-	ld h, d
-	ld l, e
 	ret
 
 .CheckEnvironment:
@@ -1702,6 +1737,41 @@ BikeFunction:
 .nope
 	scf
 	ret
+
+Script_LoadLaptop:
+	reloadmappart
+	special UpdateTimePals
+
+Script_LoadLaptop_Register:
+	opentext
+	special PokemonCenterPC
+
+Script_Laptop_CloseReload:
+	closetext
+	reloadmappart
+	end
+
+Script_FailLaptop:
+	reloadmappart
+	special UpdateTimePals
+	; fallthrough
+
+Script_FailLaptop_Register:
+	opentext
+	writetext LaptopLoadingText
+	playsound SFX_NO_SIGNAL
+	waitsfx
+	writetext LaptopNoSignalText
+	waitbutton
+	sjump Script_Laptop_CloseReload
+
+LaptopLoadingText:
+	text "Connecting..."
+	done
+
+LaptopNoSignalText:
+	text "No signal here!"
+	done
 
 Script_GetOnBike:
 	refreshmap

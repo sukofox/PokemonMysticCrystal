@@ -224,16 +224,6 @@ INCBIN "data/tilesets/gate_metatiles.bin"
 TilesetGateColl::
 INCLUDE "data/tilesets/gate_collision.asm"
 
-TilesetJohtoModernGFX::
-TilesetBattleTowerOutsideGFX::
-INCBIN "gfx/tilesets/johto_modern.2bpp.lz"
-
-TilesetJohtoModernMeta::
-INCBIN "data/tilesets/johto_modern_metatiles.bin"
-
-TilesetJohtoModernColl::
-INCLUDE "data/tilesets/johto_modern_collision.asm"
-
 TilesetTraditionalHouseGFX::
 INCBIN "gfx/tilesets/traditional_house.2bpp.lz"
 
@@ -383,6 +373,8 @@ INCLUDE "data/tilesets/johto_desert_collision.asm"
 TilesetJohtoDesertGFX::
 INCBIN "gfx/tilesets/johto_desert.2bpp.lz"
 
+SECTION "Tileset Data 10", ROMX
+
 TilesetFisherHouseMeta::
 INCBIN "data/tilesets/fisher_house_metatiles.bin"
 
@@ -391,4 +383,14 @@ INCLUDE "data/tilesets/fisher_house_collision.asm"
 
 TilesetFisherHouseGFX::
 INCBIN "gfx/tilesets/fisher_house.2bpp.lz"
+
+TilesetJohtoModernGFX::
+TilesetBattleTowerOutsideGFX::
+INCBIN "gfx/tilesets/johto_modern.2bpp.lz"
+
+TilesetJohtoModernMeta::
+INCBIN "data/tilesets/johto_modern_metatiles.bin"
+
+TilesetJohtoModernColl::
+INCLUDE "data/tilesets/johto_modern_collision.asm"
 

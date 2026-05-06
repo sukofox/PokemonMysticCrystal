@@ -38,7 +38,7 @@ ItemEffects:
 	dw EvoStoneEffect      ; FIRE_STONE
 	dw EvoStoneEffect      ; THUNDERSTONE
 	dw EvoStoneEffect      ; WATER_STONE
-	dw NoEffect            ; ITEM_19
+	dw LaptopEffect        ; LAPTOP
 	dw VitaminEffect       ; HP_UP
 	dw VitaminEffect       ; PROTEIN
 	dw VitaminEffect       ; IRON
@@ -2283,6 +2283,10 @@ UseRod:
 
 ItemfinderEffect:
 	farcall ItemFinder
+	ret
+
+LaptopEffect:
+	farcall LaptopFunction
 	ret
 
 RestorePPEffect:
