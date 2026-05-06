@@ -133,7 +133,7 @@ PineTown_MapEvents:
 	object_event 21,  9, SPRITE_DUNSPARCE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PineTownDunsparceScript, -1
     object_event 14, 10, SPRITE_TEDDIURSA, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PineTownTeddiursaScript, -1
     object_event 15, 15, SPRITE_BLACK_BELT, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PineTownBlackBeltScript, -1
-    object_event  9, 11, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PineTownTeacherScript, -1
+    object_event  9, 11, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PineTownTeacherScript, -1
     object_event 12,  4, SPRITE_TEDDIURSA, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PineTownTeddiursaHoney, -1
 
 
