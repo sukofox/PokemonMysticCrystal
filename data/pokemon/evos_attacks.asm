@@ -989,6 +989,7 @@ GeodudeEvosAttacks:
 	db 21, SELFDESTRUCT
 	db 26, HARDEN
 	db 31, ROLLOUT
+	db 34, ROCK_SLIDE
 	db 36, EARTHQUAKE
 	db 41, EXPLOSION
 	db 0 ; no more level-up moves
@@ -1005,6 +1006,7 @@ GravelerEvosAttacks:
 	db 21, SELFDESTRUCT
 	db 27, HARDEN
 	db 34, ROLLOUT
+	db 38, ROCK_SLIDE
 	db 41, EARTHQUAKE
 	db 48, EXPLOSION
 	db 0 ; no more level-up moves
@@ -1022,6 +1024,7 @@ GolemEvosAttacks:
 	db 27, HARDEN
 	db 34, ROLLOUT
 	db 41, EARTHQUAKE
+	db 45, ROCK_SLIDE
 	db 48, EXPLOSION
 	db 0 ; no more level-up moves
 
@@ -2685,6 +2688,7 @@ MurkrowEvosAttacks:
 	db 16, HAZE
 	db 26, NIGHT_SHADE
 	db 31, FAINT_ATTACK
+	db 36, WING_ATTACK
 	db 41, MEAN_LOOK
 	db 0 ; no more level-up moves
 
