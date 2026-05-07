@@ -191,6 +191,7 @@ ButterfreeEvosAttacks:
 	db 23, WHIRLWIND
 	db 28, GUST
 	db 34, PSYBEAM
+	db 36, PSYCHIC_M
 	db 40, SAFEGUARD
 	db 0 ; no more level-up moves
 
@@ -338,6 +339,7 @@ ArbokEvosAttacks:
 	db 25, GLARE
 	db 33, SCREECH
 	db 43, ACID
+	db 48, CRUNCH
 	db 51, HAZE
 	db 0 ; no more level-up moves
 
@@ -1285,6 +1287,7 @@ OnixEvosAttacks:
 	db 27, RAGE
 	db 36, SANDSTORM
 	db 40, SLAM
+	db 45, ROCK_SLIDE
 	db 0 ; no more level-up moves
 
 DrowzeeEvosAttacks:
@@ -2169,6 +2172,7 @@ CroconawEvosAttacks:
 	db 21, BITE
 	db 28, SCARY_FACE
 	db 37, SLASH
+	db 38, CRUNCH
 	db 45, SCREECH
 	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -2184,6 +2188,7 @@ FeraligatrEvosAttacks:
 	db 21, BITE
 	db 28, SCARY_FACE
 	db 38, SLASH
+	db 40, CRUNCH
 	db 47, SCREECH
 	db 58, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -2236,6 +2241,7 @@ NoctowlEvosAttacks:
 	db 6, FORESIGHT
 	db 11, PECK
 	db 16, HYPNOSIS
+	db 23, NIGHT_SHADE
 	db 25, REFLECT
 	db 33, TAKE_DOWN
 	db 41, CONFUSION
@@ -2434,7 +2440,7 @@ MareepEvosAttacks:
 	db 0 ; no more level-up moves
 
 FlaaffyEvosAttacks:
-	db EVOLVE_LEVEL, 30, AMPHAROS
+	db EVOLVE_LEVEL, 36, AMPHAROS
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -2457,6 +2463,7 @@ AmpharosEvosAttacks:
 	db 27, COTTON_SPORE
 	db 30, THUNDERPUNCH
 	db 42, LIGHT_SCREEN
+	db 50, OUTRAGE
 	db 57, THUNDER
 	db 0 ; no more level-up moves
 
@@ -2598,8 +2605,11 @@ SunfloraEvosAttacks:
 	db 4, GROWTH
 	db 10, RAZOR_LEAF
 	db 19, SUNNY_DAY
+	db 25, EMBER
 	db 31, PETAL_DANCE
+	db 35, FLAME_WHEEL
 	db 46, SOLARBEAM
+	db 55, FLAMETHROWER
 	db 0 ; no more level-up moves
 
 YanmaEvosAttacks:
@@ -2726,7 +2736,8 @@ GirafarigEvosAttacks:
 	db 13, STOMP
 	db 20, AGILITY
 	db 30, BATON_PASS
-	db 41, PSYBEAM
+	db 36, PSYBEAM
+	db 41, PSYCHIC_M
 	db 54, CRUNCH
 	db 0 ; no more level-up moves
 
@@ -2792,6 +2803,7 @@ SteelixEvosAttacks:
 	db 36, SANDSTORM
 	db 40, SLAM
 	db 49, CRUNCH
+	db 50, ROCK_SLIDE
 	db 0 ; no more level-up moves
 
 SnubbullEvosAttacks:
@@ -3001,6 +3013,7 @@ OctilleryEvosAttacks:
 	db 22, AURORA_BEAM
 	db 22, BUBBLEBEAM
 	db 25, OCTAZOOKA
+	db 32, FLAME_WHEEL
 	db 38, FOCUS_ENERGY
 	db 54, ICE_BEAM
 	db 70, HYPER_BEAM
@@ -3119,7 +3132,9 @@ StantlerEvosAttacks:
 	db 15, HYPNOSIS
 	db 23, STOMP
 	db 31, SAND_ATTACK
+	db 36, PSYBEAM
 	db 40, TAKE_DOWN
+	db 45, PSYCHIC_M
 	db 49, CONFUSE_RAY
 	db 0 ; no more level-up moves
 

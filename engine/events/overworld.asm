@@ -1620,9 +1620,6 @@ UnusedNothingHereText: ; unreferenced
 LaptopFunction:
 	call CheckIfInPokemonLeague
 	jr nc, .NoSignal
-	call GetMapEnvironment
-	cp CAVE
-	jr z, .NoSignal
 	ld hl, Script_LoadLaptop
 	ld de, Script_LoadLaptop_Register
 	jr .finish
@@ -1640,6 +1637,13 @@ LaptopFunction:
 
 CheckIfInPokemonLeague:
 	ld a, [wMapGroup]
+	cp GROUP_FORBIDDEN_PALACE
+	jr nz, .no_forbiddenpalace
+	ld a, [wMapNumber]
+	cp MAP_FORBIDDEN_PALACE
+	jr z, .no_carry
+	ld a, [wMapGroup]
+.no_forbiddenpalace
 	cp GROUP_WILLS_ROOM
 	jr nz, .carry
 	ld a, [wMapNumber]
@@ -1651,7 +1655,7 @@ CheckIfInPokemonLeague:
 .no_carry
 	xor a ; clear carry flag
 	ret
-	
+
 CheckIfRegistered:
 	ld a, [wUsingItemWithSelect]
 	and a

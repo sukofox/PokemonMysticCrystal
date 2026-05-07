@@ -1,9 +1,9 @@
 	db STANTLER ; 234
 
-	db  73,  95,  62,  85,  85,  65
+	db  73,  100,  62,  85,  85,  65
 	;   hp  atk  def  spd  sat  sdf
 
-	db NORMAL, NORMAL ; type
+	db NORMAL, PSYCHIC_TYPE ; type
 	db 45 ; catch rate
 	db 165 ; base exp
 	db NO_ITEM, NO_ITEM ; items

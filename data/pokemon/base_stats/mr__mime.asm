@@ -1,6 +1,6 @@
 	db MR__MIME ; 122
 
-	db  40,  45,  65,  90, 100, 120
+	db  50,  45,  65,  100, 100, 125
 	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC_TYPE, FAIRY ; type
