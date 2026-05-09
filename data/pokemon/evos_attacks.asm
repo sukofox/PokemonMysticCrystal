@@ -476,6 +476,7 @@ ClefairyEvosAttacks:
 	db 26, DEFENSE_CURL
 	db 34, METRONOME
 	db 43, MOONLIGHT
+	db 46, MOONBLAST
 	db 53, LIGHT_SCREEN
 	db 0 ; no more level-up moves
 
@@ -498,6 +499,7 @@ VulpixEvosAttacks:
 	db 25, SAFEGUARD
 	db 31, FLAMETHROWER
 	db 37, FIRE_SPIN
+	db 50, MOONBLAST
 	db 0 ; no more level-up moves
 
 NinetalesEvosAttacks:
@@ -507,6 +509,7 @@ NinetalesEvosAttacks:
 	db 1, CONFUSE_RAY
 	db 1, SAFEGUARD
 	db 43, FIRE_SPIN
+	db 55, MOONBLAST
 	db 0 ; no more level-up moves
 
 JigglypuffEvosAttacks:
@@ -568,6 +571,7 @@ OddishEvosAttacks:
 	db 23, ACID
 	db 32, MOONLIGHT
 	db 39, PETAL_DANCE
+	db 43, MOONBLAST
 	db 0 ; no more level-up moves
 
 GloomEvosAttacks:
@@ -584,6 +588,7 @@ GloomEvosAttacks:
 	db 24, ACID
 	db 35, MOONLIGHT
 	db 44, PETAL_DANCE
+	db 49, MOONBLAST
 	db 0 ; no more level-up moves
 
 VileplumeEvosAttacks:
@@ -592,6 +597,7 @@ VileplumeEvosAttacks:
 	db 1, SWEET_SCENT
 	db 1, STUN_SPORE
 	db 1, PETAL_DANCE
+	db 49, MOONBLAST
 	db 0 ; no more level-up moves
 
 ParasEvosAttacks:
@@ -1039,6 +1045,7 @@ PonytaEvosAttacks:
 	db 26, FIRE_SPIN
 	db 34, TAKE_DOWN
 	db 43, AGILITY
+	db 49, MOONBLAST
 	db 53, FIRE_BLAST
 	db 0 ; no more level-up moves
 
@@ -1056,6 +1063,7 @@ RapidashEvosAttacks:
 	db 34, TAKE_DOWN
 	db 40, FURY_ATTACK
 	db 47, AGILITY
+	db 49, MOONBLAST
 	db 61, FIRE_BLAST
 	db 0 ; no more level-up moves
 
@@ -2074,6 +2082,7 @@ ChikoritaEvosAttacks:
 	db 36, LIGHT_SCREEN
 	db 43, SAFEGUARD
 	db 50, SOLARBEAM
+	db 56, MOONBLAST
 	db 0 ; no more level-up moves
 
 BayleefEvosAttacks:
@@ -2091,6 +2100,7 @@ BayleefEvosAttacks:
 	db 39, LIGHT_SCREEN
 	db 47, SAFEGUARD
 	db 55, SOLARBEAM
+	db 64, MOONBLAST
 	db 0 ; no more level-up moves
 
 MeganiumEvosAttacks:
@@ -2107,6 +2117,7 @@ MeganiumEvosAttacks:
 	db 41, LIGHT_SCREEN
 	db 51, SAFEGUARD
 	db 61, SOLARBEAM
+	db 80, MOONBLAST
 	db 0 ; no more level-up moves
 
 CyndaquilEvosAttacks:
@@ -2232,6 +2243,7 @@ HoothootEvosAttacks:
 	db 22, REFLECT
 	db 28, TAKE_DOWN
 	db 34, CONFUSION
+	db 43, MOONBLAST
 	db 48, DREAM_EATER
 	db 0 ; no more level-up moves
 
@@ -2248,6 +2260,7 @@ NoctowlEvosAttacks:
 	db 25, REFLECT
 	db 33, TAKE_DOWN
 	db 41, CONFUSION
+	db 51, MOONBLAST
 	db 57, DREAM_EATER
 	db 0 ; no more level-up moves
 
@@ -2371,6 +2384,7 @@ CleffaEvosAttacks:
 	db 4, ENCORE
 	db 8, SING
 	db 13, SWEET_KISS
+	db 30, MOONBLAST
 	db 0 ; no more level-up moves
 
 IgglybuffEvosAttacks:
@@ -2393,6 +2407,7 @@ TogepiEvosAttacks:
 	db 25, ENCORE
 	db 31, SAFEGUARD
 	db 38, DOUBLE_EDGE
+	db 50, MOONBLAST
 	db 0 ; no more level-up moves
 
 TogeticEvosAttacks:
@@ -2404,6 +2419,7 @@ TogeticEvosAttacks:
 	db 25, ENCORE
 	db 31, SAFEGUARD
 	db 38, DOUBLE_EDGE
+	db 55, MOONBLAST
 	db 0 ; no more level-up moves
 
 NatuEvosAttacks:
@@ -2464,7 +2480,7 @@ AmpharosEvosAttacks:
 	db 9, THUNDERSHOCK
 	db 18, THUNDER_WAVE
 	db 27, COTTON_SPORE
-	db 30, THUNDERPUNCH
+	db 37, THUNDERPUNCH
 	db 42, LIGHT_SCREEN
 	db 50, OUTRAGE
 	db 57, THUNDER
@@ -2476,6 +2492,7 @@ BellossomEvosAttacks:
 	db 1, SWEET_SCENT
 	db 1, STUN_SPORE
 	db 1, PETAL_DANCE
+	db 49, MOONBLAST
 	db 55, SOLARBEAM
 	db 0 ; no more level-up moves
 
@@ -3372,5 +3389,6 @@ CelebiEvosAttacks:
 	db 20, ANCIENTPOWER
 	db 30, FUTURE_SIGHT
 	db 40, BATON_PASS
+	db 46, MOONBLAST
 	db 50, PERISH_SONG
 	db 0 ; no more level-up moves
