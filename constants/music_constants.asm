@@ -72,7 +72,7 @@
 	const MUSIC_LIGHTHOUSE                   ; 44
 	const MUSIC_LAKE_OF_RAGE                 ; 45
 	const MUSIC_INDIGO_PLATEAU               ; 46
-	const MUSIC_ROUTE_37                     ; 47
+	const MUSIC_ROUTE_38					 ; 47
 	const MUSIC_ROCKET_HIDEOUT               ; 48
 	const MUSIC_DRAGONS_DEN                  ; 49
 	const MUSIC_JOHTO_WILD_BATTLE_NIGHT      ; 4a
@@ -107,17 +107,35 @@
 	const MUSIC_MOBILE_CENTER                ; 66
 	const MUSIC_FROST_CAVERN_XY	             ; 67
 	const MUSIC_POKEDEX						 ; 68
+	const MUSIC_NEW_BARK_TOWN_NIGHT			 ; 69
+	const MUSIC_KANTO_WILD_BATTLE_NIGHT	     ; 70
+	const MUSIC_ROUTE_29_NIGHT
+	const MUSIC_ROUTE_36_NIGHT
+	const MUSIC_CHERRYGROVE_CITY_NIGHT
+	const MUSIC_ROUTE_30_NIGHT
+	const MUSIC_VIOLET_CITY_NIGHT
+	const MUSIC_AZALEA_TOWN_NIGHT
+	const MUSIC_GOLDENROD_CITY_NIGHT
+	const MUSIC_ECRUTEAK_CITY_NIGHT
+	const MUSIC_ROUTE_38_NIGHT
+	const MUSIC_LAKE_OF_RAGE_NIGHT
+	const MUSIC_ROUTE_26_NIGHT
+	const MUSIC_VIRIDIAN_CITY_NIGHT
+	const MUSIC_ROUTE_3_NIGHT
+	const MUSIC_ROUTE_12_NIGHT
+	const MUSIC_CELADON_CITY_NIGHT
+	const MUSIC_VERMILION_CITY_NIGHT
+	const MUSIC_PALLET_TOWN_NIGHT
+	const MUSIC_ROUTE_1_NIGHT
+	const MUSIC_LAVENDER_TOWN_NIGHT
 DEF NUM_MUSIC_SONGS EQU const_value
 
-; GetMapMusic picks music for this value (see home/map.asm)
-; this overlaps with a Crystal song ID, but not one that is used for map music
-DEF MUSIC_MAHOGANY_MART EQU MUSIC_SUICUNE_BATTLE
+; GetMapMusic picks music for these values (see home/map.asm)
+DEF MUSIC_MAHOGANY_MART EQU $fc
+DEF MUSIC_RADIO_TOWER   EQU $fd
 
 ; ExitPokegearRadio_HandleMusic uses these values
 DEF RESTART_MAP_MUSIC EQU $fe
 DEF ENTER_MAP_MUSIC   EQU $ff
 
-; GetMapMusic picks music for this bit flag
-	const_def 7
-	shift_const RADIO_TOWER_MUSIC
-assert NUM_MUSIC_SONGS <= RADIO_TOWER_MUSIC, "song IDs overlap RADIO_TOWER_MUSIC"
+assert NUM_MUSIC_SONGS <= MUSIC_MAHOGANY_MART, "song IDs overlap special values"
