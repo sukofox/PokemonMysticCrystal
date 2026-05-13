@@ -315,9 +315,9 @@ ROMX $7b
 	"Tileset Data 9"
 ROMX $7c
 	"Battle Tower Trainer Data"
-	"Tileset Data 10"
-ROMX $7d
 	"Mobile News Data"
+ROMX $7d
+	"Tileset Data 10"
 ROMX $7e
 	"Crystal Events"
 ROMX $7f

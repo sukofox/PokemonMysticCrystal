@@ -15,18 +15,6 @@ INCBIN "data/tilesets/kanto_metatiles.bin"
 TilesetKantoColl::
 INCLUDE "data/tilesets/kanto_collision.asm"
 
-Tileset0GFX::
-TilesetJohtoGFX::
-INCBIN "gfx/tilesets/johto.2bpp.lz"
-
-Tileset0Meta::
-TilesetJohtoMeta::
-INCBIN "data/tilesets/johto_metatiles.bin"
-
-Tileset0Coll::
-TilesetJohtoColl::
-INCLUDE "data/tilesets/johto_collision.asm"
-
 TilesetIcePathGFX::
 INCBIN "gfx/tilesets/ice_path.2bpp.lz"
 
@@ -367,6 +355,18 @@ INCLUDE "data/tilesets/johto_desert_collision.asm"
 TilesetJohtoDesertGFX::
 INCBIN "gfx/tilesets/johto_desert.2bpp.lz"
 
+Tileset0GFX::
+TilesetJohtoGFX::
+INCBIN "gfx/tilesets/johto.2bpp.lz"
+
+Tileset0Meta::
+TilesetJohtoMeta::
+INCBIN "data/tilesets/johto_metatiles.bin"
+
+Tileset0Coll::
+TilesetJohtoColl::
+INCLUDE "data/tilesets/johto_collision.asm"
+
 SECTION "Tileset Data 10", ROMX
 
 TilesetFisherHouseMeta::
@@ -395,4 +395,5 @@ INCBIN "data/tilesets/battle_tower_outside_metatiles.bin"
 
 TilesetBattleTowerOutsideColl::
 INCLUDE "data/tilesets/battle_tower_outside_collision.asm"
+
 
