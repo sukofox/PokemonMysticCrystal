@@ -44,12 +44,12 @@ Join the Discord for updates and more information: https://discord.gg/RrN7BFXs7d
 26. Fixed bug preventing status from affecting catch rates 
 
 
+![newbark](newbark.png)
 ![totodile](totodile.png)
 ![ruins](ruins.png)
 ![viridianforest](viridianforest.png)
 ![chikorita](chikorita.png)
 ![townmap](townmap.png)
-![newbark](newbark.png)
 ![pagoda](pagoda.png)
 ![cyndaquil](cyndaquil.png)
 ![violet](violet.png)
