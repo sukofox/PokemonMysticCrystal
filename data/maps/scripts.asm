@@ -601,5 +601,9 @@ INCLUDE "maps/CeruleanCave3.asm"
 INCLUDE "maps/ViridianForestGate1.asm"
 INCLUDE "maps/ViridianForest.asm"
 INCLUDE "maps/ViridianForestGate2.asm"
+INCLUDE "maps/CeladonHideoutB1F.asm"
+INCLUDE "maps/CeladonHideoutB2F.asm"
+INCLUDE "maps/CeladonHideoutB3F.asm"
+INCLUDE "maps/CeladonHideoutB4F.asm"
 
 ENDSECTION

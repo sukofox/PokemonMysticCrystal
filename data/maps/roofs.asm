@@ -57,6 +57,7 @@ MapGroupRoofs:
 	db -1			  ; 43 (Safari Zone)
 	db -1			  ; 44 (Cerulean Cave)
 	db -1			  ; 45 (Viridian Forest)
+	db -1             ; 46 (Celadon Hideout)
 	assert_table_length NUM_MAP_GROUPS + 1
 
 Roofs:

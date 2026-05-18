@@ -92,7 +92,7 @@
 	tilecoll WALL, WALL, WALL, WALL ; 5b
 	tilecoll WALL, WALL, WALL, WALL ; 5c
 	tilecoll WALL, WALL, WALL, WALL ; 5d
-	tilecoll WALL, WALL, WALL, WALL ; 5e
+	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 5e
 	tilecoll FLOOR, SPIN_LEFT, FLOOR, SPIN_LEFT ; 5f
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 60
 	tilecoll WALL, FLOOR, WALL, FLOOR ; 61

@@ -326,6 +326,7 @@ CeladonGameCorner_MapEvents:
 	def_warp_events
 	warp_event 14, 13, CELADON_CITY, 6
 	warp_event 15, 13, CELADON_CITY, 6
+	warp_event 19,  1, CELADON_HIDEOUT_B1F, 1
 
 	def_coord_events
 

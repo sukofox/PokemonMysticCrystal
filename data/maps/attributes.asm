@@ -815,6 +815,9 @@ ENDM
 	map_attributes ViridianForestGate1, VIRIDIAN_FOREST_GATE1, $00, 0
 	map_attributes ViridianForest, VIRIDIAN_FOREST, $1C, 0
 	map_attributes ViridianForestGate2, VIRIDIAN_FOREST_GATE2, $00, 0
-
+	map_attributes CeladonHideoutB1F, CELADON_HIDEOUT_B1F, $00, 0
+	map_attributes CeladonHideoutB2F, CELADON_HIDEOUT_B2F, $00, 0
+	map_attributes CeladonHideoutB3F, CELADON_HIDEOUT_B3F, $00, 0
+	map_attributes CeladonHideoutB4F, CELADON_HIDEOUT_B4F, $00, 0
 
 	

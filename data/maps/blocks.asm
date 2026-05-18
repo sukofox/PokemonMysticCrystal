@@ -1060,8 +1060,6 @@ SECTION "Map Blocks 6", ROMX
 EcruteakForest_Blocks:
 	INCBIN "maps/EcruteakForest.blk"
 
-SECTION "Map Blocks 7", ROMX
-
 MysteriousRuins_Blocks:
 	INCBIN "maps/MysteriousRuins.blk"
 
@@ -1329,6 +1327,8 @@ SpruceMansion3F_Blocks:
 IceSkatingArena_Blocks:
 	INCBIN "maps/IceSkatingArena.blk"
 
+SECTION "Map Blocks 7", ROMX
+
 PowerPlantRuins1F_Blocks:
 	INCBIN "maps/PowerPlantRuins1F.blk"
 
@@ -1394,5 +1394,17 @@ ViridianForest_Blocks:
 
 ViridianForestGate2_Blocks:
 	INCBIN "maps/ViridianForestGate2.blk"
+
+CeladonHideoutB1F_Blocks:
+	INCBIN "maps/CeladonHideoutB1F.blk"
+
+CeladonHideoutB2F_Blocks:
+	INCBIN "maps/CeladonHideoutB2F.blk"
+
+CeladonHideoutB3F_Blocks:
+	INCBIN "maps/CeladonHideoutB3F.blk"
+
+CeladonHideoutB4F_Blocks:
+	INCBIN "maps/CeladonHideoutB4F.blk"
 
 ENDSECTION

@@ -673,4 +673,11 @@ ENDM
 	map_const VIRIDIAN_FOREST_GATE2,						 5,  4;    3
 	endgroup
 
-DEF NUM_MAP_GROUPS EQU const_value ; 45
+	newgroup CELADON_HIDEOUT										 ;46
+	map_const CELADON_HIDEOUT_B1F,                          18, 20;    1
+	map_const CELADON_HIDEOUT_B2F,							18, 16;    2
+	map_const CELADON_HIDEOUT_B3F,							12, 14;    3
+	map_const CELADON_HIDEOUT_B4F,							12, 14;    4
+	endgroup
+
+DEF NUM_MAP_GROUPS EQU const_value ; 46
