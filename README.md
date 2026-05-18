@@ -35,25 +35,36 @@ Join the Discord for updates and more information: https://discord.gg/RrN7BFXs7d
 17. No gym badge boosts.
 18. Added a "toggleable" Exp. Share key item that gives exp. points to party.
 19. Removed the 25% failure rate for enemy status moves.
-20. Exp share only gives 25% experience to inactive pokemon
-21. Pokemon pictures in the overworld now have color instead of being grayscale
-22. Created more blocks to edit the appearance of some of the vanilla maps
-23. Fixed AI battle bugs
-24. Fixed apricorn ball bugs
-25. Fixed rival "low DVs" bug
-26. Fixed bug preventing status from affecting catch rates 
+20. Exp share only gives 25% experience to inactive pokemon.
+21. Pokemon pictures in the overworld now have color instead of being grayscale.
+22. Created more blocks to edit the appearance of some of the vanilla maps.
+23. Fixed AI battle bugs.
+24. Fixed apricorn ball bugs.
+25. Fixed rival "low DVs" bug.
+26. Fixed bug preventing status from affecting catch rates.
+27. Improved AI battle system according to Pret tutorial.
+28. Added running shoes.
+29. Expanded tiles to 256.
+30. Kurt finishes apricorn balls immediately.
+31. Berry trees can give multiple berries now.
+32. Added a pocket PC (called "laptop" within the game). This cannot be used in the Forbidden Palace or in the Elite Four.
+33. Changed the types and stats for several pokemon to be like those in Pokemon Polished Crystal. For example, Feraligatr is water dark, Typhlosion is fire ground, and Meganium is grass fairy.
+34. Added color to badges.
+35. Moonblast is a new offensive fairy-type attack.
+36. Many areas now have night music.
 
 
-![newbark](newbark.png)
+
+![newbarknew](newbarknew.png)
 ![totodile](totodile.png)
-![ruins](ruins.png)
+![ruinsnew](ruinsnew.png)
 ![viridianforest](viridianforest.png)
 ![chikorita](chikorita.png)
 ![townmap](townmap.png)
 ![pagoda](pagoda.png)
 ![cyndaquil](cyndaquil.png)
-![violet](violet.png)
-![cherrygrove](cherrygrove.png)
+![violetnew](violetnew.png)
+![cherrygrovenew](cherrygrovenew.png)
 ![sprout](sprout.png)
 ![badges](badges.png)
 
