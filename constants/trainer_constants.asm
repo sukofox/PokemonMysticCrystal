@@ -106,6 +106,8 @@ DEF KRIS EQU __trainer_class__
 	const JED
 	const MARC
 	const RICH
+	const LOU
+	const DICK
 
 	trainerclass ERIKA ; 15
 	const ERIKA1
@@ -283,6 +285,12 @@ DEF KRIS EQU __trainer_class__
 	const ZACH
 	const BRENT4
 	const MILLER
+	const SAUL
+	const MAC
+	const VIC
+	const KOTA
+	const RIKU
+	const PATT
 
 	trainerclass GRUNTM ; 1f
 	const GRUNTM_1
@@ -547,7 +555,7 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass FIREBREATHER ; 30
 	const OTIS
-	const DICK ; unused
+	const BRO ; unused
 	const NED ; unused
 	const BURT
 	const BILL
