@@ -2,11 +2,11 @@
 
 ![Boxart](boxart.png)
 
-This is a hack of Pokémon Crystal based on the pokecrystal disassembly from pret.
+This is a Pokemon Crystal hack based on the pokecrystal disassembly from pret.
 
 In this hack, you will see an expanded/modified Johto, with a focus on the more traditional aspects of the region.
 So if you are a sucker for traditional buildings, pagodas, shrines, and forests, this is your hack. 
-WARNING: The game may not follow canon.
+# WARNING: The game may not follow canon.
 
 # IMPORTANT!
 To patch, use the Pokemon Crystal 1.0 (aka "original crystal) ROM (not Rev 1 or 1.1). 
