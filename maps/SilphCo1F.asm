@@ -34,15 +34,15 @@ SilphCoReceptionistText:
 	done
 
 SilphCoOfficerText:
-	text "Only employees are"
-	line "permitted to go"
-	cont "upstairs."
+	text "I am on the"
+	line "lookout for"
+	cont "any bad guys."
 
-	para "But since you came"
-	line "such a long way,"
+	para "Since you may"
+	line "have tough"
 
-	para "have this neat"
-	line "little souvenir."
+	para "battles upstairs"
+	line "I give you this."
 	done
 
 SilphCoOfficerText_GotUpGrade:
@@ -57,8 +57,9 @@ SilphCo1F_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  2,  7, SAFFRON_CITY, 7
-	warp_event  3,  7, SAFFRON_CITY, 7
+	warp_event 8,  19, SAFFRON_CITY, 7
+	warp_event 9,  19, SAFFRON_CITY, 7
+	warp_event 17,  2, SILPH_CO_2F, 1
 
 	def_coord_events
 
