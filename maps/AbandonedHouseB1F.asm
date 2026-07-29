@@ -23,7 +23,7 @@ TrainerMediumKagome:
 
 MediumKagomeSeenText:
     text "What is a"
-	line "young man"
+	line "kid"
 	cont "like you"
 
 	para "doing here?"
