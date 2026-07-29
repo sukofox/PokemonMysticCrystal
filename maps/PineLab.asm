@@ -96,7 +96,7 @@ AlreadyGotPineKabutoText:
 
 PineLabScientist1Text:
     text "We have been"
-    line "doing some research"
+    line "researching"
     cont "inside the"
 
     para "DARK CAVE."
