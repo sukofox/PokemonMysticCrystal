@@ -479,12 +479,11 @@ ENDM
 	map_const SAFFRON_POKECENTER_2F_BETA,                   8,  4 ;  7
 	map_const MR_PSYCHICS_HOUSE,                            4,  4 ;  8
 	map_const SAFFRON_MAGNET_TRAIN_STATION,                10,  9 ;  9
-	map_const SILPH_CO_1F,                                 10, 10 ; 10
-	map_const COPYCATS_HOUSE_1F,                            4,  4 ; 11
-	map_const COPYCATS_HOUSE_2F,                            5,  3 ; 12
-	map_const ROUTE_5_UNDERGROUND_PATH_ENTRANCE,            4,  4 ; 13
-	map_const ROUTE_5_SAFFRON_GATE,                         5,  4 ; 14
-	map_const ROUTE_5_CLEANSE_TAG_HOUSE,                    4,  4 ; 15
+	map_const COPYCATS_HOUSE_1F,                            4,  4 ; 10
+	map_const COPYCATS_HOUSE_2F,                            5,  3 ; 11
+	map_const ROUTE_5_UNDERGROUND_PATH_ENTRANCE,            4,  4 ; 12
+	map_const ROUTE_5_SAFFRON_GATE,                         5,  4 ; 13
+	map_const ROUTE_5_CLEANSE_TAG_HOUSE,                    4,  4 ; 14
 	endgroup
 
 	newgroup CHERRYGROVE                                          ; 26
@@ -678,6 +677,11 @@ ENDM
 	map_const CELADON_HIDEOUT_B2F,							18, 16;    2
 	map_const CELADON_HIDEOUT_B3F,							12, 14;    3
 	map_const CELADON_HIDEOUT_B4F,							12, 14;    4
+	endgroup
+
+	newgroup SILPH_CO                                                ;47
+	map_const SILPH_CO_1F,                                  10, 10;    1
+	map_const SILPH_CO_2F,									10, 10;    2 
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 46
