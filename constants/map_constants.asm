@@ -686,7 +686,9 @@ ENDM
 	map_const SILPH_CO_4F,									10, 10;    4
 	map_const SILPH_CO_5F,									10, 10;    5
 	map_const SILPH_CO_6F,									10, 10;    6
-	map_const SILPH_CO_7F,									10, 10;    7 
+	map_const SILPH_CO_7F,									10, 10;    7
+	map_const SILPH_CO_8F,									10, 10;    8
+	map_const SILPH_CO_9F,									10, 10;    9 
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 46
