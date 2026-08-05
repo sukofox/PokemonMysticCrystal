@@ -7,7 +7,7 @@
 	const ROUTE29_COOLTRAINER_M2
 	const ROUTE29_TUSCANY
 	const ROUTE29_POKE_BALL
-	;const ROUTE29_COOLTRAINER_M3
+	const ROUTE29_COOLTRAINER_M3
 
 Route29_MapScripts:
 	def_scene_scripts
@@ -247,54 +247,54 @@ DudeMovementData2b:
 	step DOWN
 	step_end
 
-;GiftPokemonDudeScript:
-;	faceplayer
-;	readvar VAR_PARTYCOUNT
-;	ifequal PARTY_LENGTH, .PartyFullGiftMewtwo
-;	opentext
-;	writetext GiftPokemonDudeGiftText
-;	promptbutton
-;	getmonname STRING_BUFFER_3, MEWTWO
-;	writetext ReceivedMewtwoText
-;	promptbutton
-;	givepoke MEWTWO, 100, BERRY
-;	closetext
-;	end
+GiftPokemonDudeScript:
+	faceplayer
+	readvar VAR_PARTYCOUNT
+	ifequal PARTY_LENGTH, .PartyFullGiftMewtwo
+	opentext
+	writetext GiftPokemonDudeGiftText
+	promptbutton
+	getmonname STRING_BUFFER_3, MEWTWO
+	writetext ReceivedMewtwoText
+	promptbutton
+	givepoke MEWTWO, 100, BERRY
+	closetext
+	end
 	
-;.PartyFullGiftMewtwo:
-;	opentext
-;	writetext PartyFullGiftMewtwoText
-;	waitbutton
-;	closetext
-;	end
+.PartyFullGiftMewtwo:
+	opentext
+	writetext PartyFullGiftMewtwoText
+	waitbutton
+	closetext
+	end
 
-;PartyFullGiftMewtwoText:
-;	text "I was going to"
-;	line "give you something"
+PartyFullGiftMewtwoText:
+	text "I was going to"
+	line "give you something"
 
-;	para "but your party"
-;	line "seems to be full."
-;	done
+	para "but your party"
+	line "seems to be full."
+	done
 
-;GiftPokemonDudeGiftText:
-;	text "I caught so"
-;	line "many #MON!"
+GiftPokemonDudeGiftText:
+	text "I caught so"
+	line "many #MON!"
 
-;	para "This guy seems"
-;	line "weak though,"
-;	cont "you can have it."
+	para "This guy seems"
+	line "weak though,"
+	cont "you can have it."
 
-;	para "I only collect"
-;	line "strong bug types"
-;	cont "like Caterpie."
-;	done
+	para "I only collect"
+	line "strong bug types"
+	cont "like Caterpie."
+	done
 
-;ReceivedMewtwoText:
-;	text "<PLAYER> received"
-;	line "@"
-;	text_ram wStringBuffer3
-;	text "!"
-;	done
+ReceivedMewtwoText:
+	text "<PLAYER> received"
+	line "@"
+	text_ram wStringBuffer3
+	text "!"
+	done
 
 CatchingTutorialBoxFullText:
 	text "#MON hide in"
@@ -485,4 +485,4 @@ Route29_MapEvents:
 	object_event 13,  4, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route29CooltrainerMScript, -1
 	object_event 29, 12, SPRITE_TEACHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TuscanyScript, EVENT_ROUTE_29_TUSCANY_OF_TUESDAY
 	object_event 48,  2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route29Potion, EVENT_ROUTE_29_POTION
-	;object_event 44,  9, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GiftPokemonDudeScript, -1
+	object_event 44,  9, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GiftPokemonDudeScript, -1

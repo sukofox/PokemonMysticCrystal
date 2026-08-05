@@ -63,6 +63,7 @@ MapGroupPointers::
 	dw MapGroup_CeruleanCave ; 44
 	dw MapGroup_ViridianForest ; 45
 	dw MapGroup_CeladonHideout; 46
+	dw MapGroup_SilphCo; 47
 	assert_table_length NUM_MAP_GROUPS
 
 MapGroup_Olivine:

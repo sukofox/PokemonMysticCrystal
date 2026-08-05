@@ -107,6 +107,7 @@ Landmarks:
 	landmark 140,  68, LavRadioTowerName
 	landmark  76,  68, CeladonCityName
 	landmark 100,  68, SaffronCityName
+	landmark 100,  65, SilphCoName
 	landmark 116,  84, Route11Name
 	landmark 132,  80, Route12Name
 	landmark 124, 100, Route13Name
@@ -167,6 +168,7 @@ LavenderTownName:    db "LAVENDER<BSP>TOWN@"
 VermilionCityName:   db "VERMILION<BSP>CITY@"
 CeladonCityName:     db "CELADON<BSP>CITY@"
 SaffronCityName:     db "SAFFRON<BSP>CITY@"
+SilphCoName:         db "SILPH<BSP>CO@"
 FuchsiaCityName:     db "FUCHSIA<BSP>CITY@"
 CinnabarIslandName:  db "CINNABAR<BSP>ISLAND@"
 IndigoPlateauName:   db "INDIGO<BSP>PLATEAU@"
@@ -174,7 +176,6 @@ VictoryRoadName:     db "VICTORY<BSP>ROAD@"
 MtMoonName:          db "MT.MOON@"
 RockTunnelName:      db "ROCK TUNNEL@"
 LavRadioTowerName:   db "LAV<BSP>RADIO TOWER@"
-SilphCoName:         db "SILPH CO.@" ; unreferenced
 SeafoamIslandsName:  db "SEAFOAM<BSP>ISLANDS@"
 PokemonMansionName:  db "#MON<BSP>MANSION@" ; unreferenced
 CeruleanCaveName:    db "CERULEAN<BSP>CAVE@" ; now it is referenced

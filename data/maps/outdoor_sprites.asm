@@ -50,6 +50,7 @@ OutdoorSprites:
 	dw CeruleanCaveSprites
 	dw ViridianForestSprites
 	dw CeladonHideoutSprites
+	dw SilphCoSprites
 	assert_table_length NUM_MAP_GROUPS
 
 ; Route1 and ViridianCity are connected
@@ -578,6 +579,7 @@ ViridianForestSprites:
 	db SPRITE_FRUIT_TREE
 	db 0 ; end
 
+SilphCoSprites:
 CeladonHideoutSprites:
 	db SPRITE_FISHER
 	db SPRITE_SUPER_NERD

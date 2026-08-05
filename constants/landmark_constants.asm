@@ -104,6 +104,7 @@ DEF KANTO_LANDMARK EQU const_value
 	const LANDMARK_LAV_RADIO_TOWER   ; 46
 	const LANDMARK_CELADON_CITY      ; 47
 	const LANDMARK_SAFFRON_CITY      ; 48
+	const LANDMARK_SILPH_CO
 	const LANDMARK_ROUTE_11          ; 49
 	const LANDMARK_ROUTE_12          ; 4a
 	const LANDMARK_ROUTE_13          ; 4b

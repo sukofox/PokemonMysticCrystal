@@ -145,7 +145,7 @@
 	tilecoll SPIN_UP, SPIN_RIGHT, WALL, WALL ; 90
 	tilecoll FLOOR, WALL, WALL, WALL ; 91
 	tilecoll WALL, FLOOR, WALL, WALL ; 92
-	tilecoll WALL, WALL, FLOOR, FLOOR ; 93
+	tilecoll WALL, WALL, WALL, WALL ; 93
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 94
 	tilecoll WALL, WALL, WALL, WALL ; 95
 	tilecoll WALL, WALL, FLOOR, FLOOR ; 96

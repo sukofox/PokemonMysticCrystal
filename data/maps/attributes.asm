@@ -688,7 +688,6 @@ ENDM
 	map_attributes SaffronPokecenter2FBeta, SAFFRON_POKECENTER_2F_BETA, $00, 0
 	map_attributes MrPsychicsHouse, MR_PSYCHICS_HOUSE, $00, 0
 	map_attributes SaffronMagnetTrainStation, SAFFRON_MAGNET_TRAIN_STATION, $00, 0
-	map_attributes SilphCo1F, SILPH_CO_1F, $00, 0
 	map_attributes CopycatsHouse1F, COPYCATS_HOUSE_1F, $00, 0
 	map_attributes CopycatsHouse2F, COPYCATS_HOUSE_2F, $00, 0
 	map_attributes Route5UndergroundPathEntrance, ROUTE_5_UNDERGROUND_PATH_ENTRANCE, $00, 0
@@ -819,5 +818,18 @@ ENDM
 	map_attributes CeladonHideoutB2F, CELADON_HIDEOUT_B2F, $00, 0
 	map_attributes CeladonHideoutB3F, CELADON_HIDEOUT_B3F, $00, 0
 	map_attributes CeladonHideoutB4F, CELADON_HIDEOUT_B4F, $00, 0
+	map_attributes SilphCo1F, SILPH_CO_1F, $00, 0
+	map_attributes SilphCo2F, SILPH_CO_2F, $00, 0
+	map_attributes SilphCo3F, SILPH_CO_3F, $00, 0
+	map_attributes SilphCo4F, SILPH_CO_4F, $00, 0
+	map_attributes SilphCo5F, SILPH_CO_5F, $00, 0
+	map_attributes SilphCo6F, SILPH_CO_6F, $00, 0
+	map_attributes SilphCo7F, SILPH_CO_7F, $00, 0
+	map_attributes SilphCo8F, SILPH_CO_8F, $00, 0
+	map_attributes SilphCo9F, SILPH_CO_9F, $00, 0
+	map_attributes SilphCo10F, SILPH_CO_10F, $00, 0
+	map_attributes SilphCo11F, SILPH_CO_11F, $00, 0
+
+
 
 	
