@@ -422,6 +422,23 @@ ScientistGroup:
 	db 69, FLAREON
 	db -1 ; end
 
+	; SCIENTIST (17)
+	db "KYE@", TRAINERTYPE_NORMAL
+	db 70, PORYGON2
+	db 71, SUDOWOODO
+	db 71, XATU
+	db 70, MEGANIUM
+	db -1 ; end
+
+	; SCIENTIST (18)
+	db "NEO@", TRAINERTYPE_NORMAL
+	db 70, MAGNETON
+	db 71, QUAGSIRE
+	db 70, VILEPLUME
+	db 70, GENGAR
+	db 71, URSARING
+	db -1 ; end
+
 ErikaGroup:
 	; ERIKA (1)
 	db "ERIKA@", TRAINERTYPE_MOVES
@@ -1665,6 +1682,16 @@ GentlemanGroup:
 	db 35, NOCTOWL
 	db -1 ; end
 
+	; GENTLEMAN (6)
+	db "BORIS@", TRAINERTYPE_NORMAL
+	db 75, VENUSAUR
+	db 75, KANGASKHAN
+	db 76, FERALIGATR
+	db 75, CHARIZARD
+	db 77, STEELIX
+	db 78, AMPHAROS
+	db -1 ; end
+
 SkierGroup:
 	; SKIER (1)
 	db "ROXANNE@", TRAINERTYPE_NORMAL
@@ -1728,6 +1755,14 @@ TeacherGroup:
 	; TEACHER (3)
 	db "SHIRLEY@", TRAINERTYPE_NORMAL
 	db 45, WIGGLYTUFF
+	db -1 ; end
+
+	; TEACHER (4)
+	db "LULU@", TRAINERTYPE_NORMAL
+	db 69, SNEASEL
+	db 69, SKARMORY
+	db 70, LAPRAS
+	db 71, MEGANIUM
 	db -1 ; end
 
 SabrinaGroup:

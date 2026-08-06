@@ -117,6 +117,8 @@ DEF KRIS EQU __trainer_class__
 	const WES
 	const IRA
 	const KIT
+	const KYE
+	const NEO
 
 	trainerclass ERIKA ; 15
 	const ERIKA1
@@ -340,6 +342,7 @@ DEF KRIS EQU __trainer_class__
 	const GREGORY
 	const VIRGIL ; unused
 	const ALFRED
+	const BORIS
 
 	trainerclass SKIER ; 21
 	const ROXANNE
@@ -354,6 +357,7 @@ DEF KRIS EQU __trainer_class__
 	const COLETTE
 	const HILLARY
 	const SHIRLEY
+	const LULU
 
 	trainerclass SABRINA ; 23
 	const SABRINA1

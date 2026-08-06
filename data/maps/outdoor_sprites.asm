@@ -589,9 +589,10 @@ CeladonHideoutSprites:
 	db SPRITE_COOLTRAINER_M
 	db SPRITE_SCIENTIST
 	db SPRITE_POKEFAN_M
-	; 8 of max 9 walking sprites
+	db SPRITE_GENTLEMAN
+	; 9 of max 9 walking sprites
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
-	db SPRITE_CHIKORITA
+	db SPRITE_TEACHER
 	db 0 ; end
 	
