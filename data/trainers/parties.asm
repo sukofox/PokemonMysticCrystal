@@ -415,6 +415,13 @@ ScientistGroup:
 	db 68, JOLTEON
 	db -1 ; end
 
+	;SCIENTIST (16)
+	db "KIT@", TRAINERTYPE_NORMAL
+	db 69, NINETALES
+	db 68, ALAKAZAM
+	db 69, FLAREON
+	db -1 ; end
+
 ErikaGroup:
 	; ERIKA (1)
 	db "ERIKA@", TRAINERTYPE_MOVES
@@ -2662,15 +2669,22 @@ Rival2Group:
 GuitaristGroup:
 	; GUITARIST (1)
 	db "CLYDE@", TRAINERTYPE_NORMAL
-	db 34, ELECTABUZZ
+	db 54, ELECTABUZZ
 	db -1 ; end
 
 	; GUITARIST (2)
 	db "VINCENT@", TRAINERTYPE_NORMAL
-	db 27, MAGNEMITE
-	db 33, VOLTORB
-	db 32, MAGNEMITE
-	db 32, MAGNEMITE
+	db 57, MAGNETON
+	db 53, ELECTRODE
+	db 52, MAGNETON
+	db 52, JOLTEON
+	db -1 ; end
+
+	; GUITARIST (3)
+	db "LEV@", TRAINERTYPE_NORMAL
+	db 68, JOLTEON
+	db 69, ELECTABUZZ
+	db 68, RAICHU
 	db -1 ; end
 
 HikerGroup:

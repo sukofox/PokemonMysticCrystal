@@ -116,6 +116,7 @@ DEF KRIS EQU __trainer_class__
 	const NOE
 	const WES
 	const IRA
+	const KIT
 
 	trainerclass ERIKA ; 15
 	const ERIKA1
@@ -513,6 +514,7 @@ DEF KRIS EQU __trainer_class__
 	trainerclass GUITARIST ; 2b
 	const CLYDE
 	const VINCENT
+	const LEV
 
 	trainerclass HIKER ; 2c
 	const ANTHONY1
