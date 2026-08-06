@@ -108,6 +108,14 @@ DEF KRIS EQU __trainer_class__
 	const RICH
 	const LOU
 	const DICK
+	const RAVI
+	const RIC
+	const IKKI
+	const JAX
+	const KOA
+	const NOE
+	const WES
+	const IRA
 
 	trainerclass ERIKA ; 15
 	const ERIKA1

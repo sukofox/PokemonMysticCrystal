@@ -49,8 +49,8 @@ OutdoorSprites:
 	dw SafariZoneSprites
 	dw CeruleanCaveSprites
 	dw ViridianForestSprites
-	dw CeladonHideoutSprites
 	dw SilphCoSprites
+	dw CeladonHideoutSprites
 	assert_table_length NUM_MAP_GROUPS
 
 ; Route1 and ViridianCity are connected

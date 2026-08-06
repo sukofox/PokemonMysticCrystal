@@ -359,6 +359,62 @@ ScientistGroup:
 	db 67, MAGCARGO
 	db -1 ; end
 
+	; SCIENTIST (8)
+	db "RAVI@", TRAINERTYPE_NORMAL
+	db 68, PORYGON2
+	db 67, MUK
+	db 69, YANMA
+	db -1 ; end
+
+	; SCIENTIST (9)
+	db "RIC@", TRAINERTYPE_NORMAL
+	db 68, MAGNETON
+	db 65, GIRAFARIG
+	db 66, GOLDUCK
+	db 67, GLIGAR
+	db -1 ; end
+
+	; SCIENTIST (10)
+	db "IKKI@", TRAINERTYPE_NORMAL
+	db 67, PILOSWINE
+	db 64, MAGCARGO
+	db 68, SUNFLORA
+	db -1 ; end
+
+	; SCIENTIST (11)
+	db "JAX@", TRAINERTYPE_NORMAL
+	db 68, ARCANINE
+	db 68, ALAKAZAM
+	db 66, POLITOED
+	db -1 ; end
+
+	; SCIENTIST (12)
+	db "KOA@", TRAINERTYPE_NORMAL
+	db 67, BELLOSSOM
+	db 68, OCTILLERY
+	db 68, AIPOM
+	db 69, GIRAFARIG
+	db -1 ; end
+
+	; SCIENTIST (13)
+	db "NOE@", TRAINERTYPE_NORMAL
+	db 65, XATU
+	db 66, AMPHAROS
+	db 67, PORYGON2
+	db -1 ; end
+
+	; SCIENTIST (14)
+	db "WES@", TRAINERTYPE_NORMAL
+	db 68, STANTLER
+	db 69, MILTANK
+	db -1 ; end
+
+	; SCIENTIST (15)
+	db "IRA@", TRAINERTYPE_NORMAL
+	db 69, MAGNETON
+	db 68, JOLTEON
+	db -1 ; end
+
 ErikaGroup:
 	; ERIKA (1)
 	db "ERIKA@", TRAINERTYPE_MOVES
