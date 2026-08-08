@@ -6,36 +6,36 @@ SilphCo11F_MapScripts:
 
 	def_callbacks
 
-GentlemanBorisScript:
+GentlemanEnochScript:
 	faceplayer
-	checkevent EVENT_BEAT_GENTLEMAN_BORIS
+	checkevent EVENT_BEAT_GENTLEMAN_ENOCH
 	iftrue .AfterBattle
 	opentext
-	writetext GentlemanBorisSeenText
+	writetext GentlemanEnochSeenText
 	waitbutton
 	closetext
-	winlosstext GentlemanBorisBeatenText, 0
-	loadtrainer GENTLEMAN, BORIS
+	winlosstext GentlemanEnochBeatenText, 0
+	loadtrainer GENTLEMAN, ENOCH
 	startbattle
 	reloadmapafterbattle
-	setevent EVENT_BEAT_GENTLEMAN_BORIS
+	setevent EVENT_BEAT_GENTLEMAN_ENOCH
 
 .AfterBattle:
 	opentext
-	checkevent EVENT_GOT_MASTER_BALL_BORIS
-    iftrue .GotMasterballBoris
-	writetext GentlemanBorisTakeMasterBallText
+	checkevent EVENT_GOT_MASTER_BALL_ENOCH
+    iftrue .GotMasterballEnoch
+	writetext GentlemanEnochTakeMasterBallText
 	promptbutton
 	verbosegiveitem MASTER_BALL
 	iffalse .NoRoom
-	setevent EVENT_GOT_MASTER_BALL_BORIS
-	writetext GentlemanBorisMasterBallExplanationText
+	setevent EVENT_GOT_MASTER_BALL_ENOCH
+	writetext GentlemanEnochMasterBallExplanationText
 	waitbutton
 	closetext
 	end
 
-.GotMasterballBoris:
-	writetext GentlemanBorisAfterBattleText
+.GotMasterballEnoch:
+	writetext GentlemanEnochAfterBattleText
 	waitbutton
 	closetext
 	end
@@ -44,7 +44,7 @@ GentlemanBorisScript:
 	closetext
 	end
 
-GentlemanBorisSeenText:
+GentlemanEnochSeenText:
 	text "You beat all"
     line "my employees?"
     cont "..."
@@ -58,11 +58,11 @@ GentlemanBorisSeenText:
     cont "show you."
 	done
 
-GentlemanBorisBeatenText:
+GentlemanEnochBeatenText:
 	text "Splendid!"
 	done
 
-GentlemanBorisTakeMasterBallText:
+GentlemanEnochTakeMasterBallText:
 	text "This item is"
 	line "our specialty."
 	cont "It can catch"
@@ -71,7 +71,7 @@ GentlemanBorisTakeMasterBallText:
     line "#MON."
 	done
 
-GentlemanBorisMasterBallExplanationText:
+GentlemanEnochMasterBallExplanationText:
 	text "It is difficult"
     line "to make, and I"
     cont "only give it to"
@@ -80,7 +80,7 @@ GentlemanBorisMasterBallExplanationText:
     line "the test."
 	done
 
-GentlemanBorisAfterBattleText:
+GentlemanEnochAfterBattleText:
 	text "Use it wisely."
 	done
 
@@ -95,4 +95,4 @@ SilphCo11F_MapEvents:
 	def_bg_events
 
 	def_object_events
-	object_event  9,  6, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, GentlemanBorisScript, -1
+	object_event  9,  6, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, GentlemanEnochScript, -1

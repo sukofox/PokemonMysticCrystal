@@ -342,7 +342,7 @@ DEF KRIS EQU __trainer_class__
 	const GREGORY
 	const VIRGIL ; unused
 	const ALFRED
-	const BORIS
+	const ENOCH
 
 	trainerclass SKIER ; 21
 	const ROXANNE

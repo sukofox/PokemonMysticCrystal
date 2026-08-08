@@ -1,7 +1,7 @@
 object_const_def
 	const SILPH_CO_2F_SCIENTIST_1
     const SILPH_CO_2F_SCIENTIST_2
-    const SILPH_CO_3F_SCIENTIST_3
+    const SILPH_CO_2F_SCIENTIST_3
 
 SilphCo2F_MapScripts:
 	def_scene_scripts

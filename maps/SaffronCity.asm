@@ -267,13 +267,13 @@ SaffronCity_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 26,  3, FIGHTING_DOJO, 1
+	warp_event 24,  3, FIGHTING_DOJO, 1
 	warp_event 34,  3, SAFFRON_GYM, 1
 	warp_event 25, 11, SAFFRON_MART, 2
 	warp_event  9, 29, SAFFRON_POKECENTER_1F, 1
 	warp_event 27, 29, MR_PSYCHICS_HOUSE, 1
 	warp_event  8,  3, SAFFRON_MAGNET_TRAIN_STATION, 2
-	warp_event 18, 21, SILPH_CO_1F, 1
+	warp_event 19, 21, SILPH_CO_1F, 1
 	warp_event  9, 11, COPYCATS_HOUSE_1F, 1
 	warp_event 18,  3, ROUTE_5_SAFFRON_GATE, 3
 	warp_event  0, 24, ROUTE_7_SAFFRON_GATE, 3
@@ -303,4 +303,4 @@ SaffronCity_MapEvents:
 	object_event 27, 12, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, SaffronCityFisherScript, -1
 	object_event 15, 19, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, SaffronCityYoungster1Script, -1
 	object_event 35, 22, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, SaffronCityYoungster2Script, -1
-	object_event 19,  8, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, SaffronCityLass2Script, -1
+	object_event 19,  6, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, SaffronCityLass2Script, -1
