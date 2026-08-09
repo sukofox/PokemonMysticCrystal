@@ -64,6 +64,7 @@ MapGroupPointers::
 	dw MapGroup_ViridianForest ; 45
 	dw MapGroup_CeladonHideout; 46
 	dw MapGroup_SilphCo; 47
+	dw MapGroup_PokemonMansion; 48
 	assert_table_length NUM_MAP_GROUPS
 
 MapGroup_Olivine:
@@ -767,3 +768,9 @@ MapGroup_SilphCo:
 	map SilphCo10F, TILESET_FISHER_HOUSE, INDOOR, LANDMARK_SILPH_CO, MUSIC_POKEDEX, FALSE, PALETTE_DAY, FISHGROUP_NONE
 	map SilphCo11F, TILESET_FISHER_HOUSE, INDOOR, LANDMARK_SILPH_CO, MUSIC_POKEDEX, FALSE, PALETTE_DAY, FISHGROUP_NONE
 	assert_table_length NUM_SILPH_CO_MAPS
+
+MapGroup_PokemonMansion:
+	table_width MAP_LENGTH, MapGroup_PokemonMansion
+	map PokemonMansion1F, TILESET_FISHER_HOUSE, INDOOR, LANDMARK_CINNABAR_ISLAND, MUSIC_NONE, FALSE, PALETTE_NITE, FISHGROUP_NONE
+	map PokemonMansion2F, TILESET_FISHER_HOUSE, INDOOR, LANDMARK_CINNABAR_ISLAND, MUSIC_NONE, FALSE, PALETTE_NITE, FISHGROUP_NONE
+	assert_table_length NUM_POKEMON_MANSION_MAPS

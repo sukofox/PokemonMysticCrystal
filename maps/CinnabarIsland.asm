@@ -130,7 +130,7 @@ CinnabarIsland_MapEvents:
 
 	def_warp_events
 	warp_event 11, 11, CINNABAR_POKECENTER_1F, 1
-	;warp_event 10,  5, POKEMON_MANSION_1F, 1
+	warp_event 10,  5, POKEMON_MANSION_1F, 1
 
 	def_coord_events
 
