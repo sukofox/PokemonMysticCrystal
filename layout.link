@@ -40,13 +40,11 @@ ROMX $04
 ROMX $05
 	"bank5"
 ROMX $06
-	"Tileset Data 1"
+	
 ROMX $07
 	"Roofs"
-	"Tileset Data 2"
 ROMX $08
 	"Clock Reset"
-	"Tileset Data 3"
 ROMX $09
 	"bank9"
 	"Egg Moves"
@@ -56,7 +54,7 @@ ROMX $0a
 ROMX $0b
 	"bankB"
 ROMX $0c
-	"Tileset Data 4"
+
 ROMX $0d
 	"Effect Commands"
 ROMX $0e
@@ -126,7 +124,7 @@ ROMX $2b
 ROMX $2c
 	"Map Blocks 3"
 ROMX $2d
-	"Tileset Data 5"
+
 ROMX $2e
 	"bank2E"
 ROMX $2f
@@ -149,7 +147,7 @@ ROMX $36
 	"Font Inversed"
 	"Pic Animations 3"
 ROMX $37
-	"Tileset Data 6"
+	
 ROMX $38
 	"bank38"
 ROMX $39
@@ -300,24 +298,23 @@ ROMX $76
 ROMX $77
 	"Unown Font"
 	"Print Party"
-	"Tileset Data 7"
 	"bank77"
 	"Pokégear GFX"
 	"European Mail"
 ROMX $78
 	"Debug Room"
-	"Tileset Data 8"
 ROMX $79
 	"Trainer Backpics"
 	"Map Scripts 26"
+ROMX $7a
+
 ROMX $7b
 	"Battle Tower Text"
-	"Tileset Data 9"
 ROMX $7c
 	"Battle Tower Trainer Data"
 	"Mobile News Data"
 ROMX $7d
-	"Tileset Data 10"
+	
 ROMX $7e
 	"Crystal Events"
 ROMX $7f
