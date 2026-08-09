@@ -696,6 +696,8 @@ ENDM
 	newgroup POKEMON_MANSION										 ;48
 	map_const POKEMON_MANSION_1F,							15, 15;    1
 	map_const POKEMON_MANSION_2F,							15, 15;    2
+	map_const POKEMON_MANSION_3F,							15,  9;    3
+	map_const POKEMON_MANSION_B1F,							15, 15;    4
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 46

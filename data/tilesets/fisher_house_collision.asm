@@ -90,3 +90,8 @@
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 59
 	tilecoll WALL, WALL, FLOOR, FLOOR ; 5a
 	tilecoll WALL, WALL, FLOOR, FLOOR ; 5b
+	tilecoll WALL, WALL, WALL, WALL ; 5c
+	tilecoll WALL, FLOOR, WALL, FLOOR ; 5d
+	tilecoll WALL, WALL, LADDER, FLOOR ; 5e
+	tilecoll WALL, WALL, WALL, WALL ; 5f
+	tilecoll WALL, FLOOR, WALL, FLOOR ; 60
