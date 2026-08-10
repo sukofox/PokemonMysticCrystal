@@ -1437,4 +1437,16 @@ SilphCo10F_Blocks:
 SilphCo11F_Blocks:
 	INCBIN "maps/SilphCo11F.blk"
 
+PokemonMansion1F_Blocks:
+	INCBIN "maps/PokemonMansion1F.blk"
+
+PokemonMansion2F_Blocks:
+	INCBIN "maps/PokemonMansion2F.blk"
+
+PokemonMansion3F_Blocks:
+	INCBIN "maps/PokemonMansion3F.blk"
+
+PokemonMansionB1F_Blocks:
+	INCBIN "maps/PokemonMansionB1F.blk"
+
 ENDSECTION

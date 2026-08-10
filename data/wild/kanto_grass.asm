@@ -1374,4 +1374,116 @@ def_grass_wildmons VIRIDIAN_FOREST
 	db 60, MARILL
 	end_grass_wildmons
 
+def_grass_wildmons POKEMON_MANSION_1F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 60, MUK
+	db 61, RATICATE
+	db 61, NINETALES
+	db 62, MAGMAR
+	db 60, MAGCARGO
+	db 62, DITTO
+	db 60, ARCANINE
+	; day
+	db 60, MUK
+	db 61, RATICATE
+	db 61, NINETALES
+	db 62, MAGMAR
+	db 60, MAGCARGO
+	db 62, DITTO
+	db 60, ARCANINE
+	; nite
+	db 60, MUK
+	db 61, RATICATE
+	db 61, NINETALES
+	db 62, HAUNTER
+	db 60, MISDREAVUS
+	db 62, DITTO
+	db 60, GENGAR
+	end_grass_wildmons
+
+	def_grass_wildmons POKEMON_MANSION_2F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 60, WEEZING
+	db 61, RATICATE
+	db 61, NINETALES
+	db 62, MAGMAR
+	db 60, MAGCARGO
+	db 62, DITTO
+	db 60, ARCANINE
+	; day
+	db 60, WEEZING
+	db 61, RATICATE
+	db 61, NINETALES
+	db 62, MAGMAR
+	db 60, MAGCARGO
+	db 62, DITTO
+	db 60, ARCANINE
+	; nite
+	db 60, WEEZING
+	db 61, RATICATE
+	db 61, NINETALES
+	db 62, HAUNTER
+	db 60, MISDREAVUS
+	db 62, DITTO
+	db 60, GENGAR
+	end_grass_wildmons
+
+	def_grass_wildmons POKEMON_MANSION_3F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 60, WEEZING
+	db 61, RATICATE
+	db 61, NINETALES
+	db 62, MAGMAR
+	db 60, MAGCARGO
+	db 62, DITTO
+	db 60, ARCANINE
+	; day
+	db 60, WEEZING
+	db 61, RATICATE
+	db 61, NINETALES
+	db 62, MAGMAR
+	db 60, MAGCARGO
+	db 62, DITTO
+	db 60, ARCANINE
+	; nite
+	db 60, WEEZING
+	db 61, RATICATE
+	db 61, NINETALES
+	db 62, HAUNTER
+	db 60, MISDREAVUS
+	db 62, DITTO
+	db 60, GENGAR
+	end_grass_wildmons
+
+	def_grass_wildmons POKEMON_MANSION_B1F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 60, MUK
+	db 61, RATICATE
+	db 61, NINETALES
+	db 62, MAGMAR
+	db 60, MAGCARGO
+	db 62, DITTO
+	db 60, ARCANINE
+	; day
+	db 60, MUK
+	db 61, RATICATE
+	db 61, NINETALES
+	db 62, MAGMAR
+	db 60, MAGCARGO
+	db 62, DITTO
+	db 60, ARCANINE
+	; nite
+	db 60, MUK
+	db 61, RATICATE
+	db 61, NINETALES
+	db 62, HAUNTER
+	db 60, MISDREAVUS
+	db 62, DITTO
+	db 60, GENGAR
+	end_grass_wildmons
+
 	db -1 ; end

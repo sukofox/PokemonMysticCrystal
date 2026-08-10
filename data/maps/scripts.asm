@@ -615,5 +615,9 @@ INCLUDE "maps/SilphCo8F.asm"
 INCLUDE "maps/SilphCo9F.asm"
 INCLUDE "maps/SilphCo10F.asm"
 INCLUDE "maps/SilphCo11F.asm"
+INCLUDE "maps/PokemonMansion1F.asm"
+INCLUDE "maps/PokemonMansion2F.asm"
+INCLUDE "maps/PokemonMansion3F.asm"
+INCLUDE "maps/PokemonMansionB1F.asm"
 
 ENDSECTION

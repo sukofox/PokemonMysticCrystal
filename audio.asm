@@ -117,6 +117,8 @@ INCLUDE "audio/music/suicunebattle.asm"
 INCLUDE "audio/music/battletowerlobby.asm"
 INCLUDE "audio/music/mobilecenter.asm"
 INCLUDE "audio/music/pokedexmusic.asm"
+INCLUDE "audio/music/blackcity.asm"
+INCLUDE "audio/music/ceruleancave.asm"
 
 
 SECTION "Altered Songs", ROMX
@@ -130,6 +132,8 @@ INCLUDE "audio/music/lavendertown.asm"
 INCLUDE "audio/music/pallettown.asm"
 INCLUDE "audio/music/route36.asm"
 INCLUDE "audio/music/kantotrainerbattle.asm"
+INCLUDE "audio/music/cinnabarisland.asm"
+INCLUDE "audio/music/cinnabarmansion.asm"
 
 
 SECTION "Altered Songs 2", ROMX

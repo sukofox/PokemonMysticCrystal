@@ -829,6 +829,13 @@ ENDM
 	map_attributes SilphCo9F, SILPH_CO_9F, $00, 0
 	map_attributes SilphCo10F, SILPH_CO_10F, $00, 0
 	map_attributes SilphCo11F, SILPH_CO_11F, $00, 0
+	map_attributes PokemonMansion1F, POKEMON_MANSION_1F, $00, 0
+	map_attributes PokemonMansion2F, POKEMON_MANSION_2F, $00, 0
+	map_attributes PokemonMansion3F, POKEMON_MANSION_3F, $00, 0
+	map_attributes PokemonMansionB1F, POKEMON_MANSION_B1F, $00, 0
+
+
+
 
 
 

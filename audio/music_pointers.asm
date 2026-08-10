@@ -130,4 +130,8 @@ Music:
 	dba Music_PalletTownNight
 	dba Music_Route1Night
 	dba Music_LavenderTownNight
+	dba Music_BlackCityBW
+	dba Music_CeruleanCaveRBY
+	dba Music_CinnabarIslandHGSS
+	dba Music_CinnabarMansionRBY
 	assert_table_length NUM_MUSIC_SONGS

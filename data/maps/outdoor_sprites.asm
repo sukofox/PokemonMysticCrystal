@@ -49,6 +49,7 @@ OutdoorSprites:
 	dw SafariZoneSprites
 	dw CeruleanCaveSprites
 	dw ViridianForestSprites
+	dw PokemonMansionSprites
 	dw SilphCoSprites
 	dw CeladonHideoutSprites
 	assert_table_length NUM_MAP_GROUPS
@@ -579,6 +580,7 @@ ViridianForestSprites:
 	db SPRITE_FRUIT_TREE
 	db 0 ; end
 
+PokemonMansionSprites:
 SilphCoSprites:
 CeladonHideoutSprites:
 	db SPRITE_FISHER
@@ -594,5 +596,6 @@ CeladonHideoutSprites:
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db SPRITE_TEACHER
+	db SPRITE_DRAGON
 	db 0 ; end
 	

@@ -59,6 +59,7 @@ MapGroupRoofs:
 	db -1			  ; 45 (Viridian Forest)
 	db -1             ; 46 (Celadon Hideout)
 	db -1			  ; 47 (Silph Co)
+	db -1			  ; 48 (Pokemon Mansion)
 	assert_table_length NUM_MAP_GROUPS + 1
 
 Roofs:
