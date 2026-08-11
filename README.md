@@ -27,7 +27,7 @@ Join the Discord for updates and more information: https://discord.gg/RrN7BFXs7d
 9. Raikou is no longer a roamer. Raikou is found somewhere else. I am confident you will figure it out. Entei is also a static encounter somewhere. Good luck!
 10. In vanilla games, many Johto pokemon were only available post-game in Kanto, which was absurd. Now you can get them relatively earlier in Johto.
     a) The same is true of some Kanto pokemon. For example, Diglett, which you can find early in Johto now.
-11. Viridian forest, Cinnabar volcano, Seafoam cave, Power plant ruins, and the safari zone in Fuchsia city were added to the game.
+11. Viridian forest, Cinnabar volcano, Seafoam cave, Power plant ruins, and the safari zone in Fuchsia city were added to the game. Additionaly, the 11 floors of the Silph Co., as well as the Pokemon Mansion in Cinnabar Island, are available with items and trainers.
 12. There is a person in the Goldenrod Dept. Store who sells evolution stones.
 13. Physical/special split.
 14. Fairy type.
@@ -73,7 +73,7 @@ CREDITS:
 1. To the pret team who made this and many more projects possible by creating the disassemblies. Thank you all. 
 2. Meta, the ROMhack youtuber, for giving me the idea of putting Totodile as a wild pokemon in a certain location (check out his wonderful chanel: https://www.youtube.com/@metaphysical8698
 3. To Discord user Censoredharp, who gave me the idea of putting Diglett somewhere early in johto. This was a good idea.
-4. Thanks for "Mmmmmm" who demixed the Pokemon XY Frost Cavern song, and to Vulcandth from the Polished Crystal team who also made contributions to this soundtrack.
+4. Thanks for "Mmmmmm" who demixed the Pokemon XY Frost Cavern song and the Black City song, and to Vulcandth from the Polished Crystal team who also made contributions to this soundtrack. In addition, thanks to FroggestSpirit for the Cinnabar island, Pokemon Mansion, and Cerulean cave music.
 5. Thanks to French Orange for providing tilesets of all kinds. Here is the DA page: https://www.deviantart.com/frenchorange/art/Pokemon-Gold-and-Silver-SW97-Tileset-948665568
 6. If I missed someone else, please let me know.
 7. Tom Wang for Chris' running sprite, and Seasick for Kris' running sprite.
