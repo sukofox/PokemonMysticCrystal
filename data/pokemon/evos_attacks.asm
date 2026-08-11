@@ -2698,7 +2698,7 @@ UmbreonEvosAttacks:
 	db 30, CONFUSE_RAY
 	db 36, FAINT_ATTACK
 	db 42, MEAN_LOOK
-	db 47, SCREECH
+	db 47, CRUNCH
 	db 52, MOONLIGHT
 	db 0 ; no more level-up moves
 

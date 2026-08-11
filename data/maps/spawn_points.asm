@@ -22,7 +22,7 @@ SpawnPoints:
 	spawn CELADON_CITY,               29, 10
 	spawn FUCHSIA_CITY,               19, 28
 	spawn CINNABAR_ISLAND,            11, 12
-	spawn ROUTE_23,                    9,  6
+	spawn ROUTE_23,                   11,  8
 
 	spawn NEW_BARK_TOWN,              14,  6
 	spawn CHERRYGROVE_CITY,           29,  4
