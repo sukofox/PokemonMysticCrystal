@@ -1,10 +1,34 @@
 object_const_def
-	; none yet
+	const POKEMON_MANSION_3F_BURGLAR1
 
 PokemonMansion3F_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
+
+BurglarUsopp:
+	trainer BURGLAR, USOPP, EVENT_BEAT_BURGLAR_USOPP, BurglarUsoppSeenText, BurglarUsoppBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext BurglarUsoppAfterBattleText
+	waitbutton
+	closetext
+	end
+
+BurglarUsoppSeenText:
+	text "Shhhh."
+	done
+
+BurglarUsoppBeatenText:
+	text "Oh rats!"
+	done
+
+BurglarUsoppAfterBattleText:
+	text "I need to be"
+	line "more careful."
+	done
 
 PokemonMansion3F_MapEvents:
 	db 0, 0 ; filler
@@ -19,4 +43,4 @@ PokemonMansion3F_MapEvents:
 	def_bg_events
 
 	def_object_events
-	; none yet
+	object_event  7,  8, SPRITE_PHARMACIST, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, BurglarUsopp, -1

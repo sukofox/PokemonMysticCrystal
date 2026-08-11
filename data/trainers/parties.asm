@@ -2986,6 +2986,27 @@ BurglarGroup:
 	db 30, KOFFING
 	db -1 ; end
 
+	; BURGLAR (4)
+	db "MARION@", TRAINERTYPE_NORMAL
+	db 55, WEEZING
+	db 56, ARCANINE
+	db 56, MAGMAR
+	db -1 ; end
+
+	; BURGLAR (5)
+	db "LUFFY@", TRAINERTYPE_NORMAL
+	db 56, MAGMAR
+	db 55, MAGMAR
+	db 57, ARCANINE
+	db -1 ; end
+
+	; BURGLAR (6)
+	db "USOPP@", TRAINERTYPE_NORMAL
+	db 56, HYPNO
+	db 56, CYNDAQUIL
+	db 57, KINGDRA
+	db -1 ; end
+
 FirebreatherGroup:
 	; FIREBREATHER (1)
 	db "OTIS@", TRAINERTYPE_NORMAL

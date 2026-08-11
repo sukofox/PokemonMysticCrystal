@@ -566,6 +566,9 @@ DEF KRIS EQU __trainer_class__
 	const DUNCAN
 	const EDDIE
 	const COREY
+	const MARION
+	const LUFFY
+	const USOPP
 
 	trainerclass FIREBREATHER ; 30
 	const OTIS
