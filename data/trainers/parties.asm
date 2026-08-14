@@ -3036,19 +3036,20 @@ FirebreatherGroup:
 
 	; FIREBREATHER (5)
 	db "BILL@", TRAINERTYPE_NORMAL
-	db  6, KOFFING
-	db  6, KOFFING
+	db 16, KOFFING
+	db 16, KOFFING
+	db 16, CHARMANDER
 	db -1 ; end
 
 	; FIREBREATHER (6)
 	db "WALT@", TRAINERTYPE_NORMAL
-	db 11, MAGMAR
-	db 13, MAGMAR
+	db 23, MAGMAR
+	db 23, MAGMAR
 	db -1 ; end
 
 	; FIREBREATHER (7)
 	db "RAY@", TRAINERTYPE_NORMAL
-	db  9, VULPIX
+	db  17, VULPIX
 	db -1 ; end
 
 	; FIREBREATHER (8)
@@ -4076,27 +4077,27 @@ KimonoGirlGroup:
 
 	; KIMONO_GIRL (2)
 	db "NAOKO@", TRAINERTYPE_NORMAL
-	db 22, FLAREON
+	db 27, FLAREON
 	db -1 ; end
 
 	; KIMONO_GIRL (3)
 	db "SAYO@", TRAINERTYPE_NORMAL
-	db 22, ESPEON
+	db 27, ESPEON
 	db -1 ; end
 
 	; KIMONO_GIRL (4)
 	db "ZUKI@", TRAINERTYPE_NORMAL
-	db 22, UMBREON
+	db 27, UMBREON
 	db -1 ; end
 
 	; KIMONO_GIRL (5)
 	db "KUNI@", TRAINERTYPE_NORMAL
-	db 22, VAPOREON
+	db 27, VAPOREON
 	db -1 ; end
 
 	; KIMONO_GIRL (6)
 	db "MIKI@", TRAINERTYPE_NORMAL
-	db 22, JOLTEON
+	db 27, JOLTEON
 	db -1 ; end
 
 	;KIMONO_GIRL (7)
