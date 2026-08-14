@@ -156,6 +156,7 @@ CherrygroveGroupSprites:
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db SPRITE_CHIKORITA
+	db SPRITE_PICHU
 	db 0 ; end
 
 ; Route37 and EcruteakCity are connected
@@ -346,6 +347,7 @@ NewBarkMeadowSprites:
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db SPRITE_CHIKORITA
+	db SPRITE_PICHU
 	db 0 ; end
 
 EcruteakForestSprites:
