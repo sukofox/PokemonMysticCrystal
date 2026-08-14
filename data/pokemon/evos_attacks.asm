@@ -573,6 +573,7 @@ OddishEvosAttacks:
 	db 16, STUN_SPORE
 	db 18, SLEEP_POWDER
 	db 23, ACID
+	db 24, RAZOR_LEAF
 	db 32, MOONLIGHT
 	db 39, PETAL_DANCE
 	db 43, MOONBLAST
@@ -590,6 +591,7 @@ GloomEvosAttacks:
 	db 16, STUN_SPORE
 	db 18, SLEEP_POWDER
 	db 24, ACID
+	db 28, RAZOR_LEAF
 	db 35, MOONLIGHT
 	db 44, PETAL_DANCE
 	db 49, MOONBLAST
@@ -601,6 +603,7 @@ VileplumeEvosAttacks:
 	db 1, SWEET_SCENT
 	db 1, STUN_SPORE
 	db 1, PETAL_DANCE
+	db 30, RAZOR_LEAF
 	db 49, MOONBLAST
 	db 0 ; no more level-up moves
 
