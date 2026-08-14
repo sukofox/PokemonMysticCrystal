@@ -2081,10 +2081,11 @@ ChikoritaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
-	db 8, RAZOR_LEAF
+	db 8, VINE_WHIP
 	db 12, REFLECT
 	db 15, POISONPOWDER
 	db 22, SYNTHESIS
+	db 25, RAZOR_LEAF
 	db 29, BODY_SLAM
 	db 36, LIGHT_SCREEN
 	db 43, SAFEGUARD
@@ -2097,12 +2098,13 @@ BayleefEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
-	db 1, RAZOR_LEAF
+	db 1, VINE_WHIP
 	db 1, REFLECT
-	db 8, RAZOR_LEAF
+	db 8, VINE_WHIP
 	db 12, REFLECT
 	db 15, POISONPOWDER
 	db 23, SYNTHESIS
+	db 27, RAZOR_LEAF
 	db 31, BODY_SLAM
 	db 39, LIGHT_SCREEN
 	db 47, SAFEGUARD
@@ -2114,12 +2116,13 @@ MeganiumEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
-	db 1, RAZOR_LEAF
+	db 1, VINE_WHIP
 	db 1, REFLECT
-	db 8, RAZOR_LEAF
+	db 8, VINE_WHIP
 	db 12, REFLECT
 	db 15, POISONPOWDER
 	db 23, SYNTHESIS
+	db 27, RAZOR_LEAF
 	db 31, BODY_SLAM
 	db 41, LIGHT_SCREEN
 	db 51, SAFEGUARD
@@ -2499,6 +2502,7 @@ BellossomEvosAttacks:
 	db 1, SWEET_SCENT
 	db 1, STUN_SPORE
 	db 1, PETAL_DANCE
+	db 30, RAZOR_LEAF
 	db 49, MOONBLAST
 	db 55, SOLARBEAM
 	db 0 ; no more level-up moves
