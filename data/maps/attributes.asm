@@ -833,6 +833,9 @@ ENDM
 	map_attributes PokemonMansion2F, POKEMON_MANSION_2F, $00, 0
 	map_attributes PokemonMansion3F, POKEMON_MANSION_3F, $00, 0
 	map_attributes PokemonMansionB1F, POKEMON_MANSION_B1F, $00, 0
+	map_attributes PewterMuseum1F, PEWTER_MUSEUM_1F, $00, 0
+	map_attributes PewterMuseum2F, PEWTER_MUSEUM_2F, $00, 0
+
 
 
 

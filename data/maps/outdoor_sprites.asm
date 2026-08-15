@@ -49,6 +49,7 @@ OutdoorSprites:
 	dw SafariZoneSprites
 	dw CeruleanCaveSprites
 	dw ViridianForestSprites
+	dw PewterMuseumSprites
 	dw PokemonMansionSprites
 	dw SilphCoSprites
 	dw CeladonHideoutSprites
@@ -582,6 +583,7 @@ ViridianForestSprites:
 	db SPRITE_FRUIT_TREE
 	db 0 ; end
 
+PewterMuseumSprites:
 PokemonMansionSprites:
 SilphCoSprites:
 CeladonHideoutSprites:
@@ -599,5 +601,6 @@ CeladonHideoutSprites:
 	db SPRITE_FRUIT_TREE
 	db SPRITE_TEACHER
 	db SPRITE_DRAGON
+	db SPRITE_PICHU
 	db 0 ; end
 	

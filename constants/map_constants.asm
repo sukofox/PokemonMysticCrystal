@@ -700,4 +700,9 @@ ENDM
 	map_const POKEMON_MANSION_B1F,							15, 15;    4
 	endgroup
 
-DEF NUM_MAP_GROUPS EQU const_value ; 46
+	newgroup PEWTER_MUSEUM											 ;49
+	map_const PEWTER_MUSEUM_1F,								10,  4;    1
+	map_const PEWTER_MUSEUM_2F,								 7,  4;    2
+	endgroup
+
+DEF NUM_MAP_GROUPS EQU const_value ; 49

@@ -1453,4 +1453,10 @@ PokemonMansion3F_Blocks:
 PokemonMansionB1F_Blocks:
 	INCBIN "maps/PokemonMansionB1F.blk"
 
+PewterMuseum1F_Blocks:
+	INCBIN "maps/PewterMuseum1F.blk"
+
+PewterMuseum2F_Blocks:
+	INCBIN "maps/PewterMuseum2F.blk"
+
 ENDSECTION
