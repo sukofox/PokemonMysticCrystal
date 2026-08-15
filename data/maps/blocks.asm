@@ -200,18 +200,20 @@ CherrygroveEvolutionSpeechHouse_Blocks:
 Route30BerryHouse_Blocks:
 	INCBIN "maps/House1.blk"
 
-Route19FuchsiaGate_Blocks:
 Route43MahoganyGate_Blocks:
 Route43Gate_Blocks:
 Route35GoldenrodGate_Blocks:
 Route36RuinsOfAlphGate_Blocks:
 Route34IlexForestGate_Blocks:
-Route6SaffronGate_Blocks:
 Route40BattleTowerGate_Blocks:
-Route2Gate_Blocks:
 Route29Route46Gate_Blocks:
-Route5SaffronGate_Blocks:
 	INCBIN "maps/NorthSouthGate.blk"
+
+Route19FuchsiaGate_Blocks:
+Route6SaffronGate_Blocks:
+Route2Gate_Blocks:
+Route5SaffronGate_Blocks:
+	INCBIN "maps/NorthSouthGateKanto.blk"
 
 BetaEcruteakCity_Blocks: ; unreferenced
 	INCBIN "maps/unused/BetaEcruteakCity.blk"
@@ -271,13 +273,15 @@ Route38EcruteakGate_Blocks:
 Route42EcruteakGate_Blocks:
 Route32RuinsOfAlphGate_Blocks:
 IlexForestAzaleaGate_Blocks:
+Route31VioletGate_Blocks:
+	INCBIN "maps/EastWestGate.blk"
+
 Route15FuchsiaGate_Blocks:
 Route8SaffronGate_Blocks:
 Route16Gate_Blocks:
 Route7SaffronGate_Blocks:
 Route17Route18Gate_Blocks:
-Route31VioletGate_Blocks:
-	INCBIN "maps/EastWestGate.blk"
+	INCBIN "maps/EastWestGateKanto.blk"
 
 BetaAzaleaTown_Blocks: ; unreferenced
 	INCBIN "maps/unused/BetaAzaleaTown.blk"
