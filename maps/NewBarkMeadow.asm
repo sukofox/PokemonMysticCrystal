@@ -78,4 +78,4 @@ NewBarkMeadow_MapEvents:
     object_event 48,  7, SPRITE_CHIKORITA, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, NewBarkMeadowChikorita1Script, -1
 	object_event 43,  8, SPRITE_CHIKORITA, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, NewBarkMeadowChikorita2Script, -1
     object_event 19,  9, SPRITE_PICHU, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, NewBarkMeadowPichu1Script, -1
-	object_event 26,  9, SPRITE_PICHU, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, NewBarkMeadowPichu2Script, -1
+	object_event 26,  8, SPRITE_PICHU, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, NewBarkMeadowPichu2Script, -1

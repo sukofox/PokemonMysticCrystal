@@ -63,4 +63,5 @@ SpriteMons:
 	db TEDDIURSA
 	db BELLOSSOM
 	db STANTLER
+	db PICHU
 	assert_table_length NUM_POKEMON_SPRITES

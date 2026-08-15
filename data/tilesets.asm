@@ -56,4 +56,5 @@ Tilesets::
 	tileset TilesetJohtoSnow
 	tileset TilesetJohtoDesert
 	tileset TilesetFisherHouse
+	tileset TilesetGateKanto
 	assert_table_length NUM_TILESETS + 1

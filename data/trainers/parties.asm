@@ -3142,8 +3142,8 @@ BlackbeltGroup:
 
 	; BLACKBELT_T (6)
 	db "KIYO@", TRAINERTYPE_NORMAL
-	db 34, HITMONLEE
-	db 34, HITMONCHAN
+	db 44, HITMONLEE
+	db 44, HITMONCHAN
 	db -1 ; end
 
 	; BLACKBELT_T (7)

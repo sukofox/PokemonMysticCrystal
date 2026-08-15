@@ -437,3 +437,14 @@ INCBIN "data/tilesets/johto_modern_metatiles.bin"
 TilesetJohtoModernColl::
 INCLUDE "data/tilesets/johto_modern_collision.asm"
 
+SECTION "Tileset Gate Kanto", ROMX
+
+TilesetGateKantoGFX::
+INCBIN "gfx/tilesets/gate_kanto.2bpp.lz"
+
+TilesetGateKantoMeta::
+INCBIN "data/tilesets/gate_kanto_metatiles.bin"
+
+TilesetGateKantoColl::
+INCLUDE "data/tilesets/gate_kanto_collision.asm"
+
