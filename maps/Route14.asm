@@ -102,7 +102,7 @@ PokefanmTrevorSeenText:
 
 PokefanmTrevorBeatenText:
 	text "Where did I meet"
-	line "this PSYDUCK?"
+	line "my PSYDUCK?"
 	done
 
 PokefanmTrevorAfterBattleText:

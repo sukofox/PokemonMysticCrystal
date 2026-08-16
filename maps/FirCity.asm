@@ -22,6 +22,12 @@ FirCityYoungster1:
 FirCityFisher:
     jumptextfaceplayer FirCityFisherText
 
+SilverSanghaSign:
+	jumptext SilverSanghaSignText
+
+ReforgedTowerSign:
+	jumptext ReforgedTowerSignText
+
 FirCitySageText1:
     text "A lot of people"
     line "come to the"
@@ -46,6 +52,19 @@ FirCityFisherText:
     para "meditation."
     done
 
+SilverSanghaSignText:
+    text "SILVER SANGHA."
+    line "A mystical"
+    cont "place for"
+
+    para "meditation."
+    done
+
+ReforgedTowerSignText:
+    text "REFORGED TOWER."
+    line "A new beginning."
+    done
+
 FirCity_MapEvents:
 	db 0, 0 ; filler
 
@@ -59,6 +78,9 @@ FirCity_MapEvents:
 	def_coord_events
 
 	def_bg_events
+    bg_event 13, 23, BGEVENT_READ, SilverSanghaSign
+    bg_event 26, 14, BGEVENT_READ, ReforgedTowerSign
+
 
 	def_object_events
 	object_event 12, 24, SPRITE_SAGE, SPRITEMOVEDATA_WANDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, FirCitySageScript1, -1

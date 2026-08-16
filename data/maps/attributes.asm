@@ -722,7 +722,7 @@ ENDM
 	map_attributes ReforgedTower5F, REFORGED_TOWER_5F, $00, 0
 	map_attributes ReforgedTowerRoof, REFORGED_TOWER_ROOF, $00, 0
 	map_attributes DeepWoods, DEEP_WOODS, $05, 0
-	map_attributes PagodaOfTime, PAGODA_OF_TIME, $05, 0
+	map_attributes PagodaOfTime, PAGODA_OF_TIME, $C4, 0
 	map_attributes PagodaOfTime1F, PAGODA_OF_TIME_1F, $00, 0
 	map_attributes PagodaOfTime2F, PAGODA_OF_TIME_2F, $00, 0
 	map_attributes PagodaOfTime3F, PAGODA_OF_TIME_3F, $00, 0

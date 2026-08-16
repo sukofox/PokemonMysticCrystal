@@ -17,6 +17,12 @@ SpruceCityCooltrainerFScript:
 SpruceCityFisherScript:
     jumptextfaceplayer SpruceCityFisherText
 
+SpruceMansionSign:
+	jumptext SpruceMansionSignText
+
+IceSkatingArenaSign:
+	jumptext IceSkatingArenaSignText
+
 SpruceCityCooltrainerMText:
     text "I want to go"
     line "to the league."
@@ -33,6 +39,15 @@ SpruceCityCooltrainerFText:
 
 SpruceCityFisherText:
     text "I want some cake."
+    done
+
+SpruceMansionSignText:
+    text "SPRUCE MANSION."
+    done
+
+IceSkatingArenaSignText:
+    text "ICE SKATING"
+    line "ARENA."
     done
 
 SpruceCity_MapEvents:
@@ -52,6 +67,8 @@ SpruceCity_MapEvents:
 	def_coord_events
 
 	def_bg_events
+    bg_event 28, 10, BGEVENT_READ, SpruceMansionSign
+    bg_event 66, 14, BGEVENT_READ, IceSkatingArenaSign
 
 	def_object_events
 	object_event 11, 10, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SpruceCityCooltrainerMScript, -1

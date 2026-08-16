@@ -2911,7 +2911,9 @@ HeracrossEvosAttacks:
 	db 12, ENDURE
 	db 19, FURY_ATTACK
 	db 27, COUNTER
+	db 30, THUNDERPUNCH
 	db 35, TAKE_DOWN
+	db 40, DYNAMICPUNCH
 	db 44, REVERSAL
 	db 54, MEGAHORN
 	db 0 ; no more level-up moves

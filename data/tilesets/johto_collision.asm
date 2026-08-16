@@ -208,3 +208,6 @@
 	tilecoll WALL, FLOOR, WALL, FLOOR ; cf
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; d0
 	tilecoll FLOOR, WALL, FLOOR, FLOOR ; d1
+	tilecoll WALL, WALL, WALL, FLOOR ; d2
+	tilecoll WALL, WALL, FLOOR, WALL ; d3
+	tilecoll TALL_GRASS, TALL_GRASS, TALL_GRASS, TALL_GRASS ; d4

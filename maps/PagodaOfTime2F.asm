@@ -74,16 +74,16 @@ PagodaOfTime2F_MapEvents:
 
 	def_warp_events
 	warp_event  5,  5, PAGODA_OF_TIME_1F, 3
-    warp_event 16,  8, PAGODA_OF_TIME_3F, 1
+	warp_event 16,  8, PAGODA_OF_TIME_3F, 1
    
 	def_coord_events
 
 	def_bg_events
 
 	def_object_events
-    object_event  5, 14, SPRITE_SAGE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, PagodaOfTime2FSage1, -1
+	object_event  5, 14, SPRITE_SAGE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, PagodaOfTime2FSage1, -1
 	object_event  7, 16, SPRITE_SAGE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, PagodaOfTime2FSage2, -1
 	object_event 11, 14, SPRITE_SAGE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, PagodaOfTime2FSage3, -1
 	object_event 10, 16, SPRITE_SAGE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, PagodaOfTime2FSage4, -1
 	object_event 13, 16, SPRITE_SAGE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, PagodaOfTime2FSage5, -1
-	object_event 17,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, PagodaOfTime2FRareCandy, EVENT_PAGODA_OF_TIME_2F_RARE_CANDY
+	object_event 17,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, PagodaOfTime2FRareCandy, EVENT_PAGODA_OF_TIME_2F_RARE_CANDY

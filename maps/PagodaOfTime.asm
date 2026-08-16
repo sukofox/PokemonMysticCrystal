@@ -51,6 +51,9 @@ PagodaOfTimeChikoritaScript:
 	closetext
 	end
 
+PagodaofTimeSign:
+	jumptext PagodaofTimeSignText
+
 PagodaOfTimeSageText:
 	text "We come here"
 	line "to pay our"
@@ -92,6 +95,10 @@ PagodaOfTimeChikoritaText:
 	text "Chikorita: Chiko!"
 	done
 
+PagodaofTimeSignText:
+	text "PAGODA OF TIME."
+	done
+
 PagodaOfTime_MapEvents:
 	db 0, 0 ; filler
 
@@ -103,6 +110,7 @@ PagodaOfTime_MapEvents:
 	def_coord_events
 
 	def_bg_events
+	bg_event 13, 11, BGEVENT_READ, PagodaofTimeSign
 
 	def_object_events
     object_event  8, 12, SPRITE_SAGE, SPRITEMOVEDATA_WANDER, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, PagodaOfTimeSage, -1
