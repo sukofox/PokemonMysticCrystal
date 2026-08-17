@@ -2839,7 +2839,7 @@ HikerGroup:
 
 	; HIKER (17)
 	db "JIM@", TRAINERTYPE_NORMAL
-	db 35, MACHAMP
+	db 55, MACHAMP
 	db -1 ; end
 
 	; HIKER (18)
@@ -3996,7 +3996,7 @@ PokefanMGroup:
 
 	; POKEFANM (3)
 	db "ROBERT@", TRAINERTYPE_ITEM
-	db 43, QUAGSIRE,   BERRY
+	db 56, QUAGSIRE,   BERRY
 	db -1 ; end
 
 	; POKEFANM (4)
