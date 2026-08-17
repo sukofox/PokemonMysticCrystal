@@ -145,6 +145,7 @@ WartortleEvosAttacks:
 	db 31, PROTECT
 	db 37, RAIN_DANCE
 	db 45, SKULL_BASH
+	db 50, FLASH_CANNON
 	db 53, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
@@ -1114,6 +1115,7 @@ MagnemiteEvosAttacks:
 	db 16, SONICBOOM
 	db 21, THUNDER_WAVE
 	db 27, LOCK_ON
+	db 32, FLASH_CANNON
 	db 33, SWIFT
 	db 39, SCREECH
 	db 45, ZAP_CANNON
@@ -1130,6 +1132,7 @@ MagnetonEvosAttacks:
 	db 16, SONICBOOM
 	db 21, THUNDER_WAVE
 	db 27, LOCK_ON
+	db 34, FLASH_CANNON
 	db 35, TRI_ATTACK
 	db 43, SCREECH
 	db 53, ZAP_CANNON

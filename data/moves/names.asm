@@ -253,4 +253,5 @@ MoveNames::
 	li "BEAT UP"
 	li "MOONBLAST"
 	li "DARK_PULSE"
+	li "FLASH_CANNON"
 	assert_list_length NUM_ATTACKS

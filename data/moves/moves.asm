@@ -267,4 +267,5 @@ Moves:
 	move BEAT_UP,      EFFECT_BEAT_UP,            10, DARK,          PHYSICAL, 100, 10,   0
 	move MOONBLAST,    EFFECT_SP_ATK_DOWN_HIT,	  95, FAIRY,         SPECIAL,  100, 15,  10
 	move DARK_PULSE,   EFFECT_FLINCH_HIT,         80, DARK,			 SPECIAL,  100, 15,  20
+	move FLASH_CANNON, EFFECT_SP_DEF_DOWN_HIT,    80, STEEL,		 SPECIAL,  100, 10,  10
 	assert_table_length NUM_ATTACKS 

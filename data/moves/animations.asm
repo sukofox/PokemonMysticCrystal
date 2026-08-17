@@ -255,8 +255,8 @@ BattleAnimations::
 	dw BattleAnim_BeatUp
 	dw BattleAnim_Moonblast
 	dw BattleAnim_DarkPulse
+	dw BattleAnim_FlashCannon
 	assert_table_length NUM_ATTACKS + 1
-	dw BattleAnim_Dummy
 	dw BattleAnim_SweetScent2
 	assert_table_length $100
 ; $100
@@ -1487,6 +1487,7 @@ BattleAnim_HyperBeam:
 	anim_wait 48
 	anim_ret
 
+BattleAnim_FlashCannon:
 BattleAnim_Moonblast:
 BattleAnim_AuroraBeam:
 	anim_1gfx BATTLE_ANIM_GFX_BEAM

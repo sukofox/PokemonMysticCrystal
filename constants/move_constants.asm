@@ -259,6 +259,7 @@
 	const BEAT_UP      ; fb
 	const MOONBLAST    ; fc
 	const DARK_PULSE   ; fd
+	const FLASH_CANNON  ; fe
 DEF NUM_ATTACKS EQU const_value - 1
 
 DEF CANNOT_MOVE EQU $ff
