@@ -253,14 +253,13 @@ MoveDescriptions::
 	dw WhirlpoolDescription
 	dw BeatUpDescription
 	dw MoonblastDescription
+	dw DarkPulseDescription
 	assert_table_length NUM_ATTACKS
-	dw MoveFDDescription
 	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
 	assert_table_length $100
 
-MoveFDDescription:
 MoveFEDescription:
 MoveFFDescription:
 Move00Description:
@@ -1273,3 +1272,7 @@ BeatUpDescription:
 MoonblastDescription:
 	db   "A strong fairy"
 	next "beam.@"
+
+DarkPulseDescription:
+	db   "A horrible aura"
+	next "of darkness.@"

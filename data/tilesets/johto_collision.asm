@@ -211,3 +211,4 @@
 	tilecoll WALL, WALL, WALL, FLOOR ; d2
 	tilecoll WALL, WALL, FLOOR, WALL ; d3
 	tilecoll TALL_GRASS, TALL_GRASS, TALL_GRASS, TALL_GRASS ; d4
+	tilecoll WALL, WALL, DOOR, WALL ; d5

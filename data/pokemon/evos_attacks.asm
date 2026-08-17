@@ -1263,6 +1263,7 @@ GastlyEvosAttacks:
 	db 28, CONFUSE_RAY
 	db 33, DREAM_EATER
 	db 36, DESTINY_BOND
+	db 40, DARK_PULSE
 	db 0 ; no more level-up moves
 
 HaunterEvosAttacks:
@@ -1277,6 +1278,7 @@ HaunterEvosAttacks:
 	db 21, NIGHT_SHADE
 	db 31, CONFUSE_RAY
 	db 39, DREAM_EATER
+	db 45, DARK_PULSE
 	db 48, DESTINY_BOND
 	db 0 ; no more level-up moves
 
@@ -1291,6 +1293,7 @@ GengarEvosAttacks:
 	db 21, NIGHT_SHADE
 	db 31, CONFUSE_RAY
 	db 39, DREAM_EATER
+	db 47, DARK_PULSE
 	db 48, DESTINY_BOND
 	db 0 ; no more level-up moves
 
@@ -2706,6 +2709,7 @@ UmbreonEvosAttacks:
 	db 36, FAINT_ATTACK
 	db 42, MEAN_LOOK
 	db 47, CRUNCH
+	db 50, DARK_PULSE
 	db 52, MOONLIGHT
 	db 0 ; no more level-up moves
 
@@ -2718,6 +2722,7 @@ MurkrowEvosAttacks:
 	db 31, FAINT_ATTACK
 	db 36, WING_ATTACK
 	db 41, MEAN_LOOK
+	db 49, DARK_PULSE
 	db 0 ; no more level-up moves
 
 SlowkingEvosAttacks:
@@ -3103,6 +3108,7 @@ HoundoomEvosAttacks:
 	db 20, BITE
 	db 30, FAINT_ATTACK
 	db 41, FLAMETHROWER
+	db 46, DARK_PULSE
 	db 52, CRUNCH
 	db 0 ; no more level-up moves
 
@@ -3323,6 +3329,7 @@ LarvitarEvosAttacks:
 	db 8, SANDSTORM
 	db 15, SCREECH
 	db 22, ROCK_SLIDE
+	db 28, DARK_PULSE
 	db 29, THRASH
 	db 36, SCARY_FACE
 	db 43, CRUNCH
@@ -3340,6 +3347,7 @@ PupitarEvosAttacks:
 	db 8, SANDSTORM
 	db 15, SCREECH
 	db 22, ROCK_SLIDE
+	db 28, DARK_PULSE
 	db 29, THRASH
 	db 38, SCARY_FACE
 	db 47, CRUNCH
@@ -3356,6 +3364,7 @@ TyranitarEvosAttacks:
 	db 8, SANDSTORM
 	db 15, SCREECH
 	db 22, ROCK_SLIDE
+	db 28, DARK_PULSE
 	db 29, THRASH
 	db 38, SCARY_FACE
 	db 47, CRUNCH

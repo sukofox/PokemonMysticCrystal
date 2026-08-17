@@ -254,8 +254,8 @@ BattleAnimations::
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
 	dw BattleAnim_Moonblast
+	dw BattleAnim_DarkPulse
 	assert_table_length NUM_ATTACKS + 1
-	dw BattleAnim_Dummy
 	dw BattleAnim_Dummy
 	dw BattleAnim_SweetScent2
 	assert_table_length $100
@@ -2619,6 +2619,7 @@ BattleAnim_SkyAttack:
 	anim_wait 16
 	anim_ret
 
+BattleAnim_DarkPulse:
 BattleAnim_NightShade:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgp $1b

@@ -361,7 +361,7 @@ EcruteakForestSprites:
 	db SPRITE_BUG_CATCHER
 	db SPRITE_SUPER_NERD
 	db SPRITE_GRANNY
-	; 8 of max 9 walking sprites
+	; 9 of max 9 walking sprites
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db SPRITE_SUICUNE
