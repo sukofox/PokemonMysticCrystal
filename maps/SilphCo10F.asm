@@ -47,4 +47,4 @@ SilphCo10F_MapEvents:
 	def_bg_events
 
 	def_object_events
-	object_event  9,  7, SPRITE_SCIENTIST, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, ScientistNeo, -1
+	object_event  9,  7, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 2, ScientistNeo, -1

@@ -43,4 +43,4 @@ PokemonMansion3F_MapEvents:
 	def_bg_events
 
 	def_object_events
-	object_event  7,  8, SPRITE_PHARMACIST, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, BurglarUsopp, -1
+	object_event  7,  8, SPRITE_PHARMACIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, BurglarUsopp, -1
