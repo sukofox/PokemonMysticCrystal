@@ -158,7 +158,7 @@ TeleportGuyScript:
 	playsound SFX_WARP_TO
 	special FadeOutToWhite
 	waitsfx
-	warp NEW_BARK_TOWN, 13, 6
+	warp NEW_BARK_TOWN, 14, 6
 	end
 
 .No:

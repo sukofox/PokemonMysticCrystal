@@ -64,6 +64,12 @@ TrainerBoarderIsrael:
 	closetext
 	end
 
+SnowPathShrineSign:
+	jumptext SnowPathShrineSignText
+
+SnowPathtoSpruceSign:
+	jumptext SnowPathtoSpruceSignText
+
 BoarderRockoSeenText:
 	text "Brrr..."
 	line "you must be"
@@ -133,6 +139,14 @@ BoarderIsraelAfterBattleText:
 	line "down the slopes."
 	done
 
+SnowPathShrineSignText:
+	text "SNOW PATH SHRINE."
+	done
+
+SnowPathtoSpruceSignText:
+	text "To SPRUCE CITY."
+	done
+
 SnowPath_MapEvents:
 	db 0, 0 ; filler
 
@@ -145,6 +159,8 @@ SnowPath_MapEvents:
 	def_coord_events
 
 	def_bg_events
+	bg_event 22, 62, BGEVENT_READ, SnowPathShrineSign
+    bg_event 22,  6, BGEVENT_READ, SnowPathtoSpruceSign
 
 	def_object_events
 	object_event 16, 67, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerBoarderRocko, -1

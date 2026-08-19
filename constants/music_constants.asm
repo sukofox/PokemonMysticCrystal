@@ -132,6 +132,7 @@
 	const MUSIC_CERULEAN_CAVE_RBY
 	const MUSIC_CINNABAR_ISLAND_HGSS
 	const MUSIC_CINNABAR_MANSION_RBY
+	const MUSIC_MART_HGSS
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see home/map.asm)

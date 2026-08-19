@@ -148,6 +148,7 @@ INCLUDE "audio/music/violetcity.asm"
 INCLUDE "audio/music/route29.asm"
 INCLUDE "audio/music/lakeofrage.asm"
 INCLUDE "audio/music/route38.asm"
+INCLUDE "audio/music/mart.asm"
 
 
 SECTION "Extra Songs 1", ROMX

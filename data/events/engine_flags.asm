@@ -101,6 +101,7 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_LAKE_OF_RAGE
 	engine_flag wVisitedSpawns, SPAWN_BLACKTHORN
 	engine_flag wVisitedSpawns, SPAWN_PINE_TOWN
+	engine_flag wVisitedSpawns, SPAWN_SPRUCE_CITY
 	engine_flag wVisitedSpawns, SPAWN_MT_SILVER
 	engine_flag wVisitedSpawns, NUM_SPAWNS ; unused
 

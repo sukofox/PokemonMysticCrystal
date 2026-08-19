@@ -475,10 +475,10 @@ YoungsterGroup:
 
 	; YOUNGSTER (5)
 	db "SAMUEL@", TRAINERTYPE_NORMAL
-	db  10, RATTATA
+	db  15, RATTATA
 	db  15, SANDSHREW
-	db  12, SPEAROW
-	db  12, SPEAROW
+	db  15, SPEAROW
+	db  15, SPEAROW
 	db -1 ; end
 
 	; YOUNGSTER (6)
@@ -771,9 +771,9 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (13)
 	db "PETER@", TRAINERTYPE_NORMAL
-	db  10, PIDGEY
-	db  10, PIDGEY
-	db  10, SPEAROW
+	db  15, PIDGEY
+	db  15, PIDGEY
+	db  15, SPEAROW
 	db -1 ; end
 
 	; BIRD_KEEPER (14)
@@ -3042,7 +3042,7 @@ FirebreatherGroup:
 	; FIREBREATHER (5)
 	db "BILL@", TRAINERTYPE_NORMAL
 	db 16, KOFFING
-	db 16, KOFFING
+	db 16, CYNDAQUIL
 	db 16, CHARMANDER
 	db -1 ; end
 
@@ -3325,8 +3325,8 @@ PicnickerGroup:
 
 	; PICNICKER (2)
 	db "GINA@", TRAINERTYPE_NORMAL
-	db 13, HOPPIP
-	db 13, HOPPIP
+	db 15, HOPPIP
+	db 15, HOPPIP
 	db 15, BULBASAUR
 	db -1 ; end
 

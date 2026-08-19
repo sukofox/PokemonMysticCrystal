@@ -134,4 +134,5 @@ Music:
 	dba Music_CeruleanCaveRBY
 	dba Music_CinnabarIslandHGSS
 	dba Music_CinnabarMansionRBY
+	dba Music_MartHGSS
 	assert_table_length NUM_MUSIC_SONGS
