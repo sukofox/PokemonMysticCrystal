@@ -135,4 +135,6 @@ Music:
 	dba Music_CinnabarIslandHGSS
 	dba Music_CinnabarMansionRBY
 	dba Music_MartHGSS
+	dba Music_LavenderTownRBY
+	dba Music_PokemonTowerRBY
 	assert_table_length NUM_MUSIC_SONGS

@@ -1036,7 +1036,7 @@ Function10649b: ; unreferenced
 	call AddNTimes
 	ld d, h
 	ld e, l
-	ld hl, vTiles0 tile "┌" ; $ba
+	ld hl, vTiles0 tile '┌' ; $ba
 	ld c, TEXTBOX_FRAME_TILES ; '┌' to '┘'
 	ld b, BANK(Frames)
 	call Function1064c3

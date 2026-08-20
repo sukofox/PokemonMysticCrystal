@@ -149,6 +149,8 @@ INCLUDE "audio/music/route29.asm"
 INCLUDE "audio/music/lakeofrage.asm"
 INCLUDE "audio/music/route38.asm"
 INCLUDE "audio/music/mart.asm"
+INCLUDE "audio/music/lavendertownrby.asm"
+INCLUDE "audio/music/pokemontower.asm"
 
 
 SECTION "Extra Songs 1", ROMX

@@ -55,7 +55,7 @@ LoadFrame:
 	call AddNTimes
 	ld d, h
 	ld e, l
-	ld hl, vTiles0 tile "┌" ; $ba
+	ld hl, vTiles0 tile '┌' ; $ba
 	lb bc, BANK(Frames), TEXTBOX_FRAME_TILES ; '┌' to '┘'
 	call Get1bppViaHDMA
 	ld hl, vTiles2 tile ' ' ; $7f
