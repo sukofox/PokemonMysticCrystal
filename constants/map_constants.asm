@@ -710,6 +710,8 @@ ENDM
 	map_const SOUL_BASEMENT_B2F,							10, 10;    2
 	map_const SOUL_BASEMENT_B3F,							 4, 10;    3
 	map_const SOUL_BASEMENT_B4F,						    15, 15;    4
+	map_const SOUL_BASEMENT_B5F,						    15, 15;    5
+	map_const SOUL_BASEMENT_B6F,							 9,  9;    6
 	endgroup
 
 
