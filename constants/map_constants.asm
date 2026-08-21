@@ -705,4 +705,12 @@ ENDM
 	map_const PEWTER_MUSEUM_2F,								 7,  4;    2
 	endgroup
 
+	newgroup SOUL_BASEMENT											 ;50
+	map_const SOUL_BASEMENT_B1F,							10, 10;    1
+	map_const SOUL_BASEMENT_B2F,							10, 10;    2
+	map_const SOUL_BASEMENT_B3F,							 4, 10;    3
+	map_const SOUL_BASEMENT_B4F,						    15, 15;    4
+	endgroup
+
+
 DEF NUM_MAP_GROUPS EQU const_value ; 49
