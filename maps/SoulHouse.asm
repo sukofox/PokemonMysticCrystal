@@ -76,7 +76,7 @@ SoulHouse_MapEvents:
 	def_warp_events
 	warp_event  4,  7, LAVENDER_TOWN, 6
 	warp_event  5,  7, LAVENDER_TOWN, 6
-	;warp_event  9,  1, SOUL_BASEMENT_B1F, 1
+	warp_event  9,  1, SOUL_BASEMENT_B1F, 1
 
 	def_coord_events
 

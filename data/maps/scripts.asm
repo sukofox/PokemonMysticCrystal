@@ -621,5 +621,11 @@ INCLUDE "maps/PokemonMansion3F.asm"
 INCLUDE "maps/PokemonMansionB1F.asm"
 INCLUDE "maps/PewterMuseum1F.asm"
 INCLUDE "maps/PewterMuseum2F.asm"
+INCLUDE "maps/SoulBasementB1F.asm"
+INCLUDE "maps/SoulBasementB2F.asm"
+INCLUDE "maps/SoulBasementB3F.asm"
+INCLUDE "maps/SoulBasementB4F.asm"
+INCLUDE "maps/SoulBasementB5F.asm"
+INCLUDE "maps/SoulBasementB6F.asm"
 
 ENDSECTION

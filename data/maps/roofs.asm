@@ -61,6 +61,7 @@ MapGroupRoofs:
 	db -1			  ; 47 (Silph Co)
 	db -1			  ; 48 (Pokemon Mansion)
 	db -1			  ; 49 (Pewter Museum)
+	db -1 			  ; 50 (Soul Basement)
 	assert_table_length NUM_MAP_GROUPS + 1
 
 Roofs:

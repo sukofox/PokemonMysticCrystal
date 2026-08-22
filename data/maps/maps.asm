@@ -66,6 +66,7 @@ MapGroupPointers::
 	dw MapGroup_SilphCo; 47
 	dw MapGroup_PokemonMansion; 48
 	dw MapGroup_PewterMuseum ; 49
+	dw MapGroup_SoulBasement ; 50
 	assert_table_length NUM_MAP_GROUPS
 
 MapGroup_Olivine:

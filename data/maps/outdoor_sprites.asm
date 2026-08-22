@@ -53,6 +53,7 @@ OutdoorSprites:
 	dw PokemonMansionSprites
 	dw SilphCoSprites
 	dw CeladonHideoutSprites
+	dw SoulBasementSprites
 	assert_table_length NUM_MAP_GROUPS
 
 ; Route1 and ViridianCity are connected
@@ -603,5 +604,20 @@ CeladonHideoutSprites:
 	db SPRITE_TEACHER
 	db SPRITE_DRAGON
 	db SPRITE_PICHU
+	db 0 ; end
+
+SoulBasementSprites:
+	db SPRITE_FISHER
+	db SPRITE_LEDYBA
+	db SPRITE_SAGE
+	db SPRITE_GRAMPS
+	db SPRITE_YOUNGSTER
+	db SPRITE_PINECO
+	db SPRITE_GRANNY
+	db SPRITE_KIMONO_GIRL
+	; 8 of max 9 walking sprites
+	db SPRITE_POKE_BALL
+	db SPRITE_FRUIT_TREE
+	db SPRITE_CHIKORITA
 	db 0 ; end
 	

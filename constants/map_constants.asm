@@ -715,4 +715,4 @@ ENDM
 	endgroup
 
 
-DEF NUM_MAP_GROUPS EQU const_value ; 49
+DEF NUM_MAP_GROUPS EQU const_value ; 50

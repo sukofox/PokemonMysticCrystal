@@ -835,6 +835,12 @@ ENDM
 	map_attributes PokemonMansionB1F, POKEMON_MANSION_B1F, $00, 0
 	map_attributes PewterMuseum1F, PEWTER_MUSEUM_1F, $00, 0
 	map_attributes PewterMuseum2F, PEWTER_MUSEUM_2F, $00, 0
+	map_attributes SoulBasementB1F, SOUL_BASEMENT_B1F, $00, 0
+	map_attributes SoulBasementB2F, SOUL_BASEMENT_B2F, $00, 0
+	map_attributes SoulBasementB3F, SOUL_BASEMENT_B3F, $00, 0
+	map_attributes SoulBasementB4F, SOUL_BASEMENT_B4F, $00, 0
+	map_attributes SoulBasementB5F, SOUL_BASEMENT_B5F, $00, 0
+	map_attributes SoulBasementB6F, SOUL_BASEMENT_B6F, $00, 0
 
 
 

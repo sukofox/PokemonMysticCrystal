@@ -1459,4 +1459,23 @@ PewterMuseum1F_Blocks:
 PewterMuseum2F_Blocks:
 	INCBIN "maps/PewterMuseum2F.blk"
 
+SoulBasementB1F_Blocks:
+	INCBIN "maps/SoulBasementB1F.blk"
+
+SoulBasementB2F_Blocks:
+	INCBIN "maps/SoulBasementB2F.blk"
+
+SoulBasementB3F_Blocks:
+	INCBIN "maps/SoulBasementB3F.blk"
+
+SoulBasementB4F_Blocks:
+	INCBIN "maps/SoulBasementB4F.blk"
+
+SoulBasementB5F_Blocks:
+	INCBIN "maps/SoulBasementB5F.blk"
+
+SoulBasementB6F_Blocks:
+	INCBIN "maps/SoulBasementB6F.blk"
+
+
 ENDSECTION
