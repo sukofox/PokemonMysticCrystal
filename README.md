@@ -82,6 +82,7 @@ Join the Discord for updates and more information: https://discord.gg/RrN7BFXs7d
 ![cianwood](cianwood.png)
 ![cactus](cactus.png)
 ![pokeball](pokeball.png)
+![darkpulse](darkpulse.png)
 
 CREDITS: 
 1. To the pret team who made this and many more projects possible by creating the disassemblies. Thank you all. 
