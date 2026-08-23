@@ -5,7 +5,7 @@
 This is a Pokemon Crystal hack based on the pokecrystal disassembly from pret.
 
 In this hack, you will see an expanded/modified Johto, with a focus on the more traditional aspects of the region.
-So if you are a sucker for traditional buildings, pagodas, shrines, and forests, this is your hack. 
+So if you are a sucker for traditional buildings, pagodas, shrines, and forests, this is your hack. In addition, you will see a Kanto with many of the locations from RBY restored, with some modifications as well. Examples of restored locations are given below in the "Features" section.
 # WARNING: The game may not follow canon.
 
 # IMPORTANT!
@@ -27,7 +27,7 @@ Join the Discord for updates and more information: https://discord.gg/RrN7BFXs7d
 9. Raikou is no longer a roamer. Raikou is found somewhere else. I am confident you will figure it out. Entei is also a static encounter somewhere. Good luck!
 10. In vanilla games, many Johto pokemon were only available post-game in Kanto, which was absurd. Now you can get them relatively earlier in Johto.
     a) The same is true of some Kanto pokemon. For example, Diglett, which you can find early in Johto now.
-11. Viridian forest, Celadon hideout, Cinnabar volcano, Seafoam cave, Power plant ruins, and the safari zone in Fuchsia city were added to the game. Additionaly, the 11 floors of the Silph Co., as well as the Pokemon Mansion in Cinnabar Island, are available with items and trainers.
+11. Viridian forest, Celadon hideout, Cinnabar volcano, Seafoam cave, Power plant ruins, and the safari zone in Fuchsia city were added to the game. Additionaly, the 11 floors of the Silph Co., a Soul Basement underneath Soul House, as well as the Pokemon Mansion in Cinnabar Island, are available with items and trainers. Pewter Museum is also available.
 12. There is a person in the Goldenrod Dept. Store who sells evolution stones.
 13. Physical/special split.
 14. Fairy type.
@@ -53,8 +53,15 @@ Join the Discord for updates and more information: https://discord.gg/RrN7BFXs7d
 34. Added color to badges.
 35. Moonblast is a new offensive fairy-type attack.
 36. Many areas now have night music.
-
-
+37. Pokeballs now have unique colors.
+38. The tashcan puzzle inside Vermilion Gym is restored. 
+39. There is a bag for berries only now.
+40. The roof from the lab at the Ruins of Alph now shows the correct color.
+41. Flash cannon and dark pulse are now available.
+42. Kanto maps now have more colored roofs corresponding to their location like in RBY, instead of most roofs being gray.
+43. There is a third trainer page showing colored Kanto badges.
+44. Marts now have their own music.
+45. This game features a wider variety of ecosystems when compared to vanilla (e.g., desert, snow), and island or beach areas were retiled properly.
 
 ![newbarknew](newbarknew.png)
 ![totodile](totodile.png)
@@ -68,6 +75,12 @@ Join the Discord for updates and more information: https://discord.gg/RrN7BFXs7d
 ![cherrygrovenew](cherrygrovenew.png)
 ![sprout](sprout.png)
 ![badges](badges.png)
+![kantobadges](kantobadges.png)
+![vermilion](vermilion.png)
+![tradeback](tradeback.png)
+![spruce](spruce.png)
+![cianwood](cianwood.png)
+![pokeball](pokeball.png)
 
 CREDITS: 
 1. To the pret team who made this and many more projects possible by creating the disassemblies. Thank you all. 
