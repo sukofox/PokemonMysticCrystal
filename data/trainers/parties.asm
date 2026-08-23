@@ -3834,6 +3834,16 @@ SageGroup:
 	db 55, GENGAR
 	db 56, XATU
 	db -1 ; end
+
+	; SAGE (27)
+	db "CHEN@", TRAINERTYPE_NORMAL
+	db 65, NINETALES
+	db 66, GENGAR
+	db 67, GIRAFARIG
+	db 66, NOCTOWL
+	db 68, MISDREAVUS
+	db 70, UMBREON
+	db -1 ; end
 	
 MediumGroup:
 	; MEDIUM (1)
@@ -3913,6 +3923,80 @@ MediumGroup:
 	db 52, SLOWBRO
 	db 51, HAUNTER
 	db -1; end
+
+	; MEDIUM (13)
+	db "MARI@", TRAINERTYPE_NORMAL
+	db 60, GENGAR
+	db 60, GENGAR
+	db 61, MISDREAVUS
+	db -1 ; end
+
+	; MEDIUM (14)
+	db "QIN@", TRAINERTYPE_NORMAL
+	db 60, HAUNTER
+	db 60, MISDREAVUS
+	db 61, UMBREON
+	db -1 ; end
+
+	; MEDIUM (15)
+	db "YIYAO@", TRAINERTYPE_NORMAL
+	db 60, MISDREAVUS
+	db 60, MISDREAVUS
+	db 60, MISDREAVUS
+	db 60, MISDREAVUS
+	db -1 ; end
+
+	; MEDIUM (16)
+	db "XUE@", TRAINERTYPE_NORMAL
+	db 61, UMBREON
+	db 61, UMBREON
+	db 62, GENGAR
+	db 62, ESPEON
+	db -1 ; end
+
+	; MEDIUM (17)
+	db "RONG@", TRAINERTYPE_NORMAL
+	db 60, HAUNTER
+	db 61, MISDREAVUS
+	db 60, VILEPLUME
+	db -1 ; end
+
+	; MEDIUM (18)
+	db "LAN@", TRAINERTYPE_NORMAL
+	db 61, UMBREON
+	db 61, ESPEON
+	db 62, MISDREAVUS
+	db 62, GENGAR
+	db 61, MURKROW
+	db -1 ; end
+
+	; MEDIUM (19)
+	db "HUI@", TRAINERTYPE_NORMAL
+	db 62, MISDREAVUS
+	db 63, HAUNTER
+	db 63, GENGAR
+	db 62, MISDREAVUS
+	db -1 ; end
+
+	; MEDIUM (20)
+	db "TING@", TRAINERTYPE_NORMAL
+	db 62, GENGAR
+	db 63, UMBREON
+	db 64, GIRAFARIG
+	db 65, NINETALES
+	db 65, MURKROW
+	db 65, NINETALES
+	db -1 ; end
+
+	; MEDIUM (21)
+	db "XIU@", TRAINERTYPE_NORMAL
+	db 64, NINETALES
+	db 63, GIRAFARIG
+	db 63, MISDREAVUS
+	db 64, NOCTOWL
+	db 65, GENGAR
+	db 66, NOCTOWL
+	db -1 ; end
 
 BoarderGroup:
 	; BOARDER (1)

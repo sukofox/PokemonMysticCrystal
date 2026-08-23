@@ -707,6 +707,7 @@ DEF KRIS EQU __trainer_class__
 	const ZUMI
 	const BERN
 	const ODA
+	const CHEN
 
 	trainerclass MEDIUM ; 39
 	const MARTHA
@@ -721,6 +722,15 @@ DEF KRIS EQU __trainer_class__
 	const KAGOME
 	const YURIKO
 	const RIN
+	const MARI
+	const QIN
+	const YIYAO
+	const XUE
+	const RONG
+	const LAN
+	const HUI
+	const TING
+	const XIU
 
 	trainerclass BOARDER ; 3a
 	const RONALD

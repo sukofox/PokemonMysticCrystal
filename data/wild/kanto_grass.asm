@@ -1402,7 +1402,7 @@ def_grass_wildmons POKEMON_MANSION_1F
 	db 60, GENGAR
 	end_grass_wildmons
 
-	def_grass_wildmons POKEMON_MANSION_2F
+def_grass_wildmons POKEMON_MANSION_2F
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 60, WEEZING
@@ -1430,7 +1430,7 @@ def_grass_wildmons POKEMON_MANSION_1F
 	db 60, GENGAR
 	end_grass_wildmons
 
-	def_grass_wildmons POKEMON_MANSION_3F
+def_grass_wildmons POKEMON_MANSION_3F
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 60, WEEZING
@@ -1458,7 +1458,7 @@ def_grass_wildmons POKEMON_MANSION_1F
 	db 60, GENGAR
 	end_grass_wildmons
 
-	def_grass_wildmons POKEMON_MANSION_B1F
+def_grass_wildmons POKEMON_MANSION_B1F
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 60, MUK
@@ -1483,6 +1483,146 @@ def_grass_wildmons POKEMON_MANSION_1F
 	db 62, HAUNTER
 	db 60, MISDREAVUS
 	db 62, DITTO
+	db 60, GENGAR
+	end_grass_wildmons
+
+def_grass_wildmons SOUL_BASEMENT_B2F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 55, GASTLY
+	db 56, GASTLY
+	db 56, HAUNTER
+	db 57, HAUNTER
+	db 55, MISDREAVUS
+	db 55, RATICATE
+	db 60, GENGAR
+	; day
+	db 55, GASTLY
+	db 56, GASTLY
+	db 56, HAUNTER
+	db 57, HAUNTER
+	db 55, MISDREAVUS
+	db 55, RATICATE
+	db 60, GENGAR
+	; nite
+	db 55, GASTLY
+	db 56, GASTLY
+	db 56, HAUNTER
+	db 57, HAUNTER
+	db 55, MISDREAVUS
+	db 55, GENGAR
+	db 60, GENGAR
+	end_grass_wildmons
+
+def_grass_wildmons SOUL_BASEMENT_B3F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 55, GASTLY
+	db 56, GASTLY
+	db 56, HAUNTER
+	db 57, HAUNTER
+	db 55, MISDREAVUS
+	db 55, RATICATE
+	db 60, GENGAR
+	; day
+	db 55, GASTLY
+	db 56, GASTLY
+	db 56, HAUNTER
+	db 57, HAUNTER
+	db 55, MISDREAVUS
+	db 55, RATICATE
+	db 60, GENGAR
+	; nite
+	db 55, GASTLY
+	db 56, GASTLY
+	db 56, HAUNTER
+	db 57, HAUNTER
+	db 55, MISDREAVUS
+	db 55, GENGAR
+	db 60, GENGAR
+	end_grass_wildmons
+
+def_grass_wildmons SOUL_BASEMENT_B4F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 55, GASTLY
+	db 56, GASTLY
+	db 56, HAUNTER
+	db 57, HAUNTER
+	db 55, MISDREAVUS
+	db 55, RATICATE
+	db 60, GENGAR
+	; day
+	db 55, GASTLY
+	db 56, GASTLY
+	db 56, HAUNTER
+	db 57, HAUNTER
+	db 55, MISDREAVUS
+	db 55, RATICATE
+	db 60, GENGAR
+	; nite
+	db 55, GASTLY
+	db 56, GASTLY
+	db 56, HAUNTER
+	db 57, HAUNTER
+	db 55, MISDREAVUS
+	db 55, GENGAR
+	db 60, GENGAR
+	end_grass_wildmons
+
+def_grass_wildmons SOUL_BASEMENT_B5F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 56, GASTLY
+	db 57, GASTLY
+	db 57, HAUNTER
+	db 58, HAUNTER
+	db 57, MISDREAVUS
+	db 56, RATICATE
+	db 62, GENGAR
+	; day
+	db 56, GASTLY
+	db 57, GASTLY
+	db 57, HAUNTER
+	db 58, HAUNTER
+	db 57, MISDREAVUS
+	db 56, RATICATE
+	db 62, GENGAR
+	; nite
+	db 56, GASTLY
+	db 57, GASTLY
+	db 57, HAUNTER
+	db 58, HAUNTER
+	db 57, MISDREAVUS
+	db 56, NINETALES
+	db 62, GENGAR
+	end_grass_wildmons
+
+def_grass_wildmons SOUL_BASEMENT_B6F
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 57, GASTLY
+	db 58, GASTLY
+	db 58, HAUNTER
+	db 59, NINETALES
+	db 60, MISDREAVUS
+	db 57, GENGAR
+	db 60, GENGAR
+	; day
+	db 57, GASTLY
+	db 58, GASTLY
+	db 58, HAUNTER
+	db 59, NINETALES
+	db 60, MISDREAVUS
+	db 57, GENGAR
+	db 60, GENGAR
+	; nite
+	db 57, GASTLY
+	db 58, GASTLY
+	db 58, HAUNTER
+	db 59, NINETALES
+	db 60, MISDREAVUS
+	db 57, GENGAR
 	db 60, GENGAR
 	end_grass_wildmons
 
