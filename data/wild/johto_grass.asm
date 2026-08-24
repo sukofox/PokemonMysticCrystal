@@ -1342,7 +1342,7 @@ JohtoGrassWildMons:
 	db 7, BELLSPROUT
 	db 6, ZUBAT
 	db 7, HOOTHOOT
-	db 7, GASTLY
+	db 7, MAREEP
 	db 7, GASTLY
 	end_grass_wildmons
 
@@ -1547,23 +1547,23 @@ JohtoGrassWildMons:
 	; morn
 	db 13, EKANS
 	db 14, SPEAROW
-	db 15, RATTATA
-	db 16, RATICATE
+	db 15, MAREEP
+	db 16, MAREEP
 	db 15, ARBOK
 	db 16, FEAROW
 	db 16, MANKEY
 	; day
 	db 13, EKANS
 	db 14, SPEAROW
-	db 15, RATTATA
-	db 16, RATICATE
+	db 15, MAREEP
+	db 16, MAREEP
 	db 15, ARBOK
 	db 16, FEAROW
 	db 16, MANKEY
 	; nite
 	db 13, RATTATA
 	db 14, ZUBAT
-	db 15, RATICATE
+	db 15, MAREEP
 	db 16, GOLBAT
 	db 15, MARILL
 	db 16, GOLBAT
@@ -1577,7 +1577,7 @@ JohtoGrassWildMons:
 	db 16, PIDGEOTTO
 	db 16, FARFETCH_D
 	db 15, FURRET
-	db 17, RATICATE
+	db 17, MAREEP
 	db 17, FURRET
 	db 17, FURRET
 	; day
@@ -1585,7 +1585,7 @@ JohtoGrassWildMons:
 	db 16, PIDGEOTTO
 	db 16, FARFETCH_D
 	db 15, FURRET
-	db 17, RATICATE
+	db 17, MAREEP
 	db 17, FURRET
 	db 17, FURRET
 	; nite
@@ -1595,7 +1595,7 @@ JohtoGrassWildMons:
 	db 17, VENONAT
 	db 17, RATICATE
 	db 17, VENOMOTH
-	db 17, VENOMOTH
+	db 17, MAREEP
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_44
