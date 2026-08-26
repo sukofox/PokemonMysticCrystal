@@ -315,18 +315,18 @@ JohtoGrassWildMons:
 	; morn
 	db 16, RATTATA
 	db 16, KOFFING
-	db 18, MAGMAR
+	db 15, MAGBY
 	db 17, ZUBAT
 	db 15, CYNDAQUIL
-	db 18, KOFFING
+	db 18, MAGMAR
 	db 14, CYNDAQUIL
 	; day
 	db 16, RATTATA
 	db 16, KOFFING
-	db 18, MAGMAR
+	db 15, MAGBY
 	db 17, ZUBAT
 	db 14, CYNDAQUIL
-	db 18, KOFFING
+	db 18, MAGMAR
 	db 14, CYNDAQUIL
 	; nite
 	db 16, RATTATA
