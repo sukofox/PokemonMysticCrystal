@@ -1,0 +1,40 @@
+; gray
+	RGB 30, 29, 26
+	RGB 20, 19, 18
+	RGB 11, 10, 10
+	RGB 00, 00, 00
+; red (lanterns / palace accents)
+	RGB 30, 29, 26
+	RGB 31, 12, 14
+	RGB 22, 04, 06
+	RGB 00, 00, 00
+; green (standard green tree leaves / grass - soft moss)
+	RGB 28, 28, 14
+	RGB 14, 22, 08
+	RGB 06, 13, 04
+	RGB 00, 00, 00
+; water
+	RGB 31, 28, 14
+	RGB 31, 08, 08
+	RGB 20, 02, 04
+	RGB 07, 02, 02
+; yellow (leaves - champagne gold)
+	RGB 31, 30, 18
+	RGB 30, 25, 06
+	RGB 20, 15, 02
+	RGB 00, 00, 00
+; brown (tree trunks & paths)
+	RGB 29, 26, 22
+	RGB 22, 14, 07
+	RGB 14, 08, 03
+	RGB 00, 00, 00
+; roof
+	RGB 28, 28, 14
+	RGB 24, 16, 08
+	RGB 16, 09, 04
+	RGB 07, 07, 07
+; text
+	RGB 31, 31, 16
+	RGB 31, 31, 16
+	RGB 14, 09, 00
+	RGB 00, 00, 00

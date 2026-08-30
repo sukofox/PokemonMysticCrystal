@@ -755,7 +755,7 @@ ENDM
 	map_attributes ForbiddenPalace3F, FORBIDDEN_PALACE_3F, $00, 0
 	map_attributes ForbiddenPalaceRoof, FORBIDDEN_PALACE_ROOF, $00, 0
 	map_attributes BugCatcherClub, BUG_CATCHER_CLUB, $00, 0
-	map_attributes CactusDesertGate, CACTUS_DESERT_GATE, $00, 0
+	map_attributes CactusDesertCave, CACTUS_DESERT_CAVE, $09, 0
 	map_attributes CactusDesert, CACTUS_DESERT, $14, 0
 	map_attributes DesertSaguaroTownGate, DESERT_SAGUARO_TOWN_GATE, $00, 0
 	map_attributes SaguaroCity, SAGUARO_CITY, $14, 0
@@ -773,6 +773,7 @@ ENDM
 	map_attributes NijohRuinsInnerRoom, NIJOH_RUINS_INNER_ROOM, $00, 0
 	map_attributes NijohSeasideTrailGate, NIJOH_SEASIDE_TRAIL_GATE, $00, 0
 	map_attributes SeasideTrail, SEASIDE_TRAIL, $05, 0
+	map_attributes SeasideHouse, SEASIDE_HOUSE, $00, 0
 	map_attributes NijohWoodsGate, NIJOH_WOODS_GATE, $00, 0
 	map_attributes NijohWoods, NIJOH_WOODS, $05, 0
 	map_attributes FisherClub1F, FISHER_CLUB_1F, $00, 0

@@ -155,8 +155,8 @@
 	RGB 06,09,07, 04,05,06 ; nite
 
 ; group 39 (Snow Path)
-	RGB 22,20,10, 17,14,03 ; morn/day
-	RGB 11,11,05, 10,09,07 ; nite
+	RGB 25,24,27, 15,14,18 ; morn/day
+	RGB 11,09,19, 07,05,10 ; nite
 
 ; group 40 (Power Plant)
 	RGB 17,27,31, 05,15,31 ; morn/day

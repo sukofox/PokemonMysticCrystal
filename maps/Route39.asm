@@ -347,7 +347,7 @@ Route39_MapEvents:
 	def_warp_events
 	warp_event  1,  3, ROUTE_39_BARN, 1
 	warp_event  5,  3, ROUTE_39_FARMHOUSE, 1
-	warp_event 13,  3, CACTUS_DESERT_GATE, 2
+	warp_event 13,  3, CACTUS_DESERT_CAVE, 2
 
 	def_coord_events
 

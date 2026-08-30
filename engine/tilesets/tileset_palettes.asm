@@ -12,6 +12,18 @@ LoadSpecialMapPalette:
 	jr z, .radio_tower
 	cp TILESET_MANSION
 	jr z, .mansion_mobile
+	cp TILESET_JOHTO_SNOW
+	jr z, .johto_snow
+	cp TILESET_JOHTO_DESERT
+	jr z, .johto_desert
+	cp TILESET_FORESTCUSTOM
+	jr z, .forestcustom
+	cp TILESET_RUINS
+	jr z, .ruins
+	cp TILESET_TOWER_CUSTOM
+	jr z, .tower_custom
+	cp TILESET_JOHTO_ALT
+	jr z, .johto_alt
 	jr .do_nothing
 
 .pokecom_2f
@@ -45,6 +57,36 @@ LoadSpecialMapPalette:
 
 .mansion_mobile
 	call LoadMansionPalette
+	scf
+	ret
+
+.johto_snow
+	call LoadJohtoSnowPalette
+	scf
+	ret
+
+.johto_desert
+	call LoadJohtoDesertPalette
+	scf
+	ret
+
+.forestcustom
+	call LoadForestcustomPalette
+	scf
+	ret
+
+.ruins
+	call LoadRuinsPalette
+	scf
+	ret
+
+.tower_custom
+	call LoadTowerCustomPalette
+	scf
+	ret
+
+.johto_alt
+	call LoadJohtoAltPalette
 	scf
 	ret
 
@@ -135,3 +177,141 @@ LoadMansionPalette:
 
 MansionPalette2:
 INCLUDE "gfx/tilesets/mansion_2.pal"
+
+LoadJohtoSnowPalette:
+	ld a, [wTimeOfDay]
+	maskbits NUM_DAYTIMES
+	; Each time group contains 8 palettes (8 * 8 bytes = 64 bytes)
+	ld bc, 8 palettes
+	ld hl, JohtoSnowPalette
+	call AddNTimes ; hl = JohtoSnowPalette + (wTimeOfDay * 64)
+
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld bc, 8 palettes
+	call FarCopyWRAM
+	scf ; Set carry flag to signal a special palette was loaded
+	ret
+
+JohtoSnowPalette:
+; Morn (8 palettes)
+INCLUDE "gfx/tilesets/johto_snow_morn.pal"
+; Day (8 palettes)
+INCLUDE "gfx/tilesets/johto_snow_day.pal"
+; Nite (8 palettes)
+INCLUDE "gfx/tilesets/johto_snow_nite.pal"
+
+LoadJohtoDesertPalette:
+	ld a, [wTimeOfDay]
+	maskbits NUM_DAYTIMES
+	; Each time group contains 8 palettes (8 * 8 bytes = 64 bytes)
+	ld bc, 8 palettes
+	ld hl, JohtoDesertPalette
+	call AddNTimes ; hl = JohtoDesertPalette + (wTimeOfDay * 64)
+
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld bc, 8 palettes
+	call FarCopyWRAM
+	scf ; Set carry flag to signal a special palette was loaded
+	ret
+
+JohtoDesertPalette:
+; Morn (8 palettes)
+INCLUDE "gfx/tilesets/johto_desert_morn.pal"
+; Day (8 palettes)
+INCLUDE "gfx/tilesets/johto_desert_day.pal"
+; Nite (8 palettes)
+INCLUDE "gfx/tilesets/johto_desert_nite.pal"
+
+LoadForestcustomPalette:
+	ld a, [wTimeOfDay]
+	maskbits NUM_DAYTIMES
+	; Each time group contains 8 palettes (8 * 8 bytes = 64 bytes)
+	ld bc, 8 palettes
+	ld hl, ForestcustomPalette
+	call AddNTimes ; hl = ForestCustomPalette + (wTimeOfDay * 64)
+
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld bc, 8 palettes
+	call FarCopyWRAM
+	scf ; Set carry flag to signal a special palette was loaded
+	ret
+
+ForestcustomPalette:
+; Morn (8 palettes)
+INCLUDE "gfx/tilesets/forest_custom_morn.pal"
+; Day (8 palettes)
+INCLUDE "gfx/tilesets/forest_custom_day.pal"
+; Nite (8 palettes)
+INCLUDE "gfx/tilesets/forest_custom_nite.pal"
+
+LoadRuinsPalette:
+	ld a, [wTimeOfDay]
+	maskbits NUM_DAYTIMES
+	; Each time group contains 8 palettes (8 * 8 bytes = 64 bytes)
+	ld bc, 8 palettes
+	ld hl, RuinsPalette
+	call AddNTimes ; hl = RuinsPalette + (wTimeOfDay * 64)
+
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld bc, 8 palettes
+	call FarCopyWRAM
+	scf ; Set carry flag to signal a special palette was loaded
+	ret
+
+RuinsPalette:
+; Morn (8 palettes)
+INCLUDE "gfx/tilesets/ruins_morn.pal"
+; Day (8 palettes)
+INCLUDE "gfx/tilesets/ruins_day.pal"
+; Nite (8 palettes)
+INCLUDE "gfx/tilesets/ruins_nite.pal"
+
+LoadTowerCustomPalette:
+	ld a, [wTimeOfDay]
+	maskbits NUM_DAYTIMES
+	; Each time group contains 8 palettes (8 * 8 bytes = 64 bytes)
+	ld bc, 8 palettes
+	ld hl, TowerCustomPalette
+	call AddNTimes ; hl = TowerCustomPalette + (wTimeOfDay * 64)
+
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld bc, 8 palettes
+	call FarCopyWRAM
+	scf ; Set carry flag to signal a special palette was loaded
+	ret
+
+TowerCustomPalette:
+; Morn (8 palettes)
+INCLUDE "gfx/tilesets/tower_custom_morn.pal"
+; Day (8 palettes)
+INCLUDE "gfx/tilesets/tower_custom_day.pal"
+; Nite (8 palettes)
+INCLUDE "gfx/tilesets/tower_custom_nite.pal"
+
+LoadJohtoAltPalette:
+	ld a, [wTimeOfDay]
+	maskbits NUM_DAYTIMES
+	; Each time group contains 8 palettes (8 * 8 bytes = 64 bytes)
+	ld bc, 8 palettes
+	ld hl, JohtoAltPalette
+	call AddNTimes ; hl = JohtoAltPalette + (wTimeOfDay * 64)
+
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld bc, 8 palettes
+	call FarCopyWRAM
+	scf ; Set carry flag to signal a special palette was loaded
+	ret
+
+JohtoAltPalette:
+; Morn (8 palettes)
+INCLUDE "gfx/tilesets/johto_alt_morn.pal"
+; Day (8 palettes)
+INCLUDE "gfx/tilesets/johto_alt_day.pal"
+; Nite (8 palettes)
+INCLUDE "gfx/tilesets/johto_alt_nite.pal"

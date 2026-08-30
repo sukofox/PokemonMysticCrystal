@@ -52,6 +52,12 @@ FisherTomas:
 	closetext
 	end
 
+FisherClubSign:
+	jumptext FisherClubSignText
+
+ToCianwoodSign:
+	jumptext ToCianwoodSignText
+
 FisherAlonSeenText:
     text "Water"
     line "#MON are"
@@ -128,6 +134,24 @@ FisherTomasAfterBattleText:
     line "me."
     done
 
+FisherClubSignText:
+    text "To get to"
+    line "the FISHER"
+    cont "CLUB, follow"
+
+    para "the path to"
+    line "the left."
+    done
+
+ToCianwoodSignText:
+    text "CIANWOOD CITY"
+    line "down ahead."
+    cont "To the north,"
+
+    para "the SEASIDE"
+    line "TRAIL."
+    done
+
 NijohWoods_MapEvents:
 	db 0, 0 ; filler
 
@@ -140,6 +164,8 @@ NijohWoods_MapEvents:
 	def_coord_events
 
 	def_bg_events
+    bg_event 23, 48, BGEVENT_READ, FisherClubSign
+    bg_event 25, 60, BGEVENT_READ, ToCianwoodSign
 
 	def_object_events
     object_event 21, 14, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, FisherAlon, -1

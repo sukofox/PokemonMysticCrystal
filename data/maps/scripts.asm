@@ -541,7 +541,7 @@ INCLUDE "maps/BugCatcherClub.asm"
 
 SECTION "Map Scripts 26", ROMX
 
-INCLUDE "maps/CactusDesertGate.asm"
+INCLUDE "maps/CactusDesertCave.asm"
 INCLUDE "maps/CactusDesert.asm"
 INCLUDE "maps/DesertSaguaroTownGate.asm"
 INCLUDE "maps/SaguaroCity.asm"
@@ -559,6 +559,7 @@ INCLUDE "maps/NijohRuinsInterior2BF.asm"
 INCLUDE "maps/NijohRuinsInnerRoom.asm"
 INCLUDE "maps/NijohSeasideTrailGate.asm"
 INCLUDE "maps/SeasideTrail.asm"
+INCLUDE "maps/SeasideHouse.asm"
 INCLUDE "maps/NijohWoodsGate.asm"
 INCLUDE "maps/NijohWoods.asm"
 INCLUDE "maps/FisherClub1F.asm"
@@ -578,6 +579,10 @@ INCLUDE "maps/SpruceMansion1F.asm"
 INCLUDE "maps/SpruceMansion2F.asm"
 INCLUDE "maps/SpruceMansion3F.asm"
 INCLUDE "maps/IceSkatingArena.asm"
+
+
+SECTION "Map Scripts 27", ROMX
+
 INCLUDE "maps/PowerPlantRuins1F.asm"
 INCLUDE "maps/PowerPlantRuins2F.asm"
 INCLUDE "maps/CinnabarVolcano.asm"

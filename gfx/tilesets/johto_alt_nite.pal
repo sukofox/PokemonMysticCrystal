@@ -1,0 +1,40 @@
+; gray
+	RGB 14, 15, 22
+	RGB 09, 10, 16
+	RGB 05, 05, 09
+	RGB 00, 00, 00
+; red (lanterns - maintain subtle exterior light)
+	RGB 14, 12, 18
+	RGB 14, 05, 08
+	RGB 08, 02, 04
+	RGB 00, 00, 00
+; green (standard green tree leaves / grass - dark moonlight green)
+	RGB 12, 13, 14
+	RGB 05, 10, 06
+	RGB 02, 05, 03
+	RGB 00, 00, 00
+; water
+	RGB 31, 27, 12
+	RGB 28, 04, 05
+	RGB 18, 01, 03
+	RGB 05, 01, 02
+; yellow (leaves - pale moonlight ginkgo)
+	RGB 20, 18, 08 ; Raised cool-gold highlight
+	RGB 14, 12, 04 ; Brightened ginkgo mid-tone
+	RGB 08, 06, 01 ; Soft shadow
+	RGB 00, 00, 00
+; brown (tree trunks & paths)
+	RGB 15, 13, 17
+	RGB 11, 07, 05
+	RGB 06, 03, 02
+	RGB 00, 00, 00
+; roof
+	RGB 12, 13, 14
+	RGB 11, 08, 06
+	RGB 06, 04, 03
+	RGB 00, 00, 00
+; text
+	RGB 31, 31, 16
+	RGB 31, 31, 16
+	RGB 14, 09, 00
+	RGB 00, 00, 00

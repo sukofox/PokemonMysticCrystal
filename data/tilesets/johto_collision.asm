@@ -214,3 +214,8 @@
 	tilecoll WALL, WALL, DOOR, WALL ; d5
 	tilecoll WHIRLPOOL, WHIRLPOOL, WATER, WATER ; d6
 	tilecoll WATER, BUOY, WATER, WHIRLPOOL ; d7
+	tilecoll WALL, WALL, WALL, WALL ; d8
+	tilecoll WALL, WALL, WALL, WALL ; d9
+	tilecoll WALL, WALL, WALL, WALL ; da
+	tilecoll WALL, WALL, DOOR, WALL ; db
+	tilecoll WALL, WALL, WALL, CAVE ; dc

@@ -71,3 +71,8 @@
 	tilecoll WALL, WALL, WALL, WALL ; 46
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 47
 	tilecoll LONG_GRASS, LONG_GRASS, LONG_GRASS, LONG_GRASS ; 48
+	tilecoll WALL, WALL, WALL, WALL ; 49
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 4a
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 4b
+	tilecoll FLOOR, FLOOR, WALL, WALL ; 4c
+	tilecoll WALL, WALL, WALL, WALL ; 4d

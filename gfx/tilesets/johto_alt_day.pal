@@ -1,0 +1,40 @@
+; gray
+	RGB 31, 31, 31
+	RGB 20, 20, 20
+	RGB 10, 10, 10
+	RGB 00, 00, 00
+; red (lanterns / palace accents)
+	RGB 31, 31, 31
+	RGB 31, 10, 12
+	RGB 22, 02, 04
+	RGB 00, 00, 00
+; green (standard green tree leaves / grass - vibrant forest green)
+	RGB 29, 29, 16
+	RGB 12, 23, 08
+	RGB 05, 14, 04
+	RGB 00, 00, 00
+; water
+	RGB 31, 31, 20 ; Bright incandescent inner bulb highlight
+	RGB 31, 12, 12 ; Brightened vivid cherry-red paper shade
+	RGB 25, 04, 06 ; Lightened rich crimson shadow / ribs
+	RGB 09, 03, 03 ; Clean red-black outline
+; yellow (leaves - bright pale ginkgo gold)
+	RGB 31, 31, 18 ; Pale lemon/gold highlight
+	RGB 31, 26, 04 ; True ginkgo yellow mid-tone (higher green, lower red)
+	RGB 22, 16, 01 ; Soft ochre shadow (no orange tint)
+	RGB 00, 00, 00
+; brown (tree trunks & paths)
+	RGB 31, 28, 24
+	RGB 24, 15, 07
+	RGB 15, 08, 02
+	RGB 00, 00, 00
+; roof
+	RGB 29, 29, 16
+	RGB 25, 17, 09
+	RGB 17, 10, 04
+	RGB 07, 07, 07
+; text
+	RGB 31, 31, 16
+	RGB 31, 31, 16
+	RGB 14, 09, 00
+	RGB 00, 00, 00

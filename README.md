@@ -61,7 +61,7 @@ Join the Discord for updates and more information: https://discord.gg/RrN7BFXs7d
 42. Kanto maps now have more colored roofs corresponding to their location like in RBY, instead of most roofs being gray.
 43. There is a third trainer page showing colored Kanto badges.
 44. Marts now have their own music.
-45. This game features a wider variety of ecosystems when compared to vanilla (e.g., desert, snow), and island or beach areas were retiled properly.
+45. This game features a wider variety of ecosystems when compared to vanilla (e.g., desert, snow), and island or beach areas were retiled properly. Some of these areas also use new custom palettes for different times of the day so that they look distinct from the rest of the maps.
 
 ![newbarknew](newbarknew.png)
 ![totodile](totodile.png)
@@ -89,7 +89,7 @@ CREDITS:
 2. Meta, the ROMhack youtuber, for giving me the idea of putting Totodile as a wild pokemon in a certain location (check out his wonderful chanel: https://www.youtube.com/@metaphysical8698
 3. To Discord user Censoredharp, who gave me the idea of putting Diglett somewhere early in johto. This was a good idea.
 4. Thanks for "Mmmmmm" who demixed the Pokemon XY Frost Cavern song and the Black City song, and to Vulcandth from the Polished Crystal team who also made contributions to this soundtrack. In addition, thanks to FroggestSpirit for the Cinnabar island, Pokemon Mansion, Lavender town RBY, Pokemon tower, and Cerulean cave music.
-5. Thanks to French Orange for providing tilesets of all kinds. Here is the DA page: https://www.deviantart.com/frenchorange/art/Pokemon-Gold-and-Silver-SW97-Tileset-948665568. Also thanks to Sour/Soup Potato for making the sand waves desert tiles used in Silver Reforged and other hacks. I used these for my own desert area.
+5. Thanks to French Orange for providing tilesets of all kinds. Here is the DA page: https://www.deviantart.com/frenchorange/art/Pokemon-Gold-and-Silver-SW97-Tileset-948665568. Also thanks to Sour/Soup Potato for making the sand waves desert tiles used in Silver Reforged and other hacks, as well as the custom palettes for the desert areas. I used these for my own desert area.
 6. If I missed someone else, please let me know.
 7. Tom Wang for Chris' running sprite, and Seasick for Kris' running sprite.
 

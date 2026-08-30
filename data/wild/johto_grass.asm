@@ -3030,5 +3030,36 @@ JohtoGrassWildMons:
 	db 40, SNEASEL
 	end_grass_wildmons
 
+def_grass_wildmons CACTUS_DESERT_CAVE
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 29, SANDSHREW
+	db 30, SANDSHREW
+	db 31, GEODUDE
+	db 30, DIGLETT
+	db 29, DIGLETT
+	db 29, GOLBAT
+	db 28, GOLBAT
+
+    ; day
+    db 29, SANDSHREW
+	db 30, SANDSHREW
+	db 31, GEODUDE
+	db 30, DIGLETT
+	db 29, DIGLETT
+	db 29, GOLBAT
+	db 28, GOLBAT
+
+    ; night
+   	db 29, SANDSHREW
+	db 30, SANDSHREW
+	db 31, GEODUDE
+	db 30, DIGLETT
+	db 29, DIGLETT
+	db 29, GOLBAT
+	db 28, GOLBAT
+	end_grass_wildmons
+
 	db -1 ; end
 

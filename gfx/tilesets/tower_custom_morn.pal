@@ -1,0 +1,40 @@
+; gray
+	RGB 30, 29, 26
+	RGB 20, 19, 18
+	RGB 11, 10, 10
+	RGB 07, 07, 07
+; red
+	RGB 30, 29, 26
+	RGB 31, 16, 18
+	RGB 24, 07, 08
+	RGB 07, 07, 07
+; green (converted -> Glowing Red Paper Lantern)
+	RGB 31, 28, 14
+	RGB 31, 08, 08
+	RGB 20, 02, 04
+	RGB 07, 02, 02
+; water
+	RGB 28, 29, 31
+	RGB 14, 21, 28
+	RGB 06, 11, 20
+	RGB 07, 07, 07
+; yellow
+	RGB 31, 30, 18
+	RGB 31, 22, 06
+	RGB 24, 13, 01
+	RGB 07, 07, 07
+; brown
+	RGB 28, 24, 20
+	RGB 20, 12, 06
+	RGB 12, 06, 02
+	RGB 00, 00, 00
+; roof
+	RGB 26, 25, 23
+	RGB 18, 16, 15
+	RGB 11, 09, 08
+	RGB 07, 07, 07
+; text
+	RGB 31, 31, 16
+	RGB 31, 31, 16
+	RGB 14, 09, 00
+	RGB 00, 00, 00

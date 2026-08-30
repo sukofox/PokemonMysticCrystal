@@ -1,0 +1,40 @@
+; gray
+	RGB 30, 29, 26
+	RGB 20, 19, 18
+	RGB 11, 10, 10
+	RGB 07, 07, 07
+; red
+	RGB 30, 29, 26
+	RGB 31, 16, 18
+	RGB 24, 07, 08
+	RGB 07, 07, 07
+; green (red now)
+	RGB 31, 23, 16
+	RGB 29, 12, 14
+	RGB 20, 04, 08
+	RGB 00, 00, 00
+; water
+	RGB 28, 29, 31
+	RGB 14, 21, 28
+	RGB 06, 11, 20
+	RGB 07, 07, 07
+; yellow (leaves - warm sunrise gold)
+	RGB 31, 29, 16
+	RGB 31, 20, 04
+	RGB 24, 11, 00
+	RGB 00, 00, 00
+; brown (wood trunks)
+	RGB 29, 26, 22
+	RGB 22, 14, 07
+	RGB 14, 08, 03
+	RGB 07, 07, 07
+; roof
+	RGB 28, 28, 14
+	RGB 24, 16, 08
+	RGB 16, 09, 04
+	RGB 07, 07, 07
+; text
+	RGB 31, 31, 16
+	RGB 31, 31, 16
+	RGB 14, 09, 00
+	RGB 00, 00, 00

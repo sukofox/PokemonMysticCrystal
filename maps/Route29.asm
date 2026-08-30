@@ -271,7 +271,7 @@ DudeMovementData2b:
 ;PartyFullGiftMewtwoText:
 ;	text "I was going to"
 ;	line "give you something"
-;
+
 ;	para "but your party"
 ;	line "seems to be full."
 ;	done
@@ -279,16 +279,16 @@ DudeMovementData2b:
 ;GiftPokemonDudeGiftText:
 ;	text "I caught so"
 ;	line "many #MON!"
-;
+
 ;	para "This guy seems"
 ;	line "weak though,"
 ;	cont "you can have it."
-;
+
 ;	para "I only collect"
 ;	line "strong bug types"
 ;	cont "like Caterpie."
 ;	done
-;
+
 ;ReceivedMewtwoText:
 ;	text "<PLAYER> received"
 ;	line "@"

@@ -1217,8 +1217,8 @@ ForbiddenPalaceRoof_Blocks:
 BugCatcherClub_Blocks:
 	INCBIN "maps/BugCatcherClub.blk"
 
-CactusDesertGate_Blocks:
-	INCBIN "maps/CactusDesertGate.blk"
+CactusDesertCave_Blocks:
+	INCBIN "maps/CactusDesertCave.blk"
 
 CactusDesert_Blocks:
 	INCBIN "maps/CactusDesert.blk"
@@ -1270,6 +1270,9 @@ NijohSeasideTrailGate_Blocks:
 
 SeasideTrail_Blocks:
 	INCBIN "maps/SeasideTrail.blk"
+
+SeasideHouse_Blocks:
+	INCBIN "maps/SeasideHouse.blk"
 
 NijohWoodsGate_Blocks:
 	INCBIN "maps/NijohWoodsGate.blk"

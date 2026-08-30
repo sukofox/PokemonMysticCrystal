@@ -1,0 +1,40 @@
+; gray
+	RGB 12, 13, 18
+	RGB 07, 08, 13
+	RGB 03, 04, 08
+	RGB 00, 00, 00
+; red
+	RGB 14, 12, 18
+	RGB 14, 05, 08
+	RGB 08, 02, 04
+	RGB 00, 00, 00
+; green (converted -> Glowing Red Paper Lantern - ACTIVE LIGHT)
+	RGB 31, 27, 12
+	RGB 28, 04, 05
+	RGB 18, 01, 03
+	RGB 05, 01, 02
+; water
+	RGB 12, 17, 25
+	RGB 06, 10, 19
+	RGB 02, 04, 12
+	RGB 00, 00, 00
+; yellow
+	RGB 28, 24, 12 
+	RGB 18, 14, 04
+	RGB 10, 07, 01
+	RGB 00, 00, 00
+; brown
+	RGB 13, 10, 12
+	RGB 09, 05, 04
+	RGB 05, 02, 02
+	RGB 00, 00, 00
+; roof
+	RGB 11, 10, 13
+	RGB 07, 06, 09
+	RGB 04, 03, 05
+	RGB 00, 00, 00
+; text
+	RGB 31, 31, 16
+	RGB 31, 31, 16
+	RGB 14, 09, 00
+	RGB 00, 00, 00

@@ -126,6 +126,9 @@ INCLUDE "gfx/tilesets/johto_desert_palette_map.asm"
 TilesetFisherHousePalMap:
 INCLUDE "gfx/tilesets/fisher_house_palette_map.asm"
 
+TilesetRuinsPalMap:
+INCLUDE "gfx/tilesets/ruins_palette_map.asm"
+
 MapGroupPalettes: ; unreferenced
 ; entries correspond to MAPGROUP_* constants
 rept NUM_MAP_GROUPS

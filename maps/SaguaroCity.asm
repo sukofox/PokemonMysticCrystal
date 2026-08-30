@@ -22,6 +22,12 @@ SaguaroCityGrampsScript:
 SaguaroCityCooltrainerFScript:
     jumptextfaceplayer SaguaroCityCooltrainerFText
 
+SaguaroCitySign1:
+	jumptext SaguaroCitySign1Text
+
+SaguaroCitySign2:
+	jumptext SaguaroCitySign2Text
+
 SaguaroCityPokefanMText:
     text "The researchers"
     line "at the CENTER"
@@ -51,6 +57,19 @@ SaguaroCityCooltrainerFText:
 	para "dorms."
 	done
 
+SaguaroCitySign1Text:
+	text "SAGUARO CITY"
+	line "SHRINE."
+
+	para "A door to"
+	line "the Tao."
+	done
+
+SaguaroCitySign2Text:
+	text "ARCHEOLOGY"
+	line "CENTER."
+	done
+
 SaguaroCity_MapEvents:
 	db 0, 0 ; filler
 
@@ -68,6 +87,9 @@ SaguaroCity_MapEvents:
 	def_coord_events
 
 	def_bg_events
+	bg_event 19, 13, BGEVENT_READ, SaguaroCitySign1
+	bg_event 14,  6, BGEVENT_READ, SaguaroCitySign2
+
 
 	def_object_events
     object_event 25,  7, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SaguaroCityPokefanMScript, -1

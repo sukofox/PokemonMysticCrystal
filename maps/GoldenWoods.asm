@@ -3,6 +3,9 @@ const GOLDEN_WOODS_SAGE1
 const GOLDEN_WOODS_SAGE2
 const GOLDEN_WOODS_MEDIUM1
 const GOLDEN_WOODS_SAGE
+const GOLDEN_WOODS_STANTLER1
+const GOLDEN_WOODS_STANTLER2
+const GOLDEN_WOODS_MURKROW1
 
 GoldenWoods_MapScripts:
 	def_scene_scripts
@@ -45,6 +48,33 @@ TrainerMediumRin:
 	endifjustbattled
 	opentext
 	writetext MediumRinAfterBattleText
+	waitbutton
+	closetext
+	end
+
+GoldenWoodsStantler1Script:
+	faceplayer
+	opentext
+	writetext GoldenWoodsStantler1Text
+	cry STANTLER
+	waitbutton
+	closetext
+	end
+
+GoldenWoodsStantler2Script:
+	faceplayer
+	opentext
+	writetext GoldenWoodsStantler2Text
+	cry STANTLER
+	waitbutton
+	closetext
+	end
+
+GoldenWoodsMurkrow1Script:
+	faceplayer
+	opentext
+	writetext GoldenWoodsMurkrow1Text
+	cry MURKROW
 	waitbutton
 	closetext
 	end
@@ -105,6 +135,26 @@ MediumRinAfterBattleText:
 	cont "small shrine."
     done
 
+GoldenWoodsStantler1Text:
+	text "STANTLER:..."
+	line "STANTLER is"
+	cont "warily looking"
+	
+	para "at you."
+	done
+
+GoldenWoodsStantler2Text:
+	text "STANLER is"
+	line "chewing on"
+	cont "leaves."
+	done
+
+GoldenWoodsMurkrow1Text:
+	text "..."
+	line "Who goes"
+	cont "there?"
+	done
+
 GoldenWoods_MapEvents:
 	db 0, 0 ; filler
 
@@ -121,3 +171,6 @@ GoldenWoods_MapEvents:
 	object_event 10, 21, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 1, TrainerSageLeorio, -1
 	object_event 45, 30, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 1, TrainerMediumRin, -1
 	object_event  7, 20, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, GoldenWoodsSage, -1
+	object_event 17, 26, SPRITE_STANTLER, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GoldenWoodsStantler1Script, -1
+	object_event 57, 23, SPRITE_STANTLER, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GoldenWoodsStantler2Script, -1
+	object_event 26, 12, SPRITE_MURKROW, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, GoldenWoodsMurkrow1Script, -1

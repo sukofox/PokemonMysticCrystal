@@ -448,3 +448,15 @@ INCBIN "data/tilesets/gate_kanto_metatiles.bin"
 TilesetGateKantoColl::
 INCLUDE "data/tilesets/gate_kanto_collision.asm"
 
+SECTION "Tileset Ruins", ROMX
+
+TilesetRuinsGFX::
+INCBIN "gfx/tilesets/ruins.2bpp.lz"
+
+TilesetRuinsMeta::
+INCBIN "data/tilesets/ruins_metatiles.bin"
+
+TilesetRuinsColl::
+INCLUDE "data/tilesets/ruins_collision.asm"
+
+

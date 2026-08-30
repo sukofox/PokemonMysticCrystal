@@ -61,4 +61,4 @@ GoldenWoodsGate_MapEvents:
 	def_bg_events
 
 	def_object_events
-	object_event 12, 13, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, GoldenWoodsGrannyHealScript, -1
+	object_event 12, 13, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GoldenWoodsGrannyHealScript, -1

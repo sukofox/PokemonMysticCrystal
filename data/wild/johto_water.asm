@@ -270,9 +270,9 @@ JohtoWaterWildMons:
 
 	def_water_wildmons FIR_ISLAND
 	db 3 percent ; encounter rate
-	db 40, CORSOLA
-	db 40, CHINCHOU 
-	db 40, MANTINE
+	db 32, CORSOLA
+	db 32, CHINCHOU 
+	db 32, MANTINE
 
 	def_water_wildmons FIR_CITY 
 	db 3 percent ; encounter rate

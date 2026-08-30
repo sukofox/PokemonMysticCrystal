@@ -514,7 +514,7 @@ ENDM
 	endgroup
 
 	newgroup MYSTERIOUS_RUINS									  ; 30
-	map_const MYSTERIOUS_RUINS,							   10, 36 ;  1
+	map_const MYSTERIOUS_RUINS,							   16, 36 ;  1
 	map_const PALACE_OUTSIDE, 							   10, 20 ;  2
 	map_const OLD_SANCTUARY,							   10, 10 ;  3
 	map_const PALACE_RUINS,								   15, 10 ;  4
@@ -590,7 +590,7 @@ ENDM
 	endgroup
 
 	newgroup CACTUS_DESERT											;38
-	map_const CACTUS_DESERT_GATE,							 3,  4;   1
+	map_const CACTUS_DESERT_CAVE,							 7,  7;   1
 	map_const CACTUS_DESERT,								12, 30;   2
 	map_const DESERT_SAGUARO_TOWN_GATE,					     5,  5;   3
 	map_const SAGUARO_SHRINE,								10,  7;   4
@@ -607,12 +607,13 @@ ENDM
 	map_const NIJOH_RUINS_INNER_ROOM,						 4, 10;  15
 	map_const NIJOH_SEASIDE_TRAIL_GATE,						 5,  6;  16
 	map_const SEASIDE_TRAIL,							    14, 40;  17  
-	map_const NIJOH_WOODS_GATE,								 5,  6;  18
-	map_const NIJOH_WOODS,									15, 40;  19
-	map_const FISHER_CLUB_1F,								10,  8;  20
-	map_const FISHER_CLUB_2F,								10,  8;  21
-	map_const CIANWOOD_GATE,								 6,  5;  22
-	map_const SAGUARO_CITY,									17, 12;  23 
+	map_const SEASIDE_HOUSE,								 5,  5;  18
+	map_const NIJOH_WOODS_GATE,								 5,  6;  19
+	map_const NIJOH_WOODS,									15, 40;  20
+	map_const FISHER_CLUB_1F,								10,  8;  21
+	map_const FISHER_CLUB_2F,								10,  8;  22
+	map_const CIANWOOD_GATE,								 6,  5;  23
+	map_const SAGUARO_CITY,									17, 12;  24 
 	endgroup
 
 	newgroup SNOW_PATH										        ;39

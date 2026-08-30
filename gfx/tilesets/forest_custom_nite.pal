@@ -1,0 +1,40 @@
+; gray
+	RGB 14, 15, 22
+	RGB 09, 10, 16
+	RGB 05, 05, 09
+	RGB 00, 00, 00
+; red
+	RGB 14, 15, 22
+	RGB 14, 06, 12
+	RGB 09, 02, 06
+	RGB 00, 00, 00
+; green (red now)
+	RGB 14, 08, 05
+	RGB 12, 04, 06
+	RGB 07, 01, 03
+	RGB 00, 00, 00
+; water
+	RGB 12, 17, 25
+	RGB 06, 10, 19
+	RGB 02, 04, 12
+	RGB 00, 00, 00
+; yellow (leaves - illuminated night amber)
+	RGB 15, 11, 04
+	RGB 19, 11, 02
+	RGB 12, 05, 00
+	RGB 00, 00, 00
+; brown (wood trunks)
+	RGB 15, 13, 17
+	RGB 11, 07, 05
+	RGB 06, 03, 02
+	RGB 00, 00, 00
+; roof
+	RGB 12, 13, 14
+	RGB 11, 08, 06
+	RGB 06, 04, 03
+	RGB 00, 00, 00
+; text
+	RGB 31, 31, 16
+	RGB 31, 31, 16
+	RGB 14, 09, 00
+	RGB 00, 00, 00

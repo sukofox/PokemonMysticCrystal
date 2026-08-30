@@ -96,3 +96,5 @@
 	tilecoll WALL, WALL, WALL, WALL ; 5f
 	tilecoll WALL, WALL, WALL, WALL ; 60
 	tilecoll WALL, WALL, WALL, WALL ; 61
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 62
+	tilecoll HOP_DOWN, HOP_DOWN, WALL, WALL ; 63

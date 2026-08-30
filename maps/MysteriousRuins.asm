@@ -11,8 +11,8 @@ MysteriousRuins_MapEvents:
 
 	def_warp_events
 	warp_event  9, 71, ECRUTEAK_FOREST, 3
-    warp_event 10, 71, ECRUTEAK_FOREST, 3
-    warp_event 10,  3, PALACE_OUTSIDE, 1
+	warp_event 10, 71, ECRUTEAK_FOREST, 3
+	warp_event  8,  0, PALACE_OUTSIDE, 1
     
 	def_coord_events
 

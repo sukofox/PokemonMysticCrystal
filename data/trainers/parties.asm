@@ -742,8 +742,10 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (8)
 	db "HANK@", TRAINERTYPE_NORMAL
-	db 32, PIDGEY
-	db 44, PIDGEOT
+	db 55, PIDGEOT
+	db 58, PIDGEOT
+	db 59, FEAROW
+	db 58, DODRIO
 	db -1 ; end
 
 	; BIRD_KEEPER (9)
@@ -2240,8 +2242,10 @@ FisherGroup:
 SwimmerMGroup:
 	; SWIMMERM (1)
 	db "HAROLD@", TRAINERTYPE_NORMAL
-	db 42, REMORAID
-	db 40, SEADRA
+	db 62, REMORAID
+	db 60, SEADRA
+	db 63, OCTILLERY
+	db 64, KINGDRA
 	db -1 ; end
 
 	; SWIMMERM (2)
@@ -2326,16 +2330,16 @@ SwimmerMGroup:
 
 	; SWIMMERM (14)
 	db "JEROME@", TRAINERTYPE_NORMAL
-	db 36, SEADRA
-	db 38, TENTACOOL
-	db 30, TENTACRUEL
-	db 38, GOLDEEN
+	db 66, KINGDRA
+	db 68, TENTACRUEL
+	db 68, TENTACRUEL
+	db 69, SEAKING
 	db -1 ; end
 
 	; SWIMMERM (15)
 	db "TUCKER@", TRAINERTYPE_NORMAL
-	db 40, SHELLDER
-	db 44, CLOYSTER
+	db 65, CLOYSTER
+	db 64, DEWGONG
 	db -1 ; end
 
 	; SWIMMERM (16)
@@ -2347,7 +2351,8 @@ SwimmerMGroup:
 
 	; SWIMMERM (17)
 	db "CAMERON@", TRAINERTYPE_NORMAL
-	db 44, MARILL
+	db 64, MARILL
+	db 66, AZUMARILL
 	db -1 ; end
 
 	; SWIMMERM (18)
@@ -2442,7 +2447,7 @@ SwimmerFGroup:
 
 	; SWIMMERF (12)
 	db "DAWN@", TRAINERTYPE_NORMAL
-	db 44, SEAKING
+	db 64, SEAKING
 	db -1 ; end
 
 	; SWIMMERF (13)
@@ -2452,15 +2457,15 @@ SwimmerFGroup:
 
 	; SWIMMERF (14)
 	db "NICOLE@", TRAINERTYPE_NORMAL
-	db 39, MARILL
-	db 39, MARILL
-	db 32, LAPRAS
+	db 65, MARILL
+	db 67, AZUMARILL
+	db 68, LAPRAS
 	db -1 ; end
 
 	; SWIMMERF (15)
 	db "LORI@", TRAINERTYPE_NORMAL
-	db 42, STARMIE
-	db 42, STARMIE
+	db 62, STARMIE
+	db 62, STARMIE
 	db -1 ; end
 
 	; SWIMMERF (16)
@@ -3355,13 +3360,13 @@ PicnickerGroup:
 
 	; PICNICKER (6)
 	db "HOPE@", TRAINERTYPE_NORMAL
-	db 44, AMPHAROS
+	db 56, AMPHAROS
 	db -1 ; end
 
 	; PICNICKER (7)
 	db "SHARON@", TRAINERTYPE_NORMAL
-	db 41, FURRET
-	db 43, RAPIDASH
+	db 55, FURRET
+	db 56, RAPIDASH
 	db -1 ; end
 
 	; PICNICKER (8)

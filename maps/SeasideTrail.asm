@@ -175,6 +175,7 @@ SeasideTrail_MapEvents:
 	warp_event  18,  3, NIJOH_SEASIDE_TRAIL_GATE, 3
 	warp_event   3, 75, NIJOH_WOODS_GATE, 1
 	warp_event   4, 75, NIJOH_WOODS_GATE, 2
+	warp_event  22, 65, SEASIDE_HOUSE, 1
 
 	def_coord_events
 

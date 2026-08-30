@@ -73,3 +73,6 @@
 	tilecoll WALL, WALL, WATERFALL, WATERFALL ; 48
 	tilecoll WALL, WALL, WATER, WATER ; 49
 	tilecoll WALL, FLOOR, WALL, FLOOR ; 4a
+	tilecoll WALL, WALL, CAVE, CAVE ; 4b
+	tilecoll WALL, WALL, WALL, WALL ; 4c
+	tilecoll FLOOR, FLOOR, WARP_CARPET_DOWN, WARP_CARPET_DOWN ; 4d
