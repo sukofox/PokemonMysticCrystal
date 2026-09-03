@@ -3,6 +3,7 @@ const NEW_BARK_MEADOW_CHIKORITA_1
 const NEW_BARK_MEADOW_CHIKORITA_2
 const NEW_BARK_MEADOW_PICHU_1
 const NEW_BARK_MEADOW_PICHU_2
+const NEW_BARK_MEADOW_POTION
 
 ; Map events & scripts
 NewBarkMeadow_MapScripts:
@@ -46,6 +47,9 @@ NewBarkMeadowPichu2Script:
 	closetext
 	end
 
+NewBarkMeadowPotion:
+	itemball POTION
+
 NewBarkMeadowChikorita1Text:
 	text "Chikorita: Chiko!"
 	done
@@ -79,3 +83,4 @@ NewBarkMeadow_MapEvents:
 	object_event 43,  8, SPRITE_CHIKORITA, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, NewBarkMeadowChikorita2Script, -1
     object_event 19,  9, SPRITE_PICHU, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, NewBarkMeadowPichu1Script, -1
 	object_event 26,  8, SPRITE_PICHU, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, NewBarkMeadowPichu2Script, -1
+	object_event  2, 16, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, NewBarkMeadowPotion, EVENT_NEW_BARK_MEADOW_POTION

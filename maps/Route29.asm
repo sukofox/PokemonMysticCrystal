@@ -207,6 +207,9 @@ Route29Sign1:
 Route29Sign2:
 	jumptext Route29Sign2Text
 
+Route29Sign3:
+	jumptext Route29Sign3Text
+
 Route29FruitTree:
 	fruittree FRUITTREE_ROUTE_29
 
@@ -462,6 +465,11 @@ Route29Sign2Text:
 	line "NEW BARK TOWN"
 	done
 
+Route29Sign3Text:
+	text "To the south,"
+	line "NEW BARK MEADOW"
+	done
+
 Route29_MapEvents:
 	db 0, 0 ; filler
 
@@ -475,6 +483,7 @@ Route29_MapEvents:
 	def_bg_events
 	bg_event 51,  7, BGEVENT_READ, Route29Sign1
 	bg_event  3,  5, BGEVENT_READ, Route29Sign2
+	bg_event 33, 15, BGEVENT_READ, Route29Sign3
 
 	def_object_events
 	object_event 50, 12, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CatchingTutorialDudeScript, -1

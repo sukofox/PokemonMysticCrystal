@@ -112,4 +112,4 @@ EcruteakLibrary_MapEvents:
 
 	def_object_events
 	object_event  0, 1, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, EcruteakLibraryRevive, EVENT_ECRUTEAK_LIBRARY_REVIVE
-	object_event  9, 4, SPRITE_GRAMPS, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakLibraryHistorian, -1
+	object_event  9, 4, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakLibraryHistorian, -1

@@ -101,7 +101,9 @@ PineLabScientist1Text:
 
     para "DARK CAVE."
     line "Some interesting"
-    cont "#MON live there."
+    cont "#MON live in"
+
+	para "the cave."
     done
 
 PineLab_MapEvents:
