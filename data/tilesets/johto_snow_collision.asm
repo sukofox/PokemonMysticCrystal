@@ -98,3 +98,4 @@
 	tilecoll WALL, WALL, WALL, WALL ; 61
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 62
 	tilecoll HOP_DOWN, HOP_DOWN, WALL, WALL ; 63
+	tilecoll WALL, WALL, DOOR, DOOR ; 64

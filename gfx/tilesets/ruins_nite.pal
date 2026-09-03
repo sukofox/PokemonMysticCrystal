@@ -9,15 +9,15 @@
 	RGB 13, 00, 08
 	RGB 00, 00, 00
 ; green
-	RGB 14, 11, 11
-	RGB 08, 10, 00
-	RGB 03, 05, 00
-	RGB 00, 00, 00
+	RGB 08, 15, 18 ; Highlight: Cool moonlit teal-green
+	RGB 03, 08, 12 ; Midtone: Deep submerged pine
+	RGB 01, 04, 07 ; Dark: Dark trench shadow
+	RGB 01, 01, 03 ; Outline: Abyssal night outline
 ; water
-	RGB 15, 14, 22
-	RGB 05, 05, 17
-	RGB 03, 03, 10
-	RGB 00, 00, 00
+	RGB 09, 14, 23 ; Highlight: Cool moonlit cyan-slate (pops without turning gray)
+	RGB 04, 08, 16 ; Midtone: Deep midnight blue brick face
+	RGB 02, 04, 10 ; Dark: Deep trench shadow
+	RGB 00, 00, 00 ;
 ; yellow
 	RGB 30, 30, 11
 	RGB 16, 14, 18

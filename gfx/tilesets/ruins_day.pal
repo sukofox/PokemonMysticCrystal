@@ -2,37 +2,37 @@
 	RGB 30, 29, 18
 	RGB 19, 19, 19
 	RGB 11, 11, 11
-	RGB 07, 07, 07
+	RGB 00, 00, 00
 ; red
 	RGB 30, 29, 18
 	RGB 31, 19, 24
 	RGB 30, 10, 06
-	RGB 07, 07, 07
+	RGB 00, 00, 00
 ; green
-	RGB 30, 29, 18
-	RGB 18, 25, 00
-	RGB 05, 14, 00
-	RGB 07, 07, 07
+	RGB 20, 28, 25 ; Highlight: Bright sunlit sea-foam green
+	RGB 09, 19, 17 ; Midtone: Muted jade / verdigris wall
+	RGB 04, 10, 11 ; Dark: Deep teal-moss shadow
+	RGB 00, 00, 00 ; Outline: Dark aquatic slate
 ; water
-	RGB 31, 31, 31
-	RGB 08, 12, 31
-	RGB 01, 04, 31
-	RGB 07, 07, 07
+	RGB 22, 28, 30 ; Highlight: Bright, cool sunlit stone reflection
+	RGB 11, 20, 27 ; Midtone: Rich cobalt/lapis brick face
+	RGB 05, 11, 20 ; Dark: Deep ocean shadow in mortar/cracks
+	RGB 00, 00, 00 ; Outline: Dark blue-black linework
 ; yellow
 	RGB 30, 29, 18
 	RGB 31, 31, 07
 	RGB 31, 16, 01
-	RGB 07, 07, 07
+	RGB 00, 00, 00
 ; brown
 	RGB 30, 29, 18
 	RGB 27, 22, 00
 	RGB 23, 12, 00
-	RGB 07, 07, 07
+	RGB 00, 00, 00
 ; roof
 	RGB 30, 29, 18
 	RGB 16, 20, 08
 	RGB 09, 14, 05
-	RGB 07, 07, 07
+	RGB 00, 00, 00
 ; text
 	RGB 31, 31, 16
 	RGB 31, 31, 16
