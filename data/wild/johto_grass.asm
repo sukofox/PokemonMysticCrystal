@@ -3061,5 +3061,61 @@ def_grass_wildmons CACTUS_DESERT_CAVE
 	db 28, GOLBAT
 	end_grass_wildmons
 
+def_grass_wildmons ICE_PATH_TUNNEL
+	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+	; morn
+	db 32, SWINUB
+	db 33, ZUBAT
+	db 33, GOLBAT
+	db 34, SWINUB
+	db 35, GOLBAT
+	db 23, SMOOCHUM
+	db 32, JYNX
+	; day
+	db 32, SWINUB
+	db 33, ZUBAT
+	db 33, GOLBAT
+	db 34, SWINUB
+	db 35, GOLBAT
+	db 23, SMOOCHUM
+	db 32, JYNX
+	; nite
+	db 32, DELIBIRD
+	db 33, ZUBAT
+	db 33, GOLBAT
+	db 34, DELIBIRD
+	db 35, GOLBAT
+	db 33, CROBAT
+	db 32, SNEASEL
+	end_grass_wildmons
+
+def_grass_wildmons ICE_PATH_EXIT
+	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+	; morn
+	db 32, SWINUB
+	db 33, ZUBAT
+	db 33, GOLBAT
+	db 34, SWINUB
+	db 35, GOLBAT
+	db 23, SMOOCHUM
+	db 32, JYNX
+	; day
+	db 32, SWINUB
+	db 33, ZUBAT
+	db 33, GOLBAT
+	db 34, SWINUB
+	db 35, GOLBAT
+	db 23, SMOOCHUM
+	db 32, JYNX
+	; nite
+	db 32, DELIBIRD
+	db 33, ZUBAT
+	db 33, GOLBAT
+	db 34, DELIBIRD
+	db 35, GOLBAT
+	db 33, CROBAT
+	db 32, SNEASEL
+	end_grass_wildmons
+
 	db -1 ; end
 

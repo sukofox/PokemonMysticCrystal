@@ -2094,9 +2094,9 @@ ChikoritaEvosAttacks:
 	db 25, RAZOR_LEAF
 	db 29, BODY_SLAM
 	db 36, LIGHT_SCREEN
+	db 40, MOONBLAST
 	db 43, SAFEGUARD
 	db 50, SOLARBEAM
-	db 56, MOONBLAST
 	db 0 ; no more level-up moves
 
 BayleefEvosAttacks:
@@ -2113,9 +2113,9 @@ BayleefEvosAttacks:
 	db 27, RAZOR_LEAF
 	db 31, BODY_SLAM
 	db 39, LIGHT_SCREEN
+	db 44, MOONBLAST
 	db 47, SAFEGUARD
 	db 55, SOLARBEAM
-	db 64, MOONBLAST
 	db 0 ; no more level-up moves
 
 MeganiumEvosAttacks:
@@ -2131,9 +2131,9 @@ MeganiumEvosAttacks:
 	db 27, RAZOR_LEAF
 	db 31, BODY_SLAM
 	db 41, LIGHT_SCREEN
+	db 50, MOONBLAST
 	db 51, SAFEGUARD
 	db 61, SOLARBEAM
-	db 80, MOONBLAST
 	db 0 ; no more level-up moves
 
 CyndaquilEvosAttacks:
@@ -2146,6 +2146,7 @@ CyndaquilEvosAttacks:
 	db 19, QUICK_ATTACK
 	db 27, FLAME_WHEEL
 	db 36, SWIFT
+	db 40, EARTHQUAKE
 	db 46, FLAMETHROWER
 	db 0 ; no more level-up moves
 
@@ -2160,6 +2161,7 @@ QuilavaEvosAttacks:
 	db 21, QUICK_ATTACK
 	db 31, FLAME_WHEEL
 	db 42, SWIFT
+	db 46, EARTHQUAKE
 	db 54, FLAMETHROWER
 	db 0 ; no more level-up moves
 
@@ -2174,6 +2176,7 @@ TyphlosionEvosAttacks:
 	db 21, QUICK_ATTACK
 	db 31, FLAME_WHEEL
 	db 45, SWIFT
+	db 50, EARTHQUAKE
 	db 60, FLAMETHROWER
 	db 0 ; no more level-up moves
 
@@ -2187,6 +2190,7 @@ TotodileEvosAttacks:
 	db 20, BITE
 	db 27, SCARY_FACE
 	db 35, SLASH
+	db 36, CRUNCH
 	db 43, SCREECH
 	db 52, HYDRO_PUMP
 	db 0 ; no more level-up moves
