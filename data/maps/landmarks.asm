@@ -44,6 +44,8 @@ Landmarks:
 	landmark  77,  30, GoldenWoodsName
 	landmark  78,  30, GoldenPavilionName
 	landmark  71,  42, EcruteakLibraryName
+	landmark  92,  85, AlphPathName
+	landmark  92,  74, AlphTownName
 	landmark  52,  44, Route38Name
 	landmark  36,  48, Route39Name
 	landmark  36,  42, CactusDesertName
@@ -242,6 +244,8 @@ MysteriousRuinsName: db "MYSTERIOUS<BSP>RUINS@"
 PalaceOutsideName:   db "PALACE<BSP>OUTSIDE@"
 PalaceRuinsName:     db "PALACE<BSP>RUINS@"
 EcruteakLibraryName: db "ECRUTEAK<BSP>LIBRARY@"
+AlphPathName:        db "ALPH PATH@"
+AlphTownName:		 db "ALPH TOWN@"
 FirIslandName:       db "FIR ISLAND@"
 FirCaveName:         db "FIR CAVE@"
 FirCityName:         db "FIR CITY@"

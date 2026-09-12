@@ -137,4 +137,5 @@ Music:
 	dba Music_MartHGSS
 	dba Music_LavenderTownRBY
 	dba Music_PokemonTowerRBY
+	dba Music_EternaForestDPPt
 	assert_table_length NUM_MUSIC_SONGS

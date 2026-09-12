@@ -1323,16 +1323,16 @@ JohtoGrassWildMons:
 	; morn
 	db 4, EKANS
 	db 5, RATTATA
-	db 7, BELLSPROUT
 	db 7, MAREEP
+	db 7, BELLSPROUT
 	db 7, PIDGEY
 	db 8, MAREEP
 	db 8, HOPPIP
 	; day
 	db 4, EKANS
 	db 5, RATTATA
-	db 7, BELLSPROUT
 	db 7, MAREEP
+	db 7, BELLSPROUT
 	db 7, PIDGEY
 	db 8, MAREEP
 	db 8, HOPPIP
@@ -1342,7 +1342,7 @@ JohtoGrassWildMons:
 	db 7, BELLSPROUT
 	db 6, ZUBAT
 	db 7, HOOTHOOT
-	db 7, MAREEP
+	db 8, MAREEP
 	db 7, GASTLY
 	end_grass_wildmons
 
@@ -1576,17 +1576,17 @@ JohtoGrassWildMons:
 	db 15, SENTRET
 	db 16, PIDGEOTTO
 	db 16, FARFETCH_D
-	db 15, FURRET
+	db 15, MAREEP
 	db 17, MAREEP
-	db 17, FURRET
+	db 17, FLAAFFY
 	db 17, FURRET
 	; day
 	db 15, SENTRET
 	db 16, PIDGEOTTO
 	db 16, FARFETCH_D
-	db 15, FURRET
+	db 15, MAREEP
 	db 17, MAREEP
-	db 17, FURRET
+	db 17, FLAAFFY
 	db 17, FURRET
 	; nite
 	db 15, VENONAT
@@ -3115,6 +3115,34 @@ def_grass_wildmons ICE_PATH_EXIT
 	db 35, GOLBAT
 	db 33, CROBAT
 	db 32, SNEASEL
+	end_grass_wildmons
+
+def_grass_wildmons ALPH_PATH
+	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+	; morn
+	db 20, PARAS
+	db 15, SUNKERN
+	db 22, PIDGEY
+	db 24, PIDGEOTTO
+	db 20, SUNFLORA
+	db 24, PARASECT
+	db 25, PIDGEOTTO
+	; day
+	db 20, PARAS
+	db 15, SUNKERN
+	db 22, PIDGEY
+	db 24, PIDGEOTTO
+	db 20, SUNFLORA
+	db 24, PARASECT
+	db 25, PIDGEOTTO
+	; nite
+	db 20, PARAS
+	db 15, WOOPER
+	db 22, HOOTHOOT
+	db 24, HOOTHOOT
+	db 20, WOOPER
+	db 24, PARASECT
+	db 25, GASTLY
 	end_grass_wildmons
 
 	db -1 ; end

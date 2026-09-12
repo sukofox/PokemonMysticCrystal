@@ -207,6 +207,8 @@ Route36RuinsOfAlphGate_Blocks:
 Route34IlexForestGate_Blocks:
 Route40BattleTowerGate_Blocks:
 Route29Route46Gate_Blocks:
+CherrygroveAlphPathGate_Blocks:
+AlphPathAlphTownGate_Blocks:
 	INCBIN "maps/NorthSouthGate.blk"
 
 Route19FuchsiaGate_Blocks:
@@ -335,6 +337,7 @@ LavenderMart_Blocks:
 ViridianMart_Blocks:
 SaffronMart_Blocks:
 CherrygroveMart_Blocks:
+AlphTownMart_Blocks:
 	INCBIN "maps/Mart.blk"
 
 Route10North_Blocks:
@@ -364,6 +367,7 @@ CianwoodPokecenter1F_Blocks:
 ViridianPokecenter1F_Blocks:
 SaffronPokecenter1F_Blocks:
 CherrygrovePokecenter1F_Blocks:
+AlphTownPokecenter1F_Blocks:
 	INCBIN "maps/Pokecenter1F.blk"
 
 BetaPewterMuseumOfScience1F_Blocks: ; unreferenced
@@ -447,6 +451,8 @@ EcruteakLugiaSpeechHouse_Blocks:
 EcruteakItemfinderHouse_Blocks:
 VioletNicknameSpeechHouse_Blocks:
 VioletKylesHouse_Blocks:
+AlphTownNPCHouse1_Blocks:
+AlphTownNPCHouse2_Blocks:
 	INCBIN "maps/House2.blk"
 
 BetaUnionCave_Blocks: ; unreferenced
@@ -1480,5 +1486,28 @@ SoulBasementB5F_Blocks:
 SoulBasementB6F_Blocks:
 	INCBIN "maps/SoulBasementB6F.blk"
 
+AlphPath_Blocks:
+	INCBIN "maps/AlphPath.blk"
+
+AlphTown_Blocks:
+	INCBIN "maps/AlphTown.blk"
+
+AlphCastle1F_Blocks:
+	INCBIN "maps/AlphCastle1F.blk"
+
+AlphCastle2F_Blocks:
+	INCBIN "maps/AlphCastle2F.blk"
+
+AlphCastleB1F_Blocks:
+	INCBIN "maps/AlphCastleB1F.blk"
+
+AlphCastleRoom1_Blocks:
+	INCBIN "maps/AlphCastleRoom1.blk"
+
+AlphCastleRoom2_Blocks:
+	INCBIN "maps/AlphCastleRoom2.blk"
+
+AlphCastleRoom3_Blocks:
+	INCBIN "maps/AlphCastleRoom3.blk"
 
 ENDSECTION

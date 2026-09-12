@@ -49,11 +49,11 @@ PalaceRuins2F_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 6, 14, PALACE_RUINS, 3
+	warp_event  8, 16, PALACE_RUINS, 3
     
 	def_coord_events
 
 	def_bg_events
 
 	def_object_events
-    object_event 6, 3, SPRITE_RAIKOU, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, RuinsRoofRaikou, EVENT_RUINS_ROOF_RAIKOU
+	object_event  8,  5, SPRITE_RAIKOU, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, RuinsRoofRaikou, EVENT_RUINS_ROOF_RAIKOU

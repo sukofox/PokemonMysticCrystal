@@ -842,11 +842,19 @@ ENDM
 	map_attributes SoulBasementB4F, SOUL_BASEMENT_B4F, $00, 0
 	map_attributes SoulBasementB5F, SOUL_BASEMENT_B5F, $00, 0
 	map_attributes SoulBasementB6F, SOUL_BASEMENT_B6F, $00, 0
-
-
-
-
-
-
+	map_attributes CherrygroveAlphPathGate, CHERRYGROVE_ALPH_PATH_GATE, $00, 0
+	map_attributes AlphPath, ALPH_PATH, $05, 0
+	map_attributes AlphPathAlphTownGate, ALPH_PATH_ALPH_TOWN_GATE, $00, 0
+	map_attributes AlphTownNPCHouse1, ALPH_TOWN_NPC_HOUSE_1, $00, 0
+	map_attributes AlphTownNPCHouse2, ALPH_TOWN_NPC_HOUSE_2, $00, 0
+	map_attributes AlphTownPokecenter1F, ALPH_TOWN_POKECENTER_1F, $00, 0
+	map_attributes AlphTownMart, ALPH_TOWN_MART, $00, 0
+	map_attributes AlphCastle1F, ALPH_CASTLE_1F, $00, 0
+	map_attributes AlphCastle2F, ALPH_CASTLE_2F, $00, 0
+	map_attributes AlphCastleB1F, ALPH_CASTLE_B1F, $00, 0
+	map_attributes AlphCastleRoom1, ALPH_CASTLE_ROOM_1, $00, 0
+	map_attributes AlphCastleRoom2, ALPH_CASTLE_ROOM_2, $00, 0
+	map_attributes AlphCastleRoom3, ALPH_CASTLE_ROOM_3, $00, 0
+	map_attributes AlphTown, ALPH_TOWN, $05, 0
 
 	

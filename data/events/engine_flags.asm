@@ -67,7 +67,7 @@ EngineFlags:
 	engine_flag wUnlockedUnowns, UNLOCKED_UNOWNS_L_TO_R_F
 	engine_flag wUnlockedUnowns, UNLOCKED_UNOWNS_S_TO_W_F
 	engine_flag wUnlockedUnowns, UNLOCKED_UNOWNS_X_TO_Z_F
-	engine_flag wUnlockedUnowns, 4 ; unused
+	engine_flag wUnlockedUnowns, UNLOCKED_UNOWNS_EXCLAMATION_QUESTION
 	engine_flag wUnlockedUnowns, 5 ; unused
 	engine_flag wUnlockedUnowns, 6 ; unused
 	engine_flag wUnlockedUnowns, 7 ; unused
@@ -96,6 +96,7 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_GOLDENROD
 	engine_flag wVisitedSpawns, SPAWN_OLIVINE
 	engine_flag wVisitedSpawns, SPAWN_ECRUTEAK
+	engine_flag wVisitedSpawns, SPAWN_ALPH_TOWN
 	engine_flag wVisitedSpawns, SPAWN_SAGUARO_CITY
 	engine_flag wVisitedSpawns, SPAWN_MAHOGANY
 	engine_flag wVisitedSpawns, SPAWN_LAKE_OF_RAGE

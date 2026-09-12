@@ -83,3 +83,13 @@
 	tilecoll WALL, WALL, WALL, WALL ; 52
 	tilecoll WALL, WALL, FLOOR, FLOOR ; 53
 	tilecoll WALL, WALL, FLOOR, WALL ; 54
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 55
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 56
+	tilecoll WALL, WALL, FLOOR, WALL ; 57
+	tilecoll WALL, WALL, WALL, FLOOR ; 58
+	tilecoll WALL, DOOR, FLOOR, FLOOR ; 59
+	tilecoll WALL, WALL, FLOOR, WALL ; 5a
+	tilecoll WALL, WALL, WALL, FLOOR ; 5b
+	tilecoll WALL, WALL, FLOOR, FLOOR ; 5c
+	tilecoll WALL, WALL, WALL, WALL ; 5d
+	tilecoll WALL, WALL, FLOOR, WALL ; 5e

@@ -14,6 +14,7 @@ Marts:
 	dw MartGoldenrod5F
 	dw MartOlivine
 	dw MartEcruteak
+	dw MartAlph
 	dw MartMahogany1
 	dw MartMahogany2
 	dw MartBlackthorn
@@ -162,6 +163,20 @@ MartOlivine:
 	db -1 ; end
 
 MartEcruteak:
+	db 10 ; # items
+	db POKE_BALL
+	db GREAT_BALL
+	db POTION
+	db SUPER_POTION
+	db ANTIDOTE
+	db PARLYZ_HEAL
+	db AWAKENING
+	db BURN_HEAL
+	db ICE_HEAL
+	db REVIVE
+	db -1 ; end
+
+MartAlph:
 	db 10 ; # items
 	db POKE_BALL
 	db GREAT_BALL

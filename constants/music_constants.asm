@@ -135,6 +135,7 @@
 	const MUSIC_MART_HGSS
 	const MUSIC_LAVENDER_TOWN_RBY
 	const MUSIC_POKEMON_TOWER_RBY
+	const MUSIC_ETERNA_FOREST_DPPT
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see home/map.asm)

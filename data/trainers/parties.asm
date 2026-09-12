@@ -1971,6 +1971,26 @@ BugCatcherGroup:
 	db 61, BUTTERFREE
 	db -1 ; end
 
+	; BUG_CATCHER (27)
+	db "MEL@", TRAINERTYPE_NORMAL
+	db 25, YANMA
+	db 25, BUTTERFREE
+	db 26, PINSIR
+	db -1 ; end
+
+	; BUG_CATCHER (28)
+	db "MILO@", TRAINERTYPE_NORMAL
+	db 24, PARASECT
+	db 25, SHUCKLE
+	db -1 ; end
+
+	; BUG_CATCHER (29)
+	db "KAI@", TRAINERTYPE_NORMAL
+	db 25, SUNFLORA
+	db 25, YANMA
+	db 25, VENONAT
+	db -1 ; end
+
 FisherGroup:
 	; FISHER (1)
 	db "JUSTIN@", TRAINERTYPE_NORMAL
@@ -3856,6 +3876,51 @@ SageGroup:
 	db 66, NOCTOWL
 	db 68, MISDREAVUS
 	db 70, UMBREON
+	db -1 ; end
+
+	; SAGE (28)
+	db "JUN@", TRAINERTYPE_NORMAL
+	db 27, WEEPINBELL
+	db 27, SUDOWOODO
+	db 27, NOCTOWL
+	db -1 ; end
+
+	; SAGE (29)
+	db "HAO@", TRAINERTYPE_NORMAL
+	db 27, WEEPINBELL
+	db 27, SUDOWOODO
+	db 27, NOCTOWL
+	db -1 ; end
+
+	; SAGE (30)
+	db "YU@", TRAINERTYPE_NORMAL
+	db 28, SUDOWOODO
+	db 28, MISDREAVUS
+	db 29, HAUNTER
+	db -1 ; end
+
+	; SAGE (31)
+	db "LEI@", TRAINERTYPE_NORMAL
+	db 28, FLAAFFY
+	db 28, RAICHU
+	db 30, JOLTEON
+	db -1 ; end
+
+	; SAGE (31)
+	db "MING@", TRAINERTYPE_NORMAL
+	db 28, KADABRA
+	db 28, MISDREAVUS
+	db 30, XATU
+	db -1 ; end
+
+	; SAGE (32)
+	db "AN@", TRAINERTYPE_NORMAL
+	db 30, XATU
+	db 30, SUDOWOODO
+	db 30, NOCTOWL
+	db 30, GENGAR
+	db 31, NINETALES
+	db 31, ESPEON
 	db -1 ; end
 	
 MediumGroup:

@@ -273,24 +273,24 @@ GuideGentMovement4:
 	step LEFT
 	step LEFT
 	step DOWN
+	step DOWN
+	step DOWN
 	turn_head LEFT
 	step_end
 
 GuideGentMovement5:
+	step RIGHT
+	step RIGHT
+	step RIGHT
+	step RIGHT
+	step RIGHT
+	step RIGHT
+	step RIGHT
 	step DOWN
 	step DOWN
 	step RIGHT
 	step RIGHT
 	step RIGHT
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	step RIGHT
-	step DOWN
-	step DOWN
 	step RIGHT
 	step RIGHT
 	step RIGHT
@@ -553,6 +553,7 @@ CherrygroveCity_MapEvents:
 	warp_event 17,  7, CHERRYGROVE_GYM_SPEECH_HOUSE, 1
 	warp_event 25,  9, GUIDE_GENTS_HOUSE, 1
 	warp_event 31, 11, CHERRYGROVE_EVOLUTION_SPEECH_HOUSE, 1
+	warp_event  4,  5, CHERRYGROVE_ALPH_PATH_GATE, 1
 
 	def_coord_events
 	coord_event 33,  6, SCENE_CHERRYGROVECITY_MEET_RIVAL, CherrygroveRivalSceneNorth

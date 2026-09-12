@@ -27,4 +27,6 @@ UnownPicPointers::
 	dba_pics UnownXFrontpic, UnownXBackpic
 	dba_pics UnownYFrontpic, UnownYBackpic
 	dba_pics UnownZFrontpic, UnownZBackpic
+	dba_pics UnownExclamationFrontpic, UnownExclamationBackpic
+	dba_pics UnownQuestionFrontpic, UnownQuestionBackpic
 	assert_table_length NUM_UNOWN

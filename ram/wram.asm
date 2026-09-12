@@ -3327,7 +3327,7 @@ wPartyMon{d:n}Nickname:: ds MON_NAME_LENGTH
 endr
 wPartyMonNicknamesEnd::
 
-	ds 22
+	ds 20
 
 wPokedexCaught:: flag_array NUM_POKEMON
 wEndPokedexCaught::

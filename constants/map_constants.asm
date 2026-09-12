@@ -517,8 +517,8 @@ ENDM
 	map_const MYSTERIOUS_RUINS,							   16, 36 ;  1
 	map_const PALACE_OUTSIDE, 							   10, 20 ;  2
 	map_const OLD_SANCTUARY,							   10, 10 ;  3
-	map_const PALACE_RUINS,								   15, 10 ;  4
-	map_const PALACE_RUINS_2F,                              7,  9 ;  5
+	map_const PALACE_RUINS,								   20, 10 ;  4
+	map_const PALACE_RUINS_2F,                              9, 11 ;  5
 	endgroup
 
 	newgroup ECRUTEAK_LIBRARY									  ; 31
@@ -539,7 +539,7 @@ ENDM
 	map_const REFORGED_TOWER_3F,							10,  8;  6
 	map_const REFORGED_TOWER_4F,							10,  8;  7
 	map_const REFORGED_TOWER_5F, 							10,  8;  8
-	map_const REFORGED_TOWER_ROOF,							 9, 15;  9
+	map_const REFORGED_TOWER_ROOF,							 9, 16;  9
 	map_const FIR_CITY,										16, 16; 10	
 	endgroup		
 
@@ -715,5 +715,21 @@ ENDM
 	map_const SOUL_BASEMENT_B6F,							 9,  9;    6
 	endgroup
 
+	newgroup ALPH_TOWN												 ;51
+	map_const CHERRYGROVE_ALPH_PATH_GATE,					 5,  4;    1
+	map_const ALPH_PATH,									14, 18;    2
+	map_const ALPH_PATH_ALPH_TOWN_GATE,						 5,  4;    3
+	map_const ALPH_TOWN_NPC_HOUSE_1,                         4,  4;    4
+	map_const ALPH_TOWN_NPC_HOUSE_2,                         4,  4;    5
+	map_const ALPH_TOWN_POKECENTER_1F,						 5,  4;    6
+	map_const ALPH_TOWN_MART,								 6,  4;    7
+	map_const ALPH_CASTLE_1F,								16, 10;    8
+	map_const ALPH_CASTLE_2F,							    16, 10;    9
+	map_const ALPH_CASTLE_B1F,								12,  3;   10
+	map_const ALPH_CASTLE_ROOM_1,							 6,  5;   11	
+	map_const ALPH_CASTLE_ROOM_2,							 5,  5;   12
+	map_const ALPH_CASTLE_ROOM_3, 						    12,  6;   13
+	map_const ALPH_TOWN,									15, 15;   14
+	endgroup
 
-DEF NUM_MAP_GROUPS EQU const_value ; 50
+DEF NUM_MAP_GROUPS EQU const_value ; 51

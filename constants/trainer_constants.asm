@@ -390,6 +390,9 @@ DEF KRIS EQU __trainer_class__
 	const JET
 	const GALEN
 	const SOKKA
+	const MEL
+	const MILO
+	const KAI
 
 	trainerclass FISHER ; 25
 	const JUSTIN
@@ -708,6 +711,12 @@ DEF KRIS EQU __trainer_class__
 	const BERN
 	const ODA
 	const CHEN
+	const JUN
+	const HAO
+	const YU
+	const LEI
+	const MING
+	const AN
 
 	trainerclass MEDIUM ; 39
 	const MARTHA
