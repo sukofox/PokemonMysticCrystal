@@ -152,6 +152,8 @@ INCLUDE "audio/music/mart.asm"
 INCLUDE "audio/music/lavendertownrby.asm"
 INCLUDE "audio/music/pokemontower.asm"
 INCLUDE "audio/music/eternaforest.asm"
+INCLUDE "audio/music/anvilletown.asm"
+INCLUDE "audio/music/mountcoronet.asm"
 
 
 SECTION "Extra Songs 1", ROMX

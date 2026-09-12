@@ -41,6 +41,7 @@ SpawnPoints:
 	spawn BLACKTHORN_CITY,            21, 30
 	spawn PINE_TOWN,				  15, 10
 	spawn SPRUCE_CITY,				   8, 18
+	spawn OLD_ECRUTEAK,				   9, 16
 	spawn SILVER_CAVE_OUTSIDE,        23, 20
 	spawn FAST_SHIP_CABINS_SW_SSW_NW,  6,  2
 	spawn N_A,                        -1, -1

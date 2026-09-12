@@ -103,6 +103,7 @@ EngineFlags:
 	engine_flag wVisitedSpawns, SPAWN_BLACKTHORN
 	engine_flag wVisitedSpawns, SPAWN_PINE_TOWN
 	engine_flag wVisitedSpawns, SPAWN_SPRUCE_CITY
+	engine_flag wVisitedSpawns, SPAWN_OLD_ECRUTEAK
 	engine_flag wVisitedSpawns, SPAWN_MT_SILVER
 	engine_flag wVisitedSpawns, NUM_SPAWNS ; unused
 

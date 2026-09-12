@@ -136,6 +136,8 @@
 	const MUSIC_LAVENDER_TOWN_RBY
 	const MUSIC_POKEMON_TOWER_RBY
 	const MUSIC_ETERNA_FOREST_DPPT
+	const MUSIC_ANVILLE_TOWN
+	const MUSIC_MOUNT_CORONET_DPPT
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see home/map.asm)

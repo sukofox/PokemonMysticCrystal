@@ -304,4 +304,10 @@ JohtoWaterWildMons:
 	db 40, POLIWHIRL
 	db 35, MAGIKARP
 
+	def_water_wildmons ALPH_TOWN
+	db 3 percent ; encounter rate
+	db 15, POLIWAG
+	db 15, GOLDEEN
+	db 15, MAGIKARP
+
 	db -1 ; end

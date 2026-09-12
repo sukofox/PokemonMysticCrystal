@@ -138,4 +138,6 @@ Music:
 	dba Music_LavenderTownRBY
 	dba Music_PokemonTowerRBY
 	dba Music_EternaForestDPPt
+	dba Music_AnvilleTown
+	dba Music_MountCoronetDPPt
 	assert_table_length NUM_MUSIC_SONGS
