@@ -63,6 +63,7 @@ MapGroupRoofs:
 	db -1			  ; 49 (Pewter Museum)
 	db -1 			  ; 50 (Soul Basement)
 	db -1			  ; 51 (Alph Town)
+	db -1 			  ; 52 (Sprout Garden)
 	assert_table_length NUM_MAP_GROUPS + 1
 
 Roofs:

@@ -55,6 +55,7 @@ OutdoorSprites:
 	dw CeladonHideoutSprites
 	dw SoulBasementSprites
 	dw AlphTownSprites
+	dw SproutGardenSprites
 	assert_table_length NUM_MAP_GROUPS
 
 ; Route1 and ViridianCity are connected
@@ -625,6 +626,7 @@ SoulBasementSprites:
 	db 0 ; end
 
 AlphTownSprites:
+SproutGardenSprites:
 	db SPRITE_FISHER
 	db SPRITE_LASS
 	db SPRITE_SAGE
@@ -639,5 +641,4 @@ AlphTownSprites:
 	db SPRITE_FRUIT_TREE
 	db SPRITE_CHIKORITA
 	db 0 ; end
-
 	

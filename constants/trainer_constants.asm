@@ -717,6 +717,7 @@ DEF KRIS EQU __trainer_class__
 	const LEI
 	const MING
 	const AN
+	const BO
 
 	trainerclass MEDIUM ; 39
 	const MARTHA

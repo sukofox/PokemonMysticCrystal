@@ -7,6 +7,7 @@
 	const VIOLETCITY_FRUIT_TREE
 	const VIOLETCITY_POKE_BALL1
 	const VIOLETCITY_POKE_BALL2
+	const VIOLETCITY_SUPERNERD1
 
 VioletCity_MapScripts:
 	def_scene_scripts
@@ -100,6 +101,12 @@ VioletCityHiddenHyperPotion:
 
 VioletCityFollowEarl_MovementData:
 	big_step DOWN
+	turn_head DOWN
+	turn_head LEFT
+	turn_head UP
+	turn_head RIGHT
+	turn_head DOWN
+	big_step DOWN
 	big_step DOWN
 	turn_head DOWN
 	turn_head LEFT
@@ -127,8 +134,6 @@ VioletCityFollowEarl_MovementData:
 	turn_head LEFT
 	turn_head UP
 	turn_head RIGHT
-	turn_head DOWN
-	big_step DOWN
 	turn_head DOWN
 	turn_head LEFT
 	turn_head UP
@@ -176,6 +181,9 @@ VioletCitySpinningEarl_MovementData:
 	turn_head RIGHT
 	turn_head DOWN
 	step_end
+
+VioletSuperNerd1Script:
+	jumptextfaceplayer VioletSuperNerdRefusesEntryText
 
 Text_EarlAsksIfYouBeatFalkner:
 	text "Hello!"
@@ -284,6 +292,18 @@ EarlsPokemonAcademySignText:
 	line "ACADEMY"
 	done
 
+VioletSuperNerdRefusesEntryText:
+	text "You do not"
+	line "seem ready for"
+	cont "this gym."
+
+	para "Perhaps if you"
+	line "beat my uncle"
+	cont "BO, you can go"
+
+	para "into the gym."
+	done
+
 VioletCity_MapEvents:
 	db 0, 0 ; filler
 
@@ -318,3 +338,4 @@ VioletCity_MapEvents:
 	object_event 14, 29, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VioletCityFruitTree, -1
 	object_event  4,  1, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VioletCityPPUp, EVENT_VIOLET_CITY_PP_UP
 	object_event 35,  5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VioletCityRareCandy, EVENT_VIOLET_CITY_RARE_CANDY
+	object_event 18,  18, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VioletSuperNerd1Script, EVENT_SUPER_NERD_BLOCKS_VIOLET_GYM

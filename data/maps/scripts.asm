@@ -646,5 +646,9 @@ INCLUDE "maps/AlphCastleB1F.asm"
 INCLUDE "maps/AlphCastleRoom1.asm"
 INCLUDE "maps/AlphCastleRoom2.asm"
 INCLUDE "maps/AlphCastleRoom3.asm"
+INCLUDE "maps/SproutTowerB1F.asm"
+INCLUDE "maps/SproutTowerExit.asm"
+INCLUDE "maps/SproutGarden.asm"
+INCLUDE "maps/MonkQuarters.asm"
 
 ENDSECTION

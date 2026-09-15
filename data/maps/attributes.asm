@@ -856,5 +856,9 @@ ENDM
 	map_attributes AlphCastleRoom2, ALPH_CASTLE_ROOM_2, $00, 0
 	map_attributes AlphCastleRoom3, ALPH_CASTLE_ROOM_3, $00, 0
 	map_attributes AlphTown, ALPH_TOWN, $05, 0
+	map_attributes SproutTowerB1F, SPROUT_TOWER_B1F, $00, 0
+	map_attributes SproutTowerExit, SPROUT_TOWER_EXIT, $00, 0
+	map_attributes SproutGarden, SPROUT_GARDEN, $1C, 0
+	map_attributes MonkQuarters, MONK_QUARTERS, $00, 0
 
 	

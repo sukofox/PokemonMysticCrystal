@@ -3922,6 +3922,14 @@ SageGroup:
 	db 31, NINETALES
 	db 31, ESPEON
 	db -1 ; end
+
+	; SAGE (33)
+	db "BO@", TRAINERTYPE_NORMAL
+	db 10, BELLSPROUT
+	db 12, HOOTHOOT
+	db 12, BELLSPROUT
+	db 11, HOOTHOOT
+	db -1 ; end
 	
 MediumGroup:
 	; MEDIUM (1)

@@ -3145,5 +3145,33 @@ def_grass_wildmons ALPH_PATH
 	db 25, GASTLY
 	end_grass_wildmons
 
+def_grass_wildmons SPROUT_GARDEN
+	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+	; morn
+	db  5, BELLSPROUT
+	db  5, BELLSPROUT
+	db  5, MAREEP
+	db  6, MAREEP
+	db  5, PIDGEY
+	db  7, PIDGEY
+	db  7, SENTRET
+	; day
+	db  5, BELLSPROUT
+	db  5, BELLSPROUT
+	db  5, MAREEP
+	db  6, MAREEP
+	db  5, PIDGEY
+	db  7, PIDGEY
+	db  7, SENTRET
+	; nite
+	db  5, BELLSPROUT
+	db  5, BELLSPROUT
+	db  5, HOOTHOOT
+	db  6, MAREEP
+	db  5, HOOTHOOT
+	db  7, MISDREAVUS
+	db  7, MISDREAVUS
+	end_grass_wildmons
+
 	db -1 ; end
 

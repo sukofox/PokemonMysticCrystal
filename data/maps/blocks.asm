@@ -1510,4 +1510,16 @@ AlphCastleRoom2_Blocks:
 AlphCastleRoom3_Blocks:
 	INCBIN "maps/AlphCastleRoom3.blk"
 
+SproutTowerB1F_Blocks:
+	INCBIN "maps/SproutTowerB1F.blk"
+
+SproutTowerExit_Blocks:
+	INCBIN "maps/SproutTowerExit.blk"
+
+SproutGarden_Blocks:
+	INCBIN "maps/SproutGarden.blk"
+
+MonkQuarters_Blocks:
+	INCBIN "maps/MonkQuarters.blk"
+
 ENDSECTION

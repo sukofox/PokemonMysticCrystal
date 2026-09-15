@@ -732,4 +732,16 @@ ENDM
 	map_const ALPH_TOWN,									15, 15;   14
 	endgroup
 
-DEF NUM_MAP_GROUPS EQU const_value ; 51
+	newgroup SPROUT_GARDEN											 ;52
+	map_const SPROUT_TOWER_B1F,						         3,  8;    1
+	map_const SPROUT_TOWER_EXIT,							 5,  4;    2
+	map_const SPROUT_GARDEN,								13, 13;    3
+	map_const MONK_QUARTERS,								16, 10;    4
+	endgroup
+
+	newgroup SNOW_CANYON											 ;53
+	map_const ROUTE_45_SNOW_CANYON_GATE,					 8,  4;    1
+	map_const SNOW_CANYON,									19, 45;    2
+	endgroup
+
+DEF NUM_MAP_GROUPS EQU const_value ; 52
