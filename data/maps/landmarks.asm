@@ -76,6 +76,7 @@ Landmarks:
 	landmark 132,  44, BlackthornCityName
 	landmark 132,  36, DragonsDenName
 	landmark 132,  64, Route45Name
+	landmark 139,  64, SnowCanyonName
 	landmark 112,  60, PineTownName
 	landmark 112,  72, DarkCaveName
 	landmark 124,  88, Route46Name
@@ -263,4 +264,5 @@ SeasideTrailName:    db "SEASIDE<BSP>TRAIL@"
 NijohWoodsName:	     db "NIJOH<BSP>WOODS@"
 SnowPathName:		 db "SNOW<BSP>PATH@"
 SpruceCityName:		 db "SPRUCE<BSP>CITY@"
+SnowCanyonName:      db "SNOW CANYON@"
 SafariZoneName:		 db "SAFARI<BSP>ZONE@"

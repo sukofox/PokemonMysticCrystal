@@ -860,5 +860,8 @@ ENDM
 	map_attributes SproutTowerExit, SPROUT_TOWER_EXIT, $00, 0
 	map_attributes SproutGarden, SPROUT_GARDEN, $1C, 0
 	map_attributes MonkQuarters, MONK_QUARTERS, $00, 0
+	map_attributes Route45SnowCanyonGate, ROUTE_45_SNOW_CANYON_GATE, $00, 0
+	map_attributes SnowCanyon, SNOW_CANYON, $67, 0
+	map_attributes SnowCanyonSpruceGate, SNOW_CANYON_SPRUCE_GATE, $00, 0
 
 	

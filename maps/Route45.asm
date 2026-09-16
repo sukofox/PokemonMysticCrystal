@@ -534,6 +534,7 @@ Route45_MapEvents:
 
 	def_warp_events
 	warp_event  2,  5, DARK_CAVE_BLACKTHORN_ENTRANCE, 1
+	warp_event 15,  7, ROUTE_45_SNOW_CANYON_GATE, 1
 
 	def_coord_events
 

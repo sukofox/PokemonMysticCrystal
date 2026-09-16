@@ -310,4 +310,10 @@ JohtoWaterWildMons:
 	db 15, GOLDEEN
 	db 15, MAGIKARP
 
+	def_water_wildmons SNOW_CANYON
+	db 3 percent ; encounter rate
+	db 25, SEAKING
+	db 27, SEAKING
+	db 15, MAGIKARP
+
 	db -1 ; end

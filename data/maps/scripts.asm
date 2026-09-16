@@ -650,5 +650,8 @@ INCLUDE "maps/SproutTowerB1F.asm"
 INCLUDE "maps/SproutTowerExit.asm"
 INCLUDE "maps/SproutGarden.asm"
 INCLUDE "maps/MonkQuarters.asm"
+INCLUDE "maps/Route45SnowCanyonGate.asm"
+INCLUDE "maps/SnowCanyon.asm"
+INCLUDE "maps/SnowCanyonSpruceGate.asm"
 
 ENDSECTION

@@ -64,6 +64,7 @@ MapGroupRoofs:
 	db -1 			  ; 50 (Soul Basement)
 	db -1			  ; 51 (Alph Town)
 	db -1 			  ; 52 (Sprout Garden)
+	db -1			  ; 53 (Snow Canyon)
 	assert_table_length NUM_MAP_GROUPS + 1
 
 Roofs:

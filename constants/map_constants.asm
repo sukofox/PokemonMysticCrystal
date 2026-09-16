@@ -742,6 +742,7 @@ ENDM
 	newgroup SNOW_CANYON											 ;53
 	map_const ROUTE_45_SNOW_CANYON_GATE,					 8,  4;    1
 	map_const SNOW_CANYON,									19, 45;    2
+	map_const SNOW_CANYON_SPRUCE_GATE,					     5,  4;    3
 	endgroup
 
-DEF NUM_MAP_GROUPS EQU const_value ; 52
+DEF NUM_MAP_GROUPS EQU const_value ; 53

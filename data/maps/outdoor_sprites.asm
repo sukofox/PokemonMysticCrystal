@@ -43,6 +43,7 @@ OutdoorSprites:
 	dw BugCatcherClubSprites
 	dw CactusDesertSprites
 	dw SnowPathSprites
+	dw SnowCanyonSprites
 	dw PowerPlantSprites
 	dw CinnabarVolcanoSprites
 	dw SeafoamCaveSprites
@@ -508,6 +509,7 @@ CactusDesertSprites:
 	db 0 ; end
 
 SnowPathSprites:
+SnowCanyonSprites:
 	db SPRITE_GRAMPS
 	db SPRITE_GRANNY
 	db SPRITE_BEAUTY

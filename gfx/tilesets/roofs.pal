@@ -206,6 +206,10 @@
 	RGB 11,10,16, 05,06,07 ; morn/day
 	RGB 03,04,08, 00,00,00 ; nite
 
-; group 51 (Alph Town)
+; group 52 (Sprout Garden)
 	RGB 11,10,16, 05,06,07 ; morn/day
 	RGB 03,04,08, 00,00,00 ; nite
+
+; group 53 (Snow Canyon)
+	RGB 25,24,27, 15,14,18 ; morn/day
+	RGB 11,09,19, 07,05,10 ; nite

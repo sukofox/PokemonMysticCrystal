@@ -67,8 +67,9 @@ MapGroupPointers::
 	dw MapGroup_PokemonMansion; 48
 	dw MapGroup_PewterMuseum ; 49
 	dw MapGroup_SoulBasement ; 50
-	dw MapGroup_AlphTown; 51
+	dw MapGroup_AlphTown ; 51
 	dw MapGroup_SproutGarden; 52
+	dw MapGroup_SnowCanyon ; 53
 	assert_table_length NUM_MAP_GROUPS
 
 MapGroup_Olivine:
@@ -824,3 +825,10 @@ MapGroup_SproutGarden:
 	map SproutGarden, TILESET_JOHTO_ALT, ROUTE, LANDMARK_VIOLET_CITY, MUSIC_VIOLET_CITY, FALSE, PALETTE_AUTO, FISHGROUP_NONE
 	map MonkQuarters, TILESET_TOWER, DUNGEON, LANDMARK_VIOLET_CITY, MUSIC_VIOLET_CITY, FALSE, PALETTE_DAY, FISHGROUP_NONE
 	assert_table_length NUM_SPROUT_GARDEN_MAPS
+
+MapGroup_SnowCanyon:
+	table_width MAP_LENGTH, MapGroup_SnowCanyon
+	map Route45SnowCanyonGate, TILESET_GATE, GATE, LANDMARK_ROUTE_45, MUSIC_ROUTE_36, FALSE, PALETTE_DAY, FISHGROUP_NONE
+	map SnowCanyon, TILESET_JOHTO_SNOW, ROUTE, LANDMARK_SNOW_CANYON, MUSIC_MOUNT_CORONET_DPPT, FALSE, PALETTE_AUTO, FISHGROUP_POND
+	map SnowCanyonSpruceGate, TILESET_GATE, GATE, LANDMARK_SNOW_CANYON, MUSIC_MOUNT_CORONET_DPPT, FALSE, PALETTE_DAY, FISHGROUP_NONE
+	assert_table_length NUM_SNOW_CANYON_MAPS

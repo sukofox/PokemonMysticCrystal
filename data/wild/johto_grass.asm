@@ -3173,5 +3173,36 @@ def_grass_wildmons SPROUT_GARDEN
 	db  7, MISDREAVUS
 	end_grass_wildmons
 
+def_grass_wildmons SNOW_CANYON
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+
+	; morning
+    db 40, SWINUB
+	db 41, SWINUB
+	db 39, SKARMORY
+	db 40, SKARMORY
+	db 42, RHYDON
+	db 15, SMOOCHUM
+	db 20, SMOOCHUM
+
+    ; day
+   	db 40, SWINUB
+	db 41, SWINUB
+	db 39, SKARMORY
+	db 40, SKARMORY
+	db 42, RHYDON
+	db 15, SMOOCHUM
+	db 20, SMOOCHUM
+
+    ; night
+   	db 40, SWINUB
+	db 41, SWINUB
+	db 40, DELIBIRD
+	db 42, DELIBIRD
+	db 41, RHYDON
+	db 40, SNEASEL
+	db 42, SNEASEL
+	end_grass_wildmons
+
 	db -1 ; end
 

@@ -105,3 +105,6 @@
 	tilecoll FLOOR, FLOOR, WARP_CARPET_DOWN, WARP_CARPET_DOWN ; 68
 	tilecoll WALL, WALL, WALL, WALL ; 69
 	tilecoll FLOOR, FLOOR, WALL, WALL ; 6a
+	tilecoll ICE, ICE, ICE, ICE ; 6b
+	tilecoll WALL, ICE, ICE, ICE ; 6c
+	tilecoll ICE, ICE, WALL, ICE ; 6d

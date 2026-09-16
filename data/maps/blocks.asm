@@ -209,6 +209,7 @@ Route40BattleTowerGate_Blocks:
 Route29Route46Gate_Blocks:
 CherrygroveAlphPathGate_Blocks:
 AlphPathAlphTownGate_Blocks:
+SnowCanyonSpruceGate_Blocks:
 	INCBIN "maps/NorthSouthGate.blk"
 
 Route19FuchsiaGate_Blocks:
@@ -1521,5 +1522,11 @@ SproutGarden_Blocks:
 
 MonkQuarters_Blocks:
 	INCBIN "maps/MonkQuarters.blk"
+
+Route45SnowCanyonGate_Blocks:
+	INCBIN "maps/Route45SnowCanyonGate.blk"
+
+SnowCanyon_Blocks:
+	INCBIN "maps/SnowCanyon.blk"
 
 ENDSECTION

@@ -1750,6 +1750,45 @@ SkierGroup:
 	db 46, CLOYSTER
 	db -1 ; end
 
+	; SKIER (8)
+	db "NORA@", TRAINERTYPE_NORMAL
+	db 49, JYNX
+	db 49, SNEASEL
+	db 50, LAPRAS
+	db -1 ; end
+
+	; SKIER (9)
+	db "SHEYLA@", TRAINERTYPE_NORMAL
+	db 51, PILOSWINE
+	db 49, PILOSWINE
+	db 51, SNORLAX
+	db 50, SKARMORY
+	db -1 ; end
+
+	; SKIER (10)
+	db "JEN@", TRAINERTYPE_NORMAL
+	db 51, SKARMORY
+	db 50, PILOSWINE
+	db 51, LAPRAS
+	db 50, JYNX
+	db -1 ; end
+
+	; SKIER (11)
+	db "EVA@", TRAINERTYPE_NORMAL
+	db 51, SKARMORY
+	db 50, SKARMORY
+	db 51, SKARMORY
+	db 50, STEELIX
+	db -1 ; end
+
+	; SKIER (12)
+	db "PAMMY@", TRAINERTYPE_NORMAL
+	db 51, SKARMORY
+	db 50, SNEASEL
+	db 51, SNEASEL
+	db 50, MISDREAVUS
+	db -1 ; end
+
 TeacherGroup:
 	; TEACHER (1)
 	db "COLETTE@", TRAINERTYPE_NORMAL
@@ -4151,6 +4190,29 @@ BoarderGroup:
 	db 49, PILOSWINE
 	db 48, FERALIGATR
 	db 50, PILOSWINE
+	db -1 ; end
+
+	; BOARDER (10)
+	db "PABLO@", TRAINERTYPE_NORMAL
+	db 48, PILOSWINE
+	db 50, SNEASEL
+	db 50, JYNX
+	db -1 ; end
+
+	; BOARDER (10)
+	db "KIBA@", TRAINERTYPE_NORMAL
+	db 50, LAPRAS
+	db 50, PILOSWINE
+	db 50, SKARMORY
+	db 50, SNEASEL
+	db -1 ; end
+
+	; BOARDER (11)
+	db "KARL@", TRAINERTYPE_NORMAL
+	db 50, PILOSWINE
+	db 50, SNORLAX
+	db 50, SNEASEL
+	db 50, BLASTOISE
 	db -1 ; end
 
 PokefanMGroup:

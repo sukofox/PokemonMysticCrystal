@@ -68,6 +68,8 @@ SpruceCity_MapEvents:
     warp_event 26,  9, SPRUCE_MANSION_1F, 1
     warp_event 70,  9, ICE_SKATING_ARENA, 1
     warp_event 71,  9, ICE_SKATING_ARENA, 2
+    warp_event 70, 17, SNOW_CANYON_SPRUCE_GATE, 3
+    warp_event 71, 17, SNOW_CANYON_SPRUCE_GATE, 4
 
 	def_coord_events
 
