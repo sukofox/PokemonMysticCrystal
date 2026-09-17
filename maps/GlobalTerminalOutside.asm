@@ -6,6 +6,13 @@ GlobalTerminalOutside_MapScripts:
 
 	def_callbacks
 
+GlobalTerminalOutsideSign:
+	jumptext GlobalTerminalOutsideSignText
+
+GlobalTerminalOutsideSignText:
+	text "GLOBAL TERMINAL"
+	done
+
 GlobalTerminalOutside_MapEvents:
 	db 0, 0 ; filler
 
@@ -15,6 +22,7 @@ GlobalTerminalOutside_MapEvents:
 	def_coord_events
 
 	def_bg_events
+	bg_event  6, 11, BGEVENT_READ, GlobalTerminalOutsideSign
 
 	def_object_events
 	; Nothing yet
