@@ -23,7 +23,7 @@ AlphTownNPCHouse1GrannyText:
     done
 
 AlphTownNPCHouse1BugCatcherText:
-    text "Grandma's hot coco"
+    text "Grandma's hot cocoa"
     line "is so sweet."
     done
 

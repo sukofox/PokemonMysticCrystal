@@ -21,15 +21,9 @@ AlphTownMartBugCatcherScript:
 	jumptextfaceplayer AlphTownMartBugCatcherText
 
 AlphTownMartCooltrainerMText:
-	text "There's no GREAT"
-	line "BALL here. #"
-
-	para "BALLS will have"
-	line "to do."
-
-	para "I wish KURT would"
-	line "make me some of"
-	cont "his custom BALLS."
+	text "Good thing there"
+	line "are GREAT BALLS"
+	cont "here!"
 	done
 
 AlphTownMartBugCatcherText:
@@ -38,9 +32,8 @@ AlphTownMartBugCatcherText:
 	cont "ing #MON than a"
 	cont "# BALL."
 
-	para "But KURT's might"
-	line "be better some-"
-	cont "times."
+	para "But ULTRA BALLS"
+	line "are much better."
 	done
 
 AlphTownMart_MapEvents:
