@@ -43,7 +43,6 @@ OutdoorSprites:
 	dw BugCatcherClubSprites
 	dw CactusDesertSprites
 	dw SnowPathSprites
-	dw SnowCanyonSprites
 	dw PowerPlantSprites
 	dw CinnabarVolcanoSprites
 	dw SeafoamCaveSprites
@@ -57,6 +56,7 @@ OutdoorSprites:
 	dw SoulBasementSprites
 	dw AlphTownSprites
 	dw SproutGardenSprites
+	dw SnowCanyonSprites
 	assert_table_length NUM_MAP_GROUPS
 
 ; Route1 and ViridianCity are connected
@@ -484,7 +484,7 @@ BugCatcherClubSprites:
 	db SPRITE_GRAMPS
 	db SPRITE_YOUNGSTER
 	db SPRITE_PINECO
-	db SPRITE_GRANNY
+	db SPRITE_BUG_CATCHER
 	db SPRITE_KIMONO_GIRL
 	; 8 of max 9 walking sprites
 	db SPRITE_POKE_BALL
@@ -509,7 +509,6 @@ CactusDesertSprites:
 	db 0 ; end
 
 SnowPathSprites:
-SnowCanyonSprites:
 	db SPRITE_GRAMPS
 	db SPRITE_GRANNY
 	db SPRITE_BEAUTY
@@ -638,9 +637,24 @@ SproutGardenSprites:
 	db SPRITE_GRANNY
 	db SPRITE_KIMONO_GIRL
 	db SPRITE_BUG_CATCHER
-	; 8 of max 9 walking sprites
+	; 9 of max 9 walking sprites
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db SPRITE_CHIKORITA
+	db 0 ; end
+
+SnowCanyonSprites:
+	db SPRITE_GRAMPS
+	db SPRITE_GRANNY
+	db SPRITE_BEAUTY
+	db SPRITE_ROCKER
+	db SPRITE_COOLTRAINER_M
+	db SPRITE_POKEFAN_M
+	db SPRITE_COOLTRAINER_F
+	db SPRITE_FISHER
+	; 8 of max 9 walking sprites
+	db SPRITE_FRUIT_TREE
+	db SPRITE_POKE_BALL
+	db SPRITE_SUICUNE
 	db 0 ; end
 	

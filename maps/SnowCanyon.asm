@@ -151,11 +151,13 @@ BoarderKibaAfterBattleText:
     done
 
 SkierNoraSeenText:
-    text "Ice #MON can"
-    line "beat dragons."
-    cont "They shall"
+    text "Ice #MON"
+    line "can beat"
+    cont "dragons."
 
-    text "beat yours!"
+    text "They shall"
+    line "beat your"
+    cont "team!"
     done
 
 SkierNoraBeatenText:
