@@ -155,7 +155,7 @@ SkierNoraSeenText:
     line "can beat"
     cont "dragons."
 
-    text "They shall"
+    para "They shall"
     line "beat your"
     cont "team!"
     done
