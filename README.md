@@ -4,8 +4,8 @@
 
 This is a Pokemon Crystal hack based on the pokecrystal disassembly from pret.
 
-In this hack, you will see an expanded/modified Johto, with a focus on the more traditional aspects of the region.
-So if you are a sucker for traditional buildings, pagodas, shrines, and forests, this is your hack. In addition, you will see a Kanto with many of the locations from RBY restored, with some modifications as well. Examples of restored locations are given below in the "Features" section.
+In this hack featuring 253 obtainable pokemonn, you will see an expanded/modified Johto, with a focus on the more traditional aspects of the region.
+So if you are a sucker for traditional buildings, pagodas, shrines, and forests, this is your hack. In addition, you will see a Kanto with many of the locations from RBY restored, with some modifications as well. Examples of restored locations are given below in the "Features" section. 
 # WARNING: The game may not follow canon.
 
 # IMPORTANT!
@@ -63,7 +63,7 @@ Join the Discord for updates and more information: https://discord.gg/RrN7BFXs7d
 44. Marts now have their own music.
 45. This game features a wider variety of ecosystems when compared to vanilla (e.g., desert, snow, autumnal forests), and island or beach areas were retiled properly. Some of these areas also use new custom palettes for different times of the day so that they look distinct from the rest of the maps.
 46. The question mark and exclamation mark Unown are available as well.
-47. Honchkrow and Mismagius are now available as the 252 and 253 pokemon. 
+47. There are 253 pokemon available! Honchkrow and Mismagius make the last ones in this dex.
 
 ![newbarknew](newbarknew.png)
 ![totodile](totodile.png)
@@ -86,6 +86,8 @@ Join the Discord for updates and more information: https://discord.gg/RrN7BFXs7d
 ![pokeball](pokeball.png)
 ![darkpulse](darkpulse.png)
 ![questionunown](questionunown.png)
+![honchkrow](honchkrow.png)
+![mismagius](mismagius.png)
 
 CREDITS: 
 1. To the pret team who made this and many more projects possible by creating the disassemblies. Thank you all. 
@@ -95,6 +97,7 @@ CREDITS:
 5. Thanks to French Orange for providing tilesets of all kinds. Here is the DA page: https://www.deviantart.com/frenchorange/art/Pokemon-Gold-and-Silver-SW97-Tileset-948665568. Also thanks to Sour/Soup Potato for making the sand waves desert tiles used in Silver Reforged and other hacks, as well as the custom palettes for the desert areas. I used these for my own desert area.
 6. If I missed someone else, please let me know.
 7. Tom Wang for Chris' running sprite, and Seasick for Kris' running sprite.
+8. Thanks to the Pokewilds team for Honchkrow and Mismagius' sprites and animations.
 
 
 The following links are associated with pret only, not my hack per se:
