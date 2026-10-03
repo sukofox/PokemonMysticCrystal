@@ -2721,6 +2721,7 @@ UmbreonEvosAttacks:
 	db 0 ; no more level-up moves
 
 MurkrowEvosAttacks:
+	db EVOLVE_HAPPINESS, TR_NITE, HONCHKROW
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 11, PURSUIT
@@ -2746,6 +2747,7 @@ SlowkingEvosAttacks:
 	db 0 ; no more level-up moves
 
 MisdreavusEvosAttacks:
+	db EVOLVE_LEVEL, 36, MISMAGIUS
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, PSYWAVE
@@ -2754,6 +2756,8 @@ MisdreavusEvosAttacks:
 	db 19, MEAN_LOOK
 	db 27, PSYBEAM
 	db 36, PAIN_SPLIT
+	db 40, PSYCHIC_M
+	db 42, MOONBLAST
 	db 46, PERISH_SONG
 	db 0 ; no more level-up moves
 
@@ -3420,3 +3424,30 @@ CelebiEvosAttacks:
 	db 46, MOONBLAST
 	db 50, PERISH_SONG
 	db 0 ; no more level-up moves
+
+HonchkrowEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, PECK
+	db 11, PURSUIT
+	db 16, HAZE
+	db 28, NIGHT_SHADE
+	db 35, FAINT_ATTACK
+	db 39, WING_ATTACK
+	db 42, MEAN_LOOK
+	db 50, DARK_PULSE
+	db 0 ; no more level-up moves
+
+MismagiusEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, GROWL
+	db 1, PSYWAVE
+	db 6, SPITE
+	db 15, CONFUSE_RAY
+	db 16, MEAN_LOOK
+	db 30, PSYBEAM
+	db 39, PAIN_SPLIT
+	db 42, PSYCHIC_M
+	db 45, MOONBLAST
+	db 50, PERISH_SONG
+	db 0 ; no more level-up moves
+

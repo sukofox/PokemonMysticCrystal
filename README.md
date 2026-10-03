@@ -63,6 +63,7 @@ Join the Discord for updates and more information: https://discord.gg/RrN7BFXs7d
 44. Marts now have their own music.
 45. This game features a wider variety of ecosystems when compared to vanilla (e.g., desert, snow, autumnal forests), and island or beach areas were retiled properly. Some of these areas also use new custom palettes for different times of the day so that they look distinct from the rest of the maps.
 46. The question mark and exclamation mark Unown are available as well.
+47. Honchkrow and Mismagius are now available as the 252 and 253 pokemon. 
 
 ![newbarknew](newbarknew.png)
 ![totodile](totodile.png)

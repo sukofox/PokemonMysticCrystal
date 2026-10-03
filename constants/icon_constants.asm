@@ -252,6 +252,8 @@
 	const ICON_LUGIA
 	const ICON_HO_OH
 	const ICON_CELEBI
+	const ICON_HONCHKROW
+	const ICON_MISMAGIUS
 	const ICON_EGG
 DEF NUM_ICONS EQU const_value - 1
 

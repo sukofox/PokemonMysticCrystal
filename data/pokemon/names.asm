@@ -251,11 +251,11 @@ PokemonNames::
 	dname "LUGIA"
 	dname "HO-OH"
 	dname "CELEBI"
+	dname "HONCHKROW"
+	dname "MISMAGIUS"
 	assert_table_length NUM_POKEMON
-	dname "?????"
 	dname "EGG"
 	assert_table_length EGG
-	dname "?????"
 	dname "?????"
 	dname "?????"
 	assert_table_length $100
